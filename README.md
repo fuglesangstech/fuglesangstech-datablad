@@ -35,3 +35,11 @@ Rediger `utb/produkter.json`. Hvert produkt ser slik ut:
 ```
 
 Kategorien må være en av dem som står i `"kategorier"` øverst i filen. Husk komma mellom produktene. Hvis katalogen viser «Produktlisten kunne ikke lastes» etter en endring, er det som regel et komma for mye eller for lite. Lim filen inn på https://jsonlint.com for å finne feilen.
+
+## Produktbilder
+Produktkatalogen på nettstedet henter bildene herfra, ikke fra Squarespace-butikken.
+
+- `utb/bilder/` – UTB-produkter. Filnavnet er produktnavnet i små bokstaver med bindestrek, som `.webp`, for eksempel `utb/bilder/synlub-c4-5w-30.webp`. `utb-fat.webp` brukes for oljer uten eget bilde.
+- `chesterton/bilder/` – Chesterton-produkter som ikke har bilde hos chesterton.com (`277`, `360`, `388`, `435`, `607hts`, `660`).
+
+Bytte et bilde: last opp et nytt med **samme filnavn**. Nytt UTB-bilde for et produkt som ikke har bilde i dag krever også at filnavnet legges til i produktkatalogkoden (listen `IMG` i UTB-delen).
