@@ -40,6 +40,7 @@ Kategorien må være en av dem som står i `"kategorier"` øverst i filen. Husk 
 Produktkatalogen på nettstedet henter bildene herfra, ikke fra Squarespace-butikken.
 
 - `utb/bilder/` – UTB-produkter. Filnavnet er produktnavnet i små bokstaver med bindestrek, som `.webp`, for eksempel `utb/bilder/synlub-c4-5w-30.webp`. `utb-fat.webp` brukes for oljer uten eget bilde.
+- `le/bilder/` – Lubrication Engineers (LE). Kopier av LE sine egne produktbilder i full versjon (ikke de beskårne «-300x300»-miniatyrene). Filnavnet er LE sitt filnavn i små bokstaver med bindestrek, som `.webp`, for eksempel `le/bilder/bal-200-quart.webp`. Bilder som mangler her, hentes direkte fra LE.
 - `chesterton/bilder/` – Chesterton-produkter som ikke har bilde hos chesterton.com (`277`, `360`, `388`, `435`, `607hts`, `660`).
 
 Bytte et bilde: last opp et nytt med **samme filnavn**. Nytt UTB-bilde for et produkt som ikke har bilde i dag krever også at filnavnet legges til i produktkatalogkoden (listen `IMG` i UTB-delen).
