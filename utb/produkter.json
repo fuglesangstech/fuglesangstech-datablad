@@ -1,0 +1,935 @@
+{
+  "oppdatert": "2026-11-04",
+  "kategorier": ["Motoroljer personbil", "Marine 2T og 4T", "Giroljer og transmisjon", "ATF-oljer", "Motoroljer tungtransport", "Landbruk", "Hydraulikkoljer", "Industrioljer", "Fett", "Frostvæsker", "Servoolje", "Motorsykkel, ATV og snøscooter", "Bremsevæske", "Additiver", "Spray og vedlikehold"],
+  "produkter": [
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub 504-507 C3 LL 5W-30",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310521"},
+        {"str": "4 × 4 L", "varenr": "310524"},
+        {"str": "20 L", "varenr": "3105220"},
+        {"str": "208 L", "varenr": "31052208"},
+        {"str": "1000 L IBC", "varenr": "31052"}
+      ],
+      "sds": "sds/synlub-504-507-c3-ll-5w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-504-507-c3-ll-5w-30.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Excel 10W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310551"},
+        {"str": "4 × 4 L", "varenr": "310554"},
+        {"str": "208 L", "varenr": "31055208"}
+      ],
+      "sds": "sds/synlub-excel-10w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-excel-10w-40.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Extra 5W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310601"},
+        {"str": "4 × 5 L", "varenr": "310605"},
+        {"str": "20 L", "varenr": "3106020"},
+        {"str": "208 L", "varenr": "31060208"}
+      ],
+      "sds": "sds/synlub-extra-5w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-extra-5w-40.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub FE 5W-30",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "310634"},
+        {"str": "208 L", "varenr": "31063208"}
+      ],
+      "sds": "sds/synlub-fe-5w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-fe-5w-30.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub C4 5W-30",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310641"}
+      ],
+      "sds": "sds/synlub-c4-5w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-c4-5w-30.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Supreme 0W-20",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": ""},
+        {"str": "208 L", "varenr": ""}
+      ],
+      "sds": null,
+      "sds_sprak": null,
+      "pds": null
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Ford 0W-30",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": ""},
+        {"str": "208 L", "varenr": ""}
+      ],
+      "sds": null,
+      "sds_sprak": null,
+      "pds": null
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Excello Classic 20W-50",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310161"},
+        {"str": "4 × 5 L", "varenr": "310165"}
+      ],
+      "sds": "sds/excello-classic-20w-50.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-classic-20w-50.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Racing 10W-60",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310691"},
+        {"str": "4 × 4 L", "varenr": "310694"},
+        {"str": "208 L", "varenr": "31069208"}
+      ],
+      "sds": "sds/synlub-racing-10w-60.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-racing-10w-60.pdf"
+    },
+    {
+      "kategori": "Motoroljer personbil",
+      "navn": "Synlub Racing 5W-50",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310751"},
+        {"str": "4 × 5 L", "varenr": "310755"}
+      ],
+      "sds": "sds/synlub-racing-5w-50.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-racing-5w-50.pdf"
+    },
+    {
+      "kategori": "Marine 2T og 4T",
+      "navn": "Excello Outboard 2T - TC-W3",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310681"}
+      ],
+      "sds": "sds/excello-outboard-2t-tc-w3.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-outboard-2t-tc-w3.pdf"
+    },
+    {
+      "kategori": "Marine 2T og 4T",
+      "navn": "Synlub Outboard 4T 25W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310651"}
+      ],
+      "sds": "sds/synlub-outboard-4t-25w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-outboard-4t-25w-40.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Excelgear HD 80W-90",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320801"},
+        {"str": "20 L", "varenr": "3208020"},
+        {"str": "208 L", "varenr": "320802"}
+      ],
+      "sds": "sds/excelgear-hd-80w-90.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excelgear-hd-80w-90.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Excelgear LS 80W-90",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "5551234"},
+        {"str": "4 × 5 L", "varenr": "5551235"},
+        {"str": "20 L", "varenr": "3208920"},
+        {"str": "208 L", "varenr": "32089208"}
+      ],
+      "sds": "sds/excelgear-ls-80w-90.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excelgear-ls-80w-90.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Excelgear HD 85W-140",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3207820"}
+      ],
+      "sds": "sds/excelgear-hd-85w-140.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excelgear-hd-85w-140.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Syngear LD 75W-90",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "321001"},
+        {"str": "4 × 5 L", "varenr": "321005"},
+        {"str": "20 L", "varenr": "3210020"},
+        {"str": "208 L", "varenr": "32105208"}
+      ],
+      "sds": "sds/syngear-ld-75w-90.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-ld-75w-90.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Syngear LD 75W-140",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "321051"},
+        {"str": "4 × 5 L", "varenr": "321055"},
+        {"str": "20 L", "varenr": "3210520"}
+      ],
+      "sds": "sds/syngear-ld-75w-140.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-ld-75w-140.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Syngear 75W-90",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3210120"},
+        {"str": "208 L", "varenr": "32101208"}
+      ],
+      "sds": "sds/syngear-75w-90.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-75w-90.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Syngear Racing PAO 75W-90",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "5551237"},
+        {"str": "4 × 5 L", "varenr": "5551236"},
+        {"str": "20 L", "varenr": "5551238"}
+      ],
+      "sds": "sds/syngear-racing-pao-75w-90.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Syngear Racing PAO LS 75W-140",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "5551239"},
+        {"str": "4 × 5 L", "varenr": "5551240"},
+        {"str": "20 L", "varenr": "5551241"}
+      ],
+      "sds": "sds/syngear-racing-pao-ls-75w-140.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Transmission Alcat 10W",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3211520"},
+        {"str": "208 L", "varenr": "32115208"}
+      ],
+      "sds": "sds/transmission-alcat-10w.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/transmission-alcat-10w.pdf"
+    },
+    {
+      "kategori": "Giroljer og transmisjon",
+      "navn": "Transmission Alcat 30W",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3211620"}
+      ],
+      "sds": "sds/transmission-alcat-30w.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/transmission-alcat-30w.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Excelgear ATF III-G",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320761"},
+        {"str": "20 L", "varenr": "3207620"},
+        {"str": "208 L", "varenr": "32076208"}
+      ],
+      "sds": "sds/excelgear-atf-iii-g.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excelgear-atf-iii-g.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear ATF VI",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320691"},
+        {"str": "20 L", "varenr": "3206920"},
+        {"str": "208 L", "varenr": "32069208"}
+      ],
+      "sds": "sds/syngear-atf-vi.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-atf-vi.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear ATF 7G",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320611"},
+        {"str": "20 L", "varenr": "3206120"}
+      ],
+      "sds": "sds/syngear-atf-7g.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-atf-7g.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear DSG Fluid",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320601"},
+        {"str": "20 L", "varenr": "3206020"}
+      ],
+      "sds": "sds/syngear-dsg-fluid.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-dsg-fluid.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear ATF CVT",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310721"}
+      ],
+      "sds": "sds/syngear-atf-cvt.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-atf-cvt.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear ATF 8HP",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "321711"},
+        {"str": "20 L", "varenr": "321714"}
+      ],
+      "sds": "sds/syngear-atf-8hp.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-atf-8hp.pdf"
+    },
+    {
+      "kategori": "ATF-oljer",
+      "navn": "Syngear ATF 9 MB",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "5551242"},
+        {"str": "20 L", "varenr": "5551243"}
+      ],
+      "sds": "sds/syngear-atf-9-mb.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/syngear-atf-9-mb.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Excello SHPD 15W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310251"},
+        {"str": "4 × 5 L", "varenr": "310255"},
+        {"str": "20 L", "varenr": "3102520"},
+        {"str": "208 L", "varenr": "31025208"},
+        {"str": "1000 L IBC", "varenr": "31025"}
+      ],
+      "sds": "sds/excello-shpd-15w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-shpd-15w-40.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Synlub EHPD Plus 10W-40",
+      "emballasje": [
+        {"str": "4 × 5 L", "varenr": "310845"},
+        {"str": "20 L", "varenr": "3108420"},
+        {"str": "208 L", "varenr": "31084208"}
+      ],
+      "sds": "sds/synlub-ehpd-plus-10w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-ehpd-plus-10w-40.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Synlub EHPD Extra 5W-30",
+      "emballasje": [
+        {"str": "4 × 5 L", "varenr": "310945"},
+        {"str": "20 L", "varenr": "3109420"},
+        {"str": "208 L", "varenr": "31094208"}
+      ],
+      "sds": "sds/synlub-ehpd-extra-5w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-ehpd-extra-5w-30.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Excello Regular DD 40",
+      "emballasje": [
+        {"str": "20 L", "varenr": ""}
+      ],
+      "sds": "sds/excello-regular-dd-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-regular-dd-40.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Excello Regular SAE 10",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3102020"}
+      ],
+      "sds": "sds/excello-regular-sae-10.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-regular-sae-10.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Excello Regular 30",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310211"}
+      ],
+      "sds": "sds/excello-regular-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-regular-30.pdf"
+    },
+    {
+      "kategori": "Motoroljer tungtransport",
+      "navn": "Excello Regular SAE 30",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3102120"}
+      ],
+      "sds": "sds/excello-regular-sae-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-regular-sae-30.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Excello STOU Special 10W-30",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3103620"},
+        {"str": "208 L", "varenr": "31036208"}
+      ],
+      "sds": "sds/excello-stou-special-10w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-stou-special-10w-30.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Excello Agri Extra 10W-40",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3101020"}
+      ],
+      "sds": "sds/excello-agri-extra-10w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-agri-extra-10w-40.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Transmission Oil UTTO 80W",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3211020"},
+        {"str": "208 L", "varenr": "32110208"}
+      ],
+      "sds": "sds/transmission-oil-utto-80w.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/transmission-oil-utto-80w.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Transmission Syn UTTO 80W",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3212020"},
+        {"str": "208 L", "varenr": "32120208"}
+      ],
+      "sds": "sds/transmission-syn-utto-80w.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/transmission-syn-utto-80w.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Excello Chainsaw Oil 100",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "310184"},
+        {"str": "20 L", "varenr": "3101820"}
+      ],
+      "sds": "sds/excello-chainsaw-oil-100.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-chainsaw-oil-100.pdf"
+    },
+    {
+      "kategori": "Landbruk",
+      "navn": "Excello Chainsaw Bio 100",
+      "emballasje": [
+        {"str": "20 L", "varenr": "666"},
+        {"str": "208 L", "varenr": "70088"}
+      ],
+      "sds": "sds/excello-chainsaw-bio-100.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-chainsaw-bio-100.pdf"
+    },
+    {
+      "kategori": "Hydraulikkoljer",
+      "navn": "Antlia 15",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "330081"},
+        {"str": "20 L", "varenr": "3300820"}
+      ],
+      "sds": "sds/antlia-15.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antlia-15.pdf"
+    },
+    {
+      "kategori": "Hydraulikkoljer",
+      "navn": "Antlia 68",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3301220"}
+      ],
+      "sds": "sds/antlia-68.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antlia-68.pdf"
+    },
+    {
+      "kategori": "Hydraulikkoljer",
+      "navn": "Unisol HV 32",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3304320"},
+        {"str": "208 L", "varenr": "33043208"},
+        {"str": "1000 L IBC", "varenr": "330043"}
+      ],
+      "sds": "sds/unisol-hv-32.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/unisol-hv-32.pdf"
+    },
+    {
+      "kategori": "Hydraulikkoljer",
+      "navn": "Unisol HV 46",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3304520"},
+        {"str": "208 L", "varenr": "33045208"},
+        {"str": "1000 L IBC", "varenr": "33045"}
+      ],
+      "sds": "sds/unisol-hv-46.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/unisol-hv-46.pdf"
+    },
+    {
+      "kategori": "Hydraulikkoljer",
+      "navn": "Unisol ECO S 46",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3303120"},
+        {"str": "208 L", "varenr": "33031208"}
+      ],
+      "sds": "sds/unisol-eco-s-46.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/unisol-eco-s-46.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Excello Compres VRD 46",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3503220"}
+      ],
+      "sds": "sds/excello-compres-vrd-46.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-compres-vrd-46.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Excello Compres VRD 68",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3503320"}
+      ],
+      "sds": "sds/excello-compres-vrd-68.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-compres-vrd-68.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Excello Compres VRS 46 Synthetic",
+      "emballasje": [
+        {"str": "208 L", "varenr": "35081208"}
+      ],
+      "sds": null,
+      "sds_sprak": null,
+      "pds": null
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Hercules 68",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3506020"}
+      ],
+      "sds": "sds/hercules-68.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/hercules-68.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Hercules 150",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3506220"},
+        {"str": "208 L", "varenr": "35062208"},
+        {"str": "1000 L IBC", "varenr": "350621000"}
+      ],
+      "sds": "sds/hercules-150.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/hercules-150.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Hercules 220",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3506320"},
+        {"str": "208 L", "varenr": "35063208"}
+      ],
+      "sds": "sds/hercules-220.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/hercules-220.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Hercules 320",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3506420"},
+        {"str": "208 L", "varenr": "35064208"}
+      ],
+      "sds": "sds/hercules-320.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/hercules-320.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Hercules 680",
+      "emballasje": [
+        {"str": "20 L", "varenr": "3506620"}
+      ],
+      "sds": "sds/hercules-680.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/hercules-680.pdf"
+    },
+    {
+      "kategori": "Industrioljer",
+      "navn": "Mewol 350",
+      "emballasje": [
+        {"str": "20 L", "varenr": "70126"},
+        {"str": "10 L", "varenr": "70127"}
+      ],
+      "sds": "sds/mewol-350.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/mewol-350.pdf"
+    },
+    {
+      "kategori": "Fett",
+      "navn": "Qualitack 4122 MP 2 Blue",
+      "emballasje": [
+        {"str": "12 × 400 g", "varenr": "34071"},
+        {"str": "18 kg", "varenr": "3407118"}
+      ],
+      "sds": "sds/qualitack-4122-mp-2-blue.pdf",
+      "sds_sprak": "EN",
+      "pds": "pds/qualitack-4122-mp-2-blue.pdf"
+    },
+    {
+      "kategori": "Fett",
+      "navn": "Qualitack 4152 Moly 2",
+      "emballasje": [
+        {"str": "12 × 400 g", "varenr": "34072"},
+        {"str": "18 kg", "varenr": "3407218"}
+      ],
+      "sds": "sds/qualitack-4152-moly-2.pdf",
+      "sds_sprak": "EN",
+      "pds": "pds/qualitack-4152-moly-2.pdf"
+    },
+    {
+      "kategori": "Fett",
+      "navn": "Qualitack 6212 LL 2",
+      "emballasje": [
+        {"str": "12 × 400 g", "varenr": "34091"},
+        {"str": "18 kg", "varenr": "3409118"}
+      ],
+      "sds": "sds/qualitack-6212-ll-2.pdf",
+      "sds_sprak": "EN",
+      "pds": "pds/qualitack-6212-ll-2.pdf"
+    },
+    {
+      "kategori": "Frostvæsker",
+      "navn": "Antifreeze BS",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "390564"},
+        {"str": "20 L", "varenr": "3905620"},
+        {"str": "208 L", "varenr": "39056208"},
+        {"str": "1000 L IBC", "varenr": "39056"}
+      ],
+      "sds": "sds/antifreeze-bs.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antifreeze-bs.pdf"
+    },
+    {
+      "kategori": "Frostvæsker",
+      "navn": "Antifreeze G11",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "390384"},
+        {"str": "20 L", "varenr": "3903820"},
+        {"str": "208 L", "varenr": "39038208"},
+        {"str": "1000 L IBC", "varenr": "39038"}
+      ],
+      "sds": "sds/antifreeze-g11.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antifreeze-g11.pdf"
+    },
+    {
+      "kategori": "Frostvæsker",
+      "navn": "Antifreeze Red G12+",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "390804"},
+        {"str": "20 L", "varenr": "3908020"},
+        {"str": "208 L", "varenr": "39080208"},
+        {"str": "1000 L IBC", "varenr": "39080"}
+      ],
+      "sds": "sds/antifreeze-red-g12-pluss.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antifreeze-red-g12-pluss.pdf"
+    },
+    {
+      "kategori": "Frostvæsker",
+      "navn": "Antifreeze G12+ Orange",
+      "emballasje": [
+        {"str": "4 × 4 L", "varenr": "390844"},
+        {"str": "20 L", "varenr": "3908420"},
+        {"str": "208 L", "varenr": "39084208"},
+        {"str": "1000 L IBC", "varenr": "39084"}
+      ],
+      "sds": "sds/antifreeze-g12-pluss-orange.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/antifreeze-g12-pluss-orange.pdf"
+    },
+    {
+      "kategori": "Servoolje",
+      "navn": "Power Steering Fluid",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "320771"}
+      ],
+      "sds": "sds/power-steering-fluid.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/power-steering-fluid.pdf"
+    },
+    {
+      "kategori": "Motorsykkel, ATV og snøscooter",
+      "navn": "Synlub FS 2 Stroke",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310311"}
+      ],
+      "sds": "sds/synlub-fs-2-stroke.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-fs-2-stroke.pdf"
+    },
+    {
+      "kategori": "Motorsykkel, ATV og snøscooter",
+      "navn": "Synlub 4T Racing 15W-50",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310321"}
+      ],
+      "sds": "sds/synlub-4t-racing-15w-50.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-4t-racing-15w-50.pdf"
+    },
+    {
+      "kategori": "Motorsykkel, ATV og snøscooter",
+      "navn": "Synlub 2 Stroke",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310401"}
+      ],
+      "sds": "sds/synlub-2-stroke.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-2-stroke.pdf"
+    },
+    {
+      "kategori": "Motorsykkel, ATV og snøscooter",
+      "navn": "Synlub 4T 10W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "310411"}
+      ],
+      "sds": "sds/synlub-4t-10w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-4t-10w-40.pdf"
+    },
+    {
+      "kategori": "Motorsykkel, ATV og snøscooter",
+      "navn": "Synlub 4T 5W-40",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "313031"}
+      ],
+      "sds": "sds/synlub-4t-5w-40.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-4t-5w-40.pdf"
+    },
+    {
+      "kategori": "Bremsevæske",
+      "navn": "Brake Fluid DOT 5.1",
+      "emballasje": [
+        {"str": "12 × 1 L", "varenr": "70033"}
+      ],
+      "sds": "sds/brake-fluid-dot-5.1.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/brake-fluid-dot-5.1.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Petrol Treatment",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7200124250"}
+      ],
+      "sds": "sds/petrol-treatment.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/petrol-treatment.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Oil Leak Stop",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7200424250"}
+      ],
+      "sds": "sds/oil-leak-stop.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/oil-leak-stop.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Oil Flush",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7200524250"}
+      ],
+      "sds": "sds/oil-flush.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/oil-flush.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Diesel Treatment",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7203124250"}
+      ],
+      "sds": "sds/diesel-treatment.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/diesel-treatment.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "DPF Cleaner",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7203424250"}
+      ],
+      "sds": "sds/dpf-cleaner.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/dpf-cleaner.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Radiator Leak Stop",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7203924250"}
+      ],
+      "sds": "sds/radiator-leak-stop.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/radiator-leak-stop.pdf"
+    },
+    {
+      "kategori": "Additiver",
+      "navn": "Engine Protector",
+      "emballasje": [
+        {"str": "250 ml", "varenr": "7204124250"}
+      ],
+      "sds": "sds/engine-protector.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/engine-protector.pdf"
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Penetrating Oil",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72042200"}
+      ],
+      "sds": "sds/penetrating-oil.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Elektro Lube",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72043200"}
+      ],
+      "sds": "sds/elektro-lube.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Universal Lube",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72044200"}
+      ],
+      "sds": "sds/universal-lube.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Copper Paste",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72045200"}
+      ],
+      "sds": "sds/copper-paste.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Uni Grease",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72046200"}
+      ],
+      "sds": "sds/uni-grease.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Chain Lube (wet)",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72047200"}
+      ],
+      "sds": "sds/chain-lube-wet.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Power Cleaner",
+      "emballasje": [
+        {"str": "200 ml spray", "varenr": "72048200"}
+      ],
+      "sds": "sds/power-cleaner.pdf",
+      "sds_sprak": "NO",
+      "pds": null
+    },
+    {
+      "kategori": "Spray og vedlikehold",
+      "navn": "Airopack Demo Box",
+      "emballasje": [
+        {"str": "", "varenr": "72049300"}
+      ],
+      "sds": null,
+      "sds_sprak": null,
+      "pds": null
+    }
+  ]
+}

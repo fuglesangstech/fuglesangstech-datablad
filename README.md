@@ -1,17 +1,37 @@
-# Fuglesangs Tech – datablad
+# Fuglesangs Tech – datablad og produktliste
 
-Sikkerhetsdatablad (SDS) og produktdatablad (PDS) som lenkes fra produktkatalogene på https://www.fuglesangstech.no.
+Sikkerhetsdatablad (SDS), produktdatablad (PDS) og produktlisten som UTB-katalogen på https://www.fuglesangstech.no/utb-katalog henter.
 
-- `utb/sds/` – SDS for UTB-produktene (norsk, unntatt QualiTack 4122, 4152 og 6212 som er på engelsk)
-- `utb/pds/` – PDS for UTB-produktene (engelsk)
-- `utb/index.json` – hvilket produkt som har hvilke filer
+- `utb/produkter.json` – produktlisten: kategori, navn, emballasje med varenummer og hvilke datablad produktet har
+- `utb/sds/` – SDS (norsk, unntatt QualiTack 4122, 4152 og 6212 som er på engelsk)
+- `utb/pds/` – PDS (engelsk)
 
-Filnavnet er produktnavnet i små bokstaver med bindestrek, for eksempel `utb/sds/synlub-excel-10w-40.pdf`.
+Endringer her vises på nettsiden et par minutter etter at de er pushet. Squarespace trenger ikke endres.
 
 ## Bytte et datablad
-Last opp den nye filen med **samme filnavn** i samme mappe. Lenken på nettsiden blir den samme og viser den nye filen etter noen minutter.
+Erstatt PDF-en med en ny fil med **samme filnavn**. Commit og push.
 
-## Nytt datablad for et produkt som mangler
-Legg filen i riktig mappe med produktnavnet som filnavn (se `index.json` for skrivemåte), og si fra slik at katalogen får lenken.
+## Legge til et datablad som mangler
+1. Legg PDF-en i `utb/sds/` eller `utb/pds/`. Bruk produktnavnet i små bokstaver med bindestrek, for eksempel `utb/pds/penetrating-oil.pdf`.
+2. Åpne `utb/produkter.json`, finn produktet og bytt `null` med filnavnet, for eksempel `"pds": "pds/penetrating-oil.pdf"`.
+   For SDS settes også `"sds_sprak": "NO"` (eller `"EN"` hvis databladet er på engelsk).
+3. Commit og push.
 
-Lenkeformat (GitHub Pages): `https://<bruker>.github.io/fuglesangstech-datablad/utb/sds/<filnavn>.pdf`
+## Nytt produkt, ny emballasje eller produkt som utgår
+Rediger `utb/produkter.json`. Hvert produkt ser slik ut:
+
+```json
+{
+  "kategori": "Motoroljer personbil",
+  "navn": "Synlub Excel 10W-40",
+  "emballasje": [
+    {"str": "12 × 1 L", "varenr": "310551"},
+    {"str": "208 L", "varenr": "31055208"}
+  ],
+  "sds": "sds/synlub-excel-10w-40.pdf",
+  "sds_sprak": "NO",
+  "pds": "pds/synlub-excel-10w-40.pdf"
+}
+```
+
+Kategorien må være en av dem som står i `"kategorier"` øverst i filen. Husk komma mellom produktene. Hvis katalogen viser «Produktlisten kunne ikke lastes» etter en endring, er det som regel et komma for mye eller for lite. Lim filen inn på https://jsonlint.com for å finne feilen.
