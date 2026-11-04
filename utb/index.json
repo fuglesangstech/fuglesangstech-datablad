@@ -1,0 +1,321 @@
+{
+ "Synlub 504-507 C3 LL 5W-30": {
+  "sds": "utb/sds/synlub-504-507-c3-ll-5w-30.pdf",
+  "pds": "utb/pds/synlub-504-507-c3-ll-5w-30.pdf"
+ },
+ "Synlub Excel 10W-40": {
+  "sds": "utb/sds/synlub-excel-10w-40.pdf",
+  "pds": "utb/pds/synlub-excel-10w-40.pdf"
+ },
+ "Synlub Extra 5W-40": {
+  "sds": "utb/sds/synlub-extra-5w-40.pdf",
+  "pds": "utb/pds/synlub-extra-5w-40.pdf"
+ },
+ "Synlub FE 5W-30": {
+  "sds": "utb/sds/synlub-fe-5w-30.pdf",
+  "pds": "utb/pds/synlub-fe-5w-30.pdf"
+ },
+ "Synlub C4 5W-30": {
+  "sds": "utb/sds/synlub-c4-5w-30.pdf",
+  "pds": "utb/pds/synlub-c4-5w-30.pdf"
+ },
+ "Synlub Supreme 0W-20": {},
+ "Synlub Ford 0W-30": {},
+ "Excello Classic 20W-50": {
+  "sds": "utb/sds/excello-classic-20w-50.pdf",
+  "pds": "utb/pds/excello-classic-20w-50.pdf"
+ },
+ "Synlub Racing 10W-60": {
+  "sds": "utb/sds/synlub-racing-10w-60.pdf",
+  "pds": "utb/pds/synlub-racing-10w-60.pdf"
+ },
+ "Synlub Racing 5W-50": {
+  "sds": "utb/sds/synlub-racing-5w-50.pdf",
+  "pds": "utb/pds/synlub-racing-5w-50.pdf"
+ },
+ "Excello Outboard 2T - TC-W3": {
+  "sds": "utb/sds/excello-outboard-2t-tc-w3.pdf",
+  "pds": "utb/pds/excello-outboard-2t-tc-w3.pdf"
+ },
+ "Synlub Outboard 4T 25W-40": {
+  "sds": "utb/sds/synlub-outboard-4t-25w-40.pdf",
+  "pds": "utb/pds/synlub-outboard-4t-25w-40.pdf"
+ },
+ "Excelgear HD 80W-90": {
+  "sds": "utb/sds/excelgear-hd-80w-90.pdf",
+  "pds": "utb/pds/excelgear-hd-80w-90.pdf"
+ },
+ "Excelgear LS 80W-90": {
+  "sds": "utb/sds/excelgear-ls-80w-90.pdf",
+  "pds": "utb/pds/excelgear-ls-80w-90.pdf"
+ },
+ "Excelgear HD 85W-140": {
+  "sds": "utb/sds/excelgear-hd-85w-140.pdf",
+  "pds": "utb/pds/excelgear-hd-85w-140.pdf"
+ },
+ "Syngear LD 75W-90": {
+  "sds": "utb/sds/syngear-ld-75w-90.pdf",
+  "pds": "utb/pds/syngear-ld-75w-90.pdf"
+ },
+ "Syngear LD 75W-140": {
+  "sds": "utb/sds/syngear-ld-75w-140.pdf",
+  "pds": "utb/pds/syngear-ld-75w-140.pdf"
+ },
+ "Syngear 75W-90": {
+  "sds": "utb/sds/syngear-75w-90.pdf",
+  "pds": "utb/pds/syngear-75w-90.pdf"
+ },
+ "Syngear Racing PAO 75W-90": {
+  "sds": "utb/sds/syngear-racing-pao-75w-90.pdf"
+ },
+ "Syngear Racing PAO LS 75W-140": {
+  "sds": "utb/sds/syngear-racing-pao-ls-75w-140.pdf"
+ },
+ "Transmission Alcat 10W": {
+  "sds": "utb/sds/transmission-alcat-10w.pdf",
+  "pds": "utb/pds/transmission-alcat-10w.pdf"
+ },
+ "Transmission Alcat 30W": {
+  "sds": "utb/sds/transmission-alcat-30w.pdf",
+  "pds": "utb/pds/transmission-alcat-30w.pdf"
+ },
+ "Excelgear ATF III-G": {
+  "sds": "utb/sds/excelgear-atf-iii-g.pdf",
+  "pds": "utb/pds/excelgear-atf-iii-g.pdf"
+ },
+ "Syngear ATF VI": {
+  "sds": "utb/sds/syngear-atf-vi.pdf",
+  "pds": "utb/pds/syngear-atf-vi.pdf"
+ },
+ "Syngear ATF 7G": {
+  "sds": "utb/sds/syngear-atf-7g.pdf",
+  "pds": "utb/pds/syngear-atf-7g.pdf"
+ },
+ "Syngear DSG Fluid": {
+  "sds": "utb/sds/syngear-dsg-fluid.pdf",
+  "pds": "utb/pds/syngear-dsg-fluid.pdf"
+ },
+ "Syngear ATF CVT": {
+  "sds": "utb/sds/syngear-atf-cvt.pdf",
+  "pds": "utb/pds/syngear-atf-cvt.pdf"
+ },
+ "Syngear ATF 8HP": {
+  "sds": "utb/sds/syngear-atf-8hp.pdf",
+  "pds": "utb/pds/syngear-atf-8hp.pdf"
+ },
+ "Syngear ATF 9 MB": {
+  "sds": "utb/sds/syngear-atf-9-mb.pdf",
+  "pds": "utb/pds/syngear-atf-9-mb.pdf"
+ },
+ "Excello SHPD 15W-40": {
+  "sds": "utb/sds/excello-shpd-15w-40.pdf",
+  "pds": "utb/pds/excello-shpd-15w-40.pdf"
+ },
+ "Synlub EHPD Plus 10W-40": {
+  "sds": "utb/sds/synlub-ehpd-plus-10w-40.pdf",
+  "pds": "utb/pds/synlub-ehpd-plus-10w-40.pdf"
+ },
+ "Synlub EHPD Extra 5W-30": {
+  "sds": "utb/sds/synlub-ehpd-extra-5w-30.pdf",
+  "pds": "utb/pds/synlub-ehpd-extra-5w-30.pdf"
+ },
+ "Excello Regular DD 40": {
+  "sds": "utb/sds/excello-regular-dd-40.pdf",
+  "pds": "utb/pds/excello-regular-dd-40.pdf"
+ },
+ "Excello Regular SAE 10": {
+  "sds": "utb/sds/excello-regular-sae-10.pdf",
+  "pds": "utb/pds/excello-regular-sae-10.pdf"
+ },
+ "Excello Regular 30": {
+  "sds": "utb/sds/excello-regular-30.pdf",
+  "pds": "utb/pds/excello-regular-30.pdf"
+ },
+ "Excello Regular SAE 30": {
+  "sds": "utb/sds/excello-regular-sae-30.pdf",
+  "pds": "utb/pds/excello-regular-sae-30.pdf"
+ },
+ "Excello STOU Special 10W-30": {
+  "sds": "utb/sds/excello-stou-special-10w-30.pdf",
+  "pds": "utb/pds/excello-stou-special-10w-30.pdf"
+ },
+ "Excello Agri Extra 10W-40": {
+  "sds": "utb/sds/excello-agri-extra-10w-40.pdf",
+  "pds": "utb/pds/excello-agri-extra-10w-40.pdf"
+ },
+ "Transmission Oil UTTO 80W": {
+  "sds": "utb/sds/transmission-oil-utto-80w.pdf",
+  "pds": "utb/pds/transmission-oil-utto-80w.pdf"
+ },
+ "Transmission Syn UTTO 80W": {
+  "sds": "utb/sds/transmission-syn-utto-80w.pdf",
+  "pds": "utb/pds/transmission-syn-utto-80w.pdf"
+ },
+ "Excello Chainsaw Oil 100": {
+  "sds": "utb/sds/excello-chainsaw-oil-100.pdf",
+  "pds": "utb/pds/excello-chainsaw-oil-100.pdf"
+ },
+ "Excello Chainsaw Bio 100": {
+  "sds": "utb/sds/excello-chainsaw-bio-100.pdf",
+  "pds": "utb/pds/excello-chainsaw-bio-100.pdf"
+ },
+ "Antlia 15": {
+  "sds": "utb/sds/antlia-15.pdf",
+  "pds": "utb/pds/antlia-15.pdf"
+ },
+ "Antlia 68": {
+  "sds": "utb/sds/antlia-68.pdf",
+  "pds": "utb/pds/antlia-68.pdf"
+ },
+ "Unisol HV 32": {
+  "sds": "utb/sds/unisol-hv-32.pdf",
+  "pds": "utb/pds/unisol-hv-32.pdf"
+ },
+ "Unisol HV 46": {
+  "sds": "utb/sds/unisol-hv-46.pdf",
+  "pds": "utb/pds/unisol-hv-46.pdf"
+ },
+ "Unisol ECO S 46": {
+  "sds": "utb/sds/unisol-eco-s-46.pdf",
+  "pds": "utb/pds/unisol-eco-s-46.pdf"
+ },
+ "Excello Compres VRD 46": {
+  "sds": "utb/sds/excello-compres-vrd-46.pdf",
+  "pds": "utb/pds/excello-compres-vrd-46.pdf"
+ },
+ "Excello Compres VRD 68": {
+  "sds": "utb/sds/excello-compres-vrd-68.pdf",
+  "pds": "utb/pds/excello-compres-vrd-68.pdf"
+ },
+ "Excello Compres VRS 46 Synthetic": {},
+ "Hercules 68": {
+  "sds": "utb/sds/hercules-68.pdf",
+  "pds": "utb/pds/hercules-68.pdf"
+ },
+ "Hercules 150": {
+  "sds": "utb/sds/hercules-150.pdf",
+  "pds": "utb/pds/hercules-150.pdf"
+ },
+ "Hercules 220": {
+  "sds": "utb/sds/hercules-220.pdf",
+  "pds": "utb/pds/hercules-220.pdf"
+ },
+ "Hercules 320": {
+  "sds": "utb/sds/hercules-320.pdf",
+  "pds": "utb/pds/hercules-320.pdf"
+ },
+ "Hercules 680": {
+  "sds": "utb/sds/hercules-680.pdf",
+  "pds": "utb/pds/hercules-680.pdf"
+ },
+ "Mewol 350": {
+  "sds": "utb/sds/mewol-350.pdf",
+  "pds": "utb/pds/mewol-350.pdf"
+ },
+ "Qualitack 4122 MP 2 Blue": {
+  "sds": "utb/sds/qualitack-4122-mp-2-blue.pdf",
+  "pds": "utb/pds/qualitack-4122-mp-2-blue.pdf"
+ },
+ "Qualitack 4152 Moly 2": {
+  "sds": "utb/sds/qualitack-4152-moly-2.pdf",
+  "pds": "utb/pds/qualitack-4152-moly-2.pdf"
+ },
+ "Qualitack 6212 LL 2": {
+  "sds": "utb/sds/qualitack-6212-ll-2.pdf",
+  "pds": "utb/pds/qualitack-6212-ll-2.pdf"
+ },
+ "Antifreeze BS": {
+  "sds": "utb/sds/antifreeze-bs.pdf",
+  "pds": "utb/pds/antifreeze-bs.pdf"
+ },
+ "Antifreeze G11": {
+  "sds": "utb/sds/antifreeze-g11.pdf",
+  "pds": "utb/pds/antifreeze-g11.pdf"
+ },
+ "Antifreeze Red G12+": {
+  "sds": "utb/sds/antifreeze-red-g12-pluss.pdf",
+  "pds": "utb/pds/antifreeze-red-g12-pluss.pdf"
+ },
+ "Antifreeze G12+ Orange": {
+  "sds": "utb/sds/antifreeze-g12-pluss-orange.pdf",
+  "pds": "utb/pds/antifreeze-g12-pluss-orange.pdf"
+ },
+ "Power Steering Fluid": {
+  "sds": "utb/sds/power-steering-fluid.pdf",
+  "pds": "utb/pds/power-steering-fluid.pdf"
+ },
+ "Synlub FS 2 Stroke": {
+  "sds": "utb/sds/synlub-fs-2-stroke.pdf",
+  "pds": "utb/pds/synlub-fs-2-stroke.pdf"
+ },
+ "Synlub 4T Racing 15W-50": {
+  "sds": "utb/sds/synlub-4t-racing-15w-50.pdf",
+  "pds": "utb/pds/synlub-4t-racing-15w-50.pdf"
+ },
+ "Synlub 2 Stroke": {
+  "sds": "utb/sds/synlub-2-stroke.pdf",
+  "pds": "utb/pds/synlub-2-stroke.pdf"
+ },
+ "Synlub 4T 10W-40": {
+  "sds": "utb/sds/synlub-4t-10w-40.pdf",
+  "pds": "utb/pds/synlub-4t-10w-40.pdf"
+ },
+ "Synlub 4T 5W-40": {
+  "sds": "utb/sds/synlub-4t-5w-40.pdf",
+  "pds": "utb/pds/synlub-4t-5w-40.pdf"
+ },
+ "Brake Fluid DOT 5.1": {
+  "sds": "utb/sds/brake-fluid-dot-5.1.pdf",
+  "pds": "utb/pds/brake-fluid-dot-5.1.pdf"
+ },
+ "Petrol Treatment": {
+  "sds": "utb/sds/petrol-treatment.pdf",
+  "pds": "utb/pds/petrol-treatment.pdf"
+ },
+ "Oil Leak Stop": {
+  "sds": "utb/sds/oil-leak-stop.pdf",
+  "pds": "utb/pds/oil-leak-stop.pdf"
+ },
+ "Oil Flush": {
+  "sds": "utb/sds/oil-flush.pdf",
+  "pds": "utb/pds/oil-flush.pdf"
+ },
+ "Diesel Treatment": {
+  "sds": "utb/sds/diesel-treatment.pdf",
+  "pds": "utb/pds/diesel-treatment.pdf"
+ },
+ "DPF Cleaner": {
+  "sds": "utb/sds/dpf-cleaner.pdf",
+  "pds": "utb/pds/dpf-cleaner.pdf"
+ },
+ "Radiator Leak Stop": {
+  "sds": "utb/sds/radiator-leak-stop.pdf",
+  "pds": "utb/pds/radiator-leak-stop.pdf"
+ },
+ "Engine Protector": {
+  "sds": "utb/sds/engine-protector.pdf",
+  "pds": "utb/pds/engine-protector.pdf"
+ },
+ "Penetrating Oil": {
+  "sds": "utb/sds/penetrating-oil.pdf"
+ },
+ "Elektro Lube": {
+  "sds": "utb/sds/elektro-lube.pdf"
+ },
+ "Universal Lube": {
+  "sds": "utb/sds/universal-lube.pdf"
+ },
+ "Copper Paste": {
+  "sds": "utb/sds/copper-paste.pdf"
+ },
+ "Uni Grease": {
+  "sds": "utb/sds/uni-grease.pdf"
+ },
+ "Chain Lube (wet)": {
+  "sds": "utb/sds/chain-lube-wet.pdf"
+ },
+ "Power Cleaner": {
+  "sds": "utb/sds/power-cleaner.pdf"
+ },
+ "Airopack Demo Box": {}
+}
