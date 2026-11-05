@@ -1,0 +1,3144 @@
+{
+ "oppdatert": "2026-02-01",
+ "kilde": "perma prisliste per 1. februar 2026 (uten priser)",
+ "kategorier": [
+  "Elektrokjemiske smøresystemer",
+  "Elektromekaniske smøresystemer",
+  "Flerpunktssmøring",
+  "Smøremidler",
+  "Monteringssett",
+  "Holdere og beskyttelse",
+  "Slanger og slangekoblinger",
+  "Reduksjoner, forlengere og vinkler",
+  "Øvrige koblingsdeler og ventiler",
+  "Oljebørster",
+  "Klargjøring og service"
+ ],
+ "produkter": [
+  {
+   "kategori": "Elektrokjemiske smøresystemer",
+   "navn": "perma CLASSIC 120 cm³",
+   "beskrivelse": "Elektrokjemisk enpunktssmøring. Tømmetiden velges med aktivator: 1, 3, 6 eller 12 måneder (bestilles separat).",
+   "matrise": {
+    "kolonner": [
+     "120 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "100020"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "100034"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "100045"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "100052"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "100063"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "100074"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "100083"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "100089"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "100096"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "100427"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "100449"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "100473"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "100483"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "100489"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118605"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/f/9/5/5f957a6cf96f7fb102892534cac8ba4aaa78c3ee/Product_flyer_perma_CLASSIC_FUTURA_118445_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektrokjemiske smøresystemer",
+   "navn": "perma FUTURA 120 cm³",
+   "beskrivelse": "Elektrokjemisk enpunktssmøring. Tømmetiden velges med aktivator: 1, 3, 6 eller 12 måneder (bestilles separat). Oljeutførelser leveres med tilbakeslagsventil.",
+   "matrise": {
+    "kolonner": [
+     "120 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "106997"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "107008"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "107012"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "107016"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "107020"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "107024"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "107029"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "107032"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "107037"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "107083"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "107090"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "107099"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "107103"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "107107"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118606"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/f/9/5/5f957a6cf96f7fb102892534cac8ba4aaa78c3ee/Product_flyer_perma_CLASSIC_FUTURA_118445_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektrokjemiske smøresystemer",
+   "navn": "perma FUTURA PLUS 120 cm³",
+   "beskrivelse": "Elektrokjemisk enpunktssmøring med aktiveringshette med integrert gassgenerator. Leveres for 1, 3, 6 eller 12 måneders tømmetid.",
+   "matrise": {
+    "kolonner": [
+     "1 mnd",
+     "3 mnd",
+     "6 mnd",
+     "12 mnd"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "113917",
+       "113918",
+       "113919",
+       "113920"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "113921",
+       "113922",
+       "113602",
+       "113603"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "113923",
+       "113924",
+       "113925",
+       "113926"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "113927",
+       "113928",
+       "113929",
+       "113930"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "113931",
+       "113932",
+       "113933",
+       "113934"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "113935",
+       "113936",
+       "113937",
+       "113938"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "113939",
+       "113940",
+       "113941",
+       "113942"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "113943",
+       "113944",
+       "113945",
+       "113946"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "113947",
+       "113948",
+       "113949",
+       "113950"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "113951",
+       "113952",
+       "113953",
+       "113954"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "113955",
+       "113956",
+       "113957",
+       "113958"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "113959",
+       "113960",
+       "113961",
+       "113962"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "113963",
+       "113964",
+       "113965",
+       "113966"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "113967",
+       "113968",
+       "113969",
+       "113970"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118607",
+       "118608",
+       "118609",
+       "118611"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/4/8/2/e/482ecbcaa72be1ce6fd02160e57676c314090a26/Product_flyer_perma_FUTURA_PLUS_118451_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektrokjemiske smøresystemer",
+   "navn": "Aktivator perma CLASSIC / FUTURA",
+   "beskrivelse": "Aktivator som bestemmer tømmetiden for perma CLASSIC og perma FUTURA.",
+   "varianter": [
+    [
+     "Gul – 1 mnd",
+     "101331"
+    ],
+    [
+     "Grønn – 3 mnd",
+     "101332"
+    ],
+    [
+     "Rød – 6 mnd",
+     "101333"
+    ],
+    [
+     "Grå – 12 mnd",
+     "101335"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/f/9/5/5f957a6cf96f7fb102892534cac8ba4aaa78c3ee/Product_flyer_perma_CLASSIC_FUTURA_118445_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma FLEX",
+   "beskrivelse": "Enpunktssmøring med dreiebryter for tømmetid 1–12 måneder. Oljeutførelser leveres med tilbakeslagsventil.",
+   "matrise": {
+    "kolonner": [
+     "60 cm³",
+     "125 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "107224",
+       "107155"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "107226",
+       "107161"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "107227",
+       "107163"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "107228",
+       "107164"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "107229",
+       "107167"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "107230",
+       "107168"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "107232",
+       "107170"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "107233",
+       "107172"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "107234",
+       "107173"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "107246",
+       "107199"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "107247",
+       "107200"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "107248",
+       "107202"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "107249",
+       "107204"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "107251",
+       "107205"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118612",
+       "118613"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/f/6/4/b/f64b09c373fbb49cbf638849fb5759a902fa7a2f/Product_flyer_perma_FLEX_118456_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma FLEX PLUS",
+   "beskrivelse": "Enpunktssmøring med dreiebryter og boost-funksjon. Oljeutførelser leveres med tilbakeslagsventil.",
+   "matrise": {
+    "kolonner": [
+     "30 cm³",
+     "60 cm³",
+     "125 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "112743",
+       "111761",
+       "111760"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "112745",
+       "112694",
+       "111845"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "112746",
+       "112714",
+       "111846"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "112747",
+       "112715",
+       "111847"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "112748",
+       "112716",
+       "111848"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "112749",
+       "112717",
+       "111849"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "112750",
+       "112718",
+       "111850"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "112751",
+       "112719",
+       "111851"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "112752",
+       "112720",
+       "111852"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "112753",
+       "112721",
+       "111853"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "112754",
+       "112722",
+       "111854"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "112755",
+       "112723",
+       "111855"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "112756",
+       "112724",
+       "111856"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "112757",
+       "112725",
+       "111857"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118614",
+       "118616",
+       "118618"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/f/1/9/7/f1974b8332630136124aa829f04461f35168f4ce/Product_flyer_perma_FLEX_PLUS_118461_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "Tilbehør perma FLEX / FLEX PLUS",
+   "beskrivelse": "Støtteflens og beskyttelseshette for tøffe miljøforhold.",
+   "varianter": [
+    [
+     "Støtteflens G1/4 (messing/plast)",
+     "101427"
+    ],
+    [
+     "Beskyttelseshette med støtteflens (stål/alu)",
+     "101428"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/f/6/4/b/f64b09c373fbb49cbf638849fb5759a902fa7a2f/Product_flyer_perma_FLEX_118456_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma NOVA styringsenhet",
+   "beskrivelse": "Elektromekanisk drivenhet med innstilling 1, 2, 3 … 12 måneder. Brukes med perma NOVA LC.",
+   "varianter": [
+    [
+     "Styringsenhet",
+     "107271"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/8/f/d/6/8fd635ad2023580b09165a97cf3cbf4b18b712ef/Product_flyer_perma_NOVA_114459_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma NOVA LC",
+   "beskrivelse": "Smøremiddelpatron (LC) til perma NOVA, med integrert støtteflens. Oljeutførelser leveres med tilbakeslagsventil.",
+   "matrise": {
+    "kolonner": [
+     "LC 65 cm³",
+     "LC 125 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "107415",
+       "110281"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "107416",
+       "110282"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "107417",
+       "110283"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "107418",
+       "110284"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "107419",
+       "110285"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "107420",
+       "110286"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "107421",
+       "110287"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "107422",
+       "110288"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "107423",
+       "110289"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "107425",
+       "110290"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "107426",
+       "110291"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "107427",
+       "110292"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "107428",
+       "110293"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "107429",
+       "110294"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118619",
+       "118620"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/8/f/d/6/8fd635ad2023580b09165a97cf3cbf4b18b712ef/Product_flyer_perma_NOVA_114459_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR VARIO",
+   "beskrivelse": "Elektromekanisk drivenhet med batteripakke, for STAR LC 60, 120, 250 og 500 cm³.",
+   "varianter": [
+    [
+     "Drivenhet",
+     "117222"
+    ],
+    [
+     "Batteripakke",
+     "101351"
+    ],
+    [
+     "Batteripakke lav temperatur",
+     "116901"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/3/c/663c41cae8427ccc1f9bf033c211cc4ea743cfdd/Product_flyer_perma_STAR_VARIO_118471_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR VARIO BLUETOOTH",
+   "beskrivelse": "STAR VARIO-drivenhet med Bluetooth, for oversikt og styring i appen perma CONNECT.",
+   "varianter": [
+    [
+     "Drivenhet",
+     "117223"
+    ],
+    [
+     "Batteripakke",
+     "101351"
+    ],
+    [
+     "Batteripakke lav temperatur",
+     "116901"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/b/9/3/5b93561549955dd04296c5ed4688323d0439e671/Product_flyer_perma_STAR_VARIO_BLUETOOTH_118476_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR VARIO EX / BLUETOOTH EX",
+   "beskrivelse": "STAR VARIO-drivenheter for eksplosjonsfarlige områder (Ex), med egen batteripakke.",
+   "varianter": [
+    [
+     "STAR VARIO EX",
+     "118586"
+    ],
+    [
+     "STAR VARIO BLUETOOTH EX",
+     "118585"
+    ],
+    [
+     "Batteripakke STAR VARIO EX",
+     "118526"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/3/c/663c41cae8427ccc1f9bf033c211cc4ea743cfdd/Product_flyer_perma_STAR_VARIO_118471_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR VARIO LONG RANGE",
+   "beskrivelse": "STAR VARIO-drivenhet med trådløs overføring over lange avstander (EU868) via gateway. Prosjektsalg – ta kontakt.",
+   "varianter": [
+    [
+     "Drivenhet (EU868)",
+     "118914"
+    ],
+    [
+     "Gateway LONG RANGE EU868",
+     "119055"
+    ],
+    [
+     "Batteripakke",
+     "101351"
+    ],
+    [
+     "Batteripakke lav temperatur",
+     "116901"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/9/e/5/59e578b8e50b76a170fead8ff55cf13be90096c4/Product_flyer_perma_STAR_VARIO_LONG_RANGE_en_119088.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR CONTROL",
+   "beskrivelse": "Drivenhet som styres fra maskinens styring, i TIME- eller IMPULSE-modus.",
+   "varianter": [
+    [
+     "Drivenhet",
+     "118216"
+    ],
+    [
+     "Kabel 5 m",
+     "108432"
+    ],
+    [
+     "Kabel 10 m",
+     "108431"
+    ],
+    [
+     "Kabel 20 m",
+     "110512"
+    ],
+    [
+     "Adapterkabel 50 cm",
+     "115505"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/a/1/66a1ab096564032ee13a09276fc12f4f90928835/Product_flyer_perma_STAR_CONTROL_117922_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma STAR LC",
+   "beskrivelse": "Smøremiddelpatron (LC) til STAR VARIO, STAR VARIO BLUETOOTH, EX, LONG RANGE og STAR CONTROL. Oljeutførelser leveres med tilbakeslagsventil.",
+   "matrise": {
+    "kolonner": [
+     "LC 60 cm³",
+     "LC 120 cm³",
+     "LC 250 cm³",
+     "LC 500 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "104044",
+       "100724",
+       "104473",
+       "112410"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "104048",
+       "100733",
+       "104480",
+       "112906"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "104051",
+       "100739",
+       "104485",
+       "112907"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "104054",
+       "100744",
+       "104488",
+       "112908"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "104057",
+       "100750",
+       "104492",
+       "112909"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "104061",
+       "100755",
+       "104497",
+       "112041"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "104063",
+       "100762",
+       "104500",
+       "112910"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "104065",
+       "100766",
+       "104502",
+       "112911"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "104069",
+       "100770",
+       "104506",
+       "112859"
+      ]
+     ],
+     [
+      "SO14",
+      [
+       "104180",
+       "101096",
+       "104685",
+       "117545"
+      ]
+     ],
+     [
+      "SO32",
+      [
+       "104188",
+       "101117",
+       "104696",
+       "117546"
+      ]
+     ],
+     [
+      "SO64",
+      [
+       "104198",
+       "101137",
+       "104711",
+       "117547"
+      ]
+     ],
+     [
+      "SO69",
+      [
+       "104202",
+       "101145",
+       "104716",
+       "117548"
+      ]
+     ],
+     [
+      "SO70",
+      [
+       "104204",
+       "101148",
+       "104719",
+       "117549"
+      ]
+     ],
+     [
+      "SO78",
+      [
+       "118621",
+       "118622",
+       "118627",
+       "118629"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/3/c/663c41cae8427ccc1f9bf033c211cc4ea743cfdd/Product_flyer_perma_STAR_VARIO_118471_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "Støtteflenser perma STAR",
+   "beskrivelse": "Støtteflenser for STAR VARIO og STAR CONTROL. Heavy Duty-flensen brukes bare sammen med STAR-monteringsholdere.",
+   "varianter": [
+    [
+     "Støtteflens G1/4 (messing/plast)",
+     "109420"
+    ],
+    [
+     "Støtteflens Heavy Duty",
+     "110757"
+    ],
+    [
+     "Støtteflens med klips for beskyttelseshette",
+     "116602"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/3/c/663c41cae8427ccc1f9bf033c211cc4ea743cfdd/Product_flyer_perma_STAR_VARIO_118471_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "Gateway BLUETOOTH",
+   "beskrivelse": "Gateway for overvåking av Bluetooth-systemer, med strømforsyning og SIM-abonnement.",
+   "varianter": [
+    [
+     "Gateway BLUETOOTH",
+     "119580"
+    ],
+    [
+     "Strømforsyning (EU)",
+     "119892"
+    ],
+    [
+     "Strømforsyning (UK)",
+     "119893"
+    ],
+    [
+     "SIM 12 mnd",
+     "119053"
+    ],
+    [
+     "SIM 24 mnd",
+     "119054"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/5/b/9/3/5b93561549955dd04296c5ed4688323d0439e671/Product_flyer_perma_STAR_VARIO_BLUETOOTH_118476_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma ULTRA",
+   "beskrivelse": "Elektromekanisk drivenhet med deksel for store smøremiddelmengder (LC 500 og 1000 cm³).",
+   "varianter": [
+    [
+     "Drivenhet med deksel",
+     "116159"
+    ],
+    [
+     "Batteripakke (alkalisk)",
+     "116147"
+    ],
+    [
+     "Batteripakke lav temperatur (litium)",
+     "116148"
+    ],
+    [
+     "Beskyttelseshette Heavy Duty",
+     "116149"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/d/2/d/4/d2d4664f920b5c4de93d455a3454211368882bdf/Product_flyer_perma_ULTRA_118466_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Elektromekaniske smøresystemer",
+   "navn": "perma ULTRA LC",
+   "beskrivelse": "Smøremiddelpatron (LC) til perma ULTRA.",
+   "matrise": {
+    "kolonner": [
+     "LC 500 cm³",
+     "LC 1000 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "116170",
+       "116190"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "116171",
+       "116191"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "116172",
+       "116192"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "116173",
+       "116193"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "116174",
+       "116194"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "116175",
+       "116195"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "116176",
+       "116196"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "116177",
+       "116197"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "116178",
+       "116198"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/d/2/d/4/d2d4664f920b5c4de93d455a3454211368882bdf/Product_flyer_perma_ULTRA_118466_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "perma PRO basissystem",
+   "beskrivelse": "Flerpunktssmøring for opptil seks smørepunkter. Basissystemet inneholder monteringsenhet, fordeler PRO MP-6 med tilbehørsboks og koblingskabel.",
+   "varianter": [
+    [
+     "PRO MP-6 med batteri PRO B",
+     "106919"
+    ],
+    [
+     "PRO C MP-6, kabel 5 m",
+     "106922"
+    ],
+    [
+     "PRO C MP-6, kabel 10 m",
+     "106938"
+    ],
+    [
+     "PRO LINE med batteri PRO B",
+     "106934"
+    ],
+    [
+     "PRO C LINE, kabel 5 m",
+     "106935"
+    ],
+    [
+     "PRO C LINE, kabel 10 m",
+     "106936"
+    ]
+   ],
+   "pds": [
+    [
+     "PRO / PRO C",
+     "https://www.perma-tec.com/_Resources/Persistent/6/0/4/1/6041d2e3cedd1701255502d1086647eb75ea45bb/Product_flyer_perma_PRO_PRO_C_114469_en.pdf"
+    ],
+    [
+     "PRO LINE / PRO C LINE",
+     "https://www.perma-tec.com/_Resources/Persistent/5/2/e/2/52e247d7f2643c1d9f6c9cf457d500494115ce20/Product_flyer_perma_PRO_LINE_PRO_C_LINE_103780_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "Tilbehørssett PRO",
+   "beskrivelse": "30 m slange, slangeadaptere og koblinger, reduksjoner og forlengere for montering av PRO.",
+   "varianter": [
+    [
+     "Tilbehørssett PRO",
+     "106937"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/0/4/1/6041d2e3cedd1701255502d1086647eb75ea45bb/Product_flyer_perma_PRO_PRO_C_114469_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "perma PRO LC",
+   "beskrivelse": "Smøremiddelpatron (LC) til perma PRO, med deksel.",
+   "varianter": [
+    [
+     "Deksel PRO LC 250",
+     "106959"
+    ],
+    [
+     "Deksel PRO LC 500",
+     "106960"
+    ]
+   ],
+   "matrise": {
+    "kolonner": [
+     "PRO LC 250 cm³",
+     "PRO LC 500 cm³"
+    ],
+    "rader": [
+     [
+      "SF01",
+      [
+       "106639",
+       "106753"
+      ]
+     ],
+     [
+      "SF02",
+      [
+       "106641",
+       "106754"
+      ]
+     ],
+     [
+      "SF03",
+      [
+       "106642",
+       "106755"
+      ]
+     ],
+     [
+      "SF04",
+      [
+       "106644",
+       "106757"
+      ]
+     ],
+     [
+      "SF05",
+      [
+       "106645",
+       "106758"
+      ]
+     ],
+     [
+      "SF06",
+      [
+       "106646",
+       "106759"
+      ]
+     ],
+     [
+      "SF08",
+      [
+       "106647",
+       "106760"
+      ]
+     ],
+     [
+      "SF09",
+      [
+       "106648",
+       "106761"
+      ]
+     ],
+     [
+      "SF10",
+      [
+       "106649",
+       "106762"
+      ]
+     ]
+    ]
+   },
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/0/4/1/6041d2e3cedd1701255502d1086647eb75ea45bb/Product_flyer_perma_PRO_PRO_C_114469_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "PRO-komponenter",
+   "beskrivelse": "Drivenheter, batteri, kabler, fordeler og monteringsholder til perma PRO.",
+   "varianter": [
+    [
+     "PRO Drive",
+     "106896"
+    ],
+    [
+     "PRO LINE Drive",
+     "106931"
+    ],
+    [
+     "PRO C Drive",
+     "106903"
+    ],
+    [
+     "PRO C LINE Drive",
+     "106932"
+    ],
+    [
+     "Batteri PRO B",
+     "106953"
+    ],
+    [
+     "Kabel PRO C M12 5 m",
+     "106942"
+    ],
+    [
+     "Kabel PRO C M12 10 m",
+     "106943"
+    ],
+    [
+     "Fordeler PRO MP-6",
+     "106939"
+    ],
+    [
+     "Koblingskabel MP-6 14 cm",
+     "106940"
+    ],
+    [
+     "Koblingskabel MP-6 2 m",
+     "106941"
+    ],
+    [
+     "Monteringsholder PRO (vegg)",
+     "101568"
+    ],
+    [
+     "Reduksjonskobling G3/8 x G1/8",
+     "101545"
+    ]
+   ],
+   "pds": [
+    [
+     "PRO / PRO C",
+     "https://www.perma-tec.com/_Resources/Persistent/6/0/4/1/6041d2e3cedd1701255502d1086647eb75ea45bb/Product_flyer_perma_PRO_PRO_C_114469_en.pdf"
+    ],
+    [
+     "PRO LINE / PRO C LINE",
+     "https://www.perma-tec.com/_Resources/Persistent/5/2/e/2/52e247d7f2643c1d9f6c9cf457d500494115ce20/Product_flyer_perma_PRO_LINE_PRO_C_LINE_103780_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "Beskyttelsesbokser PRO",
+   "beskrivelse": "Beskyttelsesbokser i stål eller plast for montering av perma PRO.",
+   "varianter": [
+    [
+     "Enkel, stål (IP 66)",
+     "101527"
+    ],
+    [
+     "Dobbel, stål (IP 66)",
+     "111153"
+    ],
+    [
+     "Enkel, plast",
+     "101548"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/0/4/1/6041d2e3cedd1701255502d1086647eb75ea45bb/Product_flyer_perma_PRO_PRO_C_114469_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Flerpunktssmøring",
+   "navn": "perma ECOSY",
+   "beskrivelse": "Flerpunktssmøresystem levert med kobling og seks slangekoblinger G1/8, samt kontrollsensor.",
+   "varianter": [
+    [
+     "perma ECOSY",
+     "101700"
+    ],
+    [
+     "Kontrollsensor ECOSY",
+     "109401"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/3/7/b/637b1de3c9c4338ce29e849b57eef5a0f3625c0e/Product_flyer_perma_ECOSY_114464_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma MULTI LC 150-2 (SF01)",
+   "beskrivelse": "Kraftig flerbruksfett med EP-tilsetninger som reduserer slitasje. Fritt for tungmetaller og silikon.",
+   "info": "NLGI 2 · Li/Ca · mineralolje · −30 til +130 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101585"
+    ],
+    [
+     "Spann 1 kg",
+     "107494"
+    ],
+    [
+     "Spann 5 kg",
+     "107508"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/a/e/8/f/ae8f970bec77bdedb64a31bcac3267faacd29ad6/perma_MULTI_LC_150_2_SF01_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/c/6/d/5/c6d5dc1a3105a509acb0c49d8df8b422ee8005f3/perma_MULTI_LC_150-2_%28SF01%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma LOAD L-M 100-2 (SF02)",
+   "beskrivelse": "Høytrykksfett med MoS₂. Motstår aldring og oksidasjon, og har gode tørrløpsegenskaper.",
+   "info": "NLGI 2 · Li + MoS₂ · mineralolje · −30 til +120 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101588"
+    ],
+    [
+     "Spann 1 kg",
+     "107495"
+    ],
+    [
+     "Spann 5 kg",
+     "107509"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/9/4/c/9/94c95781f60254771e49ed911aff5a830ddd0c65/perma_LOAD_L_M_100_2_SF02_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/8/c/f/2/8cf209d56ba1b2276289ec30ab69e1c0297fad67/perma_LOAD_L-M_100-2_%28SF02%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma TEMP PU-P SYN 420-2 (SF03)",
+   "beskrivelse": "Høytemperaturfett med god oljeretensjon, høy termisk stabilitet og god korrosjonsbeskyttelse.",
+   "info": "NLGI 2 · polyurea · ester + PFPE · −20 til +220 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101589"
+    ],
+    [
+     "Spann 1 kg",
+     "107496"
+    ],
+    [
+     "Spann 5 kg",
+     "107510"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/3/7/4/8/3748d9c1dc5803147bda94857ec6c5ed65155eec/perma_TEMP_PU_P_SYN_420_2_SF03_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/e/c/d/c/ecdc5baad8fda44ff78b69b9925b09abf76299a4/perma_TEMP_PU-P_SYN_420-2_%28SF03%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma LOAD PU SYN 500-1 (SF04)",
+   "beskrivelse": "Flerbruksfett for ekstreme krav – høye temperaturer, vibrasjoner og aggressive medier.",
+   "info": "NLGI 0/1 · polyurea · mineralolje + PAO · −20 til +160 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101590"
+    ],
+    [
+     "Spann 1 kg",
+     "107497"
+    ],
+    [
+     "Spann 5 kg",
+     "107511"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/3/f/c/9/3fc97cef5b9344e33b5426cb4c1444fc26763cdd/perma_LOAD_PU_SYN_500_1_SF04_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/1/5/8/9/158995ca1f848ba952ee5bffb3556df82f6e5fa3/perma_LOAD_PU_SYN_500-1_%28SF04%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma LOAD PU-M SYN 500-1 (SF05)",
+   "beskrivelse": "Flerbruksfett for ekstreme krav, med høy bæreevne og gode tørrløpsegenskaper takket være faste smøremidler.",
+   "info": "NLGI 0/1 · polyurea + MoS₂ · mineralolje + PAO · −20 til +160 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101591"
+    ],
+    [
+     "Spann 1 kg",
+     "107498"
+    ],
+    [
+     "Spann 5 kg",
+     "107512"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/d/0/7/5/d0751573d1e7b12fcbc409f6f102140cc24cb8a8/perma_LOAD_PU_M_SYN_500_1_SF05_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/3/1/3/d/313d51400e19092fea52c849ed4f2d8f61923ed1/perma_LOAD_PU-M_SYN_500-1_%28SF05%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma MULTI AX 220-0 (SF06)",
+   "beskrivelse": "Fett med god vannbestandighet og høy slitasjebeskyttelse, og som er lett å pumpe.",
+   "info": "NLGI 0 · Al-kompleks · mineralolje · −20 til +130 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101592"
+    ],
+    [
+     "Spann 1 kg",
+     "107499"
+    ],
+    [
+     "Spann 5 kg",
+     "107513"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/b/6/f/c/b6fc0e6b9fa4666ac3f5c9757163b7626d8a5608/perma_MULTI_AX_220_0_SF06_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/c/5/2/6/c5264b88790474a35bf46e01fce44de44a479fcb/perma_MULTI_AX_220-0_%28SF06%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma SPEED CX SYN 100-2 (SF08)",
+   "beskrivelse": "Fett for høye turtall, med lav friksjon takket være syntetisk baseolje og et bredt temperaturområde.",
+   "info": "NLGI 2 · Ca-kompleks · PAO · −40 til +140 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101593"
+    ],
+    [
+     "Spann 1 kg",
+     "107500"
+    ],
+    [
+     "Spann 5 kg",
+     "107514"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/b/f/1/2/bf126b2c6fde36f8ccba89c626fc51503b12c16f/perma_SPEED_CX_SYN_100_2_SF08_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/e/d/3/6ed3c7636645ca7222d172dfd15d280578979253/perma_SPEED_CX_SYN_100-2_%28SF08%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma BIO PU SYN 120-2 (SF09)",
+   "beskrivelse": "Helsyntetisk, hurtig biologisk nedbrytbart fett i vannfareklasse WGK 1.",
+   "info": "NLGI 2 · esterbasert · −40 til +140 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101594"
+    ],
+    [
+     "Spann 1 kg",
+     "107501"
+    ],
+    [
+     "Spann 5 kg",
+     "107515"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/8/a/d/6/8ad61fa8ccf9820fd59ca527756cd558920df5cc/perma_BIO_PU_SYN_120_2_SF09_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/b/5/f/1/b5f1a8f05ec9743ae26d3266fbe5e204fa6926ad/perma_BIO_PU_SYN_120-2_%28SF09%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma FOOD AX SYN 150-1 (SF10)",
+   "beskrivelse": "Syntetisk fett med god slitasjebeskyttelse, gode kuldeegenskaper og god vannbestandighet.",
+   "info": "NLGI 1 · Al-kompleks · PAO · −45 til +120 °C",
+   "varianter": [
+    [
+     "Patron 400 g",
+     "101595"
+    ],
+    [
+     "Spann 1 kg",
+     "107502"
+    ],
+    [
+     "Spann 5 kg",
+     "107516"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/8/f/7/7/8f774af5e7d48ec083c340201923cdab7f61a077/perma_FOOD_AX_SYN_150_1_SF10_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/9/a/1/f/9a1f8150f2b3e5767444d48865740cee288a7909/perma_FOOD_AX_SYN_150-1_%28SF10%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma TEMP SYN 320 (SO14)",
+   "beskrivelse": "Syntetisk olje som smører effektivt ved høye temperaturer, og som kryper raskt inn og danner smørefilm.",
+   "info": "Olje · CLPE 320 · −20 til +250 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "107463"
+    ],
+    [
+     "Kanne 5 l",
+     "107520"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/c/5/5/a/c55a08655fc489a44f2aaadccc60fecc83c7cd5b/perma_TEMP_SYN_320_SO14_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/2/f/7/3/2f7346f648663cb96f7c733f086bd73f915b5c99/perma_TEMP_SYN_320_%28SO14%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma MULTI 100 (SO32)",
+   "beskrivelse": "Gir- og flerbruksolje som motstår aldring og oksidasjon og gir god slitasjebeskyttelse for tenner og rullelagre.",
+   "info": "Olje · CLP 100 · mineralolje · −5 til +100 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "107465"
+    ],
+    [
+     "Kanne 5 l",
+     "107521"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/1/b/4/d/1b4d23903ed2712e47165212dfa2e6efdf74bbed/perma_MULTI_100_SO32_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/e/b/e/5/ebe5bad4196b13167a83db1eaa770cb159f46faa/perma_MULTI_100_%28SO32%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma BIO SYN 100 (SO64)",
+   "beskrivelse": "Hurtig biologisk nedbrytbar, syntetisk flerbruksolje.",
+   "info": "Olje · CLPE 100 · −30 til +110 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "107469"
+    ],
+    [
+     "Kanne 5 l",
+     "107523"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/3/4/b/634b2960f38bc1059d8b21314f505baf9be15d5f/perma_BIO_SYN_100_SO64_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/3/8/c/1/38c1f006136e90694b35eae9eac92a2b84669621/perma_BIO_SYN_100_%28SO64%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma BIO SYN 320 (SO69)",
+   "beskrivelse": "Hurtig biologisk nedbrytbar, syntetisk flerbruksolje med god slitasjebeskyttelse.",
+   "info": "Olje · CLPE 320 · −20 til +110 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "107472"
+    ],
+    [
+     "Kanne 5 l",
+     "107525"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/0/6/7/a/067a5218b1bdd1eceb6f073fd8e599142fd2a0af/perma_BIO_SYN_320_SO69_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/0/0/2/2/00225b6d4f478be8a2fddf463943f7bc504bd58a/perma_BIO_SYN_320_%28SO69%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma FOOD SYN 220 (SO70)",
+   "beskrivelse": "Syntetisk olje med bredt temperaturområde, svært god motstand mot aldring og oksidasjon og god slitasjebeskyttelse.",
+   "info": "Olje · CLPH 220 · −30 til +120 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "107473"
+    ],
+    [
+     "Kanne 5 l",
+     "107526"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/4/6/5/7/4657eeb0bfe7cad555bba0e09ee31193ae36838e/perma_FOOD_SYN_220_SO70_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/b/4/0/e/b40e7e42a9bd8902ce43a585349ead10f01b7076/perma_FOOD_SYN_220_%28SO70%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Smøremidler",
+   "navn": "perma FOOD LOWTEMP SYN 32 (SO78)",
+   "beskrivelse": "Syntetisk lavtemperaturolje med svært god vedheft og effektiv korrosjonsbeskyttelse.",
+   "info": "Olje · CLPE 32 · −50 til +140 °C",
+   "varianter": [
+    [
+     "Flaske 1 l",
+     "118630"
+    ],
+    [
+     "Kanne 5 l",
+     "118631"
+    ]
+   ],
+   "sds": [
+    [
+     "SDS",
+     "https://www.perma-tec.com/_Resources/Persistent/2/7/d/a/27da09381e1acdf3f3d11670f1355f3ed81b8e0c/perma_FOOD_LOWTEMP_SYN_32_MSDS_en.pdf"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/c/c/f/9/ccf9c501ec193d8393e2b17a2c737d155170e8a4/perma_FOOD_LOWTEMP_SYN_32_%28SO78%29_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Monteringssett direkte montering",
+   "beskrivelse": "Reduksjoner, forlenger og vinkel for montering rett på smørepunktet.",
+   "varianter": [
+    [
+     "CLASSIC, FUTURA, FLEX, NOVA",
+     "101476"
+    ],
+    [
+     "STAR VARIO / STAR CONTROL",
+     "101477"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Monteringssett fjernmontering CLASSIC, FUTURA, FLEX, NOVA",
+   "beskrivelse": "Med Heavy Duty-slange (1,5 m), slangekoblinger og monteringsholder for montering på avstand fra smørepunktet.",
+   "varianter": [
+    [
+     "Monteringssett",
+     "101481"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Sett STAR Standard Duty",
+   "beskrivelse": "For normale miljøforhold. Monteringssettene inkluderer slange, tilbehørssettene ikke.",
+   "varianter": [
+    [
+     "Monteringssett 1-punkt bjelkeklemme 65 mm, 3 m slange",
+     "116961"
+    ],
+    [
+     "Monteringssett 2-punkt bjelkeklemme 65 mm, 5 m slange",
+     "116963"
+    ],
+    [
+     "Monteringssett 1-punkt gitterfeste, 3 m slange",
+     "116962"
+    ],
+    [
+     "Monteringssett 2-punkt gitterfeste, 5 m slange",
+     "116964"
+    ],
+    [
+     "Tilbehørssett 1-punkt bjelkeklemme 65 mm",
+     "116951"
+    ],
+    [
+     "Tilbehørssett 2-punkt bjelkeklemme 65 mm",
+     "116953"
+    ],
+    [
+     "Tilbehørssett 1-punkt gitterfeste",
+     "116952"
+    ],
+    [
+     "Tilbehørssett 2-punkt gitterfeste",
+     "116954"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Sett STAR Heavy Duty (LC 60, 120, 250)",
+   "beskrivelse": "For tøffe miljøforhold, med beskyttelseshette, utluftingskobling med manuell ventil og reduksjoner. Monteringssettene inkluderer slange.",
+   "varianter": [
+    [
+     "Monteringssett 1-punkt bjelkeklemme 65 mm, 3 m slange",
+     "116965"
+    ],
+    [
+     "Monteringssett 2-punkt bjelkeklemme 65 mm, 5 m slange",
+     "116967"
+    ],
+    [
+     "Monteringssett 1-punkt gitterfeste, 3 m slange",
+     "116966"
+    ],
+    [
+     "Monteringssett 2-punkt gitterfeste, 5 m slange",
+     "116968"
+    ],
+    [
+     "Tilbehørssett 1-punkt bjelkeklemme 65 mm",
+     "116955"
+    ],
+    [
+     "Tilbehørssett 2-punkt bjelkeklemme 65 mm",
+     "116957"
+    ],
+    [
+     "Tilbehørssett 1-punkt gitterfeste",
+     "116956"
+    ],
+    [
+     "Tilbehørssett 2-punkt gitterfeste",
+     "116958"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Sett STAR Heavy Duty (LC 500)",
+   "beskrivelse": "For STAR LC 500 i tøffe miljøforhold. Monteringssettene inkluderer slange.",
+   "varianter": [
+    [
+     "Monteringssett 1-punkt bjelkeklemme 65 mm, 3 m slange",
+     "120006"
+    ],
+    [
+     "Monteringssett 2-punkt bjelkeklemme 65 mm, 5 m slange",
+     "120008"
+    ],
+    [
+     "Monteringssett 1-punkt gitterfeste, 3 m slange",
+     "120007"
+    ],
+    [
+     "Monteringssett 2-punkt gitterfeste, 5 m slange",
+     "120009"
+    ],
+    [
+     "Tilbehørssett 1-punkt bjelkeklemme 65 mm",
+     "119994"
+    ],
+    [
+     "Tilbehørssett 2-punkt bjelkeklemme 65 mm",
+     "119997"
+    ],
+    [
+     "Tilbehørssett 1-punkt gitterfeste",
+     "119996"
+    ],
+    [
+     "Tilbehørssett 2-punkt gitterfeste",
+     "120005"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Sett for kjedesmøring",
+   "beskrivelse": "Tilbehørs- og monteringssett for smøring av kjeder med elektrokjemiske og elektromekaniske systemer.",
+   "varianter": [
+    [
+     "Tilbehørssett CLASSIC, FUTURA, FLEX, NOVA",
+     "117981"
+    ],
+    [
+     "Tilbehørssett STAR",
+     "117982"
+    ],
+    [
+     "Monteringssett STAR",
+     "117983"
+    ],
+    [
+     "Monteringssett CLASSIC, FUTURA, FLEX, NOVA",
+     "117984"
+    ],
+    [
+     "Smådeler til kjedesett",
+     "117977"
+    ]
+   ]
+  },
+  {
+   "kategori": "Monteringssett",
+   "navn": "Sett perma ULTRA",
+   "beskrivelse": "Monterings- og tilbehørssett for ULTRA, Standard Duty og Heavy Duty. Monteringssettene inkluderer 5 m slange.",
+   "varianter": [
+    [
+     "Monteringssett Standard Duty, bjelkeklemme",
+     "116339"
+    ],
+    [
+     "Monteringssett Heavy Duty, bjelkeklemme",
+     "116341"
+    ],
+    [
+     "Monteringssett Standard Duty, gitterfeste",
+     "116340"
+    ],
+    [
+     "Monteringssett Heavy Duty, gitterfeste",
+     "116342"
+    ],
+    [
+     "Tilbehørssett Standard Duty, bjelkeklemme",
+     "116335"
+    ],
+    [
+     "Tilbehørssett Heavy Duty, bjelkeklemme",
+     "116337"
+    ],
+    [
+     "Tilbehørssett Standard Duty, gitterfeste",
+     "116336"
+    ],
+    [
+     "Tilbehørssett Heavy Duty, gitterfeste",
+     "116338"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Bjelkeklemmer og gitterarm",
+   "beskrivelse": "Rustfritt stål.",
+   "varianter": [
+    [
+     "Bjelkeklemme 30 mm",
+     "109957"
+    ],
+    [
+     "Bjelkeklemme 65 mm",
+     "109958"
+    ],
+    [
+     "Gitterarm",
+     "109959"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Monteringsholdere CLASSIC, FUTURA, FLEX, NOVA",
+   "beskrivelse": "Rustfritt stål, G1/4 innvendig.",
+   "varianter": [
+    [
+     "1-punkt",
+     "109685"
+    ],
+    [
+     "2-punkt",
+     "109686"
+    ],
+    [
+     "Gitterfeste 1-punkt",
+     "109689"
+    ],
+    [
+     "Gitterfeste 2-punkt",
+     "109690"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Monteringsholdere STAR VARIO / STAR CONTROL",
+   "beskrivelse": "Rustfritt stål, G1/4 innvendig.",
+   "varianter": [
+    [
+     "Standard Duty 1-punkt",
+     "109663"
+    ],
+    [
+     "Standard Duty 2-punkt",
+     "109667"
+    ],
+    [
+     "Heavy Duty C-profil 1-punkt",
+     "109664"
+    ],
+    [
+     "Heavy Duty C-profil 2-punkt",
+     "108648"
+    ],
+    [
+     "Standard Duty gitterfeste 1-punkt",
+     "109665"
+    ],
+    [
+     "Standard Duty gitterfeste 2-punkt",
+     "109668"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Andre holdere og klips",
+   "beskrivelse": "Jordingsklemme, flerbruksklips og brakett med innsats.",
+   "varianter": [
+    [
+     "Jordingsklemme CLASSIC (sinkbelagt stål)",
+     "101384"
+    ],
+    [
+     "Flerbruksklips CLASSIC, FUTURA, FLEX, NOVA, STAR (plast)",
+     "110031"
+    ],
+    [
+     "Brakett (rustfritt)",
+     "104864"
+    ],
+    [
+     "Innsats G1/4 (messing)",
+     "104820"
+    ],
+    [
+     "Innsats G1/4 (rustfritt)",
+     "104865"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Monteringsplate og vinkler",
+   "beskrivelse": "Rustfritt stål, hullavstand 45 mm.",
+   "varianter": [
+    [
+     "Plate 110 x 70 x 2,5 mm",
+     "101432"
+    ],
+    [
+     "Vinkel 50 x 50 x 70 x 2,5 mm",
+     "101429"
+    ],
+    [
+     "Vinkel 50 x 70 x 70 x 2,5 mm",
+     "101430"
+    ],
+    [
+     "Vinkel 50 x 100 x 70 x 2,5 mm",
+     "101431"
+    ],
+    [
+     "Vinkel 50 x 180 x 70 x 5 mm",
+     "101433"
+    ]
+   ]
+  },
+  {
+   "kategori": "Holdere og beskyttelse",
+   "navn": "Beskyttelseshetter perma STAR",
+   "beskrivelse": "Plasthetter som beskytter STAR mot støv, vann og slag. Heavy Duty 500 brukes bare ved fjernmontering.",
+   "varianter": [
+    [
+     "Standard Duty 60/120",
+     "115898"
+    ],
+    [
+     "Standard Duty 250",
+     "115899"
+    ],
+    [
+     "Heavy Duty 250",
+     "109999"
+    ],
+    [
+     "Heavy Duty 500",
+     "113595"
+    ]
+   ],
+   "pds": [
+    [
+     "PDS",
+     "https://www.perma-tec.com/_Resources/Persistent/6/6/3/c/663c41cae8427ccc1f9bf033c211cc4ea743cfdd/Product_flyer_perma_STAR_VARIO_118471_en.pdf"
+    ]
+   ]
+  },
+  {
+   "kategori": "Slanger og slangekoblinger",
+   "navn": "Slanger og rør",
+   "beskrivelse": "Slanger for fjernmontering. Fyll slangen med samme smøremiddel som smøresystemet.",
+   "varianter": [
+    [
+     "Heavy Duty-slange NBR 9,5/16 mm (pr. meter)",
+     "101555"
+    ],
+    [
+     "VA-Flex rustfritt/PTFE 500 mm",
+     "113864"
+    ],
+    [
+     "VA-Flex 1000 mm",
+     "101549"
+    ],
+    [
+     "VA-Flex 1500 mm",
+     "101550"
+    ],
+    [
+     "PA-rør 6/8 mm (pr. meter)",
+     "101393"
+    ],
+    [
+     "PTFE-rør 6/8 mm (pr. meter)",
+     "101394"
+    ],
+    [
+     "Extreme Heavy Duty-slange 6,4/11,8 mm (pr. meter)",
+     "116283"
+    ],
+    [
+     "PA-rør 5/8 mm (pr. meter)",
+     "101569"
+    ],
+    [
+     "PA-rør 4/6 mm (pr. meter)",
+     "101494"
+    ],
+    [
+     "Spiralbeskyttelse 25 mm",
+     "109695"
+    ]
+   ]
+  },
+  {
+   "kategori": "Slanger og slangekoblinger",
+   "navn": "Slangekoblinger for Ø 8 mm (push-lock, 25 bar)",
+   "beskrivelse": "Forniklet messing. Passer til rør 101393, 101394 og 101569.",
+   "varianter": [
+    [
+     "G1/8 utv.",
+     "101570"
+    ],
+    [
+     "G1/8 utv. 90°",
+     "101571"
+    ],
+    [
+     "G1/4 utv.",
+     "101496"
+    ],
+    [
+     "G1/4 innv.",
+     "101502"
+    ],
+    [
+     "G1/4 utv. 90°",
+     "101497"
+    ],
+    [
+     "G3/8 utv.",
+     "101498"
+    ],
+    [
+     "M6 utv.",
+     "111954"
+    ],
+    [
+     "M6 utv. 90°",
+     "111957"
+    ],
+    [
+     "M8x1 utv.",
+     "111955"
+    ],
+    [
+     "M8x1 utv. 90°",
+     "111958"
+    ],
+    [
+     "M10x1 utv.",
+     "111956"
+    ],
+    [
+     "M10x1 utv. 90°",
+     "111959"
+    ],
+    [
+     "Y-kobling",
+     "101513"
+    ],
+    [
+     "Skjøt for Ø 8 mm",
+     "110191"
+    ]
+   ]
+  },
+  {
+   "kategori": "Slanger og slangekoblinger",
+   "navn": "Slangekoblinger for Ø 6 mm (push-lock, 25 bar)",
+   "beskrivelse": "Forniklet messing. Passer til rør 101494.",
+   "varianter": [
+    [
+     "G1/8 utv.",
+     "101446"
+    ],
+    [
+     "G1/8 utv. 90°",
+     "101449"
+    ],
+    [
+     "G1/4 utv.",
+     "101447"
+    ],
+    [
+     "G1/4 innv.",
+     "101511"
+    ],
+    [
+     "G1/4 utv. 90°",
+     "101551"
+    ],
+    [
+     "M5 utv.",
+     "101448"
+    ],
+    [
+     "M5 utv. 90°",
+     "101450"
+    ],
+    [
+     "M6 utv.",
+     "101509"
+    ],
+    [
+     "M6 utv. 90°",
+     "101515"
+    ],
+    [
+     "M6x0,75 utv. 90°",
+     "101516"
+    ],
+    [
+     "M8x1 utv.",
+     "101517"
+    ],
+    [
+     "M8x1 utv. 90°",
+     "101507"
+    ],
+    [
+     "M10x1 utv.",
+     "101510"
+    ],
+    [
+     "M10x1 utv. 90°",
+     "101508"
+    ],
+    [
+     "Overgang Ø 6 til Ø 8 mm",
+     "101512"
+    ],
+    [
+     "Y-kobling",
+     "101514"
+    ]
+   ]
+  },
+  {
+   "kategori": "Slanger og slangekoblinger",
+   "navn": "Slangekoblinger for rør 6/8 mm (6 bar)",
+   "beskrivelse": "Passer til PA-rør 101393, for ulike temperaturer.",
+   "varianter": [
+    [
+     "G1/4 innv., +80 °C (alu/plast)",
+     "101390"
+    ],
+    [
+     "G1/4 utv., +80 °C (alu/plast)",
+     "101391"
+    ],
+    [
+     "G1/8 utv., +80 °C (alu/plast)",
+     "101392"
+    ],
+    [
+     "G1/4 innv., +100 °C (forniklet messing)",
+     "104821"
+    ],
+    [
+     "G1/4 utv., +100 °C (forniklet messing)",
+     "104822"
+    ],
+    [
+     "G1/4 innv., +260 °C (rustfritt)",
+     "104866"
+    ],
+    [
+     "G1/4 utv., +260 °C (rustfritt)",
+     "104867"
+    ]
+   ]
+  },
+  {
+   "kategori": "Slanger og slangekoblinger",
+   "navn": "Koblinger for Heavy Duty- og VA-Flex-slange",
+   "beskrivelse": "Push-lock-kobling for Heavy Duty-slange 101555, og skjærringskoblinger i rustfritt stål (opptil +260 °C) for VA-Flex.",
+   "varianter": [
+    [
+     "Push-lock G1/4 utv. for 101555",
+     "116624"
+    ],
+    [
+     "Skjærring R1/4 utv. rett",
+     "104868"
+    ],
+    [
+     "Skjærring R1/8 utv. 90° justerbar",
+     "104869"
+    ],
+    [
+     "Skjærring R1/8 utv. rett",
+     "104870"
+    ],
+    [
+     "Skjærring skjøt Ø 8 mm",
+     "104871"
+    ]
+   ]
+  },
+  {
+   "kategori": "Reduksjoner, forlengere og vinkler",
+   "navn": "Reduksjoner",
+   "beskrivelse": "Reduksjoner fra smørepunktets gjenge til G1/4 eller G1/8 innvendig.",
+   "varianter": [
+    [
+     "G1/4 x G1/8 (messing)",
+     "104834"
+    ],
+    [
+     "G1/8 x G1/4 (messing)",
+     "104833"
+    ],
+    [
+     "G1/8 x G1/4 (rustfritt)",
+     "104875"
+    ],
+    [
+     "Reduksjonskobling G3/8 innv. x G1/8 innv.",
+     "101545"
+    ],
+    [
+     "R1/2 x G1/4",
+     "104832"
+    ],
+    [
+     "R1/4 x G1/4",
+     "109954"
+    ],
+    [
+     "R1/8 x G1/4",
+     "109953"
+    ],
+    [
+     "R3/4 x G1/4",
+     "104835"
+    ],
+    [
+     "R3/8 x G1/4",
+     "104836"
+    ],
+    [
+     "M6 x G1/4 (messing)",
+     "104837"
+    ],
+    [
+     "M6 x G1/4 (rustfritt)",
+     "104876"
+    ],
+    [
+     "M6 x G1/8 (rustfritt)",
+     "109847"
+    ],
+    [
+     "M8 x G1/4 (messing)",
+     "104839"
+    ],
+    [
+     "M8 x G1/4 (rustfritt)",
+     "104878"
+    ],
+    [
+     "M8x1 x G1/4 (messing)",
+     "104838"
+    ],
+    [
+     "M8x1 x G1/4 (rustfritt)",
+     "104877"
+    ],
+    [
+     "M10 x G1/4",
+     "104841"
+    ],
+    [
+     "M10x1 x G1/4 (messing)",
+     "104840"
+    ],
+    [
+     "M10x1 x G1/4 (rustfritt)",
+     "104879"
+    ],
+    [
+     "M12 x G1/4",
+     "104842"
+    ],
+    [
+     "M12x1 x G1/4",
+     "104843"
+    ],
+    [
+     "M12x1,5 x G1/4",
+     "104844"
+    ],
+    [
+     "M14 x G1/4",
+     "104846"
+    ],
+    [
+     "M14x1,5 x G1/4",
+     "104845"
+    ],
+    [
+     "M16 x G1/4",
+     "104847"
+    ],
+    [
+     "M16x1,5 x G1/4",
+     "104848"
+    ],
+    [
+     "Whitworth 1/4\" x G1/4",
+     "104849"
+    ],
+    [
+     "1/4 UNF x G1/4 (rustfritt)",
+     "109845"
+    ],
+    [
+     "1/4 UNF x G1/8 (rustfritt)",
+     "109846"
+    ]
+   ]
+  },
+  {
+   "kategori": "Reduksjoner, forlengere og vinkler",
+   "navn": "Forlengere",
+   "beskrivelse": "Forlengere i messing, forniklet messing eller rustfritt stål.",
+   "varianter": [
+    [
+     "30 mm G1/4 (messing)",
+     "104854"
+    ],
+    [
+     "45 mm G1/4 (messing)",
+     "104855"
+    ],
+    [
+     "45 mm G1/4 (rustfritt)",
+     "104887"
+    ],
+    [
+     "75 mm G1/4 (messing)",
+     "104856"
+    ],
+    [
+     "75 mm G1/4 (rustfritt)",
+     "104888"
+    ],
+    [
+     "115 mm G1/4 (messing)",
+     "104857"
+    ],
+    [
+     "16 mm G1/8",
+     "101576"
+    ],
+    [
+     "36 mm G1/8",
+     "101577"
+    ],
+    [
+     "50 mm R1/8 x G1/4",
+     "109848"
+    ],
+    [
+     "14 mm M6x0,75 x M6",
+     "116291"
+    ],
+    [
+     "30 mm M6x0,75 x M6",
+     "116292"
+    ],
+    [
+     "14 mm M6 x M6",
+     "116293"
+    ],
+    [
+     "30 mm M6 x M6",
+     "116294"
+    ],
+    [
+     "50 mm M6 x G1/4",
+     "109697"
+    ],
+    [
+     "75 mm M10x1 x G1/4",
+     "108923"
+    ],
+    [
+     "115 mm M10x1 x G1/4",
+     "108924"
+    ],
+    [
+     "50 mm 1/4 UNF x G1/4",
+     "109854"
+    ]
+   ]
+  },
+  {
+   "kategori": "Reduksjoner, forlengere og vinkler",
+   "navn": "Vinkler",
+   "beskrivelse": "Vinkler 45° og 90° i messing eller rustfritt stål.",
+   "varianter": [
+    [
+     "45° G1/4 x G1/4",
+     "104823"
+    ],
+    [
+     "90° G1/4 x G1/4",
+     "104827"
+    ],
+    [
+     "45° R1/4 x G1/4 firkant",
+     "109853"
+    ],
+    [
+     "45° R1/4 x Rp1/4 (rustfritt)",
+     "104873"
+    ],
+    [
+     "90° R1/4 x G1/4",
+     "109849"
+    ],
+    [
+     "90° R1/4 x G1/4 firkant",
+     "109850"
+    ],
+    [
+     "90° R1/8 x G1/4",
+     "109851"
+    ],
+    [
+     "90° R1/8 x G1/4 firkant",
+     "109852"
+    ],
+    [
+     "90° R1/4 x Rp1/4 (rustfritt)",
+     "104874"
+    ],
+    [
+     "45° M6 x G1/4",
+     "104824"
+    ],
+    [
+     "45° M8x1 x G1/4",
+     "104825"
+    ],
+    [
+     "45° M10x1 x G1/4",
+     "104826"
+    ],
+    [
+     "90° M6 x G1/4",
+     "104828"
+    ],
+    [
+     "90° M8x1 x G1/4",
+     "104829"
+    ],
+    [
+     "90° M10x1 x G1/4",
+     "104830"
+    ]
+   ]
+  },
+  {
+   "kategori": "Øvrige koblingsdeler og ventiler",
+   "navn": "Øvrige koblingsdeler",
+   "beskrivelse": "Svivler, Y- og T-adaptere, nipler og muffer.",
+   "varianter": [
+    [
+     "Svivelkobling G1/4",
+     "104831"
+    ],
+    [
+     "Y-adapter 2 x G1/4 x R1/4",
+     "109002"
+    ],
+    [
+     "T-adapter 2 x G1/4 x R1/4 (rustfritt)",
+     "116282"
+    ],
+    [
+     "T-adapter 3 x G1/4 (messing)",
+     "110025"
+    ],
+    [
+     "T-adapter 3 x G1/4 (rustfritt)",
+     "104880"
+    ],
+    [
+     "Skottnippel G3/8 x G1/4",
+     "104851"
+    ],
+    [
+     "Sekskantnippel R1/4 (messing)",
+     "104852"
+    ],
+    [
+     "Sekskantnippel R1/4 (rustfritt)",
+     "104881"
+    ],
+    [
+     "Sekskantnippel 9/16 JIC x R1/4",
+     "115186"
+    ],
+    [
+     "Muffe G1/4 (messing)",
+     "104853"
+    ],
+    [
+     "Muffe G1/4 (rustfritt)",
+     "104882"
+    ]
+   ]
+  },
+  {
+   "kategori": "Øvrige koblingsdeler og ventiler",
+   "navn": "Tilbakeslagsventiler for olje",
+   "beskrivelse": "Hindrer at olje renner ut. Ta hensyn til strømningsretningen.",
+   "varianter": [
+    [
+     "G1/4, +60 °C (messing/plastventil)",
+     "104862"
+    ],
+    [
+     "G1/4, +60 °C (rustfritt/plastventil)",
+     "104889"
+    ],
+    [
+     "G1/4, +150 °C (messing/metallventil)",
+     "104863"
+    ]
+   ]
+  },
+  {
+   "kategori": "Oljebørster",
+   "navn": "Oljebørster",
+   "beskrivelse": "Børster for smøring av kjeder og glideflater med olje.",
+   "varianter": [
+    [
+     "Rund Ø 20 mm, naturbust",
+     "101396"
+    ],
+    [
+     "Hestehår 40 x 30 mm, +80 °C",
+     "119196"
+    ],
+    [
+     "Hestehår 60 x 30 mm, +80 °C",
+     "119197"
+    ],
+    [
+     "Hestehår 100 x 30 mm, +80 °C",
+     "119198"
+    ],
+    [
+     "Skum 40 x 30 mm, +80 °C",
+     "117435"
+    ],
+    [
+     "Skum 60 x 30 mm, +80 °C",
+     "117436"
+    ],
+    [
+     "Skum 100 x 30 mm, +80 °C",
+     "117437"
+    ],
+    [
+     "PA-bust 40 mm, 60 x 30 mm, +80 °C",
+     "101520"
+    ],
+    [
+     "Pekalon 40 x 30 mm, +180 °C",
+     "101402"
+    ],
+    [
+     "Pekalon 60 x 30 mm, +180 °C",
+     "101403"
+    ],
+    [
+     "Pekalon 100 x 30 mm, +180 °C",
+     "101404"
+    ],
+    [
+     "Rustfri 40 x 30 mm, +350 °C",
+     "101405"
+    ],
+    [
+     "Rustfri 60 x 30 mm, +350 °C",
+     "101406"
+    ],
+    [
+     "Rustfri 100 x 30 mm, +350 °C",
+     "101407"
+    ]
+   ]
+  },
+  {
+   "kategori": "Oljebørster",
+   "navn": "Oljebørster for store kjeder",
+   "beskrivelse": "Børster med gjenget hull M6 eller gjennomgående hull, med holdere og avstandsstykke.",
+   "varianter": [
+    [
+     "Gjenget M6, +80 °C",
+     "101524"
+    ],
+    [
+     "Gjenget M6, +180 °C",
+     "101538"
+    ],
+    [
+     "Gjenget M6, +350 °C",
+     "101540"
+    ],
+    [
+     "Gjennomgående hull, +80 °C",
+     "101525"
+    ],
+    [
+     "Gjennomgående hull, +180 °C",
+     "101539"
+    ],
+    [
+     "Gjennomgående hull, +350 °C",
+     "101541"
+    ],
+    [
+     "Holder venstre",
+     "101533"
+    ],
+    [
+     "Holder høyre",
+     "101534"
+    ],
+    [
+     "Avstandsstykke 13 mm",
+     "101535"
+    ]
+   ]
+  },
+  {
+   "kategori": "Klargjøring og service",
+   "navn": "Utstyr for klargjøring av smørepunktet",
+   "beskrivelse": "Fyll alltid smørepunkt, koblingsdeler og slanger på forhånd.",
+   "varianter": [
+    [
+     "Fettpresse 400 bar",
+     "101455"
+    ],
+    [
+     "Slange med dreieledd for fettpresse",
+     "110199"
+    ],
+    [
+     "Oljepresse 400 bar",
+     "109009"
+    ],
+    [
+     "Sett for trykktest",
+     "101480"
+    ],
+    [
+     "Utluftingskobling med ventil (forniklet messing)",
+     "113972"
+    ],
+    [
+     "Utluftingskobling med ventil (rustfritt)",
+     "113973"
+    ],
+    [
+     "Loctite® 243™ gjengelim 50 ml",
+     "110278"
+    ],
+    [
+     "Smørenippel R1/4",
+     "101493"
+    ],
+    [
+     "Adaptere for forhåndsfylling av slange",
+     "117907"
+    ],
+    [
+     "Gjengetester",
+     "110374"
+    ]
+   ]
+  },
+  {
+   "kategori": "Klargjøring og service",
+   "navn": "Spesialtilbehør",
+   "beskrivelse": "Oppsamlingskopper for fett, skinnesmører og kjedesmøresett.",
+   "varianter": [
+    [
+     "perma DRAIN CUP 120",
+     "112012"
+    ],
+    [
+     "perma DRAIN CUP 250",
+     "115685"
+    ],
+    [
+     "Skinnesmører med skuminnsats",
+     "101485"
+    ],
+    [
+     "perma CWL PLUS SET",
+     "101564"
+    ]
+   ]
+  }
+ ]
+}
