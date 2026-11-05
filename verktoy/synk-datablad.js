@@ -11,7 +11,9 @@
   2. Laster ned hvert datablad fra leverandøren og sammenligner med kopien (sha256).
   3. Nye og endrede filer skrives til chesterton/datablad/ og le/datablad/.
      Filer som ikke lenger finnes hos leverandøren blir liggende, men rapporteres.
-  4. Oppdaterer datablad.json (full liste med kilde, sjekksum og datoer) og datablad-indeks.json
+  4. Henter Chestertons sertifikater og godkjenninger (verktoy/sertifikater.js) og oppdaterer
+     chesterton/sertifikater/ og sertifikater.json.
+  5. Oppdaterer datablad.json (full liste med kilde, sjekksum og datoer) og datablad-indeks.json
      (kort liste som katalogen leser), og skriver en rapport til synk-rapport.md.
 */
 'use strict';
@@ -119,13 +121,22 @@ async function pool(items, n, fn) {
   fs.writeFileSync(manPath, JSON.stringify({ oppdatert: today, datablad: list }, null, 1));
   fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil) }));
 
+  let cert = null, certErr = '';
+  try { cert = await require('./sertifikater.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); }
+  catch (e) { certErr = e.message; }
+
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
   const md = '# Datablad-synk ' + today + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
     '. Borte hos leverandør: ' + rep.borte.length + '. Feil: ' + rep.feil.length + '.\n' +
     sec('Nye', rep.nye) + sec('Endret hos leverandør (kopien er erstattet)', rep.endret) +
     sec('Borte hos leverandør (gammel kopi beholdt – bør sjekkes)', rep.borte) + sec('Kunne ikke hentes nå (prøves igjen neste gang)', rep.feil) +
-    sec('Ikke lenger brukt i katalogen (beholdt)', ubrukt);
+    sec('Ikke lenger brukt i katalogen (beholdt)', ubrukt) +
+    '\n## Chesterton-sertifikater\n' + (cert
+      ? 'Dokumenter hos Chesterton: ' + cert.dokumenter + '. Koblet til ' + cert.produkter + ' produkter (' + cert.filer + ' filer). Nye: ' + cert.nye.length + '. Endret: ' + cert.endret.length + '. Feil: ' + cert.feil.length + '.\n' +
+        sec('Nye sertifikater', cert.nye) + sec('Endrede sertifikater', cert.endret) + sec('Utløpte sertifikater (skjult på produktsidene)', cert.utlopt) + sec('Sertifikater som ikke kunne hentes', cert.feil) +
+        'Sertifikater Chesterton har fjernet, vises ikke lenger på produktsidene.\n'
+      : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n');
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
   console.log(md);
 })().catch(e => { console.error('Synk feilet:', e.message); process.exit(1); });

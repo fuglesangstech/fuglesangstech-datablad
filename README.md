@@ -57,3 +57,9 @@ Kopier av sikkerhetsdatablad (SDS) og produktdatablad (PDS) som produktkatalogen
 - `datablad-indeks.json` – kort liste over filene, som katalogen leser. Datablad som ikke står her, hentes direkte fra leverandøren.
 
 Kopiene kontrolleres mot leverandørene én gang i måneden. Endrede datablad erstattes, nye legges til, og datablad som er borte hos leverandøren blir liggende, og de står oppført i rapporten.
+
+## Chesterton-sertifikater og godkjenninger
+- `chesterton/sertifikater/` – kopier av dokumentene Chesterton publiserer som «Certification» (NSF, WRAS, ABS, US Navy, CE-ytelseserklæringer m.m.), med samme mappestruktur som hos chesterton.com
+- `sertifikater.json` – hvilke sertifikater som hører til hvilket produkt i Chesterton-katalogen. Produktkatalogen viser dem under «Sertifikater og godkjenninger».
+
+Lista bygges på nytt fra chesterton.com ved hver månedlige synk (`verktoy/sertifikater.js`). Nye sertifikater kommer med automatisk. Sertifikater som Chesterton fjerner, eller som har en utløpsdato i navnet som er passert, vises ikke lenger. Der Chesterton har en egen europeisk (E/EMEA) NSF-registrering, vises bare den, og der samme dokument finnes på flere språk, vises den engelske utgaven.
