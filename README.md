@@ -44,6 +44,7 @@ Produktkatalogen på nettstedet henter bildene herfra, ikke fra Squarespace-buti
 - `chesterton/bilder/` – Chesterton-produkter som ikke har bilde hos chesterton.com (`277`, `360`, `388`, `435`, `607hts`, `660`).
 - `chesterton/produktbilder/` – Kopier av Chesterton sine egne produktbilder (600 px), med Chesterton sitt filnavn, for eksempel `chesterton/produktbilder/785_1.webp`. Brukes av forsiden og Chesterton-katalogen.
 - `gruppen/` – Logoer for selskapene i Fuglesangs-gruppen (Fuglesangs AS, FSubsea, Flocean), brukt på forsiden.
+- `ansatte/` – Portretter av ansatte, brukt på «Våre ansatte» og «Om oss». Filnavn: fullt navn i små bokstaver med bindestrek, for eksempel `ansatte/jakob-alfstadsaether.webp`.
 
 Bytte et bilde: last opp et nytt med **samme filnavn**. Nytt UTB-bilde for et produkt som ikke har bilde i dag krever også at filnavnet legges til i produktkatalogkoden (listen `IMG` i UTB-delen).
 
