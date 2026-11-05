@@ -46,3 +46,13 @@ Produktkatalogen på nettstedet henter bildene herfra, ikke fra Squarespace-buti
 - `gruppen/` – Logoer for selskapene i Fuglesangs-gruppen (Fuglesangs AS, FSubsea, Flocean), brukt på forsiden.
 
 Bytte et bilde: last opp et nytt med **samme filnavn**. Nytt UTB-bilde for et produkt som ikke har bilde i dag krever også at filnavnet legges til i produktkatalogkoden (listen `IMG` i UTB-delen).
+
+## Datablad fra Chesterton og LE
+Kopier av sikkerhetsdatablad (SDS) og produktdatablad (PDS) som produktkatalogen lenker til, så lenkene virker selv om leverandørene flytter filene.
+
+- `chesterton/datablad/` – samme mappestruktur og filnavn som under chesterton.com/Files/Product assets/
+- `le/datablad/sds/` og `le/datablad/pds/` – samme filnavn som hos lelubricants.com
+- `datablad.json` – liste over hver fil med kilde-URL, sjekksum og datoen den ble hentet og sist kontrollert
+- `datablad-indeks.json` – kort liste over filene, som katalogen leser. Datablad som ikke står her, hentes direkte fra leverandøren.
+
+Kopiene kontrolleres mot leverandørene én gang i måneden. Endrede datablad erstattes, nye legges til, og datablad som er borte hos leverandøren blir liggende, og de står oppført i rapporten.
