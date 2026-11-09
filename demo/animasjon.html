@@ -1,0 +1,53 @@
+
+<!-- 3. Diskré animasjon: seksjoner og kort glir forsiktig inn når de kommer til syne.
+        Skrus av for besøkende som har bedt om mindre bevegelse, og for alt som er synlig når siden åpnes. -->
+<script>
+(function () {
+  if (window.top !== window || window.__ftAnim) return;
+  window.__ftAnim = true;
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var css = document.createElement('style');
+  css.textContent = '.ftx-rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--ftx-d,0ms)}' +
+    '.ftx-rv.ftx-in{opacity:1;transform:none}' +
+    '@media print{.ftx-rv{opacity:1!important;transform:none!important}}';
+  document.head.appendChild(css);
+  // Ikke animer: toppen, søk/verktøylinjer, katalogtabeller og karusellens kort (de beveger seg sidelengs)
+  var SKIP = '.ftx-top, .ftx-hero, .ftx-tools, .ftx-list, .ftx-table, .ftx-pc-track, form, [data-no-anim]';
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('ftx-in');
+      io.unobserve(e.target);
+      setTimeout(function () { e.target.classList.remove('ftx-rv', 'ftx-in'); e.target.style.removeProperty('--ftx-d'); }, 1600);   // rydd opp når den er ferdig
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  function mark(el, delay) {
+    if (!el || el.closest(SKIP) || el.classList.contains('ftx-rv')) return;
+    if (el.getBoundingClientRect().top < window.innerHeight) return;   // allerede synlig: vises som før
+    if (delay) el.style.setProperty('--ftx-d', delay + 'ms');
+    el.classList.add('ftx-rv');
+    io.observe(el);
+  }
+  function isGrid(el) {
+    var d = getComputedStyle(el).display;
+    return el.children.length > 1 && el.children.length <= 12 && (d === 'grid' || d === 'flex' || el.tagName === 'UL' || el.tagName === 'OL');
+  }
+  function run() {
+    var root = document.getElementById('ftx'); if (!root) return;
+    [].forEach.call(root.querySelectorAll('section'), function (sec) {
+      if (sec.closest(SKIP) || sec.matches(SKIP)) return;
+      var wrap = sec.querySelector(':scope > .ftx-wrap') || sec;
+      [].forEach.call(wrap.children, function (child) {
+        if (child.matches(SKIP)) return;
+        if (child.querySelector('.ftx-pc-track, form, table')) return mark(child, 0);   // karusell, skjema og tabeller glir inn som én blokk
+        var grid = isGrid(child) ? child : null;
+        if (!grid) { var inner = child.querySelector(':scope > ul, :scope > ol, :scope > div'); if (inner && isGrid(inner) && child.children.length === 1) grid = inner; }
+        if (grid) [].forEach.call(grid.children, function (c, i) { mark(c, Math.min(i, 5) * 80); });
+        else mark(child, 0);
+      });
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+})();
+</script>
