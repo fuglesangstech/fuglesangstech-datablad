@@ -13,6 +13,7 @@
      Filer som ikke lenger finnes hos leverandøren blir liggende, men rapporteres.
   4. Henter Chestertons sertifikater og godkjenninger (verktoy/sertifikater.js) og oppdaterer
      chesterton/sertifikater/ og sertifikater.json.
+  4d. Sjekker alle sider, lenker og bilder på fuglesangstech.no for døde lenker (verktoy/lenkesjekk.js).
   4c. Bygger datablad-oversikt.json (verktoy/oversikt.js) til datablad-siden /datablad.
   4b. Henter Vickers Oils sine PDS, SDS og NSF-sertifikater (verktoy/vickers.js) til vickers/.
   5. Oppdaterer datablad.json (full liste med kilde, sjekksum og datoer) og datablad-indeks.json
@@ -133,12 +134,16 @@ async function pool(items, n, fn) {
   let ovr = null, ovrErr = '';
   try { ovr = require('./oversikt.js').build(root, grab(ch, 'CD'), grab(le, 'LD')); } catch (e) { ovrErr = e.message; }
 
+  // Lenkesjekk av hele fuglesangstech.no (verktoy/lenkesjekk.js) – kjøres etter at filene over er oppdatert
+  let lnk = null, lnkErr = '';
+  try { lnk = await require('./lenkesjekk.js').run(root); } catch (e) { lnkErr = e.message; }
+
   let cert = null, certErr = '';
   try { cert = await require('./sertifikater.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); }
   catch (e) { certErr = e.message; }
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
@@ -152,7 +157,8 @@ async function pool(items, n, fn) {
         'Sertifikater Chesterton har fjernet, vises ikke lenger på produktsidene.\n'
       : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n') +
     require('./vickers.js').rapport(vik, vikErr) +
-    '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n');
+    '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
+    require('./lenkesjekk.js').rapport(lnk, lnkErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
   console.log(md);
 })().catch(e => { console.error('Synk feilet:', e.message); process.exit(1); });
