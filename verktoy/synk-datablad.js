@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
-  Synkroniserer kopiene av Chesterton- og LE-datablad i dette repoet med leverandørene.
+  Synkroniserer kopiene av Chesterton-, LE- og Vickers-datablad i dette repoet med leverandørene.
 
   Kjør fra roten av repoet:   node verktoy/synk-datablad.js
   Krever Node 18+ (innebygd fetch). Endrer bare filer; commit og push gjøres etterpå.
@@ -13,6 +13,7 @@
      Filer som ikke lenger finnes hos leverandøren blir liggende, men rapporteres.
   4. Henter Chestertons sertifikater og godkjenninger (verktoy/sertifikater.js) og oppdaterer
      chesterton/sertifikater/ og sertifikater.json.
+  4b. Henter Vickers Oils sine PDS, SDS og NSF-sertifikater (verktoy/vickers.js) til vickers/.
   5. Oppdaterer datablad.json (full liste med kilde, sjekksum og datoer) og datablad-indeks.json
      (kort liste som katalogen leser), og skriver en rapport til synk-rapport.md.
 */
@@ -121,12 +122,20 @@ async function pool(items, n, fn) {
   fs.writeFileSync(manPath, JSON.stringify({ oppdatert: today, datablad: list }, null, 1));
   fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil) }));
 
+  // Vickers Oils (verktoy/vickers.js) – egne filer under vickers/, tas med i indeksen
+  let vik = null, vikErr = '';
+  try { vik = await require('./vickers.js').run(root); } catch (e) { vikErr = e.message; }
+  const vikFiler = vik ? vik.filer : (fs.existsSync(path.join(root, 'vickers/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'vickers/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
+  fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler).sort() }));
+
   let cert = null, certErr = '';
   try { cert = await require('./sertifikater.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); }
   catch (e) { certErr = e.message; }
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
+    'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
     '. Borte hos leverandør: ' + rep.borte.length + '. Feil: ' + rep.feil.length + '.\n' +
     sec('Nye', rep.nye) + sec('Endret hos leverandør (kopien er erstattet)', rep.endret) +
@@ -136,7 +145,8 @@ async function pool(items, n, fn) {
       ? 'Dokumenter hos Chesterton: ' + cert.dokumenter + '. Koblet til ' + cert.produkter + ' produkter (' + cert.filer + ' filer). Nye: ' + cert.nye.length + '. Endret: ' + cert.endret.length + '. Feil: ' + cert.feil.length + '.\n' +
         sec('Nye sertifikater', cert.nye) + sec('Endrede sertifikater', cert.endret) + sec('Utløpte sertifikater (skjult på produktsidene)', cert.utlopt) + sec('Sertifikater som ikke kunne hentes', cert.feil) +
         'Sertifikater Chesterton har fjernet, vises ikke lenger på produktsidene.\n'
-      : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n');
+      : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n') +
+    require('./vickers.js').rapport(vik, vikErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
   console.log(md);
 })().catch(e => { console.error('Synk feilet:', e.message); process.exit(1); });

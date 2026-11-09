@@ -1,0 +1,927 @@
+{
+ "kategorier": [
+  "Hydraulikk- og kompressoroljer",
+  "Giroljer",
+  "Fett",
+  "Kjedeoljer",
+  "Spray",
+  "Wire og korrosjonsbeskyttelse",
+  "Spesialprodukter"
+ ],
+ "produkter": [
+  {
+   "slug": "ecosure-eaf-22",
+   "navn": "Ecosure EAF 22",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset hydraulikkolje (ISO VG 22) med lang levetid og god ytelse ved høye og lave temperaturer. Overgår kravene i ISO 15380.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-eaf-22/"
+  },
+  {
+   "slug": "ecosure-eaf-32",
+   "navn": "Ecosure EAF 32",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset hydraulikkolje (ISO VG 32) med lang levetid og god ytelse ved høye og lave temperaturer. Overgår kravene i ISO 15380.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-eaf-32/"
+  },
+  {
+   "slug": "ecosure-eaf-46",
+   "navn": "Ecosure EAF 46",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset hydraulikkolje (ISO VG 46) med lang levetid og god ytelse ved høye og lave temperaturer. Overgår kravene i ISO 15380.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-eaf-46/"
+  },
+  {
+   "slug": "ecosure-eaf-68",
+   "navn": "Ecosure EAF 68",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset hydraulikkolje (ISO VG 68) med lang levetid og god ytelse ved høye og lave temperaturer. Overgår kravene i ISO 15380.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-eaf-68/"
+  },
+  {
+   "slug": "ecosure-eaf-100",
+   "navn": "Ecosure EAF 100",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset hydraulikkolje (ISO VG 100) med lang levetid og god ytelse ved høye og lave temperaturer. Overgår kravene i ISO 15380.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-eaf-100/"
+  },
+  {
+   "slug": "ecosure-hse-32",
+   "navn": "Ecosure HSE 32",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset, syntetisk esterbasert hydraulikkolje (ISO VG 32) med lang levetid og høy oksidasjonsstabilitet. Overgår kravene i ISO 15380, og er laget for kritisk utstyr der olje kan komme ut i naturen.",
+   "naeringsmiddel": false,
+   "emballasje": [
+    [
+     "208 L",
+     "70951"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/ecosure-hse-32/"
+  },
+  {
+   "slug": "ecosure-hse-46",
+   "navn": "Ecosure HSE 46",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset, syntetisk esterbasert hydraulikkolje (ISO VG 46) med lang levetid og høy oksidasjonsstabilitet. Overgår kravene i ISO 15380, og er laget for kritisk utstyr der olje kan komme ut i naturen.",
+   "naeringsmiddel": false,
+   "emballasje": [
+    [
+     "20 L",
+     "70163"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/ecosure-hse-46/"
+  },
+  {
+   "slug": "ecosure-hse-68",
+   "navn": "Ecosure HSE 68",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset, syntetisk esterbasert hydraulikkolje (ISO VG 68) med lang levetid og høy oksidasjonsstabilitet. Overgår kravene i ISO 15380, og er laget for kritisk utstyr der olje kan komme ut i naturen.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-hse-68/"
+  },
+  {
+   "slug": "ecosure-hse-100",
+   "navn": "Ecosure HSE 100",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset, syntetisk esterbasert hydraulikkolje (ISO VG 100) med lang levetid og høy oksidasjonsstabilitet. Overgår kravene i ISO 15380, og er laget for kritisk utstyr der olje kan komme ut i naturen.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/ecosure-hse-100/"
+  },
+  {
+   "slug": "vickerlube-bio-hyf-32",
+   "navn": "Vickerlube Bio HYF 32",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Biobasert hydraulikkolje (ISO VG 32) av fornybare, palmeoljefrie estere. Klassifisert som HEES etter ISO 15380, med god oksidasjonsstabilitet, smøreevne og slitasjebeskyttelse.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-bio-hyf-32/"
+  },
+  {
+   "slug": "vickerlube-bio-hyf-46",
+   "navn": "Vickerlube Bio HYF 46",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Biobasert hydraulikkolje (ISO VG 46) av fornybare, palmeoljefrie estere. Klassifisert som HEES etter ISO 15380, med god oksidasjonsstabilitet, smøreevne og slitasjebeskyttelse.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-bio-hyf-46/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-15",
+   "navn": "Vickerlube FG Fluid 15",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 15) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-15/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-22",
+   "navn": "Vickerlube FG Fluid 22",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 22) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-22/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-32",
+   "navn": "Vickerlube FG Fluid 32",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 32) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-32/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-46",
+   "navn": "Vickerlube FG Fluid 46",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 46) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-46/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-68",
+   "navn": "Vickerlube FG Fluid 68",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 68) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-68/"
+  },
+  {
+   "slug": "vickerlube-food-grade-fluid-100",
+   "navn": "Vickerlube FG Fluid 100",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Hydraulikkolje (ISO VG 100) basert på medisinsk hvitolje, med god slitasjebeskyttelse og EP-egenskaper. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [
+    [
+     "20 L",
+     "20346-020"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-fluid-100/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-fluid-15",
+   "navn": "Vickerlube FGS Fluid 15",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 15) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-fluid-15/"
+  },
+  {
+   "slug": "vickerlube-fgs-fluid-22",
+   "navn": "Vickerlube FGS Fluid 22",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 22) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fgs-fluid-22/"
+  },
+  {
+   "slug": "vickerlube-food-grade-syntheti-fluid-32",
+   "navn": "Vickerlube FGS Fluid 32",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 32) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-syntheti-fluid-32/"
+  },
+  {
+   "slug": "vickerlube-food-grade-syntheti-fluid-46",
+   "navn": "Vickerlube FGS Fluid 46",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 46) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-syntheti-fluid-46/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-fluid-68",
+   "navn": "Vickerlube FGS Fluid 68",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 68) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-fluid-68/"
+  },
+  {
+   "slug": "vickerlube-fgs-fluid-100",
+   "navn": "Vickerlube FGS Fluid 100",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 100) for hydraulikk- og sirkulasjonssystemer, med svært god oksidasjonsstabilitet, EP-egenskaper og bredt temperaturområde. NSF H1-registrert for tilfeldig kontakt med næringsmidler.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fgs-fluid-100/"
+  },
+  {
+   "slug": "vickerlube-food-grade-compressor-oil-3",
+   "navn": "Vickerlube FGS Fridgecom 68",
+   "kategori": "Hydraulikk- og kompressoroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-olje (ISO VG 68) for ammoniakk-kompressorer i kjøleanlegg, med høy motstand mot kjemisk nedbrytning og gode lavtemperaturegenskaper. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-compressor-oil-3/"
+  },
+  {
+   "slug": "biogear-xp-220",
+   "navn": "Biogear XP 220",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset girolje (ISO VG 220) med svært god slitasjebeskyttelse, EP-egenskaper og oksidasjonsstabilitet, også under krevende forhold. Overgår kravene i DIN 51517 del 3.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/biogear-xp-220/"
+  },
+  {
+   "slug": "biogear-xp-320",
+   "navn": "Biogear XP 320",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset girolje (ISO VG 320) med svært god slitasjebeskyttelse, EP-egenskaper og oksidasjonsstabilitet, også under krevende forhold. Overgår kravene i DIN 51517 del 3.",
+   "naeringsmiddel": false,
+   "emballasje": [
+    [
+     "20 L",
+     "70166"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/biogear-xp-320/"
+  },
+  {
+   "slug": "biogear-xp-460",
+   "navn": "Biogear XP 460",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset girolje (ISO VG 460) med svært god slitasjebeskyttelse, EP-egenskaper og oksidasjonsstabilitet, også under krevende forhold. Overgår kravene i DIN 51517 del 3.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/biogear-xp-460/"
+  },
+  {
+   "slug": "vickerlube-food-grade-gear-oil-220",
+   "navn": "Vickerlube FG Gear Oil 220",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Girolje (ISO VG 220) basert på medisinsk hvitolje, med gode EP-egenskaper og slitasjebeskyttelse. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-gear-oil-220/"
+  },
+  {
+   "slug": "vickerlube-food-grade-gear-oil-320",
+   "navn": "Vickerlube FG Gear Oil 320",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Girolje (ISO VG 320) basert på medisinsk hvitolje, med gode EP-egenskaper og slitasjebeskyttelse. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-gear-oil-320/"
+  },
+  {
+   "slug": "vickerlube-food-grade-gear-oil-460",
+   "navn": "Vickerlube FG Gear Oil 460",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Girolje (ISO VG 460) basert på medisinsk hvitolje, med gode EP-egenskaper og slitasjebeskyttelse. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-gear-oil-460/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-gear-oil-150",
+   "navn": "Vickerlube FGS Gear Oil 150",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-girolje (ISO VG 150) med svært gode EP-egenskaper, høy bæreevne og bredt temperaturområde. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-gear-oil-150/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-gear-oil-220",
+   "navn": "Vickerlube FGS Gear Oil 220",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-girolje (ISO VG 220) med svært gode EP-egenskaper, høy bæreevne og bredt temperaturområde. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-gear-oil-220/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-gear-oil-320",
+   "navn": "Vickerlube FGS Gear Oil 320",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-girolje (ISO VG 320) med svært gode EP-egenskaper, høy bæreevne og bredt temperaturområde. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-gear-oil-320/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-gear-oi",
+   "navn": "Vickerlube FGS Gear Oil 460",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-girolje (ISO VG 460) med svært gode EP-egenskaper, høy bæreevne og bredt temperaturområde. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-gear-oi/"
+  },
+  {
+   "slug": "vickerlube-food-grade-gear-oil",
+   "navn": "Vickerlube FGS Gear Oil 680",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk PAO-girolje (ISO VG 680) med svært gode EP-egenskaper, høy bæreevne og bredt temperaturområde. NSF H1-registrert for girkasser i og rundt næringsmiddelproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-gear-oil/"
+  },
+  {
+   "slug": "vickerlube-syngear-220",
+   "navn": "Vickerlube Syngear 220",
+   "kategori": "Giroljer",
+   "egenskaper": [],
+   "beskrivelse": "Syntetisk girolje (ISO VG 220) med svært gode EP-egenskaper og høy bæreevne, for alle typer lukkede gir – også tungt belastede og støtbelastede gir og lagre. Høy viskositetsindeks og lavt flytepunkt.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-syngear-220/"
+  },
+  {
+   "slug": "vickerlube-syngear-320",
+   "navn": "Vickerlube Syngear 320",
+   "kategori": "Giroljer",
+   "egenskaper": [],
+   "beskrivelse": "Syntetisk girolje (ISO VG 320) med svært gode EP-egenskaper og høy bæreevne, for alle typer lukkede gir – også tungt belastede og støtbelastede gir og lagre. Høy viskositetsindeks og lavt flytepunkt.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-syngear-320/"
+  },
+  {
+   "slug": "vickerlube-syngear-460",
+   "navn": "Vickerlube Syngear 460",
+   "kategori": "Giroljer",
+   "egenskaper": [],
+   "beskrivelse": "Syntetisk girolje (ISO VG 460) med svært gode EP-egenskaper og høy bæreevne, for alle typer lukkede gir – også tungt belastede og støtbelastede gir og lagre. Høy viskositetsindeks og lavt flytepunkt.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-syngear-460/"
+  },
+  {
+   "slug": "vickerlube-syngear-680",
+   "navn": "Vickerlube Syngear 680",
+   "kategori": "Giroljer",
+   "egenskaper": [],
+   "beskrivelse": "Syntetisk girolje (ISO VG 680) med svært gode EP-egenskaper og høy bæreevne, for alle typer lukkede gir – også tungt belastede og støtbelastede gir og lagre. Høy viskositetsindeks og lavt flytepunkt.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-syngear-680/"
+  },
+  {
+   "slug": "biogrease-ep0",
+   "navn": "Biogrease EP0",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset flytende fett (NLGI 0) med lang korrosjonsbeskyttelse og svært god motstand mot utvasking fra regn og vann. God bæreevne.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/biogrease-ep0/"
+  },
+  {
+   "slug": "biogrease-ep2",
+   "navn": "Biogrease EP2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Miljøtilpasset fett (NLGI 2) med lang korrosjonsbeskyttelse og svært god motstand mot utvasking fra regn og vann. God bæreevne, også egnet for wire.",
+   "naeringsmiddel": false,
+   "emballasje": [
+    [
+     "12 × 400 g",
+     "25892-CST"
+    ],
+    [
+     "18 kg",
+     "25892-PAIL"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/biogrease-ep2/"
+  },
+  {
+   "slug": "vickerlube-food-grade-3hdc-grease-2",
+   "navn": "Vickerlube FG 3HDC Grease 2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)",
+    "NSF 3H"
+   ],
+   "beskrivelse": "Flerbruksfett (NLGI 2) basert på medisinsk hvitolje, registrert som NSF 3H for direkte kontakt – som slippmiddel, smøremiddel og korrosjonsbeskyttelse.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-3hdc-grease-2/"
+  },
+  {
+   "slug": "vickerlube-food-grade-ep-grease-00",
+   "navn": "Vickerlube FG EP Grease 00",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Flerbruksfett (NLGI 00) med aluminiumkompleks og medisinsk hvitolje. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-ep-grease-00/"
+  },
+  {
+   "slug": "vickerlube-food-grade-ep-grease-1",
+   "navn": "Vickerlube FG EP Grease 1",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Flerbruksfett (NLGI 1) med aluminiumkompleks og medisinsk hvitolje. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-ep-grease-1/"
+  },
+  {
+   "slug": "vickerlube-food-grade-ep-grease-2",
+   "navn": "Vickerlube FG EP Grease 2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Flerbruksfett (NLGI 2) med aluminiumkompleks og medisinsk hvitolje. NSF H1-registrert for bruk i og rundt næringsmiddel-, drikke- og farmasiproduksjon.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-ep-grease-2/"
+  },
+  {
+   "slug": "vickerlube-food-grade-hlw-grease-2",
+   "navn": "Vickerlube FG HLW Grease 2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Vannfast fett (NLGI 2) for høy belastning, med kalsiumsulfonatkompleks og medisinsk hvitolje. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-hlw-grease-2/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-ep-grease-2",
+   "navn": "Vickerlube FGS EP Grease 2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Fett (NLGI 2) med aluminiumkompleks og syntetisk PAO-baseolje, for høye temperaturer og høy belastning. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-ep-grease-2/"
+  },
+  {
+   "slug": "vickerlube-fgs-hlw-grease-2",
+   "navn": "Vickerlube FGS HLW Grease 2",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Fett (NLGI 2) med kalsiumsulfonatkompleks og syntetisk PAO-baseolje, for høy belastning og våte miljøer. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fgs-hlw-grease-2/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-lt-grease-1",
+   "navn": "Vickerlube FGS LT Grease 1",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk fett (NLGI 1) med aluminiumkompleks for lave temperaturer og høye turtall. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-lt-grease-1/"
+  },
+  {
+   "slug": "vickerlube-hd-ep2",
+   "navn": "Vickerlube HD Grease EP2",
+   "kategori": "Fett",
+   "egenskaper": [],
+   "beskrivelse": "Kraftig litiumkompleksfett (NLGI 2) med EP-tilsetninger, basert på mineralolje. For tunge bruksområder som gruvedrift, steinbrudd, sementindustri og annen tungindustri.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-hd-ep2/"
+  },
+  {
+   "slug": "vickerlube-hv-ep-1000-1-5",
+   "navn": "Vickerlube HV EP 1000-1.5",
+   "kategori": "Fett",
+   "egenskaper": [],
+   "beskrivelse": "Aluminiumkompleksfett med høy baseoljeviskositet og EP-tilsetninger, for krevende bruksområder i gruvedrift, steinbrudd, sementindustri og annen tungindustri.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-hv-ep-1000-1-5/"
+  },
+  {
+   "slug": "vickerlube-ogl-1860-0",
+   "navn": "Vickerlube OGL 1860-0",
+   "kategori": "Fett",
+   "egenskaper": [],
+   "beskrivelse": "Aluminiumkompleksfett for åpne gir, med høy baseoljeviskositet og faste smøremidler som gir en seig smørefilm. Hindrer metallkontakt, skuring og grubetæring ved støtbelastning.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-ogl-1860-0/"
+  },
+  {
+   "slug": "vickerlube-food-grade-chain-oil",
+   "navn": "Vickerlube FG Chain Oil 100",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Kjedeolje (ISO VG 100) basert på medisinsk hvitolje, med slitasje- og EP-tilsetninger. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-chain-oil/"
+  },
+  {
+   "slug": "vickerlube-food-grade-chain-oil-220",
+   "navn": "Vickerlube FGS Chain Oil 220",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk kjedeolje (ISO VG 220) med slitasje- og høytrykkstilsetninger. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-chain-oil-220/"
+  },
+  {
+   "slug": "vickerlube-food-grade-chain-oil-320",
+   "navn": "Vickerlube FGS Chain Oil 320",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk kjedeolje (ISO VG 320) med slitasje- og høytrykkstilsetninger. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-chain-oil-320/"
+  },
+  {
+   "slug": "vickerlube-food-grade-high-temperature-chain-oil-220",
+   "navn": "Vickerlube FGS HT Chain Oil 220",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk esterbasert kjedeolje (ISO VG 220) for høye temperaturer. Selvrensende, med slitasje- og høytrykkstilsetninger. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-high-temperature-chain-oil-220/"
+  },
+  {
+   "slug": "vickerlube-fgs-ht-chain-oil-320",
+   "navn": "Vickerlube FGS HT Chain Oil 320",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk esterbasert kjedeolje (ISO VG 320) for høye temperaturer. Selvrensende, med slitasje- og høytrykkstilsetninger. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fgs-ht-chain-oil-320/"
+  },
+  {
+   "slug": "vickerlube-fgs-lt-chain-oil",
+   "navn": "Vickerlube FGS LT Chain Oil",
+   "kategori": "Kjedeoljer",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Helsyntetisk kjedeolje for kjeder og transportbånd i svært kalde miljøer, med forsterket korrosjonsbeskyttelse. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fgs-lt-chain-oil/"
+  },
+  {
+   "slug": "vickerlube-cleaner-spray",
+   "navn": "Vickerlube Cleaner Spray",
+   "kategori": "Spray",
+   "egenskaper": [
+    "NSF K2"
+   ],
+   "beskrivelse": "Hurtigvirkende rensespray uten rester, som fjerner fett og skitt. NSF K2-registrert for rensemidler i næringsmiddelindustrien.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-cleaner-spray/"
+  },
+  {
+   "slug": "vickerlube-food-grade-wd-spray",
+   "navn": "Vickerlube FG WD Spray",
+   "kategori": "Spray",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Vannfortrengende, inntrengende smørespray som virker også på våte flater og beskytter mot korrosjon. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-wd-spray/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-chain-spray",
+   "navn": "Vickerlube FGS Chain Spray",
+   "kategori": "Spray",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Syntetisk esterbasert kjedespray for høye temperaturer. Selvrensende, uten koksavleiringer, med god vannbestandighet. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-chain-spray/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-grease-spray",
+   "navn": "Vickerlube FGS Grease Spray",
+   "kategori": "Spray",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Fettspray på syntetisk baseolje, med god vedheft og vannavstøtning som gir lengre smøreintervaller. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-grease-spray/"
+  },
+  {
+   "slug": "vickerlube-food-grade-synthetic-silicone-spray",
+   "navn": "Vickerlube FGS SIL Spray",
+   "kategori": "Spray",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Silikonspray for flerbruk, med god vedheft og slitasjebeskyttelse. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-synthetic-silicone-spray/"
+  },
+  {
+   "slug": "vickerlube-bio-wrl",
+   "navn": "Vickerlube Bio WRL",
+   "kategori": "Wire og korrosjonsbeskyttelse",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Løsemiddelfritt, biologisk nedbrytbart wiresmøremiddel basert på fornybare baseoljer, for bruk der forurensning og miljø er en bekymring.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-bio-wrl/"
+  },
+  {
+   "slug": "vickerlube-cpvi",
+   "navn": "Vickerlube CPVI",
+   "kategori": "Wire og korrosjonsbeskyttelse",
+   "egenskaper": [],
+   "beskrivelse": "Rustbeskyttende olje med dampfaseinhibitor, for motorer, girkasser og andre lukkede systemer som skal lagres over lang tid.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-cpvi/"
+  },
+  {
+   "slug": "vickerlube-hv-wrl",
+   "navn": "Vickerlube HV WRL",
+   "kategori": "Wire og korrosjonsbeskyttelse",
+   "egenskaper": [],
+   "beskrivelse": "Løsemiddelfritt, viskøst wiresmøremiddel på mineralolje, for wire utsatt for mye fukt og korrosjon. Trenger godt inn mellom kordelene.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-hv-wrl/"
+  },
+  {
+   "slug": "vickerlube-soft-coat-cpf",
+   "navn": "Vickerlube Soft Coat CPF",
+   "kategori": "Wire og korrosjonsbeskyttelse",
+   "egenskaper": [],
+   "beskrivelse": "Korrosjonsbeskyttelse som tørker til en klar, myk voksfilm og gir langvarig beskyttelse av metallflater. Ikke brannfarlig og fri for VOC.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-soft-coat-cpf/"
+  },
+  {
+   "slug": "vickerlube-bio-flushing-oil",
+   "navn": "Vickerlube Bio Flushing Oil",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [],
+   "beskrivelse": "Spyleolje ved bytte av smøremiddel, som løser opp og fjerner rester av gammel olje og myke avleiringer før påfylling – for hydraulikk, kompressorer, girkasser, prosessmaskiner og turbiner.",
+   "naeringsmiddel": false,
+   "emballasje": [
+    [
+     "208 L",
+     "70165"
+    ]
+   ],
+   "kilde": "https://vickers-oil.com/product/vickerlube-bio-flushing-oil/"
+  },
+  {
+   "slug": "vickerlube-bio-wdf",
+   "navn": "Vickerlube Bio WDF",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)"
+   ],
+   "beskrivelse": "Biologisk nedbrytbar, vannfortrengende flerbruksvæske av biobaserte råvarer. Trenger inn, smører, fortrenger fukt og etterlater en tynn, fargeløs film.",
+   "naeringsmiddel": false,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-bio-wdf/"
+  },
+  {
+   "slug": "vickerlube-food-grade-3h-divider-oil",
+   "navn": "Vickerlube FG 3H Divider Oil",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)",
+    "NSF 3H"
+   ],
+   "beskrivelse": "Medisinsk hvitolje registrert som NSF 3H og H1, for direkte kontakt med næringsmidler – blant annet som slippolje i bakerier.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-3h-divider-oil/"
+  },
+  {
+   "slug": "vickerlube-food-grade-heat-transfer-fluid",
+   "navn": "Vickerlube FG HTF 32",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Varmeoverføringsolje av høy kvalitet for lukkede varmesystemer i næringsmiddelindustrien. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-heat-transfer-fluid/"
+  },
+  {
+   "slug": "vickerlube-fg-multi-tak",
+   "navn": "Vickerlube FG Multi-Tak",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Halvsyntetisk høytemperaturpasta uten metaller, for montering, mot fastbrenning og for åpne gir. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-fg-multi-tak/"
+  },
+  {
+   "slug": "vickerlube-food-grade-sugarsol",
+   "navn": "Vickerlube FG Sugarsol",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Tyntflytende produkt som løser opp sukkeravleiringer i konfekt- og sukkerindustrien, og etterlater en tynn smørefilm som beskytter utstyret. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-sugarsol/"
+  },
+  {
+   "slug": "vickerlube-food-grade-universal-oil-32",
+   "navn": "Vickerlube FG Universal Oil 32",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Medisinsk hvitolje (ISO VG 32) for generell smøring i og rundt næringsmiddel-, drikke- og farmasiproduksjon. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-food-grade-universal-oil-32/"
+  },
+  {
+   "slug": "vickerlube-flex",
+   "navn": "Vickerlube Flex +",
+   "kategori": "Spesialprodukter",
+   "egenskaper": [
+    "Næringsmiddelgodkjent (NSF H1)"
+   ],
+   "beskrivelse": "Kompakt, ferdig fylt automatisk smøresystem med Vickerlube FG EP Grease 2. Tømmetiden styres elektronisk med gassgenererende celler og kan stilles i månedssteg. NSF H1-registrert.",
+   "naeringsmiddel": true,
+   "emballasje": [],
+   "kilde": "https://vickers-oil.com/product/vickerlube-flex/"
+  }
+ ]
+}
