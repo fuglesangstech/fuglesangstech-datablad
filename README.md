@@ -63,3 +63,7 @@ Kopiene kontrolleres mot leverandørene én gang i måneden. Endrede datablad er
 - `sertifikater.json` – hvilke sertifikater som hører til hvilket produkt i Chesterton-katalogen. Produktkatalogen viser dem under «Sertifikater og godkjenninger».
 
 Lista bygges på nytt fra chesterton.com ved hver månedlige synk (`verktoy/sertifikater.js`). Nye sertifikater kommer med automatisk. Sertifikater som Chesterton fjerner, eller som har en utløpsdato i navnet som er passert, vises ikke lenger. Der Chesterton har en egen europeisk (E/EMEA) NSF-registrering, vises bare den, og der samme dokument finnes på flere språk, vises den engelske utgaven.
+
+
+## Ekstra produktbilder (galleri)
+`bilder-ekstra.json` lister ekstra bilder per produkt (emballasje, farger, tilbehør) som produktkatalogen på /produkter viser i bildegalleriet. LE-bildene ligger i `le/bilder/`, Chesterton-bildene i `chesterton/produktbilder/`. Bildene er hentet fra leverandørenes nettsider.
