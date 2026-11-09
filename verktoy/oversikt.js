@@ -51,10 +51,11 @@ function build(root, CD, LD) {
     if (sds.length || pds.length) rows.push({ lev: 'UTB', nr: '', navn: p.navn, sds, pds, lenke: S + '/produkter#utb-' + pid(p.navn) });
   });
 
-  // Perma-Tec (databladene ligger hos perma)
-  const perma = read(root, 'perma/produkter.json');
+  // Perma-Tec (kopi i perma/datablad/ når den finnes, ellers perma sin lenke)
+  const perma = read(root, 'perma/produkter.json'), pm = require('./perma.js');
+  const pf = u => (u.startsWith(pm.PRE) && have.has(pm.local(u))) ? pm.local(u) : u;
   (perma ? perma.produkter : []).forEach(p => {
-    const sds = (p.sds || []).map(d => [d[0], 'EN', d[1]]), pds = (p.pds || []).map(d => [d[0], 'EN', d[1]]);
+    const sds = (p.sds || []).map(d => [d[0], 'EN', pf(d[1])]), pds = (p.pds || []).map(d => [d[0], 'EN', pf(d[1])]);
     if (sds.length || pds.length) rows.push({ lev: 'Perma-Tec', nr: '', navn: p.navn, sds, pds, lenke: S + '/perma-tec-katalog?q=' + encodeURIComponent(p.navn.replace(/\s*\(S[FO]\d\d\)$/, '')) });
   });
 

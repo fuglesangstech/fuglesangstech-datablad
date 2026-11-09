@@ -15,6 +15,7 @@
      chesterton/sertifikater/ og sertifikater.json.
   4d. Sjekker alle sider, lenker og bilder på fuglesangstech.no for døde lenker (verktoy/lenkesjekk.js).
   4c. Bygger datablad-oversikt.json (verktoy/oversikt.js) til datablad-siden /datablad.
+  4e. Kopierer Perma-Tec sine datablad fra perma-tec.com til perma/datablad/ (verktoy/perma.js).
   4b. Henter Vickers Oils sine PDS, SDS og NSF-sertifikater (verktoy/vickers.js) til vickers/.
   5. Oppdaterer datablad.json (full liste med kilde, sjekksum og datoer) og datablad-indeks.json
      (kort liste som katalogen leser), og skriver en rapport til synk-rapport.md.
@@ -128,7 +129,11 @@ async function pool(items, n, fn) {
   let vik = null, vikErr = '';
   try { vik = await require('./vickers.js').run(root); } catch (e) { vikErr = e.message; }
   const vikFiler = vik ? vik.filer : (fs.existsSync(path.join(root, 'vickers/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'vickers/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
-  fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler).sort() }));
+  // Perma-Tec (verktoy/perma.js) – kopier av databladene fra perma-tec.com under perma/datablad/
+  let per = null, perErr = '';
+  try { per = await require('./perma.js').run(root); } catch (e) { perErr = e.message; }
+  const perFiler = per ? per.filer : (fs.existsSync(path.join(root, 'perma/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'perma/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
+  fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler, perFiler).sort() }));
 
   // Samlet datablad-oversikt for fuglesangstech.no/datablad (verktoy/oversikt.js)
   let ovr = null, ovrErr = '';
@@ -143,7 +148,7 @@ async function pool(items, n, fn) {
   catch (e) { certErr = e.message; }
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
@@ -157,6 +162,7 @@ async function pool(items, n, fn) {
         'Sertifikater Chesterton har fjernet, vises ikke lenger på produktsidene.\n'
       : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n') +
     require('./vickers.js').rapport(vik, vikErr) +
+    require('./perma.js').rapport(per, perErr) +
     '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
     require('./lenkesjekk.js').rapport(lnk, lnkErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
