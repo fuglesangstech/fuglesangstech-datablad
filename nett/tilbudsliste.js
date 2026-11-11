@@ -257,7 +257,7 @@
     box.classList.add('ftq-page');
     var a = load();
     box.innerHTML = a.length
-      ? listHtml(a) + '<div class="ftq-sum"><span>' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ' i lista. Lista legges automatisk inn i skjemaet under.</span><button type="button" class="ftq-clear">Tøm lista</button></div>'
+      ? listHtml(a) + '<div class="ftq-sum"><span>' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ' i lista. Lista sendes med forespørselen.</span><button type="button" class="ftq-clear">Tøm lista</button></div>'
       : '<div class="ftq-emptybox"><p class="ftq-empty">Tilbudslisten er tom. Finn produktene i produktkatalogen og trykk «Legg i tilbudslisten», eller beskriv hva du trenger i skjemaet under.</p><a class="ftq-go ftq-inline" href="/produkter">Gå til produktkatalogen</a></div>';
     var c = box.querySelector('.ftq-clear'); if (c) c.onclick = function () { clear(); };
   }
@@ -270,6 +270,266 @@
     // Skjemaet tegnes av Squarespace etter at siden er lastet: prøv til det finnes
     var n = 0, iv = setInterval(function () { if (fillForm() || ++n > 40) clearInterval(iv); }, 250);
     watchSuccess();
+    initOwnForm();
+  }
+
+  /* ---------- Eget skjema på /tilbud, med Squarespace-skjemaet skjult i bakgrunnen ----------
+     Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
+     Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
+     Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
+  var FORM_VERSION = '2026-11-11';
+  function lbl(el) {
+    var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
+    if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
+    return (l + ' ' + (el.getAttribute('aria-label') || '') + ' ' + (el.placeholder || '')).toLowerCase();
+  }
+  function sqMap() {
+    var block = document.querySelector('.sqs-block-form'), f = block && block.querySelector('form');
+    if (!f) return null;
+    var ins = [].slice.call(f.querySelectorAll('input, textarea, select')).filter(function (e) { return e.type !== 'hidden' && e.id !== 'message-field' && e.autocomplete !== 'new-password'; });
+    function find(test) { return ins.filter(test)[0] || null; }
+    var m = {
+      block: block, form: f,
+      fname: find(function (e) { return e.name === 'fname' || e.autocomplete === 'given-name'; }),
+      lname: find(function (e) { return e.name === 'lname' || e.autocomplete === 'family-name'; }),
+      email: find(function (e) { return e.type === 'email' || /e-?post|email/.test(lbl(e)); }),
+      tel: find(function (e) { return /^tel/.test(e.autocomplete || '') || e.type === 'tel' || (/telefon|nummer|phone/.test(lbl(e)) && e.tagName === 'INPUT'); }),
+      firma: find(function (e) { return e.tagName === 'INPUT' && /firma|bedrift|selskap|company/.test(lbl(e)); }),
+      prod: find(function (e) { return e.tagName === 'TEXTAREA' && /produkt|tilbud|forespørsel|varer/.test(lbl(e)); }) || find(function (e) { return e.tagName === 'TEXTAREA'; }),
+      komm: find(function (e) { return /kommentar|melding|beskjed/.test(lbl(e)) && e.tagName !== 'SELECT'; }),
+      btn: f.querySelector('button[type="submit"], input[type="submit"]')
+    };
+    if (m.komm === m.prod) m.komm = null;
+    m.name = m.fname ? null : find(function (e) { return e.tagName === 'INPUT' && /navn|name/.test(lbl(e)) && e !== m.firma; });
+    m.ok = !!(m.email && m.prod && m.btn && (m.fname || m.name));
+    return m;
+  }
+  function setAny(el, v) {
+    if (!el) return;
+    var proto = el.tagName === 'TEXTAREA' ? HTMLTextAreaElement.prototype : el.tagName === 'SELECT' ? HTMLSelectElement.prototype : HTMLInputElement.prototype;
+    Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v);
+    ['input', 'change', 'blur'].forEach(function (t) { el.dispatchEvent(new Event(t, { bubbles: true })); });
+  }
+  var FCSS = [
+    '.ftf{--n:#052b69;--nd:#031c47;--sky:#9cc2ff;--tint:#e9eff8;--ink:#111a28;--tx:#2a3443;--mu:#5f6b7a;--ln:#d6dbe2;font-family:"Barlow",system-ui,sans-serif;color:var(--tx);font-size:16px;line-height:1.5;margin-bottom:24px}',
+    '.ftf *,.ftf *::before,.ftf *::after{box-sizing:border-box}',
+    '.ftf-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;align-items:start}',
+    '.ftf-f{display:grid;gap:6px;min-width:0;position:relative}.ftf-f.full{grid-column:1/-1}',
+    '.ftf-f>label,.ftf-f>.ftf-l{font-weight:600;font-size:15px;color:var(--ink)}.ftf-f label i,.ftf-f .ftf-l i{font-style:normal;color:var(--mu);font-weight:500}',
+    '.ftf input,.ftf select,.ftf textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--ln);border-radius:8px;padding:13px 14px;width:100%;min-width:0;transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}',
+    '.ftf select{background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2712%27 height=%278%27%3E%3Cpath d=%27M1 1l5 5 5-5%27 fill=%27none%27 stroke=%27%235f6b7a%27 stroke-width=%271.6%27/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}',
+    '.ftf textarea{min-height:120px;resize:vertical}',
+    '.ftf input:focus,.ftf select:focus,.ftf textarea:focus{outline:0;border-color:var(--n);box-shadow:0 0 0 3px rgba(5,43,105,.12)}',
+    '.ftf .bad input,.ftf .bad textarea{border-color:#b3261e}.ftf-err{font-size:13.5px;color:#b3261e;min-height:0}.ftf-err:empty{display:none}',
+    '.ftf-pair{display:grid;grid-template-columns:120px 1fr;gap:10px}',
+    '.ftf-hint{font-size:13.5px;color:var(--mu)}.ftf-hint b{color:var(--n);font-weight:600}',
+    '.ftf-sug{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--ln);border-radius:10px;box-shadow:0 10px 30px rgba(17,26,40,.12);z-index:20;overflow:hidden;list-style:none;padding:4px;margin-left:0}',
+    '.ftf-sug li{padding:9px 12px;border-radius:7px;cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-size:15px}.ftf-sug li small{color:var(--mu);white-space:nowrap}',
+    '.ftf-sug li:hover,.ftf-sug li.on{background:var(--tint)}',
+    '.ftf-foot{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin-top:22px}',
+    '.ftf-send{display:inline-flex;align-items:center;gap:10px;background:var(--n);color:#fff;border:1.5px solid var(--n);border-radius:6px;padding:14px 26px;font:inherit;font-weight:600;font-size:16px;cursor:pointer;transition:background .15s,transform .15s}',
+    '.ftf-send:hover{background:var(--nd);transform:translateY(-1px)}.ftf-send[disabled]{opacity:.75;cursor:progress;transform:none}',
+    '.ftf-spin{width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;animation:ftfspin .8s linear infinite;display:none}.ftf-send[disabled] .ftf-spin{display:inline-block}',
+    '@keyframes ftfspin{to{transform:rotate(360deg)}}',
+    '.ftf-priv{font-size:13.5px;color:var(--mu);flex:1 1 260px;margin:0}',
+    '.ftf-alert{margin-top:16px;padding:14px 16px;border-radius:10px;background:#fdecea;border:1px solid #f5c2bd;color:#7a1c14;font-size:15px}',
+    '.ftf-alert:empty{display:none}',
+    '.ftf-hp{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}',
+    '.ftf-sqhide{position:absolute!important;left:-10000px!important;top:0!important;width:600px!important;height:1px!important;overflow:hidden!important;opacity:0!important;pointer-events:none!important}',
+    '.ftk{--navy:#052b69;--navy-d:#031c47;--sky:#9cc2ff;--tint:#e9eff8;--ink:#111a28;--muted:#5f6b7a;--line:#d6dbe2;font-family:"Barlow",system-ui,sans-serif;color:#2a3443;line-height:1.55;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;max-width:680px;animation:ftk-in .5s cubic-bezier(.2,.7,.2,1) both;margin-bottom:24px}',
+    '.ftk *{box-sizing:border-box}.ftk :where(h2,h3,p,ol){margin:0;padding:0}',
+    '.ftk-top{position:relative;padding:32px 32px 28px;background:linear-gradient(135deg,var(--navy-d) 0%,var(--navy) 60%,#0b4aa8 100%);color:#fff;overflow:hidden}',
+    '.ftk-top::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(156,194,255,.35) 0%,rgba(156,194,255,0) 70%)}',
+    '.ftk-check{width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.12);display:grid;place-items:center;margin-bottom:18px;animation:ftk-pulse 1.6s .5s ease-out 1}',
+    '.ftk-check svg{width:34px;height:34px}.ftk-check circle{stroke:var(--sky);stroke-dasharray:76;stroke-dashoffset:76;animation:ftk-draw .6s .15s ease-out forwards}.ftk-check path{stroke:#fff;stroke-dasharray:24;stroke-dashoffset:24;animation:ftk-draw .4s .6s ease-out forwards}',
+    '.ftk-top h2{font-family:"Barlow Semi Condensed","Barlow",sans-serif;font-size:clamp(26px,3vw,34px);font-weight:700;line-height:1.1;color:#fff;text-transform:none;letter-spacing:0}',
+    '.ftk-top p{margin-top:8px;color:rgba(255,255,255,.85);font-size:17px;max-width:46ch}',
+    '.ftk-body{padding:26px 32px 30px;display:grid;gap:22px}',
+    '.ftk-body h3{font-family:"Barlow Semi Condensed","Barlow",sans-serif;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}',
+    '.ftk-steps{list-style:none;display:grid;position:relative}',
+    '.ftk-steps li{position:relative;display:grid;grid-template-columns:28px 1fr;gap:14px;padding-bottom:16px;opacity:0;animation:ftk-in .45s ease-out forwards}',
+    '.ftk-steps li:nth-child(1){animation-delay:.7s}.ftk-steps li:nth-child(2){animation-delay:.85s}.ftk-steps li:nth-child(3){animation-delay:1s;padding-bottom:0}',
+    '.ftk-steps li:not(:last-child)::after{content:"";position:absolute;left:13px;top:28px;bottom:0;width:2px;background:var(--tint)}',
+    '.ftk-dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:14px;font-weight:700;background:var(--tint);color:var(--navy)}.ftk-steps li.done .ftk-dot{background:var(--navy);color:#fff}',
+    '.ftk-steps b{display:block;color:var(--ink);font-weight:600;font-size:16px}.ftk-steps div span{display:block;color:var(--muted);font-size:15px}',
+    '.ftk-btns{display:flex;flex-wrap:wrap;gap:10px}.ftk-btns a{display:inline-flex;align-items:center;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15.5px;text-decoration:none!important;border:1.5px solid var(--navy)}',
+    '.ftk-btns a.p{background:var(--navy);color:#fff!important}.ftk-btns a.p:hover{background:var(--navy-d)}.ftk-btns a.s{color:var(--navy)!important}.ftk-btns a.s:hover{background:var(--tint)}',
+    '.ftk-foot{border-top:1px solid var(--line);padding:14px 32px;background:#f6f8fb;font-size:14.5px;color:var(--muted)}.ftk-foot a{color:var(--navy)!important;font-weight:600;text-decoration:none;white-space:nowrap}',
+    '@keyframes ftk-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}@keyframes ftk-draw{to{stroke-dashoffset:0}}@keyframes ftk-pulse{from{box-shadow:0 0 0 0 rgba(156,194,255,.5)}to{box-shadow:0 0 0 18px rgba(156,194,255,0)}}',
+    '@media (max-width:640px){.ftf-grid{grid-template-columns:1fr}.ftk-top,.ftk-body{padding-left:20px;padding-right:20px}.ftk-foot{padding:14px 20px}.ftk-btns a{flex:1 1 100%;justify-content:center}}',
+    '@media (prefers-reduced-motion:reduce){.ftk,.ftk *,.ftk *::after{animation:none!important;opacity:1!important}.ftk-check circle,.ftk-check path{stroke-dashoffset:0!important}}'
+  ].join('\n');
+  var TIDER = ['Snarest', 'Innen 1 uke', 'Innen 2 uker', 'Innen 1 måned', 'Etter avtale'];
+  function formHtml() {
+    return '<form class="ftf" novalidate autocomplete="on" aria-label="Be om tilbud">' +
+      '<div class="ftf-grid">' +
+      '<div class="ftf-f" data-f="navn"><label for="ftf-navn">Navn</label><input id="ftf-navn" name="name" autocomplete="name" required><span class="ftf-err"></span></div>' +
+      '<div class="ftf-f" data-f="firma"><label for="ftf-firma">Firma <i>(valgfritt)</i></label><input id="ftf-firma" name="organization" autocomplete="organization" aria-autocomplete="list" aria-controls="ftf-sug"><ul class="ftf-sug" id="ftf-sug" role="listbox" hidden></ul><span class="ftf-hint" id="ftf-org"></span></div>' +
+      '<div class="ftf-f" data-f="epost"><label for="ftf-epost">E-post</label><input id="ftf-epost" type="email" name="email" autocomplete="email" inputmode="email" required><span class="ftf-err"></span></div>' +
+      '<div class="ftf-f" data-f="tlf"><label for="ftf-tlf">Telefon</label><input id="ftf-tlf" type="tel" name="tel" autocomplete="tel" inputmode="tel" required><span class="ftf-err"></span></div>' +
+      '<div class="ftf-f" data-f="sted"><span class="ftf-l" id="ftf-sted-l">Leveringssted <i>(valgfritt)</i></span><div class="ftf-pair"><input id="ftf-postnr" aria-labelledby="ftf-sted-l" aria-label="Postnummer" placeholder="Postnr." inputmode="numeric" maxlength="4" autocomplete="postal-code"><input id="ftf-poststed" aria-label="Poststed" placeholder="Poststed" autocomplete="address-level2"></div></div>' +
+      '<div class="ftf-f" data-f="tid"><label for="ftf-tid">Ønsket leveringstid</label><select id="ftf-tid">' + TIDER.map(function (t) { return '<option>' + t + '</option>'; }).join('') + '</select></div>' +
+      '<div class="ftf-f full" data-f="komm"><label for="ftf-komm">Kommentar <i id="ftf-komm-i">(valgfritt)</i></label><textarea id="ftf-komm" placeholder="For eksempel bruksområde, mengde per år eller spørsmål til produktene"></textarea><span class="ftf-err"></span></div>' +
+      '</div>' +
+      '<div class="ftf-hp" aria-hidden="true"><label>La stå tomt <input id="ftf-hp" tabindex="-1" autocomplete="off"></label></div>' +
+      '<div class="ftf-foot"><button class="ftf-send" type="submit"><span class="ftf-spin" aria-hidden="true"></span><span class="ftf-sendt">Send forespørsel</span></button>' +
+      '<p class="ftf-priv">Vi bruker opplysningene bare til å besvare forespørselen. De deles ikke med andre.</p></div>' +
+      '<div class="ftf-alert" role="alert"></div></form>';
+  }
+  function successHtml() {
+    return '<div class="ftk" role="status" tabindex="-1"><div class="ftk-top"><div class="ftk-check" aria-hidden="true"><svg viewBox="0 0 30 30" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="15" r="12"/><path d="M9.5 15.5l3.7 3.7 7.3-7.7"/></svg></div>' +
+      '<h2>Takk, forespørselen er mottatt</h2><p>Vi går gjennom forespørselen og kommer tilbake med pris og leveringstid så snart vi kan.</p></div>' +
+      '<div class="ftk-body"><div><h3>Hva skjer nå</h3><ol class="ftk-steps">' +
+      '<li class="done"><span class="ftk-dot">✓</span><div><b>Forespørselen er sendt</b><span>Tilbudslisten fulgte med.</span></div></li>' +
+      '<li><span class="ftk-dot">2</span><div><b>Riktig fagperson går gjennom den</b><span>Vi ser på produktene, emballasjen og bruksområdet.</span></div></li>' +
+      '<li><span class="ftk-dot">3</span><div><b>Du får tilbud</b><span>Med pris og leveringstid, eller forslag til et bedre egnet produkt.</span></div></li></ol></div>' +
+      '<div class="ftk-btns"><a class="p" href="/produkter">Fortsett i produktkatalogen</a><a class="s" href="/">Til forsiden</a></div></div>' +
+      '<div class="ftk-foot">Haster det? Ring <a href="tel:22542000">22 54 20 00</a> (man–fre 08–16) eller døgnvakt <a href="tel:+4791542002">915 42 002</a>.</div></div>';
+  }
+  function digits(s) { return String(s || '').replace(/\D/g, ''); }
+  function fmtOrg(n) { n = digits(n); return n.length === 9 ? n.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3') : n; }
+  function title(s) { return String(s || '').toLowerCase().replace(/(^|[\s\-\/(])([a-zæøå])/g, function (m, a, b) { return a + b.toUpperCase(); }).replace(/\bAs\b/g, 'AS').replace(/\bAsa\b/g, 'ASA').replace(/\bSa\b/g, 'SA').replace(/\bDa\b/g, 'DA').replace(/\bAnsa\b/g, 'ANS'); }
+  function wireBrreg(root, st) {
+    var inp = root.querySelector('#ftf-firma'), ul = root.querySelector('#ftf-sug'), hint = root.querySelector('#ftf-org'), t, seq = 0, hits = [], cur = -1;
+    function pick(e) {
+      st.org = e.organisasjonsnummer; inp.value = title(e.navn);
+      hint.innerHTML = 'Org.nr. <b>' + fmtOrg(e.organisasjonsnummer) + '</b> fra Brønnøysundregistrene';
+      var a = e.forretningsadresse || e.postadresse;
+      var pn = root.querySelector('#ftf-postnr'), ps = root.querySelector('#ftf-poststed');
+      if (a && !pn.value) { pn.value = a.postnummer || ''; ps.value = title(a.poststed || ''); }
+      ul.hidden = true;
+    }
+    function show() {
+      ul.innerHTML = hits.map(function (e, i) { var a = e.forretningsadresse || e.postadresse || {}; return '<li role="option" data-i="' + i + '"' + (i === cur ? ' class="on" aria-selected="true"' : '') + '><span>' + esc(title(e.navn)) + '</span><small>' + fmtOrg(e.organisasjonsnummer) + (a.poststed ? ' · ' + esc(title(a.poststed)) : '') + '</small></li>'; }).join('');
+      ul.hidden = !hits.length;
+    }
+    function search() {
+      var q = inp.value.trim(), my = ++seq; st.org = ''; hint.textContent = '';
+      if (q.length < 3) { hits = []; show(); return; }
+      var u = /^\d{9}$/.test(digits(q)) && digits(q).length === q.replace(/\s/g, '').length
+        ? 'https://data.brreg.no/enhetsregisteret/api/enheter/' + digits(q)
+        : 'https://data.brreg.no/enhetsregisteret/api/enheter?size=5&navn=' + encodeURIComponent(q);
+      fetch(u).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+        if (my !== seq || !j) return;
+        hits = j.organisasjonsnummer ? [j] : ((j._embedded && j._embedded.enheter) || []); cur = -1;
+        if (j.organisasjonsnummer) { pick(j); hits = []; }
+        show();
+      }).catch(function () {});
+    }
+    inp.addEventListener('input', function () { clearTimeout(t); t = setTimeout(search, 250); });
+    inp.addEventListener('keydown', function (e) {
+      if (ul.hidden) return;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); cur = (cur + (e.key === 'ArrowDown' ? 1 : -1) + hits.length) % hits.length; show(); }
+      else if (e.key === 'Enter' && cur > -1) { e.preventDefault(); pick(hits[cur]); }
+      else if (e.key === 'Escape') ul.hidden = true;
+    });
+    ul.addEventListener('mousedown', function (e) { var li = e.target.closest('li'); if (li) { e.preventDefault(); pick(hits[+li.getAttribute('data-i')]); } });
+    inp.addEventListener('blur', function () { setTimeout(function () { ul.hidden = true; }, 150); });
+  }
+  function wirePost(root) {
+    var pn = root.querySelector('#ftf-postnr'), ps = root.querySelector('#ftf-poststed');
+    pn.addEventListener('input', function () {
+      var v = digits(pn.value).slice(0, 4); if (pn.value !== v) pn.value = v;
+      if (v.length !== 4) return;
+      fetch('https://ws.geonorge.no/adresser/v1/sok?treffPerSide=1&postnummer=' + v).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { var a = j && j.adresser && j.adresser[0]; if (a && a.poststed) ps.value = title(a.poststed); }).catch(function () {});
+    });
+  }
+  function errSet(root, f, msg) { var b = root.querySelector('[data-f="' + f + '"]'); if (!b) return; b.classList.toggle('bad', !!msg); var e = b.querySelector('.ftf-err'); if (e) e.textContent = msg || ''; }
+  function validate(root) {
+    var ok = true, g = function (id) { return root.querySelector(id).value.trim(); };
+    function chk(f, cond, msg) { errSet(root, f, cond ? '' : msg); if (!cond) ok = false; }
+    chk('navn', g('#ftf-navn').length > 1, 'Skriv inn navnet ditt.');
+    chk('epost', /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(g('#ftf-epost')), 'Skriv inn en gyldig e-postadresse.');
+    chk('tlf', digits(g('#ftf-tlf')).length >= 8, 'Skriv inn et telefonnummer med minst 8 sifre.');
+    chk('komm', count() > 0 || g('#ftf-komm').length > 5, 'Tilbudslisten er tom. Beskriv hva du trenger her.');
+    if (!ok) { var b = root.querySelector('.bad input, .bad textarea'); if (b) b.focus(); }
+    return ok;
+  }
+  function compose(root, st) {
+    var g = function (id) { return root.querySelector(id).value.trim(); };
+    var lines = [];
+    lines.push(count() ? text() : 'Ingen produkter i tilbudslisten. Se kommentaren.');
+    lines.push('');
+    if (g('#ftf-postnr') || g('#ftf-poststed')) lines.push('Leveringssted: ' + (g('#ftf-postnr') + ' ' + g('#ftf-poststed')).trim());
+    lines.push('Ønsket leveringstid: ' + g('#ftf-tid'));
+    if (st.org) lines.push('Org.nr.: ' + fmtOrg(st.org));
+    if (g('#ftf-komm')) lines.push('', 'Kommentar:', g('#ftf-komm'));
+    return lines.join('\n');
+  }
+  function fillSq(m, root, st) {
+    var g = function (id) { return root.querySelector(id).value.trim(); };
+    var navn = g('#ftf-navn').split(/\s+/), fn = navn.shift(), ln = navn.join(' ');
+    if (m.fname) { setAny(m.fname, fn); setAny(m.lname, ln || '-'); } else setAny(m.name, g('#ftf-navn'));
+    setAny(m.email, g('#ftf-epost'));
+    if (m.tel) { var t = g('#ftf-tlf').replace(/^\+?47\s*/, '').replace(/^0047\s*/, ''); setAny(m.tel, t); }
+    if (m.firma) setAny(m.firma, g('#ftf-firma') + (st.org ? ' (org.nr. ' + fmtOrg(st.org) + ')' : ''));
+    var body = compose(root, st);
+    if (m.komm) { setAny(m.komm, g('#ftf-komm')); body = body.replace(/\n\nKommentar:\n[\s\S]*$/, ''); }
+    setAny(m.prod, body);
+  }
+  function sqErrors(m) {
+    return [].slice.call(m.block.querySelectorAll('[class*="error"], [role="alert"]')).filter(function (e) { return e.offsetParent !== null || e.getClientRects().length; })
+      .map(function (e) { return e.textContent.trim(); }).filter(Boolean);
+  }
+  function sqSucceeded(m) {
+    if (!document.body.contains(m.form) || !m.block.querySelector('form')) return true;
+    var s = m.block.querySelector('.form-submission-text, .form-submission-html, [class*="submission-text"], [data-form-submission-text]');
+    return !!(s && s.textContent.trim() && getComputedStyle(s).display !== 'none' && getComputedStyle(s).visibility !== 'hidden');
+  }
+  function revealSq(m, root, msg) {
+    m.block.classList.remove('ftf-sqhide');
+    root.querySelector('.ftf-alert').innerHTML = esc(msg) + ' Skjemaet under er fylt ut med det du skrev. Kontroller og trykk «' + esc((m.btn && m.btn.textContent.trim()) || 'Send') + '».';
+    root.querySelector('.ftf-grid').style.display = 'none'; root.querySelector('.ftf-foot').style.display = 'none';
+    m.block.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  var formStarted = false;
+  function initOwnForm() {
+    if (formStarted || !onTilbudSide()) return;
+    var tries = 0, iv = setInterval(function () {
+      var m = sqMap();
+      if (!m && ++tries < 60) return;                       // Squarespace tegner skjemaet etter sideinnlasting
+      clearInterval(iv);
+      if (!m || !m.ok) {                                     // Fant ikke feltene: behold Squarespace-skjemaet (fungerer som før)
+        if (window.console) console.warn('Tilbudsliste: fant ikke feltene i Squarespace-skjemaet – viser det vanlige skjemaet.', m);
+        document.documentElement.setAttribute('data-ftf', 'reserve');
+        return;
+      }
+      formStarted = true;
+      document.documentElement.setAttribute('data-ftf', 'aktiv');
+      var s = document.createElement('style'); s.id = 'ftf-css'; s.textContent = FCSS; document.head.appendChild(s);
+      var host = m.block.closest('.fe-block') || m.block.parentNode, wrap = document.createElement('div');
+      wrap.id = 'ftf-host'; wrap.innerHTML = formHtml();
+      host.insertBefore(wrap, host.firstChild);
+      m.block.classList.add('ftf-sqhide'); m.block.setAttribute('aria-hidden', 'true');
+      var root = wrap.querySelector('.ftf'), st = { org: '' };
+      wireBrreg(root, st); wirePost(root);
+      root.querySelector('#ftf-komm-i').hidden = !count();
+      window.addEventListener('fttilbud:endret', function () { var i = root.querySelector('#ftf-komm-i'); if (i) i.hidden = !count(); });
+      ['navn', 'epost', 'tlf', 'komm'].forEach(function (f) { var el = root.querySelector('[data-f="' + f + '"] input, [data-f="' + f + '"] textarea'); el.addEventListener('input', function () { if (el.closest('.bad')) errSet(root, f, ''); }); });
+      root.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (root.querySelector('#ftf-hp').value) return;      // fanget av spamfellen
+        if (!validate(root)) return;
+        var btn = root.querySelector('.ftf-send'), al = root.querySelector('.ftf-alert');
+        al.textContent = ''; btn.disabled = true; btn.querySelector('.ftf-sendt').textContent = 'Sender …';
+        var mm = sqMap(); if (!mm || !mm.ok) { revealSq(m, root, 'Noe gikk galt med skjemaet.'); return; }
+        try { fillSq(mm, root, st); } catch (err) { revealSq(mm, root, 'Noe gikk galt med skjemaet.'); return; }
+        var t0 = Date.now();
+        setTimeout(function () { mm.btn.click(); }, 150);
+        var iv2 = setInterval(function () {
+          if (sqSucceeded(mm)) {
+            clearInterval(iv2); clear();
+            wrap.innerHTML = successHtml();
+            var card = wrap.querySelector('.ftk'); card.scrollIntoView({ behavior: 'smooth', block: 'center' }); card.focus({ preventScroll: true });
+            return;
+          }
+          var errs = Date.now() - t0 > 1200 ? sqErrors(mm) : [];
+          if (errs.length) { clearInterval(iv2); revealSq(mm, root, 'Skjemaet ble ikke sendt: ' + errs[0] + '.'); return; }
+          if (Date.now() - t0 > 25000) { clearInterval(iv2); revealSq(mm, root, 'Sendingen tok for lang tid.'); }
+        }, 300);
+      });
+    }, 250);
   }
 
   /* ---------- felles ---------- */
@@ -289,7 +549,7 @@
     add(it);
   });
 
-  window.FTTilbud = { add: add, remove: remove, setAntall: setQty, items: items, count: count, clear: clear, open: open, close: close, text: text, side: SIDE };
+  window.FTTilbud = { versjon: FORM_VERSION, skjema: function () { var m = sqMap(); return { funnet: !!m, ok: !!(m && m.ok), felt: m ? Object.keys(m).filter(function (k) { return m[k] && k !== 'block' && k !== 'form' && k !== 'ok'; }) : [] }; }, add: add, remove: remove, setAntall: setQty, items: items, count: count, clear: clear, open: open, close: close, text: text, side: SIDE };
 
   function start() {
     injectCss(); buildUi(); renderFab(); initPage();
