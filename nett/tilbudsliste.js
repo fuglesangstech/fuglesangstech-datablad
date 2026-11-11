@@ -244,7 +244,8 @@
         sessionStorage.removeItem('ftq-sendt');
         clear();
         var box = document.getElementById('ft-tilbud');
-        if (box) box.innerHTML = '<div class="ftq-sent"><b>Takk! Forespørselen er sendt.</b><br>Vi tar kontakt så snart vi kan. Tilbudslisten er tømt.</div>';
+        // Takkemeldingen vises i skjemaet (Squarespace: «Post-Submit HTML»); her står bare en kort bekreftelse
+        if (box) box.innerHTML = '<p class="ftq-empty">Forespørselen er sendt, og tilbudslisten er tømt.</p>';
         mo.disconnect();
       }
     });
