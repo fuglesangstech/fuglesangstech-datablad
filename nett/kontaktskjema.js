@@ -14,7 +14,7 @@
 (function () {
   'use strict';
   if (window.__ftKontakt) return; window.__ftKontakt = 1;
-  var SIDE = '/kontakt-oss', VERSJON = '2026-11-11a';
+  var SIDE = '/kontakt-oss', VERSJON = '2026-11-11b';
   if (location.pathname.replace(/\/+$/, '') !== SIDE && !document.getElementById('ft-kontaktskjema')) return;
 
   var EMNER = [
@@ -102,7 +102,13 @@
     '.ftc-chips input:focus-visible+span{box-shadow:0 0 0 3px rgba(5,43,105,.25)}',
     '.ftc-note{display:flex;gap:12px;align-items:flex-start;background:var(--tint);border-radius:10px;padding:13px 16px;font-size:15px;color:var(--ink);margin-bottom:20px}',
     '.ftc-note svg{width:20px;height:20px;flex:0 0 20px;color:var(--n);margin-top:1px}.ftc-note a{color:var(--n)!important;font-weight:600;text-decoration:underline;text-underline-offset:3px}',
-    '.ftc-note[hidden]{display:none}'
+    '.ftc-note[hidden]{display:none}',
+    /* Squarespace-rutenettet er tilpasset det gamle skjemaet: la radene følge innholdet, så det ikke blir tom plass under */
+    '.fluid-engine:has(#ftc-host){grid-template-rows:none!important;grid-auto-rows:auto!important;row-gap:0!important}',
+    '.fluid-engine:has(#ftc-host)>.fe-block{align-self:start!important;height:auto!important}',
+    '.fluid-engine:has(#ftc-host)>.fe-block>.sqs-block{height:auto!important}',
+    '@media (min-width:768px){.fluid-engine:has(#ftc-host)>.fe-block{grid-row:1 / span 1!important}}',
+    '@media (max-width:767px){.fluid-engine:has(#ftc-host)>.fe-block{grid-row:auto!important}.fluid-engine:has(#ftc-host)>.fe-block+.fe-block{margin-top:32px}}'
   ].join('\n');
 
   function formHtml() {
