@@ -64,25 +64,25 @@
     },
     {
       "kategori": "Motoroljer personbil",
-      "navn": "Synlub Supreme 0W-20",
+      "navn": "Synlub Supreme FE 0W-20",
       "emballasje": [
         {"str": "12 × 1 L", "varenr": "311041"},
         {"str": "208 L", "varenr": "31104208"}
       ],
-      "sds": "sds/synlub-supreme-0w-20.pdf",
+      "sds": "sds/synlub-supreme-fe-0w-20.pdf",
       "sds_sprak": "NO",
-      "pds": "pds/synlub-supreme-0w-20.pdf"
+      "pds": "pds/synlub-supreme-fe-0w-20.pdf"
     },
     {
       "kategori": "Motoroljer personbil",
-      "navn": "Synlub Ford 0W-30",
+      "navn": "Synlub FJL 0W-30",
       "emballasje": [
         {"str": "12 × 1 L", "varenr": "310781"},
         {"str": "208 L", "varenr": "31078208"}
       ],
-      "sds": "sds/synlub-ford-0w-30.pdf",
+      "sds": "sds/synlub-fjl-0w-30.pdf",
       "sds_sprak": "NO",
-      "pds": "pds/synlub-ford-0w-30.pdf"
+      "pds": "pds/synlub-fjl-0w-30.pdf"
     },
     {
       "kategori": "Motoroljer personbil",
@@ -553,13 +553,13 @@
     },
     {
       "kategori": "Industrioljer",
-      "navn": "Excello Compres VRS 46 Synthetic",
+      "navn": "Synlub Compres VRS 46",
       "emballasje": [
         {"str": "208 L", "varenr": "35081208"}
       ],
-      "sds": "sds/excello-compres-vrs-46-synthetic.pdf",
+      "sds": "sds/synlub-compres-vrs-46.pdf",
       "sds_sprak": "NO",
-      "pds": "pds/excello-compres-vrs-46-synthetic.pdf"
+      "pds": "pds/synlub-compres-vrs-46.pdf"
     },
     {
       "kategori": "Industrioljer",
