@@ -92,6 +92,8 @@
     '.ftq-page .ftq-list{border-top:1px solid #e3e7ee}',
     '.ftq-page .ftq-item{grid-template-columns:1fr auto;padding:16px 0}',
     '.ftq-page .ftq-sum{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-top:14px;color:#5a6680;font-size:14px}',
+    '.ftq-emptybox{display:grid;gap:14px;justify-items:start;padding:20px;border:1px dashed #c5cedb;border-radius:12px;background:#f7f9fc}',
+    '.ftq-inline{display:inline-block;padding:12px 20px}',
     '.ftq-page .ftq-empty a{color:' + NAVY + ';font-weight:600}',
     '.ftq-sent{background:#eaf6ee;border:1px solid #bfe3cb;border-radius:10px;padding:16px 18px;color:#14532d;line-height:1.5}',
     'textarea.ftq-filled{background:#f7f9fc!important}',
@@ -255,7 +257,7 @@
     var a = load();
     box.innerHTML = a.length
       ? listHtml(a) + '<div class="ftq-sum"><span>' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ' i lista. Lista legges automatisk inn i skjemaet under.</span><button type="button" class="ftq-clear">Tøm lista</button></div>'
-      : '<p class="ftq-empty">Tilbudslisten er tom. Finn produktene i <a href="/produkter">produktkatalogen</a> og trykk «Legg i tilbudslisten», eller skriv hva du trenger i skjemaet under.</p>';
+      : '<div class="ftq-emptybox"><p class="ftq-empty">Tilbudslisten er tom. Finn produktene i produktkatalogen og trykk «Legg i tilbudslisten», eller beskriv hva du trenger i skjemaet under.</p><a class="ftq-go ftq-inline" href="/produkter">Gå til produktkatalogen</a></div>';
     var c = box.querySelector('.ftq-clear'); if (c) c.onclick = function () { clear(); };
   }
   var pageWired = false;
