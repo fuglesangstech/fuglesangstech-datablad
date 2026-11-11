@@ -313,7 +313,7 @@
   var FCSS = [
     '.ftf{--n:#052b69;--nd:#031c47;--sky:#9cc2ff;--tint:#e9eff8;--ink:#111a28;--tx:#2a3443;--mu:#5f6b7a;--ln:#d6dbe2;font-family:"Barlow",system-ui,sans-serif;color:var(--tx);font-size:16px;line-height:1.5;margin-bottom:24px}',
     '.ftf *,.ftf *::before,.ftf *::after{box-sizing:border-box}',
-    '.ftf-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;align-items:start}',
+    '.ftf-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:18px 20px;align-items:start}',
     '.ftf-f{display:grid;gap:6px;min-width:0;position:relative}.ftf-f.full{grid-column:1/-1}',
     '.ftf-f>label,.ftf-f>.ftf-l{font-weight:600;font-size:15px;color:var(--ink)}.ftf-f label i,.ftf-f .ftf-l i{font-style:normal;color:var(--mu);font-weight:500}',
     '.ftf input,.ftf select,.ftf textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--ln);border-radius:8px;padding:13px 14px;width:100%;min-width:0;transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}',
@@ -321,7 +321,7 @@
     '.ftf textarea{min-height:120px;resize:vertical}',
     '.ftf input:focus,.ftf select:focus,.ftf textarea:focus{outline:0;border-color:var(--n);box-shadow:0 0 0 3px rgba(5,43,105,.12)}',
     '.ftf .bad input,.ftf .bad textarea{border-color:#b3261e}.ftf-err{font-size:13.5px;color:#b3261e;min-height:0}.ftf-err:empty{display:none}',
-    '.ftf-pair{display:grid;grid-template-columns:120px 1fr;gap:10px}',
+    '.ftf-pair{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px}',
     '.ftf-hint{font-size:13.5px;color:var(--mu)}.ftf-hint b{color:var(--n);font-weight:600}',
     '.ftf-sug{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:#fff;border:1px solid var(--ln);border-radius:10px;box-shadow:0 10px 30px rgba(17,26,40,.12);z-index:20;overflow:hidden;list-style:none;padding:4px;margin-left:0}',
     '.ftf-sug li{padding:9px 12px;border-radius:7px;cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-size:15px}.ftf-sug li small{color:var(--mu);white-space:nowrap}',
