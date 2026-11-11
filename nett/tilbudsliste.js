@@ -277,7 +277,7 @@
      Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
      Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
      Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
-  var FORM_VERSION = '2026-11-11';
+  var FORM_VERSION = '2026-11-11b';
   function lbl(el) {
     var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
     if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
@@ -469,17 +469,44 @@
     setAny(m.prod, body);
   }
   function sqErrors(m) {
+    if (sqNetError()) return ['serveren svarte med feil (' + NET.status + ')'];
     return [].slice.call(m.block.querySelectorAll('[class*="error"], [role="alert"]')).filter(function (e) { return e.offsetParent !== null || e.getClientRects().length; })
       .map(function (e) { return e.textContent.trim(); }).filter(Boolean);
   }
-  function sqSucceeded(m) {
-    if (!document.body.contains(m.form) || !m.block.querySelector('form')) return true;
-    var s = m.block.querySelector('.form-submission-text, .form-submission-html, [class*="submission-text"], [data-form-submission-text]');
-    return !!(s && s.textContent.trim() && getComputedStyle(s).display !== 'none' && getComputedStyle(s).visibility !== 'hidden');
+  // Squarespace sender skjemaet med POST til /api/form/SaveFormSubmission. Vi lytter på svaret (sikrest),
+  // og ser i tillegg etter takkemeldingen i skjemaet (reserve hvis nettverkskoden endres).
+  var NET = { status: 0, t: 0 };
+  function watchNet() {
+    if (window.__ftqNet) return; window.__ftqNet = 1;
+    var hit = function (u) { return /\/api\/form\/SaveFormSubmission/i.test(String(u || '')); };
+    var XO = XMLHttpRequest.prototype.open, XS = XMLHttpRequest.prototype.send;
+    XMLHttpRequest.prototype.open = function (meth, url) { this.__ftqUrl = url; return XO.apply(this, arguments); };
+    XMLHttpRequest.prototype.send = function () {
+      var x = this;
+      if (hit(x.__ftqUrl)) x.addEventListener('loadend', function () { NET.status = x.status || -1; NET.t = Date.now(); });
+      return XS.apply(this, arguments);
+    };
+    if (window.fetch) {
+      var F = window.fetch;
+      window.fetch = function (input) {
+        var u = typeof input === 'string' ? input : (input && input.url);
+        var p = F.apply(this, arguments);
+        if (hit(u)) p.then(function (r) { NET.status = r.status; NET.t = Date.now(); }, function () { NET.status = -1; NET.t = Date.now(); });
+        return p;
+      };
+    }
   }
+  function visible(e) { var cs = getComputedStyle(e); return cs.display !== 'none' && cs.visibility !== 'hidden' && !e.classList.contains('hidden'); }
+  function sqSucceeded(m) {
+    if (NET.status >= 200 && NET.status < 300) return true;
+    if (!document.body.contains(m.form) || !m.block.querySelector('form')) return true;
+    return [].slice.call(m.block.querySelectorAll('.form-submission-text, .form-submission-html, [class*="submission-text"], [class*="submission-html"]'))
+      .some(function (s) { return s.textContent.trim() && visible(s); });
+  }
+  function sqNetError() { return NET.status >= 400 || NET.status === -1; }
   function revealSq(m, root, msg) {
     m.block.classList.remove('ftf-sqhide');
-    root.querySelector('.ftf-alert').innerHTML = esc(msg) + ' Skjemaet under er fylt ut med det du skrev. Kontroller og trykk «' + esc((m.btn && m.btn.textContent.trim()) || 'Send') + '».';
+    root.querySelector('.ftf-alert').innerHTML = esc(msg) + ' Skjemaet under er fylt ut med det du skrev. Kontroller og trykk «' + esc(((m.btn && (m.btn.querySelector('.form-submit-button-label') || m.btn).textContent) || 'Send').trim()) + '».';
     root.querySelector('.ftf-grid').style.display = 'none'; root.querySelector('.ftf-foot').style.display = 'none';
     m.block.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -495,7 +522,7 @@
         document.documentElement.setAttribute('data-ftf', 'reserve');
         return;
       }
-      formStarted = true;
+      formStarted = true; watchNet();
       document.documentElement.setAttribute('data-ftf', 'aktiv');
       var s = document.createElement('style'); s.id = 'ftf-css'; s.textContent = FCSS; document.head.appendChild(s);
       var host = m.block.closest('.fe-block') || m.block.parentNode, wrap = document.createElement('div');
@@ -515,7 +542,7 @@
         al.textContent = ''; btn.disabled = true; btn.querySelector('.ftf-sendt').textContent = 'Sender …';
         var mm = sqMap(); if (!mm || !mm.ok) { revealSq(m, root, 'Noe gikk galt med skjemaet.'); return; }
         try { fillSq(mm, root, st); } catch (err) { revealSq(mm, root, 'Noe gikk galt med skjemaet.'); return; }
-        var t0 = Date.now();
+        var t0 = Date.now(); NET.status = 0;
         setTimeout(function () { mm.btn.click(); }, 150);
         var iv2 = setInterval(function () {
           if (sqSucceeded(mm)) {
@@ -526,7 +553,7 @@
           }
           var errs = Date.now() - t0 > 1200 ? sqErrors(mm) : [];
           if (errs.length) { clearInterval(iv2); revealSq(mm, root, 'Skjemaet ble ikke sendt: ' + errs[0] + '.'); return; }
-          if (Date.now() - t0 > 25000) { clearInterval(iv2); revealSq(mm, root, 'Sendingen tok for lang tid.'); }
+          if (Date.now() - t0 > 30000) { clearInterval(iv2); revealSq(mm, root, 'Vi fikk ikke bekreftet at forespørselen ble sendt.'); }
         }, 300);
       });
     }, 250);
