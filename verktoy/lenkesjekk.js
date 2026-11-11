@@ -39,7 +39,9 @@ const unesc = s => s.replace(/&amp;/g, '&').replace(/&#x2F;/g, '/').replace(/&qu
 
 async function run(root) {
   const xml = await (await fetch(SITE + '/sitemap.xml', { headers: UA })).text();
-  const pages = [...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => unesc(m[1]).replace(/\/$/, '') || SITE))];
+  // Sider som ikke står i sitemap.xml, men som må virke (skjult side for tilbudslisten)
+  const MA_MED = [SITE + '/tilbud'];
+  const pages = [...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => unesc(m[1]).replace(/\/$/, '') || SITE).concat(MA_MED))];
   if (!pages.length) throw new Error('fant ingen sider i sitemap.xml');
   const links = new Map();       // url -> Set(sider)
   const repoRefs = new Map();    // fil i repoet -> Set(sider/kilder)
@@ -69,7 +71,7 @@ async function run(root) {
       add(links, u.href, short);
     });
     // Filer i repoet som koden peker til (også i JavaScript-data)
-    for (const m of h.matchAll(/https:\/\/fuglesangstech\.github\.io\/fuglesangstech-datablad\/([^"'\s)<>\\]+\.(?:webp|png|jpe?g|svg|pdf|json))/gi)) {
+    for (const m of h.matchAll(/https:\/\/fuglesangstech\.github\.io\/fuglesangstech-datablad\/([^"'\s)<>\\]+\.(?:webp|png|jpe?g|svg|pdf|json|js))/gi)) {
       let f = m[1]; try { f = decodeURIComponent(f); } catch (e) {}
       add(repoRefs, f, short);
     }
