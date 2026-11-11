@@ -67,3 +67,11 @@ Lista bygges på nytt fra chesterton.com ved hver månedlige synk (`verktoy/sert
 
 ## Ekstra produktbilder (galleri)
 `bilder-ekstra.json` lister ekstra bilder per produkt (emballasje, farger, tilbehør) som produktkatalogen på /produkter viser i bildegalleriet. LE-bildene ligger i `le/bilder/`, Chesterton-bildene i `chesterton/produktbilder/`. Bildene er hentet fra leverandørenes nettsider.
+
+
+## Tilbudsliste (nett/tilbudsliste.js)
+Felles skript for tilbudslisten på fuglesangstech.no, lastet på alle sider via Squarespace → Kodeinjeksjon → Bunntekst:
+
+    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/tilbudsliste.js" defer></script>
+
+Katalogsidene legger til produkter med `window.FTTilbud.add({...})` eller en knapp med `data-ft-tilbud`. Se kommentaren øverst i fila. Siden /tilbud har et Squarespace-skjema som sender forespørselen til post@fuglesangstech.no; lista fylles inn i tekstfeltet automatisk.
