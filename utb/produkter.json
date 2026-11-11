@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-11-04",
+  "oppdatert": "2026-11-11",
   "kategorier": ["Motoroljer personbil", "Marine 2T og 4T", "Giroljer og transmisjon", "ATF-oljer", "Motoroljer tungtransport", "Landbruk", "Hydraulikkoljer", "Industrioljer", "Fett", "Frostvæsker", "Servoolje", "Motorsykkel, ATV og snøscooter", "Bremsevæske", "Additiver", "Spray og vedlikehold"],
   "produkter": [
     {
@@ -66,23 +66,23 @@
       "kategori": "Motoroljer personbil",
       "navn": "Synlub Supreme 0W-20",
       "emballasje": [
-        {"str": "12 × 1 L", "varenr": ""},
-        {"str": "208 L", "varenr": ""}
+        {"str": "12 × 1 L", "varenr": "311041"},
+        {"str": "208 L", "varenr": "31104208"}
       ],
-      "sds": null,
-      "sds_sprak": null,
-      "pds": null
+      "sds": "sds/synlub-supreme-0w-20.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-supreme-0w-20.pdf"
     },
     {
       "kategori": "Motoroljer personbil",
       "navn": "Synlub Ford 0W-30",
       "emballasje": [
-        {"str": "12 × 1 L", "varenr": ""},
-        {"str": "208 L", "varenr": ""}
+        {"str": "12 × 1 L", "varenr": "310781"},
+        {"str": "208 L", "varenr": "31078208"}
       ],
-      "sds": null,
-      "sds_sprak": null,
-      "pds": null
+      "sds": "sds/synlub-ford-0w-30.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/synlub-ford-0w-30.pdf"
     },
     {
       "kategori": "Motoroljer personbil",
@@ -219,7 +219,7 @@
       ],
       "sds": "sds/syngear-racing-pao-75w-90.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/syngear-racing-pao-75w-90.pdf"
     },
     {
       "kategori": "Giroljer og transmisjon",
@@ -231,7 +231,7 @@
       ],
       "sds": "sds/syngear-racing-pao-ls-75w-140.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/syngear-racing-pao-ls-75w-140.pdf"
     },
     {
       "kategori": "Giroljer og transmisjon",
@@ -557,9 +557,9 @@
       "emballasje": [
         {"str": "208 L", "varenr": "35081208"}
       ],
-      "sds": null,
-      "sds_sprak": null,
-      "pds": null
+      "sds": "sds/excello-compres-vrs-46-synthetic.pdf",
+      "sds_sprak": "NO",
+      "pds": "pds/excello-compres-vrs-46-synthetic.pdf"
     },
     {
       "kategori": "Industrioljer",
@@ -634,7 +634,7 @@
         {"str": "18 kg", "varenr": "3407118"}
       ],
       "sds": "sds/qualitack-4122-mp-2-blue.pdf",
-      "sds_sprak": "EN",
+      "sds_sprak": "NO",
       "pds": "pds/qualitack-4122-mp-2-blue.pdf"
     },
     {
@@ -645,7 +645,7 @@
         {"str": "18 kg", "varenr": "3407218"}
       ],
       "sds": "sds/qualitack-4152-moly-2.pdf",
-      "sds_sprak": "EN",
+      "sds_sprak": "NO",
       "pds": "pds/qualitack-4152-moly-2.pdf"
     },
     {
@@ -656,7 +656,7 @@
         {"str": "18 kg", "varenr": "3409118"}
       ],
       "sds": "sds/qualitack-6212-ll-2.pdf",
-      "sds_sprak": "EN",
+      "sds_sprak": "NO",
       "pds": "pds/qualitack-6212-ll-2.pdf"
     },
     {
@@ -859,7 +859,7 @@
       ],
       "sds": "sds/penetrating-oil.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/penetrating-oil.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -869,7 +869,7 @@
       ],
       "sds": "sds/elektro-lube.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/elektro-lube.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -879,7 +879,7 @@
       ],
       "sds": "sds/universal-lube.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/universal-lube.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -889,7 +889,7 @@
       ],
       "sds": "sds/copper-paste.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/copper-paste.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -899,7 +899,7 @@
       ],
       "sds": "sds/uni-grease.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/uni-grease.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -909,7 +909,7 @@
       ],
       "sds": "sds/chain-lube-wet.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/chain-lube-wet.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
@@ -919,7 +919,7 @@
       ],
       "sds": "sds/power-cleaner.pdf",
       "sds_sprak": "NO",
-      "pds": null
+      "pds": "pds/power-cleaner.pdf"
     },
     {
       "kategori": "Spray og vedlikehold",
