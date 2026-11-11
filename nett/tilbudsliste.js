@@ -20,11 +20,35 @@
   var NAVY = '#052b69', BLUE = '#1f5fbf';
 
   /* ---------- lagring ---------- */
-  function load() { try { var a = JSON.parse(localStorage.getItem(KEY) || '[]'); return Array.isArray(a) ? a : []; } catch (e) { return mem; } }
+  function load() { try { var a = JSON.parse(localStorage.getItem(KEY) || '[]'); return Array.isArray(a) ? merge(a) : []; } catch (e) { return mem; } }
   var mem = [];
   function save(a) { mem = a; try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} changed(); }
   function clean(s) { return String(s == null ? '' : s).replace(/\s+/g, ' ').trim().slice(0, 200); }
-  function keyOf(x) { return [x.lev, x.nr || x.navn, x.variant, x.emb].map(clean).join('|').toLowerCase(); }
+  // Samme produkt fra /produkter og katalogsidene skal bli én linje, selv om teksten er litt ulik
+  // («SAE 15W-40» / «15W-40», «Spray (aerosol)» / «Spray», «20 L» / «20 l»).
+  var LEV = { 'le': 'lubrication engineers', 'lubrication engineers (le)': 'lubrication engineers', 'vickers': 'vickers oils', 'perma': 'perma-tec', 'perma tec': 'perma-tec' };
+  function norm(s) {
+    return clean(s).toLowerCase().replace(/[®™©]/g, '').replace(/\s*\([^)]*\)/g, '').replace(/[×x]\s*/g, 'x ').replace(/\bliter\b|\blitre\b/g, 'l')
+      .replace(/\b(sae|iso ?vg|nlgi|agma)\b/g, '').replace(/[^a-z0-9æøå,.½]+/g, ' ').replace(/(\d)\s+(l|kg|g|ml|gal|lb)\b/g, '$1$2').trim();
+  }
+  function keyOf(x) {
+    var lev = norm(x.lev); lev = LEV[lev] || lev;
+    var id = norm(x.varenr) || norm(x.nr);
+    return [lev, id || norm(x.navn), id ? '' : norm(x.variant), norm(x.emb)].join('|');
+  }
+  // Slår sammen linjer med samme nøkkel (også lister lagret før denne regelen kom)
+  function merge(a) {
+    var out = [], by = {};
+    a.forEach(function (y) {
+      if (!y || (!y.navn && !y.nr)) return;
+      y.key = keyOf(y);
+      var o = by[y.key];
+      if (!o) { by[y.key] = y; out.push(y); return; }
+      o.antall = Math.min(9999, (o.antall || 1) + (y.antall || 1));
+      ['navn', 'nr', 'variant', 'emb', 'varenr', 'url'].forEach(function (f) { if ((y[f] || '').length > (o[f] || '').length && f !== 'url') o[f] = y[f]; if (!o[f] && y[f]) o[f] = y[f]; });
+    });
+    return out;
+  }
   function items() { return load(); }
   function count() { return load().length; }
   function add(it, opt) {
@@ -32,9 +56,7 @@
     var x = { lev: clean(it.lev), navn: clean(it.navn), nr: clean(it.nr), variant: clean(it.variant), emb: clean(it.emb), varenr: clean(it.varenr),
       antall: Math.max(1, Math.min(9999, parseInt(it.antall, 10) || 1)), url: clean(it.url || (location.pathname + location.hash)) };
     if (!x.navn && !x.nr) return false;
-    x.key = keyOf(x);
-    var a = load(), o = a.filter(function (y) { return y.key === x.key; })[0];
-    if (o) o.antall = Math.min(9999, o.antall + x.antall); else a.push(x);
+    var a = load(); a.push(x); a = merge(a);
     save(a);
     if (!opt || opt.toast !== false) toast(x);
     return true;
@@ -277,7 +299,7 @@
      Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
      Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
      Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
-  var FORM_VERSION = '2026-11-11b';
+  var FORM_VERSION = '2026-11-11c';
   function lbl(el) {
     var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
     if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
