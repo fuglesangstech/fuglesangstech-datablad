@@ -149,7 +149,7 @@
     panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'true'); panel.setAttribute('aria-labelledby', 'ftq-t');
     panel.innerHTML = '<div class="ftq-head"><h2 id="ftq-t">Tilbudsliste</h2><button type="button" class="ftq-x" aria-label="Lukk">' + CLOSE + '</button></div>' +
       '<div class="ftq-body"></div><div class="ftq-foot"><a class="ftq-go" href="' + SIDE + '">Be om tilbud</a>' +
-      '<p>Du fyller inn kontaktopplysninger på neste side. Vi svarer normalt innen én arbeidsdag.</p><button type="button" class="ftq-clear">Tøm lista</button></div>';
+      '<p>Du fyller inn kontaktopplysninger på neste side.</p><button type="button" class="ftq-clear">Tøm lista</button></div>';
     panel.querySelector('.ftq-x').onclick = close;
     panel.querySelector('.ftq-clear').onclick = function () { clear(); };
     wireList(panel.querySelector('.ftq-body'));
@@ -242,7 +242,7 @@
         sessionStorage.removeItem('ftq-sendt');
         clear();
         var box = document.getElementById('ft-tilbud');
-        if (box) box.innerHTML = '<div class="ftq-sent"><b>Takk! Forespørselen er sendt.</b><br>Vi tar kontakt så snart vi kan, normalt innen én arbeidsdag. Tilbudslisten er tømt.</div>';
+        if (box) box.innerHTML = '<div class="ftq-sent"><b>Takk! Forespørselen er sendt.</b><br>Vi tar kontakt så snart vi kan. Tilbudslisten er tømt.</div>';
         mo.disconnect();
       }
     });
