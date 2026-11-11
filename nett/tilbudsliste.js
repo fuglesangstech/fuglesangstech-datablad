@@ -299,7 +299,7 @@
      Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
      Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
      Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
-  var FORM_VERSION = '2026-11-11c';
+  var FORM_VERSION = '2026-11-11d';
   function lbl(el) {
     var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
     if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
@@ -335,7 +335,7 @@
   var FCSS = [
     '.ftf{--n:#052b69;--nd:#031c47;--sky:#9cc2ff;--tint:#e9eff8;--ink:#111a28;--tx:#2a3443;--mu:#5f6b7a;--ln:#d6dbe2;font-family:"Barlow",system-ui,sans-serif;color:var(--tx);font-size:16px;line-height:1.5;margin-bottom:24px}',
     '.ftf *,.ftf *::before,.ftf *::after{box-sizing:border-box}',
-    '.ftf-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:18px 20px;align-items:start}',
+    '.ftf-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:18px 20px;align-items:start}',
     '.ftf-f{display:grid;gap:6px;min-width:0;position:relative}.ftf-f.full{grid-column:1/-1}',
     '.ftf-f>label,.ftf-f>.ftf-l{font-weight:600;font-size:15px;color:var(--ink)}.ftf-f label i,.ftf-f .ftf-l i{font-style:normal;color:var(--mu);font-weight:500}',
     '.ftf input,.ftf select,.ftf textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--ln);border-radius:8px;padding:13px 14px;width:100%;min-width:0;transition:border-color .15s,box-shadow .15s;-webkit-appearance:none;appearance:none}',
@@ -551,6 +551,17 @@
       wrap.id = 'ftf-host'; wrap.innerHTML = formHtml();
       host.insertBefore(wrap, host.firstChild);
       m.block.classList.add('ftf-sqhide'); m.block.setAttribute('aria-hidden', 'true');
+      // Squarespace (fluid engine) gir blokken faste rader beregnet for det høye Squarespace-skjemaet.
+      // Når vårt skjema er lavere, lar vi radene krympe til innholdet så det ikke blir tom plass under.
+      var fe = host.closest('.fluid-engine');
+      function fitGrid() {
+        if (!fe) return;
+        fe.style.gridTemplateRows = '';
+        var n = getComputedStyle(fe).gridTemplateRows.split(' ').filter(Boolean).length;
+        if (n > 1) fe.style.gridTemplateRows = 'repeat(' + n + ', minmax(0, auto))';
+      }
+      fitGrid();
+      var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(fitGrid, 150); });
       var root = wrap.querySelector('.ftf'), st = { org: '' };
       wireBrreg(root, st); wirePost(root);
       root.querySelector('#ftf-komm-i').hidden = !count();
