@@ -135,6 +135,11 @@ async function pool(items, n, fn) {
   const perFiler = per ? per.filer : (fs.existsSync(path.join(root, 'perma/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'perma/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
   fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler, perFiler).sort() }));
 
+  // Chesterton-sertifikater – før oversikten, så /datablad får månedens sertifikater
+  let cert = null, certErr = '';
+  try { cert = await require('./sertifikater.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); }
+  catch (e) { certErr = e.message; }
+
   // Samlet datablad-oversikt for fuglesangstech.no/datablad (verktoy/oversikt.js)
   let ovr = null, ovrErr = '';
   // Chesterton-litteratur (brosjyrer, kataloger, bruksanvisninger, case) – må kjøres før oversikten bygges
@@ -146,9 +151,6 @@ async function pool(items, n, fn) {
   let lnk = null, lnkErr = '';
   try { lnk = await require('./lenkesjekk.js').run(root); } catch (e) { lnkErr = e.message; }
 
-  let cert = null, certErr = '';
-  try { cert = await require('./sertifikater.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); }
-  catch (e) { certErr = e.message; }
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
   const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
