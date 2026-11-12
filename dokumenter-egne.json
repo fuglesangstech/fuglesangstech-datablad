@@ -1,0 +1,14 @@
+{
+ "merknad": "Egne tillegg til dokumentutvalget – leses av verktoy/utvalg.js hver måned og tas alltid med. Felter: lev, navn, type (katalog|brosjyre|case|teknisk|artikkel|sertifikat|bruksanvisning), sprak (NO|EN), url, produkter (valgfritt regulært uttrykk mot produktnavn), erstatter (valgfritt: dokumenter fra leverandøren med filnavn som starter slik tas ikke med – brukes når vi har en norsk utgave).",
+ "dokumenter": [
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma STAR-serien – produktbrosjyre på norsk",
+   "type": "brosjyre",
+   "sprak": "NO",
+   "url": "https://fuglesangstech.github.io/fuglesangstech-datablad/perma/brosjyrer/perma-star-produktserie-no.pdf",
+   "produkter": "^perma STAR",
+   "erstatter": "perma_Flyer_STAR_PRODUCT_LINE"
+  }
+ ]
+}

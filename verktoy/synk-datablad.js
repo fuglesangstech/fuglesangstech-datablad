@@ -14,6 +14,7 @@
   4. Henter Chestertons sertifikater og godkjenninger (verktoy/sertifikater.js) og oppdaterer
      chesterton/sertifikater/ og sertifikater.json.
   4d. Sjekker alle sider, lenker og bilder på fuglesangstech.no for døde lenker (verktoy/lenkesjekk.js).
+  4f. Oppdaterer dokumentutvalget fra Perma-Tec, Vickers og LE, og fagartiklene (verktoy/utvalg.js → dokumenter.json).
   4c. Bygger datablad-oversikt.json (verktoy/oversikt.js) til datablad-siden /datablad.
   4e. Kopierer Perma-Tec sine datablad fra perma-tec.com til perma/datablad/ (verktoy/perma.js).
   4b. Henter Vickers Oils sine PDS, SDS og NSF-sertifikater (verktoy/vickers.js) til vickers/.
@@ -145,6 +146,9 @@ async function pool(items, n, fn) {
   // Chesterton-litteratur (brosjyrer, kataloger, bruksanvisninger, case) – må kjøres før oversikten bygges
   let lit = null, litErr = '';
   try { lit = await require('./litteratur.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); } catch (e) { litErr = e.message; }
+  // Dokumentutvalg fra Perma-Tec, Vickers og LE + fagartiklene (verktoy/utvalg.js) – også før oversikten
+  let utv = null, utvErr = '';
+  try { utv = await require('./utvalg.js').run(root); } catch (e) { utvErr = e.message; }
   try { ovr = require('./oversikt.js').build(root, grab(ch, 'CD'), grab(le, 'LD')); } catch (e) { ovrErr = e.message; }
 
   // Lenkesjekk av hele fuglesangstech.no (verktoy/lenkesjekk.js) – kjøres etter at filene over er oppdatert
@@ -153,7 +157,7 @@ async function pool(items, n, fn) {
 
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (utv ? utv.feil.length + utv.meldinger.length : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
@@ -169,6 +173,7 @@ async function pool(items, n, fn) {
     require('./vickers.js').rapport(vik, vikErr) +
     require('./perma.js').rapport(per, perErr) +
     '\n## Chesterton-litteratur\n' + (lit ? 'Dokumenter hos Chesterton: ' + lit.funnet + '. Koblet til våre produkter: ' + lit.koblet + '. Generelle: ' + lit.generelt + '.\n' : 'Kunne ikke oppdateres denne gangen: ' + litErr + ' (litteratur.json er uendret).\n') +
+    require('./utvalg.js').rapport(utv, utvErr) +
     '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '. Sertifikater og bruksanvisninger: ' + ovr.dok + '. Ressurser (/ressurser): ' + ovr.ressurser + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
     require('./lenkesjekk.js').rapport(lnk, lnkErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
