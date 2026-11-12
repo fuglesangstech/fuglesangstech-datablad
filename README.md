@@ -75,3 +75,7 @@ Felles skript for tilbudslisten på fuglesangstech.no, lastet på alle sider via
     <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/tilbudsliste.js" defer></script>
 
 Katalogsidene legger til produkter med `window.FTTilbud.add({...})` eller en knapp med `data-ft-tilbud`. Se kommentaren øverst i fila. Siden /tilbud har et Squarespace-skjema som sender forespørselen til post@fuglesangstech.no; lista fylles inn i tekstfeltet automatisk.
+
+
+## Perma-Tec smøresystemer i /produkter
+`perma/bilder/` har produktbilder av de 16 perma-systemene (enpunkts og flerpunkts) som vises i /produkter, hentet fra perma-tec.com. Systemdata, artikkelnumre for drivenheter og deler, og datablad leses fra `perma/produkter.json` og `perma/datablad.json`. Perma sine smøremidler og artikkelnumre for ferdigfylte patroner vises ikke – Fuglesangs Tech fyller systemene med eget fett.

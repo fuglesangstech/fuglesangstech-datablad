@@ -10,7 +10,7 @@
   For katalogsidene (bruk én av disse):
     1) JavaScript:  window.FTTilbud.add({ lev: 'LE', navn: 'Monolec Ultra Engine Oil', nr: '8800', emb: 'Fat', antall: 1 })
     2) HTML:        <button data-ft-tilbud data-lev="LE" data-navn="Monolec Ultra Engine Oil" data-nr="8800" data-emb="Fat">Legg i tilbudslisten</button>
-  Felter: lev (leverandør), navn, nr (produktnr.), variant (f.eks. «SAE 15W-40»), emb (emballasje), varenr, antall, url.
+  Felter: lev (leverandør), navn, nr (produktnr.), variant (f.eks. «SAE 15W-40»), emb (emballasje), fett (fett et smøresystem skal fylles med), varenr, antall, url.
   Hendelse: window 'fttilbud:endret' (detail: { antall }) når lista endres.
 */
 (function () {
@@ -34,7 +34,7 @@
   function keyOf(x) {
     var lev = norm(x.lev); lev = LEV[lev] || lev;
     var id = norm(x.varenr) || norm(x.nr);
-    return [lev, id || norm(x.navn), id ? '' : norm(x.variant), norm(x.emb)].join('|');
+    return [lev, id || norm(x.navn), id ? '' : norm(x.variant), norm(x.emb), norm(x.fett)].join('|');
   }
   // Slår sammen linjer med samme nøkkel (også lister lagret før denne regelen kom)
   function merge(a) {
@@ -45,7 +45,7 @@
       var o = by[y.key];
       if (!o) { by[y.key] = y; out.push(y); return; }
       o.antall = Math.min(9999, (o.antall || 1) + (y.antall || 1));
-      ['navn', 'nr', 'variant', 'emb', 'varenr', 'url'].forEach(function (f) { if ((y[f] || '').length > (o[f] || '').length && f !== 'url') o[f] = y[f]; if (!o[f] && y[f]) o[f] = y[f]; });
+      ['navn', 'nr', 'variant', 'emb', 'fett', 'varenr', 'url'].forEach(function (f) { if ((y[f] || '').length > (o[f] || '').length && f !== 'url') o[f] = y[f]; if (!o[f] && y[f]) o[f] = y[f]; });
     });
     return out;
   }
@@ -53,7 +53,7 @@
   function count() { return load().length; }
   function add(it, opt) {
     it = it || {};
-    var x = { lev: clean(it.lev), navn: clean(it.navn), nr: clean(it.nr), variant: clean(it.variant), emb: clean(it.emb), varenr: clean(it.varenr),
+    var x = { lev: clean(it.lev), navn: clean(it.navn), nr: clean(it.nr), variant: clean(it.variant), emb: clean(it.emb), fett: clean(it.fett), varenr: clean(it.varenr),
       antall: Math.max(1, Math.min(9999, parseInt(it.antall, 10) || 1)), url: clean(it.url || (location.pathname + location.hash)) };
     if (!x.navn && !x.nr) return false;
     var a = load(); a.push(x); a = merge(a);
@@ -70,6 +70,7 @@
     if (x.nr) d.push('produktnr. ' + x.nr);
     if (x.variant) d.push(x.variant);
     if (x.emb) d.push('emballasje: ' + x.emb);
+    if (x.fett) d.push('fylles med: ' + x.fett);
     if (x.varenr && x.varenr !== x.nr) d.push('varenr. ' + x.varenr);
     return t + (d.length ? ' (' + d.join(', ') + ')' : '');
   }
@@ -134,7 +135,8 @@
     var d = [];
     if (x.nr) d.push('Produktnr. ' + esc(x.nr));
     if (x.variant) d.push(esc(x.variant));
-    d.push(x.emb ? 'Emballasje: ' + esc(x.emb) : 'Emballasje ikke valgt');
+    if (x.fett) d.push('Fett: ' + esc(x.fett));
+    else if (x.lev !== 'Perma-Tec') d.push(x.emb ? 'Emballasje: ' + esc(x.emb) : 'Emballasje ikke valgt');
     if (x.varenr && x.varenr !== x.nr) d.push('Varenr. ' + esc(x.varenr));
     return (x.lev ? esc(x.lev) + ' · ' : '') + d.join(' · ');
   }
@@ -299,7 +301,7 @@
      Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
      Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
      Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
-  var FORM_VERSION = '2026-11-11d';
+  var FORM_VERSION = '2026-11-12';
   function lbl(el) {
     var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
     if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
