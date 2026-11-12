@@ -106,6 +106,12 @@ for u in re.findall(r'href="([^"]+/certs/[^"]+\.pdf)"', cert):
     k = re.sub(r'%20', ' ', u.rsplit('/', 1)[1])[:-4]
     if k in LEC and k not in seen: seen.add(k); add('Lubrication Engineers', LEC[k], u, 'sertifikat')
 
+# ---------- Fuglesangs Tech: egne fagartikler (vises sammen med leverandørenes dokumenter) ----------
+S = 'https://www.fuglesangstech.no'
+for navn, sti in [('Bakterievekst i hydraulikksystemer', '/artikler/bakterievekst-i-hydraulikksystemer'),
+                  ('Stoffkartotek: slik holder du sikkerhetsdatabladene i orden', '/artikler/stoffkartotek-sikkerhetsdatablad')]:
+    add('Fuglesangs Tech', navn, S + sti, 'artikkel', sprak='NO')
+
 json.dump({'oppdatert': datetime.date.today().isoformat(), 'merknad': 'Utvalg laget med verktoy/lag_dokumenter.py. Lenker, ikke kopier.', 'dokumenter': out}, open('dokumenter.json', 'w'), ensure_ascii=False, indent=1)
 import collections
 print(len(out), collections.Counter((d['lev'], d['type']) for d in out))

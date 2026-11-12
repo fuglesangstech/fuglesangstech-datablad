@@ -10,7 +10,8 @@
     Vickers     – vickers/produkter.json
   Stier uten https:// er filer i dette repoet. Brukes av synk-datablad.js.
 
-  Hver rad: { lev, nr, navn, sds: [[etikett, språk, fil]], pds: [...], dok: [[etikett, språk, fil, type]], lenke }
+  Hver rad: { lev, nr, navn, sds: [[etikett, språk, fil]], pds: [...], dok: [[etikett, språk, fil, type]], lenke, generelt? }
+  generelt: true = et dokument som ikke hører til ett produkt (katalog, brosjyre o.l.); raden er selve dokumentet.
   «dok» er andre dokumenter enn SDS/PDS. Typer: sertifikat, bruksanvisning (flere kan komme: brosjyre, katalog, case).
     Chesterton – sertifikater.json (verktoy/sertifikater.js, utløpte er allerede tatt ut)
     Chesterton – litteratur.json (verktoy/litteratur.js): brosjyrer, kataloger, bruksanvisninger og case-studier
@@ -44,7 +45,7 @@ function build(root, CD, LD) {
   });
 
   // Chesterton – generelle dokumenter (kataloger og brosjyrer for hele sortimentet)
-  (lit.generelt || []).forEach(d => rows.push({ lev: 'Chesterton', nr: '', navn: d[0], sds: [], pds: [], dok: [d], lenke: d[2] }));
+  (lit.generelt || []).forEach(d => rows.push({ lev: 'Chesterton', nr: '', navn: d[0], sds: [], pds: [], dok: [d], lenke: d[2], generelt: true }));
 
   // LE
   const first = {};
@@ -90,15 +91,15 @@ function build(root, CD, LD) {
   utvalg.forEach(d => {
     const rad = [d.navn, d.sprak || 'EN', d.url, d.type];
     let treff = [];
-    if (d.produkter) { const rx = new RegExp(d.produkter, 'i'); treff = rows.filter(r => r.lev === d.lev && rx.test(r.navn)); }
+    if (d.produkter) { const rx = new RegExp(d.produkter); treff = rows.filter(r => r.lev === d.lev && !r.generelt && rx.test(r.navn)); }
     if (treff.length) treff.forEach(r => { if (!r.dok.some(x => x[2] === d.url)) r.dok.push(rad); });
-    else rows.push({ lev: d.lev, nr: '', navn: d.navn, sds: [], pds: [], dok: [rad], lenke: d.url });
+    else rows.push({ lev: d.lev, nr: '', navn: d.navn, sds: [], pds: [], dok: [rad], lenke: d.url, generelt: true });
   });
   // radene samlet per leverandør (generelle dokumenter sist innen leverandøren)
-  const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils'];
+  const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils', 'Fuglesangs Tech'];
   const pos = new Map(rows.map((r, i) => [r, i]));
   rows.sort((a, b) => (levRek.indexOf(a.lev) - levRek.indexOf(b.lev)) || (pos.get(a) - pos.get(b)));
-  const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec'], rader: rows };
+  const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec', 'Fuglesangs Tech'], rader: rows };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));
   return { rader: rows.length, sds: rows.reduce((n, r) => n + r.sds.length, 0), pds: rows.reduce((n, r) => n + r.pds.length, 0), dok: rows.reduce((n, r) => n + r.dok.length, 0) };
 }

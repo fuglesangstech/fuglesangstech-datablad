@@ -760,6 +760,20 @@
    "sprak": "EN",
    "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/NSF%20H1%20Certifications.pdf",
    "type": "sertifikat"
+  },
+  {
+   "lev": "Fuglesangs Tech",
+   "navn": "Bakterievekst i hydraulikksystemer",
+   "sprak": "NO",
+   "url": "https://www.fuglesangstech.no/artikler/bakterievekst-i-hydraulikksystemer",
+   "type": "artikkel"
+  },
+  {
+   "lev": "Fuglesangs Tech",
+   "navn": "Stoffkartotek: slik holder du sikkerhetsdatabladene i orden",
+   "sprak": "NO",
+   "url": "https://www.fuglesangstech.no/artikler/stoffkartotek-sikkerhetsdatablad",
+   "type": "artikkel"
   }
  ]
 }
