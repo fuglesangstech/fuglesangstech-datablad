@@ -1,4 +1,4 @@
-<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – datablad og dokumenter</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – datablad</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -197,7 +197,7 @@
   #ftx .ftx-dg > .ftx-docs { margin: 8px 0 4px 8px; padding-left: 12px; border-left: 2px solid var(--line); }
   #ftx .ftx-types { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
   #ftx .ftx-types > span { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
-  #ftx .ftx-help { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
+  #ftx .ftx-help { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
   #ftx .ftx-help div { border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; background: #fff; }
   #ftx .ftx-help b { display: block; color: var(--navy); font-size: 16px; margin-bottom: 4px; }
   #ftx .ftx-help p { margin: 0; font-size: 14.5px; color: var(--muted); line-height: 1.5; }
@@ -213,6 +213,9 @@
     #ftx .ftx-table tr { padding-left: 0; min-height: 0; }
     #ftx .ftx-help { grid-template-columns: minmax(0, 1fr); }
   }
+  @media (min-width: 901px) and (max-width: 1150px) {
+    #ftx .ftx-help { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
 </style>
 
 <div class="ftx" id="ftx" lang="nb">
@@ -220,14 +223,14 @@
   <section class="ftx-top">
     <div class="ftx-wrap">
       <p class="ftx-crumb"><a href="https://www.fuglesangstech.no/">Forside</a> / <a href="https://www.fuglesangstech.no/produkter">Produkter</a> / Datablad</p>
-      <h1>Datablad og dokumenter</h1>
-      <p class="ftx-top-text">Søk opp sikkerhetsdatablad (SDS), produktdatablad (PDS), sertifikater og godkjenninger (blant annet NSF H1 og CE), bruksanvisninger, kataloger, brosjyrer og case-studier for produktene vi leverer – fra Chesterton, Lubrication Engineers, UTB, Vickers Oils og Perma-Tec. Søk på produktnavn eller produktnummer og last ned PDF-en direkte – eller kryss av produktene dere bruker og last ned hele stoffkartoteket i én ZIP-fil.</p>
+      <h1>Datablad og sertifikater</h1>
+      <p class="ftx-top-text">Søk opp sikkerhetsdatablad (SDS), produktdatablad (PDS), sertifikater og godkjenninger (blant annet NSF H1 og CE) og bruksanvisninger for produktene vi leverer – fra Chesterton, Lubrication Engineers, UTB, Vickers Oils og Perma-Tec. Kataloger, brosjyrer og case-studier finner du under <a class="ftx-link" href="https://www.fuglesangstech.no/ressurser">Ressurser</a>. Søk på produktnavn eller produktnummer og last ned PDF-en direkte – eller kryss av produktene dere bruker og last ned hele stoffkartoteket i én ZIP-fil.</p>
       <div class="ftx-badge"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span>Kontrollert mot leverandørene hver måned – sist <b id="ftx-dato">12.11.2026</b></span></div>
       <div class="ftx-stats">
         <div><b id="ftx-nP">509</b><span>produkter</span></div>
         <div><b id="ftx-nS">594</b><span>sikkerhetsdatablad</span></div>
         <div><b id="ftx-nNO">425</b><span>på norsk</span></div>
-        <div><b id="ftx-nD">571</b><span>andre dokumenter</span></div>
+        <div><b id="ftx-nD">309</b><span>sertifikater og bruksanvisninger</span></div>
       </div>
     </div>
   </section>
@@ -247,7 +250,7 @@
     <div class="ftx-wrap">
       <p class="ftx-count" id="ftx-count" aria-live="polite"></p>
       <table class="ftx-table" id="ftx-table">
-        <thead><tr><th>Produkt</th><th style="width:24%">Sikkerhetsdatablad (SDS)</th><th style="width:21%">Produktdatablad (PDS)</th><th style="width:21%">Andre dokumenter</th></tr></thead>
+        <thead><tr><th>Produkt</th><th style="width:24%">Sikkerhetsdatablad (SDS)</th><th style="width:21%">Produktdatablad (PDS)</th><th style="width:21%">Sertifikater og bruksanvisninger</th></tr></thead>
         <tbody id="ftx-tbody"></tbody>
       </table>
       <div class="ftx-more-row" id="ftx-more" hidden><button type="button" class="ftx-btn alt" id="ftx-more-btn">Vis flere</button></div>
@@ -256,6 +259,7 @@
       <div class="ftx-help">
         <div><b>Stoffkartotek</b><p>Kryss av produktene, lim inn en liste med varenumre eller hent fra tilbudslisten – og last ned alle sikkerhetsdatabladene med innholdsfortegnelse. Valget huskes i nettleseren til neste gang.</p></div>
         <div><b>Alltid oppdatert</b><p>Vi sjekker hvert datablad mot leverandøren hver måned og bytter ut kopien når det kommer en ny revisjon. SDS er på norsk der leverandøren har det, ellers på engelsk.</p></div>
+        <div><b>Kataloger og case-studier</b><p>Brosjyrer, kataloger, case-studier og tekniske veiledninger fra leverandørene ligger under <a href="https://www.fuglesangstech.no/ressurser">Ressurser</a>.</p></div>
         <div><b>Finner du det ikke?</b><p>Ikke alle produkter har datablad her ennå. <a href="https://www.fuglesangstech.no/kontakt-oss">Kontakt oss</a> eller ring <a href="tel:22542000">22 54 20 00</a>, så sender vi det.</p></div>
       </div>
     </div>
@@ -330,7 +334,8 @@
   function ask(kind, name) { return '<a class="ftx-doc ask" href="https://www.fuglesangstech.no/kontakt-oss" title="Be om ' + kind + ' for ' + esc(name) + '">' + DOC + '<span class="t">Be om ' + kind + '</span></a>'; }
   var st = { lev: '', q: '', no: false, type: '' };
   // Dokumenttyper – nye typer i datablad-oversikt.json (dok[3]) trenger bare en linje her
-  var TYPER = [['sds', 'Sikkerhetsdatablad'], ['pds', 'Produktdatablad'], ['sertifikat', 'Sertifikater og godkjenninger'], ['bruksanvisning', 'Bruksanvisninger'], ['katalog', 'Kataloger'], ['brosjyre', 'Brosjyrer'], ['case', 'Case-studier'], ['teknisk', 'Tekniske veiledninger'], ['artikkel', 'Fagartikler']];
+  // Bare det som hører til ett produkt. Kataloger, brosjyrer, case-studier o.l. ligger på /ressurser.
+  var TYPER = [['sds', 'Sikkerhetsdatablad'], ['pds', 'Produktdatablad'], ['sertifikat', 'Sertifikater og godkjenninger'], ['bruksanvisning', 'Bruksanvisninger']];
   var TNAVN = { sertifikat: 'Sertifikat', bruksanvisning: 'Bruksanvisning', brosjyre: 'Brosjyre', katalog: 'Katalog', case: 'Case-studie', teknisk: 'Teknisk veiledning', artikkel: 'Fagartikkel' };
   function harType(it, t) { return t === 'sds' ? it.sds.length > 0 : t === 'pds' ? it.pds.length > 0 : it.dok.some(function (d) { return d[3] === t; }); }
   function load(d) {
@@ -394,7 +399,7 @@
       h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + navn(it) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span></td>'
         + '<td class="c-sds"><span class="ftx-dl">SDS</span>' + (sds.length ? '<div class="ftx-docs">' + sds.map(function (d) { return link('SDS', d, it.name, many); }).join('') + '</div>' : ask('SDS', it.name)) + '</td>'
         + '<td class="c-pds"><span class="ftx-dl">PDS</span>' + (it.pds.length ? '<div class="ftx-docs">' + it.pds.map(function (d) { return link('PDS', d, it.name, it.pds.length > 1); }).join('') + '</div>' : ask('PDS', it.name)) + '</td>'
-        + '<td class="c-dok' + (it.dok.length ? '' : ' tom') + '">' + (it.dok.length ? '<span class="ftx-dl">Andre dokumenter</span>' + grupper(it) : '') + '</td></tr>';
+        + '<td class="c-dok' + (it.dok.length ? '' : ' tom') + '">' + (it.dok.length ? '<span class="ftx-dl">Sertifikater og bruksanvisninger</span>' + grupper(it) : '') + '</td></tr>';
     });
     $('ftx-tbody').innerHTML = h;
     $('ftx-empty').hidden = list.length > 0;

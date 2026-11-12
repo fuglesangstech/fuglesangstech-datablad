@@ -167,7 +167,7 @@ async function pool(items, n, fn) {
     require('./vickers.js').rapport(vik, vikErr) +
     require('./perma.js').rapport(per, perErr) +
     '\n## Chesterton-litteratur\n' + (lit ? 'Dokumenter hos Chesterton: ' + lit.funnet + '. Koblet til våre produkter: ' + lit.koblet + '. Generelle: ' + lit.generelt + '.\n' : 'Kunne ikke oppdateres denne gangen: ' + litErr + ' (litteratur.json er uendret).\n') +
-    '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '. Andre dokumenter: ' + ovr.dok + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
+    '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '. Sertifikater og bruksanvisninger: ' + ovr.dok + '. Ressurser (/ressurser): ' + ovr.ressurser + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
     require('./lenkesjekk.js').rapport(lnk, lnkErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);
   console.log(md);

@@ -99,9 +99,31 @@ function build(root, CD, LD) {
   const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils', 'Fuglesangs Tech'];
   const pos = new Map(rows.map((r, i) => [r, i]));
   rows.sort((a, b) => (levRek.indexOf(a.lev) - levRek.indexOf(b.lev)) || (pos.get(a) - pos.get(b)));
-  const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec', 'Fuglesangs Tech'], rader: rows };
+  // Delingen mellom sidene:
+  //   /datablad  (datablad-oversikt.json) – det som hører til ett produkt: SDS, PDS, produktsertifikater, bruksanvisninger
+  //   /ressurser (ressurser.json)         – alt annet: kataloger, brosjyrer, case-studier, tekniske veiledninger, fagartikler
+  //                                         og generelle dokumenter (f.eks. firmasertifikater). Produktene beholdes som stikkord.
+  const RESSURS = new Set(['katalog', 'brosjyre', 'case', 'teknisk', 'artikkel']);
+  const res = new Map();
+  const tilRessurs = (lev, d, produkt) => {
+    let x = res.get(d[2]);
+    if (!x) { x = { lev, navn: d[0], type: d[3], sprak: d[1], url: d[2], produkter: [] }; res.set(d[2], x); }
+    if (produkt && x.produkter.indexOf(produkt) < 0) x.produkter.push(produkt);
+  };
+  const produktRader = [];
+  rows.forEach(r => {
+    if (r.generelt) { r.dok.forEach(d => tilRessurs(r.lev, d, '')); return; }
+    const navn = (r.nr && r.navn.indexOf(r.nr) !== 0 ? r.nr + ' ' : '') + r.navn;
+    r.dok = r.dok.filter(d => { if (RESSURS.has(d[3])) { tilRessurs(r.lev, d, navn); return false; } return true; });
+    if (r.sds.length || r.pds.length || r.dok.length) produktRader.push(r);
+  });
+  const levs = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec'];
+  const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: levs, rader: produktRader };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));
-  return { rader: rows.length, sds: rows.reduce((n, r) => n + r.sds.length, 0), pds: rows.reduce((n, r) => n + r.pds.length, 0), dok: rows.reduce((n, r) => n + r.dok.length, 0) };
+  const ressurser = [...res.values()];
+  fs.writeFileSync(path.join(root, 'ressurser.json'), JSON.stringify({ oppdatert: out.oppdatert, leverandorer: levs.concat('Fuglesangs Tech'), dokumenter: ressurser }));
+  return { rader: produktRader.length, sds: produktRader.reduce((n, r) => n + r.sds.length, 0), pds: produktRader.reduce((n, r) => n + r.pds.length, 0),
+    dok: produktRader.reduce((n, r) => n + r.dok.length, 0), ressurser: ressurser.length };
 }
 
 module.exports = { build };

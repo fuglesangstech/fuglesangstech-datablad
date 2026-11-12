@@ -83,6 +83,8 @@ async function run(root) {
   (ov ? ov.rader : []).forEach(r => r.sds.concat(r.pds, r.dok || []).forEach(d => {
     if (/^https?:/.test(d[2])) add(links, d[2], '/datablad (' + r.lev + ')'); else add(repoRefs, d[2], '/datablad');
   }));
+  const rs = json('ressurser.json');
+  (rs ? rs.dokumenter : []).forEach(d => { if (/^https?:/.test(d.url)) add(links, d.url, '/ressurser (' + d.lev + ')'); else add(repoRefs, d.url, '/ressurser'); });
   const vik = json('vickers/produkter.json');
   (vik ? vik.produkter : []).forEach(p => { if (p.bilde) add(repoRefs, p.bilde, '/vickers-katalog'); });
 
