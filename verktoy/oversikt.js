@@ -65,7 +65,8 @@ function build(root, CD, LD) {
   const utb = read(root, 'utb/produkter.json');
   (utb ? utb.produkter : []).forEach(p => {
     const sds = p.sds ? [['SDS', p.sds_sprak || 'NO', 'utb/' + p.sds]] : [], pds = p.pds ? [['PDS', 'EN', 'utb/' + p.pds]] : [];
-    if (sds.length || pds.length) rows.push({ lev: 'UTB', nr: '', navn: p.navn, sds, pds, lenke: S + '/produkter#utb-' + pid(p.navn) });
+    const vnr = (p.emballasje || []).map(e => e.varenr).filter(Boolean); // varenumre gjør produktet søkbart på /datablad
+    if (sds.length || pds.length) rows.push(Object.assign({ lev: 'UTB', nr: '', navn: p.navn, sds, pds, lenke: S + '/produkter#utb-' + pid(p.navn) }, vnr.length ? { vnr } : {}));
   });
 
   // Perma-Tec (kopi i perma/datablad/ når den finnes, ellers perma sin lenke)
