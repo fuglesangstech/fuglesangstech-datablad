@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-11-09",
+ "oppdatert": "2026-11-12",
  "filer": [
   {
    "fil": "perma/datablad/perma_BIO_PU_SYN_120_2_SF09_MSDS_en.pdf",
@@ -7,7 +7,7 @@
    "sha256": "40d7183392219a621d5ade92fc13d9135e61d1a9204a25337c21c8937cf744cb",
    "bytes": 293050,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_BIO_PU_SYN_120-2_(SF09)_en.pdf",
@@ -15,7 +15,7 @@
    "sha256": "4f89acea48118fe4e7c17f830af43b1247f0c86b7ddbdfac0311b0baf948bbf9",
    "bytes": 626624,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_BIO_SYN_100_(SO64)_en.pdf",
@@ -23,7 +23,7 @@
    "sha256": "fdf8c2f9acd9dbee8ea08af7cbf5be60b4a2aa28028b067364eb10f459315d35",
    "bytes": 635561,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_BIO_SYN_100_SO64_MSDS_en.pdf",
@@ -31,7 +31,7 @@
    "sha256": "ad1638bf2605dc1227fcb9746a269101bbb5cfc1e6f9df87c3efc450e6fc0550",
    "bytes": 237934,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_BIO_SYN_320_(SO69)_en.pdf",
@@ -39,7 +39,7 @@
    "sha256": "75ea547701f99931055c072f0760fb408eadea8ab3a76758512cd6d1ad1ad388",
    "bytes": 636135,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_BIO_SYN_320_SO69_MSDS_en.pdf",
@@ -47,7 +47,7 @@
    "sha256": "28a562ba93e06f9868e1ba906984ac008cd3bf5399009bbedbed5cff4871f4e3",
    "bytes": 238036,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_AX_SYN_150_1_SF10_en.pdf",
@@ -55,7 +55,7 @@
    "sha256": "4e07fe4133a28bc7b99618e1c8b6461bf77a1948c13ad8cb71cb613df795a286",
    "bytes": 370303,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_AX_SYN_150-1_(SF10)_en.pdf",
@@ -63,7 +63,7 @@
    "sha256": "70bcfcee47d6bf8199009ca601cf6062d9a041186e57b2df5b9a57c3165a573a",
    "bytes": 635048,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_LOWTEMP_SYN_32_(SO78)_en.pdf",
@@ -71,7 +71,7 @@
    "sha256": "e76115df952375bb45864bfcecff523870863d562b5ba3f5ff70f45e73a313a6",
    "bytes": 633512,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_LOWTEMP_SYN_32_MSDS_en.pdf",
@@ -79,7 +79,7 @@
    "sha256": "d58640d3e40b970d52f6fa3d8d4d96d2ada5d1e00da0a4d03ebfc472c478dd0b",
    "bytes": 198207,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_SYN_220_(SO70)_en.pdf",
@@ -87,7 +87,7 @@
    "sha256": "9ccc98f15209ac9df61bfbb298dd65d3caf855786919f9c0bae7c7ecc8bce580",
    "bytes": 636735,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_FOOD_SYN_220_SO70_MSDS_en.pdf",
@@ -95,7 +95,7 @@
    "sha256": "f8755c1ef394ab029fc75131eee548f776475c8274b09379ad565b65961c42b9",
    "bytes": 258270,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_L_M_100_2_SF02_MSDS_en.pdf",
@@ -103,7 +103,7 @@
    "sha256": "0f3049278bb5af4c6411c0e0967d7ce2f355476c2993d76f295df64e5a90a7d3",
    "bytes": 268306,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_L-M_100-2_(SF02)_en.pdf",
@@ -111,7 +111,7 @@
    "sha256": "6e3f1e971bb3c7d6609cce9239f71f864c73eb7fabcc87f0e56224b638592228",
    "bytes": 643461,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_PU_M_SYN_500_1_SF05_MSDS_en.pdf",
@@ -119,7 +119,7 @@
    "sha256": "6bc195c7078f7e2a7f849f45b0684f1ac069a77edc7823365835f75dc022f599",
    "bytes": 244883,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_PU_SYN_500_1_SF04_MSDS_en.pdf",
@@ -127,7 +127,7 @@
    "sha256": "253065e9b4a076ea516c63c25f4242b1a57ca64f0407f7fb3721e89b9adcb02a",
    "bytes": 270964,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_PU_SYN_500-1_(SF04)_en.pdf",
@@ -135,7 +135,7 @@
    "sha256": "557627c491ee23f323292798ae41f8a60dd745324082e6157ffab7982ab64ae3",
    "bytes": 636865,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_LOAD_PU-M_SYN_500-1_(SF05)_en.pdf",
@@ -143,7 +143,7 @@
    "sha256": "809b00054c98238962e6e6ffea7a3fd1a5566ae64464aa67ae503f39601d6ba9",
    "bytes": 627586,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_100_(SO32)_en.pdf",
@@ -151,7 +151,7 @@
    "sha256": "629b3000dd0855595df9889b271a5d6b6e1dc2d32ddcb60f2f13d96678ccfce1",
    "bytes": 637007,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_100_SO32_MSDS_en.pdf",
@@ -159,7 +159,7 @@
    "sha256": "e8f30cefa21774d2834ac2b50568e1493ad233764c149cdb05af64bda73a65e7",
    "bytes": 264478,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_AX_220_0_SF06_MSDS_en.pdf",
@@ -167,7 +167,7 @@
    "sha256": "3ee7dff40833ad2ac3b0cd6876c218f522e952f80f34d7563f29f3825dbf4b25",
    "bytes": 358523,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_AX_220-0_(SF06)_en.pdf",
@@ -175,7 +175,7 @@
    "sha256": "b9e0dc47a3c6a018c374046714bb416c66d23f2065c0cbf6ed9ec57e7a8c6815",
    "bytes": 618004,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_LC_150_2_SF01_en.pdf",
@@ -183,7 +183,7 @@
    "sha256": "87e6117d3e224f57283056d9d298e680d76aa4959dd74b624f4a0f55c3a5b263",
    "bytes": 260071,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_MULTI_LC_150-2_(SF01)_en.pdf",
@@ -191,7 +191,7 @@
    "sha256": "cc795e5d296ea7e0324cebee4f3c52dae837dc1fd10b44f67860daf13d47cb7d",
    "bytes": 625133,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_SPEED_CX_SYN_100_2_SF08_MSDS_en.pdf",
@@ -199,7 +199,7 @@
    "sha256": "e05751316fb99b45f4b42a4d1e9f19509b86fafe4f77c8e3add1be7a6b414fe4",
    "bytes": 255345,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_SPEED_CX_SYN_100-2_(SF08)_en.pdf",
@@ -207,7 +207,7 @@
    "sha256": "eee97482eb16a9c050e41febcab5af47a1aca11308fa5919d0f351c14ba89695",
    "bytes": 609950,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_TEMP_PU_P_SYN_420_2_SF03_MSDS_en.pdf",
@@ -215,7 +215,7 @@
    "sha256": "8776b28f5bf69dfb7cf98a1ef7c54e602a1dc5520eddd27a698a4b43f3cf9125",
    "bytes": 265190,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_TEMP_PU-P_SYN_420-2_(SF03)_en.pdf",
@@ -223,7 +223,7 @@
    "sha256": "e108b9484974cd4232fb81918a4e715ae3abe7aaa8458e6c1c51b25b887abed1",
    "bytes": 620137,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_TEMP_SYN_320_(SO14)_en.pdf",
@@ -231,7 +231,7 @@
    "sha256": "077230b2e9d83c694dc02c9a3b341940f7e0b10a4c81ce344f6f8347c4e7371f",
    "bytes": 621113,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/perma_TEMP_SYN_320_SO14_MSDS_en.pdf",
@@ -239,7 +239,7 @@
    "sha256": "e28deecd2830cdd9bb3bbadaaba43d386bfe9fc4dd64f788de0f97ec23e3bae3",
    "bytes": 240364,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_CLASSIC_FUTURA_118445_en.pdf",
@@ -247,7 +247,7 @@
    "sha256": "98661731e2cdfdaf44c49722e64b84320bf24c8b0a5045ef8d45d8db738cf4c4",
    "bytes": 813371,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_ECOSY_114464_en.pdf",
@@ -255,7 +255,7 @@
    "sha256": "6f98ba25c00869ef1d54f41f0d0e7a9d915d649beb2297f3fab7ff2164de02ce",
    "bytes": 956814,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_FLEX_118456_en.pdf",
@@ -263,7 +263,7 @@
    "sha256": "3e2f68486de93455b8e314f0eb71fe1647573baddada70f8f085319e8574c714",
    "bytes": 858171,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_FLEX_PLUS_118461_en.pdf",
@@ -271,7 +271,7 @@
    "sha256": "c64c1e7654585c20c344747f331a7f0d2334820c21a6e36c5b2da8e81b126c09",
    "bytes": 607093,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_FUTURA_PLUS_118451_en.pdf",
@@ -279,7 +279,7 @@
    "sha256": "c38c23b69b22ed850249cd5f8694a5c91ac2c8b97e0c1db2c3d37aa08419405f",
    "bytes": 657702,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_NOVA_114459_en.pdf",
@@ -287,7 +287,7 @@
    "sha256": "a8e53d18922f78696e4ed00c72454463309f038d3b5924986ab7df25c36a39ad",
    "bytes": 878979,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_PRO_LINE_PRO_C_LINE_103780_en.pdf",
@@ -295,7 +295,7 @@
    "sha256": "26b3d64c66af611ef41ad55999fe9dbf904609ee0f433f233207291305f91dd2",
    "bytes": 1079852,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_PRO_PRO_C_114469_en.pdf",
@@ -303,7 +303,7 @@
    "sha256": "4a45008e702ccc31bc7d6919198aa9c02490962508243fdf09082104280904bb",
    "bytes": 1107492,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_STAR_CONTROL_117922_en.pdf",
@@ -311,7 +311,7 @@
    "sha256": "7c3e6ce6dd677b8d3a953ca01811ac1925c967a305ea3b449405c5714126299d",
    "bytes": 955113,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_STAR_VARIO_118471_en.pdf",
@@ -319,7 +319,7 @@
    "sha256": "7993dd9d43587d344b5377b598aa69ac83dc976c17cc8b3a02a02c9d3d1db8ea",
    "bytes": 1025463,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_STAR_VARIO_BLUETOOTH_118476_en.pdf",
@@ -327,7 +327,7 @@
    "sha256": "501acebf55a1581c2b3ea5469268ad4b5c7d7329f31fd091ff2c3e650f78e869",
    "bytes": 648755,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_STAR_VARIO_LONG_RANGE_en_119088.pdf",
@@ -335,7 +335,7 @@
    "sha256": "2d8ab4119a757be2f86c011de0f89b6c769b3ccc2a534eda9cdf43f8f0966e57",
    "bytes": 4410929,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "perma/datablad/Product_flyer_perma_ULTRA_118466_en.pdf",
@@ -343,7 +343,7 @@
    "sha256": "f19afe800d2c31789a7e9fe1221c66ccb9903e6d60c3d8afc37373735a2f0539",
    "bytes": 989013,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   }
  ]
 }

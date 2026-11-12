@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-11-09",
+ "oppdatert": "2026-11-12",
  "datablad": [
   {
    "fil": "chesterton/datablad/ARC/as10A_NO.pdf",
@@ -7,7 +7,7 @@
    "sha256": "72fbc151588e29581a698c1d43ee804c9075693b9cc39c84df83cc373f1ec4da",
    "bytes": 197956,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as10B_NO.pdf",
@@ -15,7 +15,7 @@
    "sha256": "65bf91da371a6f0a68fdaccef2a1e18368c503136d86297722222084968ef22f",
    "bytes": 192904,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as5B_NO.pdf",
@@ -23,7 +23,7 @@
    "sha256": "d53e26afe376c5947449439a18c5705ebaa6edcdb46d1038de140ede26c068e5",
    "bytes": 198433,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as5es_NO.pdf",
@@ -31,7 +31,7 @@
    "sha256": "751984d1100fe7a70da0303ae30b3522757ee05cec99c54c105b063aabdaf829",
    "bytes": 348197,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as855B_855NB_EN.pdf",
@@ -39,7 +39,7 @@
    "sha256": "6aa79ee955f462f1bf99f42bb95f51d8b490ac7821cb14f7bac097e863e95765",
    "bytes": 194524,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as855NABLU_EN.pdf",
@@ -47,7 +47,7 @@
    "sha256": "d92fe3bbde791aeeb954bc0c71da3b7f7e80acb49d7956f08271891a00b40c86",
    "bytes": 194083,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as855NAGY_EN.pdf",
@@ -55,7 +55,7 @@
    "sha256": "199721483f733de13fedede9b6c24d63d96c42d332a185eb1e439c55e7274586",
    "bytes": 196434,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/as858A_5A_NO.pdf",
@@ -63,7 +63,7 @@
    "sha256": "4586edfeb2210557e64c382e67aa27d696a492b97abb0c58541bc88d5fe45126",
    "bytes": 197975,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asCF_EN.pdf",
@@ -71,7 +71,7 @@
    "sha256": "845aa1228c694c9905a5f4ac40851ce21a8d546dee711e068cfab28ccf25f589",
    "bytes": 159506,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asCFW_CRA_EN.pdf",
@@ -79,7 +79,7 @@
    "sha256": "d09ecafcdacb4ec0bc955b1588d9e562662196659698fb38ee37be1ce586c86b",
    "bytes": 211113,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asCFW_CRB_EN.pdf",
@@ -87,7 +87,7 @@
    "sha256": "c508f73e18ff58b639c0097463dfd59ecbd32e2226876d607116ecce19f0f3cf",
    "bytes": 211714,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asCFW_HTA_EN.pdf",
@@ -95,7 +95,7 @@
    "sha256": "543b8ec8aeef6102779bfbf6563c7fa8a89b1e36a3ccced8c9e1806ce2a32676",
    "bytes": 204972,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asCFW_HTB_EN.pdf",
@@ -103,7 +103,7 @@
    "sha256": "7609721d531af0d1084a3781476c6eddea880084a1499b3d4476629fb3b21ac0",
    "bytes": 213576,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asEG_1A_EN.pdf",
@@ -111,7 +111,7 @@
    "sha256": "7a1d117acd6cccbf78f36f7e403092c12c72ce8f1aa5b98b373c50c9676a8681",
    "bytes": 197734,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asEG_1C_EN.pdf",
@@ -119,7 +119,7 @@
    "sha256": "3492ec5eba1fb5f9bf41c3f78c5c8b46a6556af02dfdd39ec6dbf98de762f95b",
    "bytes": 150973,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asEG_1FCB_EN.pdf",
@@ -127,7 +127,7 @@
    "sha256": "7dd20e99c724018f9770169ec21aed66ed4d47690dafde522680a2cc07fed848",
    "bytes": 208469,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asFGW_EN.pdf",
@@ -135,7 +135,7 @@
    "sha256": "88a25a218ec3a244647909657e139fc21887c025550c8f2ef32ccd8d18120402",
    "bytes": 230813,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asGF_EN.pdf",
@@ -143,7 +143,7 @@
    "sha256": "88c49e1f8df1aa6cad32019cfe8d487acd7855f817618f8cf5ae118cc3def2ab",
    "bytes": 159248,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asIBX1RCA_ExNA_EN.pdf",
@@ -151,7 +151,7 @@
    "sha256": "c3c4b383cf4de2852a0bdc958b031c162310b60962e556fb50fff4f5cf3f1e05",
    "bytes": 193166,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asIBX1RCB_EN.pdf",
@@ -159,7 +159,7 @@
    "sha256": "774bf5cc6cc38a2ef0efef85b4d1f4707e2c39af7bb9fbd6896f6ef55168dffd",
    "bytes": 201182,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMX1A_NO.pdf",
@@ -167,7 +167,7 @@
    "sha256": "2e9a4045010c9ee503dd74719d3ae3a169eb85dd68cfbda2992af2ca3052c34b",
    "bytes": 217567,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMX1B_NO.pdf",
@@ -175,7 +175,7 @@
    "sha256": "b904534bff2c67c60b309c0a4185f769e4bdacb292aef0edb756dc102dc85675",
    "bytes": 194719,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMXC_NO.pdf",
@@ -183,7 +183,7 @@
    "sha256": "227ad76e2a41ab92803360ac5a23e65a2774594bf020427ce75453605c4342b8",
    "bytes": 175255,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMXFGA_NO.pdf",
@@ -191,7 +191,7 @@
    "sha256": "07f01706397d4076b9f56d5e2c5262070b76fa869fdc7f345ea6c4d39ee42659",
    "bytes": 185102,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMXFGB_NO.pdf",
@@ -199,7 +199,7 @@
    "sha256": "c12ffa448fc0fe1ede45ef87b25b77a842d445d5cd1b201fc01b3763d9746633",
    "bytes": 225231,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMXPA_NO.pdf",
@@ -207,7 +207,7 @@
    "sha256": "c601c0dea1ea4f3eeba43449fccc4b1af1c4cb19874e8294bbe02dff3ea6660b",
    "bytes": 205666,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asMXPB_NO.pdf",
@@ -215,7 +215,7 @@
    "sha256": "4df5cbe82966a5b28a3e13e768b528346518dcb21ac52c7e85d9e1d1133e187f",
    "bytes": 186718,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asS1PWA_NO.pdf",
@@ -223,7 +223,7 @@
    "sha256": "15c5524f296a5217164bc42ac2cca431c222f1cebbbb4c85765a59f0a43f9c6a",
    "bytes": 190914,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asS1PWB_NO.pdf",
@@ -231,7 +231,7 @@
    "sha256": "bb1cbdcf4fc57260144e0bf4d61c4f63d8143a7f516bd8e25740f352c9a007b0",
    "bytes": 194716,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asS3A_EN.pdf",
@@ -239,7 +239,7 @@
    "sha256": "e8f9c97ba28eac277a6a9727970a9ea4e924391f35df8a4c349f11ec2d6f78cc",
    "bytes": 226000,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asS3B_EN.pdf",
@@ -247,7 +247,7 @@
    "sha256": "a7a342e5a99ba8da58a7f2d592ab97182c0b0ef49f1ba7c0cfe97920dbe5cc58",
    "bytes": 252482,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asS5B_NO.pdf",
@@ -255,7 +255,7 @@
    "sha256": "eaaf30c5cba8252bb609aad68ae6f6fcea2e8a00d3e88a4ced5585dd58fbd93e",
    "bytes": 195906,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asSD4iA_EN.pdf",
@@ -263,7 +263,7 @@
    "sha256": "ec16455601b9068eae1811243a77c8e3818cdd0f7f9738f544aa18464728a83f",
    "bytes": 201848,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asSD4iRCB_BLU_EN.pdf",
@@ -271,7 +271,7 @@
    "sha256": "fd7a2bc8119067048ba0af97cfc85d80e475f632b80bca7d314e51d5cbb60307",
    "bytes": 232697,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asSF-1_BA-1_EN.pdf",
@@ -279,7 +279,7 @@
    "sha256": "0b7947a0aee93de9c23c89dce42c7e16b494a861ed86164c5720315a8c87542a",
    "bytes": 176450,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asSL-EA_EN.pdf",
@@ -287,7 +287,7 @@
    "sha256": "c6c7c2e785ac57db5bdcf56b4e087fcc0390892996763f77ce095133a56010be",
    "bytes": 204034,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/asSL-EB_EN.pdf",
@@ -295,7 +295,7 @@
    "sha256": "e90c820fc11ebf4ecadc6dd5ad03b22ab4c0c31b24a9dda0054677ef69eaeecb",
    "bytes": 193814,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN50011_PDS_ARC_S1HB_EN.pdf",
@@ -303,7 +303,7 @@
    "sha256": "af60edbc1f4609b927c49c05950eba3bd195691fb64a9c7241588d68dbf877f0",
    "bytes": 371345,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN601599_ARC_SL-E_PDS.pdf",
@@ -311,7 +311,7 @@
    "sha256": "8a430586de2d60747eb4cece3f33091222fc0268ed34dd2eac1e22800e890c37",
    "bytes": 632634,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN602114_ARC_CFW_CR_PDS.pdf",
@@ -319,7 +319,7 @@
    "sha256": "d7dd011c794adc142a307be1ef7a12bfeaa6aedd1c5b07f1d9ad522ac4a166f3",
    "bytes": 503541,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN602118_ARC_CFW-HT_PDS.pdf",
@@ -327,7 +327,7 @@
    "sha256": "8efc2cea42811f0565e12fbf2e37eff03e5293c78d8454cc8ac69a866bfbcbdb",
    "bytes": 489847,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN602185_ARC_SD4i_RC_PDS.pdf",
@@ -335,7 +335,7 @@
    "sha256": "ddc3a821d49ab5008bf396363ff703a11f057a539b5da0d5b243824d92aba342",
    "bytes": 431578,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN602436_ARC_Glass_Wrap_PDS.pdf",
@@ -343,7 +343,7 @@
    "sha256": "6b3a68ce0c8f242853e7c15e82d3490dfbbac87d28adb100722fbfd30b41f546",
    "bytes": 540849,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/EN84972_ARC_10_PDS.pdf",
@@ -351,7 +351,7 @@
    "sha256": "f539eac2af4f5003c42204e5886b73688c691b91448a2ec6d3113ac483e2077c",
    "bytes": 625056,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/N70044EU_PM9607_ARC_S2 (E)-old_PDS_NO.pdf",
@@ -359,7 +359,7 @@
    "sha256": "4aa71972d8a8b49914df0f0feff3cf0ae1063a575fe239d77cbaf79be472b120",
    "bytes": 622468,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO084971_PDS_ARC_5ES.pdf",
@@ -367,7 +367,7 @@
    "sha256": "e75efbc3f551f431ade17dc3bb212728c7c2daaa196abe1ac082f8c7005ff248",
    "bytes": 506705,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO089545_ARC MX FG_PDS.pdf",
@@ -375,7 +375,7 @@
    "sha256": "8dd94d14a602c92592cbeb6e8b0494e41939c63264e59b6a50f4c3b07785039a",
    "bytes": 504067,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO350455_ARC_S5_PDS.pdf",
@@ -383,7 +383,7 @@
    "sha256": "906ca4cfc57fac096e8d8e1c6b2dae4673c81b48c081ac613796bae5edcdcbf0",
    "bytes": 409660,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO84979_PDS_ARC_I BX1_RC.pdf",
@@ -391,7 +391,7 @@
    "sha256": "53c32384c2985a9e8f28f9c1ad8aa653a5f704a4369ac2ed7c8bbf70966f4c86",
    "bytes": 422825,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO84982_ARC_855N_PDS.pdf",
@@ -399,7 +399,7 @@
    "sha256": "fab2d44678958c36fdf1100050d11b011bffc37eb9fb096f8ad751b36c79ecb4",
    "bytes": 523907,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO85559_ARC_S1PW_PDS.pdf",
@@ -407,7 +407,7 @@
    "sha256": "e01fc6d59fd9d488a5c5d432b6106df3c730cce874339ca182fd694bc8285346",
    "bytes": 253246,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/NO85564_ARC_MX1_PDS.pdf",
@@ -415,7 +415,7 @@
    "sha256": "242c12041004c5dda52fd7353a763c8cf04eb67b4706f7aab9133b8b872cac08",
    "bytes": 771433,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC 791(E)_NO_02-2025.pdf",
@@ -423,7 +423,7 @@
    "sha256": "67d704a0b77265477f5de05c6cd9610b78f35c1147488148b56bd306d2fe6a29",
    "bytes": 727880,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC 797(E)_EN_02-2025.pdf",
@@ -431,7 +431,7 @@
    "sha256": "b8d387fcfa20c3a3d50c267dbd641d982386726a1531a0b4cf7a8b004f478dd5",
    "bytes": 635410,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC BX1(E)_applies to batch numbers after date 260215_EN.pdf",
@@ -439,7 +439,7 @@
    "sha256": "344103c75670caa621a9c7a4e147cbec52d733d9557e427242f01fc118f91599",
    "bytes": 244159,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC BX1(E)_applies to batch numbers before date 260215_EN.pdf",
@@ -447,7 +447,7 @@
    "sha256": "ea51f94e58ae1b5e1cfddc4c1793e7cd261e1dba3a3a9ab0bb6aef92d292c928",
    "bytes": 150926,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC BX2(E)_applies to batch numbers after 250930_NO.pdf",
@@ -455,7 +455,7 @@
    "sha256": "4518148898a22aa5b76a372c86ad9942a5566082e28d59f293811a9221c1e0b3",
    "bytes": 235234,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC BX2(E)_applies to batch numbers before 250930_NO.pdf",
@@ -463,7 +463,7 @@
    "sha256": "25e4c8d69f91c06180f4d02b4a97b05ffb07ecb9062e4bfb54905da3ccb28b7a",
    "bytes": 150951,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC CS2(E)_NO_02-2025.pdf",
@@ -471,7 +471,7 @@
    "sha256": "69e394c6a5d1c25819f99ba5e6be1d36af57bbf0a40326a50a0a18349c805033",
    "bytes": 623424,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC CS4(E)_NO_02-2025.pdf",
@@ -479,7 +479,7 @@
    "sha256": "5051c55540a7a1826321a647ae996ce6b91d11c4a7150599dcdcaa2a11af7ad1",
    "bytes": 628310,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC EG-1(E)_NO_02-2025.pdf",
@@ -487,7 +487,7 @@
    "sha256": "ccfdc3f6b562a9d4a978bd890f12206b2772a280a1a081d0b810ac4eec97cf89",
    "bytes": 620755,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_855(E)_NO_04-2022.pdf",
@@ -495,7 +495,7 @@
    "sha256": "d60c0d0155006bb44675b0b7989e08954f1f0feb72ea5bb0c6251eeb5effb2ad",
    "bytes": 169373,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_858(E)_NO_04-2022.pdf",
@@ -503,7 +503,7 @@
    "sha256": "623b61d7c42c3b132ab5c8bc4a9d6c305a979280c9cc2f3e7695d3aae5b79690",
    "bytes": 153671,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_988(E)_NO_02-2025.pdf",
@@ -511,7 +511,7 @@
    "sha256": "2c0563e2b85311bc73dd32eb3d0c40fcb2ea3102e307c0323523600ddaeca1b5",
    "bytes": 636092,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_BX5(E)_applied to batch number after date 251007_NO.pdf",
@@ -519,7 +519,7 @@
    "sha256": "b8a2419840c9ca7bee958bbcf51497c2e31d12fd158db987b01752313096e15d",
    "bytes": 244699,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_BX5(E)_applied to batch number before date 251007_NO.pdf",
@@ -527,7 +527,7 @@
    "sha256": "de0c2cfc61383dac6b737207133778dfff2e6ff387a7f0d7cf399a619db3ee3d",
    "bytes": 155503,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_HT-S(E)_NO_02-2025.pdf",
@@ -535,7 +535,7 @@
    "sha256": "e876d4c625c3af6b8c0d5f079af0f13842e9a86756df62b9bcb07c7e205a4516",
    "bytes": 206968,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_HT-T(E)_NO_02-2025.pdf",
@@ -543,7 +543,7 @@
    "sha256": "e974be9bc677d87eb8d42d2c48110e196bc1cfc23934c454cfca0b33493cac27",
    "bytes": 246562,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_I BX1(E)_applies to batch number after date 250622_NO.pdf",
@@ -551,7 +551,7 @@
    "sha256": "860e8fb368e7aa24244211bf91688e81b8d2c2d15fc53b6d5883d3dc04e62efc",
    "bytes": 221024,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_I BX1(E)_applies to batch number before date 250622_NO.pdf",
@@ -559,7 +559,7 @@
    "sha256": "f304fd30b2b412e01e5a76ff9f96408892b1bc47a80cc7873631e140dfe97e2b",
    "bytes": 192582,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_MX2(E)_NO_02-2025.pdf",
@@ -567,7 +567,7 @@
    "sha256": "dc945eade9500ea6b2ef4902d2ebc3f13903bb8b066cc24d60353145f4b26ef1",
    "bytes": 731272,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_S4-plus(E)_NO_02-2025.pdf",
@@ -575,7 +575,7 @@
    "sha256": "284e01e4553b5092e09b8d77bed30b34750189df65e8a61654deb8fb2a0cd71d",
    "bytes": 195557,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_S7(E)_NO_12-2022.pdf",
@@ -583,7 +583,7 @@
    "sha256": "ab456c66a775adf8d4b5461c01dd4ab8ad76cc18f218cd1c38dfb170189d0d6e",
    "bytes": 669016,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_SD4i(E)_NO_01-2025.pdf",
@@ -591,7 +591,7 @@
    "sha256": "a08bd92d951ab3527c679166cbbc9925842443c8f10e1b6b577f062e8dd0aa76",
    "bytes": 194387,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_ARC_T7AR(E)_NO_08-2024.pdf",
@@ -599,7 +599,7 @@
    "sha256": "9d1543135abe741c0891924b7304b8eab23f24d2418f1d7736514feec039463d",
    "bytes": 203936,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_EG1_FC_EN.pdf",
@@ -607,7 +607,7 @@
    "sha256": "945c7e81aa1c576cc97629b2972bab0646db68f9ea474a5941c1bd39a9d4ae2e",
    "bytes": 778967,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_NVE(E)_VC_NO_08-2023.pdf",
@@ -615,7 +615,7 @@
    "sha256": "da26c1d306e91edb18f9ee5223cc21adce985907d34c1b645f4f4de85e013fd1",
    "bytes": 133131,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/PDS_S3_EN.pdf",
@@ -623,7 +623,7 @@
    "sha256": "246b1d200101bad39229254fad56cee7b01e94496d8cd2cc702d896733a94bad",
    "bytes": 224950,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 791(E) Part A-NO.pdf",
@@ -631,7 +631,7 @@
    "sha256": "ea5f9189324c2c8ec1c40839fe4c7dce0441ad3aca72e1da5b83bdb04b2a8c55",
    "bytes": 380381,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 791(E) Part B-NO.pdf",
@@ -639,7 +639,7 @@
    "sha256": "b521e5cb39799b423f213dc5f8a7a833efe91a679f6ac23b42333906a9427151",
    "bytes": 415008,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 797(E) Part A-NO.pdf",
@@ -647,7 +647,7 @@
    "sha256": "9c12923ed51ef3207df5a47b6cff383b7899dbe2bfde4f53fd23b8e285ed322a",
    "bytes": 393339,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 797(E) Part B-NO.pdf",
@@ -655,7 +655,7 @@
    "sha256": "d560551cbed12917d0f785491fdbf4deb917ee5c199e735ce747c49b8ced3b77",
    "bytes": 416256,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 855 (Part B)_NO.pdf",
@@ -663,7 +663,7 @@
    "sha256": "8246cc682d68b40dd8040ba2b520ec458fef44fccfb8c51003cd9ec920793c61",
    "bytes": 342843,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 855(E)_Part A-NO.pdf",
@@ -671,7 +671,7 @@
    "sha256": "23c9114ae75e7bd03e1625fed2e7972221ad65a99f546fbaab492bcf70e588b4",
    "bytes": 426966,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 855(E)_Part B-NO.pdf",
@@ -679,7 +679,7 @@
    "sha256": "e9103a60fb56e46b53acb2acb11684cf87ae3789c53f32bad1b56ced830f44f8",
    "bytes": 433983,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 855B (Part A)_ ARC 855G (Part A)_NO.pdf",
@@ -687,7 +687,7 @@
    "sha256": "cd990cd5238400994794426ca06046e62bf48adfa313462c55185ca7e447dcac",
    "bytes": 300135,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 858 (Part B)_NO.pdf",
@@ -695,7 +695,7 @@
    "sha256": "44614861f46717843513d424bb29b77ae87b5f2efce46f605fb0860b0e6011da",
    "bytes": 284341,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 858(E) Part A-NO.pdf",
@@ -703,7 +703,7 @@
    "sha256": "870dda08c4750eee45e92a02d94d36402fbefaa9972ecc4604e74d3c46a58993",
    "bytes": 412944,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC 858(E) Part B-NO.pdf",
@@ -711,7 +711,7 @@
    "sha256": "2b33e5c4a2b7633a30fc90dd12e030b70ca81cde7294ae97dfae7b97f79a0344",
    "bytes": 403660,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX1(E) Part A - applies to batch numbers after date 260215_EN.pdf",
@@ -719,7 +719,7 @@
    "sha256": "9238ed09f97683228d0670c9958bb0e4fdf5a7e75ed9fe224231a45a276cc3d9",
    "bytes": 350789,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX1(E) Part A - applies to batch numbers before date 260215_EN.pdf",
@@ -727,7 +727,7 @@
    "sha256": "edd48ad4634d88f459161ebb456443c4dd35b96711acd3d291acdde4f50af010",
    "bytes": 333001,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX1(E) Part B - applies to batch numbers after date 260215_EN.pdf",
@@ -735,7 +735,7 @@
    "sha256": "d9c9d3b21bfec390620f2684a6ca33c17a3213b2b1c7f88db03934bde7e1246c",
    "bytes": 356559,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX1(E) Part B - applies to batch numbers before date 260215_EN.pdf",
@@ -743,7 +743,7 @@
    "sha256": "db6b34898bd9e6a1070426ac5449b0f8c999e257507cbb30a8ffa33ec7cec949",
    "bytes": 451705,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX2(E) Part A_ ARC BX5(E) Part A_applied to batch number after date 250930_NO.pdf",
@@ -751,7 +751,7 @@
    "sha256": "92e81b4c65ba681f17215d1bc50610bb1b4f9e803b4b872cefd9bd4eb2fad2fa",
    "bytes": 354400,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX2(E) Part A_ ARC BX5(E) Part A_applied to batch number before date 250930_NO.pdf",
@@ -759,7 +759,7 @@
    "sha256": "16341c00fe3d228a15c882372a0887d6eeca1d80648a8785e45860307fb7082d",
    "bytes": 420783,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX2(E) Part B_applied to batch number after date 251007_NO.pdf",
@@ -767,7 +767,7 @@
    "sha256": "fdbcac59cc2d9518f7bd1176ee258c28b8d9d98ce4ad82bc844d18027513d566",
    "bytes": 314252,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX2(E) Part B_applied to batch number before date 251007_NO.pdf",
@@ -775,7 +775,7 @@
    "sha256": "ca1619886bbe8ebed812c38f693a3745656b8b11861ead2c467537c217c8a5af",
    "bytes": 425970,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX5(E) Part B_applied to batch number after date 251007_NO.pdf",
@@ -783,7 +783,7 @@
    "sha256": "4662072ceaf4a2cc82251586400bbe5ef2aad4e919e2c0cbc34937e25404a57c",
    "bytes": 378146,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC BX5(E) Part B_applied to batch number before date 251007_NO.pdf",
@@ -791,7 +791,7 @@
    "sha256": "e53212324c9d7812539094d806900ab4c91a02336dcdb56a587e58f635ac678a",
    "bytes": 473450,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC CHP(E)_Part B-NO.pdf",
@@ -799,7 +799,7 @@
    "sha256": "7b834da1ba1661f2134b1304ffebd959bb6709b87da06d82a2aa9e7472cb9456",
    "bytes": 487124,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC CS2(E)  Part A-NO.pdf",
@@ -807,7 +807,7 @@
    "sha256": "0778190872c0764d8e14dca035c7265a1254c6d6bd6e6b3a9edb935b1c323abd",
    "bytes": 432471,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC CS2(E)  Part B-NO.pdf",
@@ -815,7 +815,7 @@
    "sha256": "e33dc846650618b9e51e23077d603f6cf90c2c19a950d2a6baebe8d2774c5c9a",
    "bytes": 527641,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC CS4(E)_Part A-EN.pdf",
@@ -823,7 +823,7 @@
    "sha256": "9d2d26da98d1892ded6a4463b073c0a15c55a6d0cc54f645b6781c12071e3e5a",
    "bytes": 341534,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC CS4(E)_Part B-EN.pdf",
@@ -831,7 +831,7 @@
    "sha256": "bdba865ccfb67f0356c0d3cd833eccbde5dc642a97fa385aadbf8e193a132b7c",
    "bytes": 370706,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC EG-1(E) Part A _EN.pdf",
@@ -839,7 +839,7 @@
    "sha256": "fd721824874816818abeddc5fd7d87efc6c43017e423b7d47918e25799a516e2",
    "bytes": 389190,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC EG-1(E) Part B _EN.pdf",
@@ -847,7 +847,7 @@
    "sha256": "5f121d20cd5d2501f5ea6ecf2b6f0e2f1035ab0f6feffe78906827c801369145",
    "bytes": 398384,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC EG-1(E) Part C_EN.pdf",
@@ -855,7 +855,7 @@
    "sha256": "30e925e27b2a870a2777e5e77562ab30001b690e3567226d233c34e6480f4010",
    "bytes": 238850,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC HT-S(E) Part A-EN.pdf",
@@ -863,7 +863,7 @@
    "sha256": "22798d1ea4761ef215c39a9a3b1a3a54fbe2f79b4f752ef52574bd7da67f01bb",
    "bytes": 344553,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC HT-S(E) Part B-EN.pdf",
@@ -871,7 +871,7 @@
    "sha256": "3ff965dfa15e1db2b17d3b5897eaa5bec31e7c4087b941f202188e4da18e0e27",
    "bytes": 330186,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC HT-T(E) Part A-EN.pdf",
@@ -879,7 +879,7 @@
    "sha256": "f3d6a4e7b5bb95d34b26938fe814122ecc44e1c0dfdab7916be804892e910ef8",
    "bytes": 404003,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC HT-T(E) Part B-DA.pdf",
@@ -887,7 +887,7 @@
    "sha256": "325433ca8374e776f64fb93a4fc830df46ae95f50ec7d24a419914673a7cdf0c",
    "bytes": 413275,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC HT-T(E) Part B-EN.pdf",
@@ -895,7 +895,7 @@
    "sha256": "43370f12c26fd7dddd073f9ed395d48013145fd6e9741341b8b1a2949b9a2eb4",
    "bytes": 365928,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC I BX1(E) Part A_applies to batch number before date 250622_NO.pdf",
@@ -903,7 +903,7 @@
    "sha256": "5f0df0eb77e20d85ffa9bbdba8b5a4e2b661619f5595662e0ab9b720aa3441e8",
    "bytes": 474114,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC I BX1(E) Part B_applies to batch number before date 250622_NO.pdf",
@@ -911,7 +911,7 @@
    "sha256": "939bcc8ebfa12e4a51feb6dccc9040f0f171cb2184a968a31ee5da75825bc28c",
    "bytes": 499788,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC MX2(E)_Part A-NO.pdf",
@@ -919,7 +919,7 @@
    "sha256": "485e357967e1bdb3dee72d54d4a1c10343a06bd7fad522a559ed9343206b5c44",
    "bytes": 431137,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC MX2(E)_Part B-NO.pdf",
@@ -927,7 +927,7 @@
    "sha256": "c50bcb0bb19d8f672c8fced193cafedfd60c5ef1d3e726b5c8ce8de912cfa6bc",
    "bytes": 433851,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC NVE(E) LTGY Veil Coat (Part A)-NO.pdf",
@@ -935,7 +935,7 @@
    "sha256": "484333790366008f9f4a77d359ec483e4e08c8987233e0553043a7146ba0d6c1",
    "bytes": 493569,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC NVE(E) Primer (Part A)-NO.pdf",
@@ -943,7 +943,7 @@
    "sha256": "947830f2c353a867a61317ff0bd3b1b220ebd1852fc941fe9c985ce91b08ee0e",
    "bytes": 464411,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC QRV(E)-NO.pdf",
@@ -951,7 +951,7 @@
    "sha256": "663c4e32ee1707abd2b3464fbb9e2ed76e0cfec118ff9f85db1b9f7c84559d78",
    "bytes": 407746,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S1HB(E) Part A-EN.pdf",
@@ -959,7 +959,7 @@
    "sha256": "d54f17e32bba78cb3b6c5ec56058d81c1c950f283c12bb860632a8a2b38c5e0a",
    "bytes": 347230,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S1HB(E) Part B-EN.pdf",
@@ -967,7 +967,7 @@
    "sha256": "5274fe95d0791b7530091149686cb7fc4b2651d19b3af9692d7edc653cac49c2",
    "bytes": 430192,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S2(E)_Part A-NO.pdf",
@@ -975,7 +975,7 @@
    "sha256": "f5f29927b31e01f68c27f5fa2d13e9fcf4cb511879a72c75ab97ade0c925e4ab",
    "bytes": 330611,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S2(E)_Part B-NO.pdf",
@@ -983,7 +983,7 @@
    "sha256": "f188d93f9059bfad41cbfd0112fd81cd56ce8ff8147267b1c6ea499640d1948e",
    "bytes": 388484,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S4-plus(E)  Part A-EN.pdf",
@@ -991,7 +991,7 @@
    "sha256": "9742cfea6650d8c7d667ef3627a4cdb5c39c2a730d9e3e0b9307bde334af1a25",
    "bytes": 347864,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S4-plus(E) Part B-EN.pdf",
@@ -999,7 +999,7 @@
    "sha256": "de0ee80d8b264a278ba87de291c8f6e61615ca6abc5b4d0e03e3bad169cb4e46",
    "bytes": 555852,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S7(E) RED_Part A-EN.pdf",
@@ -1007,7 +1007,7 @@
    "sha256": "c083eb88b4b70f22b0771fbdcfc11b2e2f053d12a81f279a9e8efd7d9193e7ec",
    "bytes": 355869,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC S7(E) WHITE_Part A-EN.pdf",
@@ -1015,7 +1015,7 @@
    "sha256": "6b7865b152d58517ad721af9da5f7676cff8bdc87bd3e34eba539f5f3efba84d",
    "bytes": 356676,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC SD4i(E) Part A_applies to batch numbers after date 240123_EN.pdf",
@@ -1023,7 +1023,7 @@
    "sha256": "7cb3d34eb4c2a25cca13f0e744e620b949b26df2a55d48a3f21724d4f9262aeb",
    "bytes": 337449,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC SD4i(E) Part A_applies to batch numbers before date 240123_EN.pdf",
@@ -1031,7 +1031,7 @@
    "sha256": "ff490fcaa12e83a521d62abffdeafebd19c75c8d7ca1050c7c821048b5340065",
    "bytes": 364916,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC SD4i(E) Part A-DA.pdf",
@@ -1039,7 +1039,7 @@
    "sha256": "60a25aa8ce08c41b2b9b26c6e4dd861c1b2227f8fa7366196c233e955447d0eb",
    "bytes": 377710,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC SD4i(E) Part B-EN.pdf",
@@ -1047,7 +1047,7 @@
    "sha256": "992df1db170c6479324639b1e315df56bbcf0d34a1cd3327797d4e0a2a5759cb",
    "bytes": 380505,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC T7AR(E) Part A_NO.pdf",
@@ -1055,7 +1055,7 @@
    "sha256": "a7670fb6da22e8dc0b45b5a41816f9c67b13d1a576cc5fd6d5d27eeb48cd173d",
    "bytes": 426185,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/ARC/SDS_ARC T7AR(E) Part C_NO.pdf",
@@ -1063,7 +1063,7 @@
    "sha256": "fe6a4497e2f3508263d6838fcc1c6e9f74e99d35ace209f5be0c2b22705c8079",
    "bytes": 293867,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071504_292_PDS_EN.pdf",
@@ -1071,7 +1071,7 @@
    "sha256": "9f114a042304d09edf7062161c9da8ddb1c64e0f6bf71322c77d1422b8c445a1",
    "bytes": 1819426,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071514_395_PDS_EN.pdf",
@@ -1079,7 +1079,7 @@
    "sha256": "075a849a588e9a13879cb6112007c0d4d398c986b9aa72d4b56ad64c74615b71",
    "bytes": 1856997,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071539_615_2_PDS_EN.pdf",
@@ -1087,7 +1087,7 @@
    "sha256": "7c9ad7e66bb5a33b8a16a4dd10d836bb01033c33765baf098a15456cb0256c3f",
    "bytes": 1835865,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071543_629_HTG_PDS_EN.pdf",
@@ -1095,7 +1095,7 @@
    "sha256": "2a3de3b23cc89894547e945cebfc71c64509b3a3dad6305e570f2bcd44c874bd",
    "bytes": 1792131,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071597_763_PDS_EN.pdf",
@@ -1103,7 +1103,7 @@
    "sha256": "c4c155c307b24a6914371db8fb8da82535aa6478ab58faebd2716cc3fe76b141",
    "bytes": 1931561,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071601_772_PDS_EN.pdf",
@@ -1111,7 +1111,7 @@
    "sha256": "dac493ed457e0921f04b79c72de3a2f0bf06638650690a4e3f606c648a755f1e",
    "bytes": 2284876,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071663_860_MPG_PDS_EN.pdf",
@@ -1119,7 +1119,7 @@
    "sha256": "0ae95ea4afc01fb50e8bcfb9b781f6a8163aca9c8acb1b1fc7165ee887ed8c34",
    "bytes": 2202115,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/071674_3500_Valvelon_PDS_EN.pdf",
@@ -1127,7 +1127,7 @@
    "sha256": "6205657a032cc2a25c81a6ecf40e4c2cad1a383373ae1112b36a368ce579aba8",
    "bytes": 1873621,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/074270_613_PDS_EN.pdf",
@@ -1135,7 +1135,7 @@
    "sha256": "16df81371402ef5d9f3d59497c82e4265997fa121e0665e3a7d3d72ee8781b2b",
    "bytes": 2527265,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/294(E)_A4_PDS_NO_08-2017.pdf",
@@ -1143,7 +1143,7 @@
    "sha256": "735c319b80d6dc78c17a030ed499073a74b5e322fa9999283b66fcb41611783a",
    "bytes": 588784,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/660(E)_A4_PDS_EN_09-2017.pdf",
@@ -1151,7 +1151,7 @@
    "sha256": "852cb32ff5556d18e13785a71c2d5712ab1bf4e31a2288aa94caff731f7d46d5",
    "bytes": 589787,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN071503_602514_279_PDS.pdf",
@@ -1159,7 +1159,7 @@
    "sha256": "f38273d0915746fea099364feaabc19b71d5f4751cad4a535ad33044e47414af",
    "bytes": 1797379,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN071506_296_PDS.pdf",
@@ -1167,7 +1167,7 @@
    "sha256": "10b3b31afd045c2089471925f8cd62bc2992071534f253835d8077207e9cc30c",
    "bytes": 1572295,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN350897_650_AML_PDS.pdf",
@@ -1175,7 +1175,7 @@
    "sha256": "0a9570534db63e32e9a23bbd33e3d6b940450487522d074d717b0b520cdd1e3d",
    "bytes": 2627996,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN351066_720_CCG_Chain_Cable_Gear_Lubricant_PDS.pdf",
@@ -1183,7 +1183,7 @@
    "sha256": "aedb6afb6bcdda57572667b057282524f14bbe2871281d21eef50ae9eb1787f3",
    "bytes": 1857122,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN36601_630_SXCF_220_1_PDS.pdf",
@@ -1191,7 +1191,7 @@
    "sha256": "fbb7a2de1d453a22118260eea063809a367d4e636ffc173096a6f36de2eed2d9",
    "bytes": 2393557,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN600720_638_EMG_PDS.pdf",
@@ -1199,7 +1199,7 @@
    "sha256": "bc62e3c3a325ed96caf1d33b99624fa8227436066437d335c59356fc6e27bddc",
    "bytes": 2214057,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN602078_ServicePack_PDS.pdf",
@@ -1207,7 +1207,7 @@
    "sha256": "a17cde9a188da0bae8d86b679f49fabfa899552e5e158f97956b9db7b0d6967c",
    "bytes": 3462249,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/EN602269_900_PDS.pdf",
@@ -1215,7 +1215,7 @@
    "sha256": "1a19114115c9775029e82a510fb6d9acd82a11fb51c7edbd8eca6e91f10dcf2c",
    "bytes": 1795362,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/NO071612_785_FG_Part_Lub_PDS-EMEA.pdf",
@@ -1223,7 +1223,7 @@
    "sha256": "8e8db5db241b87834a086b5898479f402da3343454988545d61c5efe56ab2fd7",
    "bytes": 1821639,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/NO71538_615-1_PDS.pdf",
@@ -1231,7 +1231,7 @@
    "sha256": "c9d34945731cb53ac6cafcc1e986559775bed5557ad63e96804ac31ae898a562",
    "bytes": 1838555,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/NO71546_635_SXC_PDS.pdf",
@@ -1239,7 +1239,7 @@
    "sha256": "54a742d12d90672d05e20da9c2698d0e88bb50ff0bdaa4d2742b58af04b32042",
    "bytes": 2116797,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/NO71586_723Sprasolvo_PDS.pdf",
@@ -1247,7 +1247,7 @@
    "sha256": "cb366e1c89d4a19f0357c5d901f4950f7f06b606b9d163f955dcaeabd2b61eb1",
    "bytes": 1989531,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/NO71629_787_PDS.pdf",
@@ -1255,15 +1255,15 @@
    "sha256": "96a8ca09929b642effe4f35f4d2d753324d2079e839de3514b16a4864254a26a",
    "bytes": 1893063,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_218(E) HDP_Batch numbers after date 250513-NO.pdf",
    "kilde": "https://chesterton.com/Files/Product%20assets/Lubricants/PDS_218(E)%20HDP_Batch%20numbers%20after%20date%20250513-NO.pdf",
-   "sha256": "88074721fda2d78c44e7320b1cb80f8a34083045069c4fa54371b003ebebdb0b",
-   "bytes": 171887,
-   "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "sha256": "f81b7ac91cca2f12973e25f2a95100140174e98548e34ef39cc68404d0066953",
+   "bytes": 171734,
+   "hentet": "2026-11-12",
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_218(E) HDP_Batch numbers before date 250513-NO.pdf",
@@ -1271,7 +1271,7 @@
    "sha256": "43edff00af7b93525df6f33647ff4aeff4b88e1c4b69b2be89f2f16b813efcad",
    "bytes": 596775,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_274(E)_NO_04-2018.pdf",
@@ -1279,7 +1279,7 @@
    "sha256": "d7a5db2e15a99d44d6f25d60123ad90344300f105c7b0671109a5fc2cb4cb550",
    "bytes": 595888,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_276(E)_NO_08-2017.pdf",
@@ -1287,7 +1287,7 @@
    "sha256": "a7d03a3ef5ad9e32dfb232d783e50e1bdf08b7f54b9e5c869418e25cc6b17b34",
    "bytes": 600813,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_277(E)_NO_03-2025.pdf",
@@ -1295,7 +1295,7 @@
    "sha256": "cc7ae9f57a7973f6de332729aedfb2ae4b8a4191b36e1f947c56b4c122c530be",
    "bytes": 622547,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_360(E)_NO_09-2018.pdf",
@@ -1303,7 +1303,7 @@
    "sha256": "68a31260891961981cf4f16175bfc80e9257c4769a2782e0cb28127d13356d38",
    "bytes": 601431,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_435(E)_NO.pdf",
@@ -1311,7 +1311,7 @@
    "sha256": "7dc3ad48564d69e06ad693acbd02a9dc077435b7c223187a18e57213fbfa02fc",
    "bytes": 142189,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_601(E)_EN-03-2018.pdf",
@@ -1319,7 +1319,7 @@
    "sha256": "23c8f0db062268972ebce7c53422bcdbbeaf5e106fa3d427b73f35f9c2f4f85c",
    "bytes": 597381,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_607(E) HTS-220_NO_02-2018.pdf",
@@ -1327,7 +1327,7 @@
    "sha256": "99a3d11ea8bdd7dcd6012b69ad8ae20ba26539dcf88adfecd6342c6012c085ca",
    "bytes": 591350,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_607(E) HTS-68_NO_02-2018.pdf",
@@ -1335,7 +1335,7 @@
    "sha256": "c01effd6ba3ba58779e53b532eb469c2064225405f98b1d815c75771bda534c3",
    "bytes": 590178,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_610HT(E)_EN_01-2019_ND.pdf",
@@ -1343,7 +1343,7 @@
    "sha256": "05332356beeed09094519aeb2fe16700a375c499db21ee7fbea7b3c59edc4b7e",
    "bytes": 1533649,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_610Plus-610(E)Plus_EN_01-2019_ND.pdf",
@@ -1351,7 +1351,7 @@
    "sha256": "95991290a306c83f457b0d532bf0212052f9537f20c2c57cc24be453bbe9cea6",
    "bytes": 1652622,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_615(E) HTG2 460_SV_06-2024.pdf",
@@ -1359,7 +1359,7 @@
    "sha256": "7cbb8d2e9a925d24a372f73a151d3044b059e036834fa995a42c94f8952d600c",
    "bytes": 619442,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_617(E) HP Grease 2_EN.pdf",
@@ -1367,7 +1367,7 @@
    "sha256": "5b7975effa7757d190dfe07a6be8a20285822899587e683a365df3b93abbb9ce",
    "bytes": 1614826,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_622(E)-EN_05-2020_ND.pdf",
@@ -1375,7 +1375,7 @@
    "sha256": "245ab317e8bfa38c9aebabf4c1449b1de1fa00646bde73bb475f6b9b80753961",
    "bytes": 1466386,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_625(E)_EN_08-2021_ND.pdf",
@@ -1383,7 +1383,7 @@
    "sha256": "366187dd5d208d8dc3227e6880b833ee4ae9ede67c87c621c079408de1062c16",
    "bytes": 1643102,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_630_630(E)_NO.pdf",
@@ -1391,7 +1391,7 @@
    "sha256": "fb9eda1a03c2106247b4a7c3fc96b33524dc597e22b54668018e2d1b760cf4e2",
    "bytes": 623213,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_651(E)_EN_09-2019_ND.pdf",
@@ -1399,7 +1399,7 @@
    "sha256": "852763489ecebcea1c562951c9d25b87904830704087cc85e8b8285667cc53de",
    "bytes": 980445,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_652(E)_EN_09-2019_ND.pdf",
@@ -1407,7 +1407,7 @@
    "sha256": "2869d787ec3e504ec770282b4a948983ead7f318334d482b3687b48a533392da",
    "bytes": 990479,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_662 FG(E)_EN_09-2021_ND.pdf",
@@ -1415,7 +1415,7 @@
    "sha256": "64fe73c3580d888b35cdeda0149c265a13d00b3e39e54ad2843ed268639b569b",
    "bytes": 1751347,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_715(E) SPRAFLEX_GOLD_NO_02-2019.pdf",
@@ -1423,7 +1423,7 @@
    "sha256": "07fec8237cd3b180848251af0443aae21f5f6dc82dd1b6911192ad074dab698e",
    "bytes": 595532,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_723(E)_706(E)_NO.pdf",
@@ -1431,7 +1431,7 @@
    "sha256": "4f91fde60a88a0b3afb4e151ac50369d9f015f4aae6d0295329cbd306388cae3",
    "bytes": 144808,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_723FG(E)_NO_02-2018.pdf",
@@ -1439,7 +1439,7 @@
    "sha256": "f04732ec772061dbff3f65e6288c26a9b0fa63b74ed8e43b762ac70f325b799b",
    "bytes": 206731,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_725(E)_NO_12-2018.pdf",
@@ -1447,7 +1447,7 @@
    "sha256": "b605747eb705dd039541d7206e8e9e6468b07fc9ccd5ab6cc260e8e9fff6bee4",
    "bytes": 599799,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_730(E)_EN_06-2018_ND.pdf",
@@ -1455,7 +1455,7 @@
    "sha256": "a5287b728e6ac5d06f7daa32c965175e6a0c36e41375e96858d30dbe8456d2ff",
    "bytes": 843488,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_740(E)_NO_01-2018.pdf",
@@ -1463,7 +1463,7 @@
    "sha256": "cbae23f577a4f9f715de9160a5e81bfaab5cb73e889602dd669a69be287ba472",
    "bytes": 592016,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_740(E)_NO_07-2023_Batch number after 230714-38368.pdf",
@@ -1471,7 +1471,7 @@
    "sha256": "58b0864291a7e1fd285f897a7979a7131ccc84c99df5bc6159af32580bf18b54",
    "bytes": 112925,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_775(E)_EN_11-2018_ND.pdf",
@@ -1479,7 +1479,7 @@
    "sha256": "f146c6947689f7ccab7756cf6633501554708ac4ac84c118dfeb0b2088fee3e9",
    "bytes": 1575971,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_783(E)_NO_11-2018.pdf",
@@ -1487,7 +1487,7 @@
    "sha256": "3ac676b6e3114fe40ebfca99781bcb0ef842e2c3267353797fbcde77bac11541",
    "bytes": 595782,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_785(E)_NO_01-2020.pdf",
@@ -1495,7 +1495,7 @@
    "sha256": "47e2ecad6fd70811d5a7df0198ee23eabc3e0dd35c8db113c24de4b16eaa0721",
    "bytes": 593865,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_801(E)_NO_07-2018.pdf",
@@ -1503,7 +1503,7 @@
    "sha256": "9e2a4335fd95721d43db121572b93e9f21739dda789b4ccfb4348f3a07b215c4",
    "bytes": 608996,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_803(E)_NO_03-2019.pdf",
@@ -1511,7 +1511,7 @@
    "sha256": "cf627f1bd014250df6b33d454e360fa5cebf8acd90d7fce0b12c5bb3e261da60",
    "bytes": 606938,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_KPC 820(E)_NO_11-2018.pdf",
@@ -1519,7 +1519,7 @@
    "sha256": "4371890330f24a64305a093ed5f83d7c4864e4c16374864b1e7217c87e312525",
    "bytes": 596487,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_OPTICOOL 972(E)_EN_10-2018.pdf",
@@ -1527,7 +1527,7 @@
    "sha256": "fedca15106b1e7d71d251b7ee9bd78feb0990a8a3400a48eb2c1a97cc09226ca",
    "bytes": 595820,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_Opticool_372(E)_Applies to batch numbers after date 260122_EN.pdf",
@@ -1535,7 +1535,7 @@
    "sha256": "dd9306cfbc39a20580b0269f88331ccfe65e248549e7802b9878d88c7f377d7c",
    "bytes": 111136,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_Opticool_372(E)_Applies to batch numbers before date 260122_EN.pdf",
@@ -1543,7 +1543,7 @@
    "sha256": "f88e98285aca327f56263fc566638b9245101cfa909a8a7526160a0e124c7d3f",
    "bytes": 215507,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_Opticool_572(E)_applies to batch number after date 260308_NO.pdf",
@@ -1551,7 +1551,7 @@
    "sha256": "0659bb31104949e6fc4f30e5636bbfe73cbaf3e6e7bcece22bb2e11be0afba12",
    "bytes": 104457,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS_Opticool_572(E)_applies to batch number before date 260308_NO.pdf",
@@ -1559,7 +1559,7 @@
    "sha256": "34142a96927ee7f018d18e5b275a9680660725bc1f9b95d274a05cfd13d8d651",
    "bytes": 596127,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-235(E)-EN_06-2019_ND.pdf",
@@ -1567,7 +1567,7 @@
    "sha256": "8caa93f2e98fb89f81c1e13cdd460837e87b3167f892b8d0610f0bf20f512918",
    "bytes": 1570385,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-338(E)-EN.pdf",
@@ -1575,7 +1575,7 @@
    "sha256": "92497c6c2a6e0c54c3acb150049563b0084487a8bd749e2b1968fc9514f82548",
    "bytes": 1648719,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-346(E)-EN_06-2025_ND.pdf",
@@ -1583,7 +1583,7 @@
    "sha256": "cc90395cb9c8922f33a6983d9df1b5081d7a28526d404da715bb3288de7fac2f",
    "bytes": 1032222,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-615(E) HTG2 460-EN_06-2024_ND_EU.pdf",
@@ -1591,7 +1591,7 @@
    "sha256": "a4a3f86f7023d20011fd582c80c14c2911664a362d13f70a3c70ba1c339c0d6d",
    "bytes": 1169062,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-690 FG(E)-EN_08-2021_ND.pdf",
@@ -1599,7 +1599,7 @@
    "sha256": "712eb37a8dc991d7bc7102eda21c7b9a246ab7f3ea10fb768ec2a59b12d70538",
    "bytes": 1807842,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/PDS-995(E)-NO_07-2019.pdf",
@@ -1607,15 +1607,15 @@
    "sha256": "9e11b74a0e15c5af21fafa35e254e6615e1a8d7a54a17e642328a3438b04e869",
    "bytes": 603468,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_218(E)_Bulk_Batch numbers after date 250513-NO.pdf",
    "kilde": "https://chesterton.com/Files/Product%20assets/Lubricants/SDS_218(E)_Bulk_Batch%20numbers%20after%20date%20250513-NO.pdf",
-   "sha256": "081e722ff9d6b7769078aea8e131a5257f8f6422637e1db5271c877334b6bc89",
-   "bytes": 309606,
-   "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "sha256": "9a41c98ac2617af2b3c2dbff7212ba1eaa29c3bd27be31b198fa7de50b44d6f0",
+   "bytes": 329707,
+   "hentet": "2026-11-12",
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_218(E)_Bulk_Batch numbers before date 250513-NO.pdf",
@@ -1623,7 +1623,7 @@
    "sha256": "b3e128fde946cb961ace7c25de2896d6555dba5b4f305baae7c4eca44319187b",
    "bytes": 397958,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_235(E) SSC_B-EN.pdf",
@@ -1631,7 +1631,7 @@
    "sha256": "64df3ba44057b2ecf08cd44ea2186910f112a99e33c64e6de310145fdcb28005",
    "bytes": 289618,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_274(E)-A-EN.pdf",
@@ -1639,7 +1639,7 @@
    "sha256": "6313d235abfd97b554cd5166f1d38c7b01e6a12b9afec5de1f7e0884f12a6f87",
    "bytes": 287134,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_274(E)-B-EN.pdf",
@@ -1647,7 +1647,7 @@
    "sha256": "3888680af3e4127e263aae6733004b8036ded4f9304954fc66fbd290f89b5fff",
    "bytes": 229307,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_276(E)_A-NO.pdf",
@@ -1655,7 +1655,7 @@
    "sha256": "2569952ef4b49e3374f3b06ac92708f6d1130f317ee647339c7240894aad6659",
    "bytes": 333235,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_276(E)_B-NO.pdf",
@@ -1663,7 +1663,7 @@
    "sha256": "3b6d8b909c2bf5848988b8701af1dd86e7c033be5a95c0b42b807f8ca170527a",
    "bytes": 423194,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_277(E)-A_applies to batch numbers after date 250914-NO.pdf",
@@ -1671,7 +1671,7 @@
    "sha256": "2569952ef4b49e3374f3b06ac92708f6d1130f317ee647339c7240894aad6659",
    "bytes": 333235,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_277(E)-Bulk - applies to batch number before date 250224_NO.pdf",
@@ -1679,7 +1679,7 @@
    "sha256": "55982ec963a82c2ab078f2168df4a120fa8637254839525234cb05d0008c2d89",
    "bytes": 376408,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_277(E)-Bulk - applies to batch numbers after date 250225_NO.pdf",
@@ -1687,7 +1687,7 @@
    "sha256": "3b6d8b909c2bf5848988b8701af1dd86e7c033be5a95c0b42b807f8ca170527a",
    "bytes": 423194,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_294(E)_A-NO.pdf",
@@ -1695,7 +1695,7 @@
    "sha256": "033b4991f02b7cb7b4b065405e59283d5e130b8bd18fb64741fc58be4449eef5",
    "bytes": 348886,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_360(E)_Bulk_applies to batch number after date 250220-NO.pdf",
@@ -1703,7 +1703,7 @@
    "sha256": "f032c5d126937b44a212fd52b94dc52b801ca41ee2daeff56a6782a83bcd879c",
    "bytes": 266070,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_360(E)_Bulk_applies to batch number before date 250219-NO.pdf",
@@ -1711,7 +1711,7 @@
    "sha256": "4232d79570493abaafe871eb85cc548ea5447ea69a6daef894c9901e8c063522",
    "bytes": 391679,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_435(E)_B-NO.pdf",
@@ -1719,7 +1719,7 @@
    "sha256": "5c91b4ad29fb8a7145992295a651b63523b67854c006ad6f8caae4001dc008d8",
    "bytes": 472625,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_601(E)-A-NO.pdf",
@@ -1727,7 +1727,7 @@
    "sha256": "dcc34b672bd59a7b67536706f1225703a75811bd7854857978a27785fa6db92a",
    "bytes": 326558,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_601(E)-B-NO.pdf",
@@ -1735,7 +1735,7 @@
    "sha256": "38ef08d90309cc127f81148086b66023854f03a48817ea855fd04d324c0e280e",
    "bytes": 211380,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_607(E) HTS-220_B-NO.pdf",
@@ -1743,7 +1743,7 @@
    "sha256": "ed49720fe56419da018f2c37a3d07193985d9b5f0a8a8569e6fe13eb9ffae4ad",
    "bytes": 368250,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_610 HT(E)-B-NO.pdf",
@@ -1751,7 +1751,7 @@
    "sha256": "7d4f2fc97293416df83a7225dbf6df2df3ed2b3e0388c349134213792122f33c",
    "bytes": 368947,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_610(E) Plus-A-NO.pdf",
@@ -1759,7 +1759,7 @@
    "sha256": "e9a0326e80a3a18b36595fa0624d62ea8496bd440233b15238053b2b6c31a17d",
    "bytes": 159137,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_615(E) HTG 2 460-EN.pdf",
@@ -1767,7 +1767,7 @@
    "sha256": "c180b05e93c27530363bc0d0a0717462213dead09896d2f1cfb4e5e738fdb161",
    "bytes": 205989,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_617(E)_B-EN.pdf",
@@ -1775,7 +1775,7 @@
    "sha256": "a3e4fc9ddf1e2533663f26627c1a1439ebafbe4fccd3fa8b5a1898112f092c95",
    "bytes": 255832,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_622(E)_B-EN.pdf",
@@ -1783,7 +1783,7 @@
    "sha256": "33805d79b5ed0d205e4e173edb75342e5920e86fb8b3a9330e78838f8bc358cb",
    "bytes": 238543,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_625(E)_B-EN.pdf",
@@ -1791,7 +1791,7 @@
    "sha256": "d884ace6739abcd23cf9594e81a34d05e12aeea9044f10e55cd31015179cf4e8",
    "bytes": 239916,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_651(E)_A-EN.pdf",
@@ -1799,7 +1799,7 @@
    "sha256": "ab2a71df2fd8f3024e5dd66d22016f841ecd6c035eac567e071bdea1c1092fe4",
    "bytes": 249763,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_651(E)_B-EN.pdf",
@@ -1807,7 +1807,7 @@
    "sha256": "b60f46c256ddd7bf19da0ccb9131b601aa9478bc48220869410f86034f5550e0",
    "bytes": 191220,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_652(E)_B-EN.pdf",
@@ -1815,7 +1815,7 @@
    "sha256": "899bfc69e55268a4e8855389b52579ec737651160c41e219a231a9bd28292aa7",
    "bytes": 191975,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_660(E)_A-NO.pdf",
@@ -1823,7 +1823,7 @@
    "sha256": "87fe3c9fabfc5fdbffeb8769b7b756a6115382bb2e7eabef9c463d9172aeec7e",
    "bytes": 317850,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_662FG(E)_B-NO.pdf",
@@ -1831,7 +1831,7 @@
    "sha256": "085324ec6df49e5b801b8bb5e809864d7f5028b250750d045dc3502e85169737",
    "bytes": 199328,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_690FG(E)-B_NO.pdf",
@@ -1839,7 +1839,7 @@
    "sha256": "085324ec6df49e5b801b8bb5e809864d7f5028b250750d045dc3502e85169737",
    "bytes": 199328,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_706(E)_B-EN.pdf",
@@ -1847,7 +1847,7 @@
    "sha256": "364b86d321e9e284cce9366c91b2f10928c5261aab1ccf8c158c53e0723be77e",
    "bytes": 297088,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_723(E)_A-NO.pdf",
@@ -1855,7 +1855,7 @@
    "sha256": "55e4519066747d26256b692b28554deb35a3e10d518f0efdd86b8bea49716edf",
    "bytes": 399282,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_723FG(E)-A-EN.pdf",
@@ -1863,7 +1863,7 @@
    "sha256": "f8c526ad8c8f6735b4236c0614bfbcb2082b4be34f40c3e2c052fc867f682870",
    "bytes": 273771,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_730(E)-A-NO.pdf",
@@ -1871,7 +1871,7 @@
    "sha256": "4b112106c9e5e03dd2fe98b8a78054eec06b772b2cdff5daa7f26d79429c0f6b",
    "bytes": 303643,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_740(E)_A-NO.pdf",
@@ -1879,7 +1879,7 @@
    "sha256": "17d80e3bca37385fbdf7f7d2ef4d7ff9eb54f28b2580a8a8924dc17a09d9284e",
    "bytes": 409284,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_775_Bulk_EMEA_NO.pdf",
@@ -1887,7 +1887,7 @@
    "sha256": "25c19af0c342e426913538147e57a8fd7f66141eaf9821c31857616b49e03999",
    "bytes": 3070143,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_775(E)-B-NO.pdf",
@@ -1895,7 +1895,7 @@
    "sha256": "128bf1b47db8d309402221e6b29eedb04748abaa328b396dbb86409d08750222",
    "bytes": 399489,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_783_NO.pdf",
@@ -1903,7 +1903,7 @@
    "sha256": "46fdbbdc90d568fd78676a4a8280ca19a56ef7cb3c400724e265fd6dccaccd76",
    "bytes": 308254,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_783(E) ACR_B-NO.pdf",
@@ -1911,7 +1911,7 @@
    "sha256": "7cef0694f7a34e37d9ceb44ac4bce2953d6a1d17a1c24f71ad2665af9389e481",
    "bytes": 483759,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_785_B_NO.pdf",
@@ -1919,7 +1919,7 @@
    "sha256": "e5421f61e4f07678e223822b28ac0d4e8e0b054227eb9d0229c39f0d7b8d6709",
    "bytes": 273318,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_785(E)-B-NO.pdf",
@@ -1927,7 +1927,7 @@
    "sha256": "413b014f959d8f4c20a0756dccb3ceb1bf18723016678180663a32b19b6ba873",
    "bytes": 410801,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_801(E)-EN.pdf",
@@ -1935,7 +1935,7 @@
    "sha256": "8ab77f251e76d07800207722d8dab553fd2a762fe9d203de15d1db87f1f91260",
    "bytes": 375590,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_803(E)_B-NO.pdf",
@@ -1943,7 +1943,7 @@
    "sha256": "094be9a27ecc4042fbca210bad6b2859f0a87061036b3881c17883cece842dea",
    "bytes": 456740,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_995(E)_A-EN.pdf",
@@ -1951,7 +1951,7 @@
    "sha256": "90828b9fa279d5e8dd670879ceab7efe6632c9381eabcaf333328fa66721fb7d",
    "bytes": 367883,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_995(E)_B-EN.pdf",
@@ -1959,7 +1959,7 @@
    "sha256": "f9c0a3c3dab0f9b54d25d49140fc94554575826af0800f342376e1435edd4a5e",
    "bytes": 360472,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_KPC 820(E)-B-NO.pdf",
@@ -1967,7 +1967,7 @@
    "sha256": "eee88fa8cb2b21128d52f9d8118397b9b73365aaa73d6d28a665594824cbd570",
    "bytes": 447490,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_Opticool 372(E)_Applies to batch numbers after date 260122-EN.pdf",
@@ -1975,7 +1975,7 @@
    "sha256": "ea8728870a6ac40ccef4b8aaa36a528c8b3d4e8a8b5880a4bd3e5f884125f219",
    "bytes": 335520,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_Opticool 372(E)_Applies to batch numbers before date 260122-EN.pdf",
@@ -1983,7 +1983,7 @@
    "sha256": "44c690e724e49213fee02616b0ad06897c63427dd83babce9a95b0ba99c06d57",
    "bytes": 300972,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_Opticool 572(E)_applies to batch numbers after date 260308_NO.pdf",
@@ -1991,7 +1991,7 @@
    "sha256": "3d17c6ff6037ffb31d91545b43f1a38a16a01383a10bf4c7c9ae7b689704dd02",
    "bytes": 294138,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SDS_Opticool 972(E)_EN.pdf",
@@ -1999,7 +1999,7 @@
    "sha256": "fa9cd84fa7a2a9d1e4dc40e7a88382e6ea410d40d1cf169df1ff8314fecc8863",
    "bytes": 314616,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/SV71663_860_MPG_PDS.pdf",
@@ -2007,7 +2007,7 @@
    "sha256": "fad627e5cb232cd55fde62f47febfa94c794599342fc67c819a2f37f9ddf96f3",
    "bytes": 2204155,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/td610mtp_SV.pdf",
@@ -2015,7 +2015,7 @@
    "sha256": "0bb3f30bf2be94bb91c01da5740daf4ad5a55d53a2c68df489ced965403db790",
    "bytes": 200789,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdcl273_EN.pdf",
@@ -2023,7 +2023,7 @@
    "sha256": "5f21963c3a5b4ee89a261b28bd0cd7c312bcee595cc10c73d2f39ae2715aefe8",
    "bytes": 1878088,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdcl820_NO.pdf",
@@ -2031,7 +2031,7 @@
    "sha256": "74ebeb99bf547415d8217113ea7f1e1702be9f64e9b7bc223d5200c1e6406b53",
    "bytes": 190004,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdcl820n_NO.pdf",
@@ -2039,7 +2039,7 @@
    "sha256": "7cbe5ac807d722e551c16797d3419cad5a8d83c0f86f857edf462bf88e3cfcce",
    "bytes": 190037,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdco740_NO.pdf",
@@ -2047,7 +2047,7 @@
    "sha256": "589b47c9e957a280984edfc60850d7278a0232a95f1b39d70b9a2020d8e48889",
    "bytes": 194729,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdco752_EN.pdf",
@@ -2055,7 +2055,7 @@
    "sha256": "f8c8476a7196f7fdfc2a752df3cf834a5dc94d4c9d9b8c61dde05560d6793a07",
    "bytes": 1913102,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdco763_SV.pdf",
@@ -2063,7 +2063,7 @@
    "sha256": "77f9fafc86a0ca6d8920f2aefb0ec99d779b5b828d44d2981a3f7083c2fa47e4",
    "bytes": 213591,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdlu715_EN.pdf",
@@ -2071,7 +2071,7 @@
    "sha256": "17258594524970b115d59333113fb26c67447cee6819789820b125755fe301de",
    "bytes": 1994148,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdlu715g_NO.pdf",
@@ -2079,7 +2079,7 @@
    "sha256": "7ea903304e6878c525e51ff960183c8169d5008b4dc75a85b643464f30fd8e11",
    "bytes": 195081,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdms800_NO.pdf",
@@ -2087,7 +2087,7 @@
    "sha256": "6c1e345cf20e902642588abc9b2b9b4563826ee89556d94f2f8bc060007e0525",
    "bytes": 167548,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdms850_EN.pdf",
@@ -2095,7 +2095,7 @@
    "sha256": "c3116f6930e2ff0f111c47bceff360de1290cab2171e2f6d1e184ce945f0812b",
    "bytes": 1850231,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdms989_EN.pdf",
@@ -2103,7 +2103,7 @@
    "sha256": "146a725bd610aad86d92712e979d006269e8aa99baa37d5bf08067d40321e173",
    "bytes": 1937715,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdmw380_NO.pdf",
@@ -2111,7 +2111,7 @@
    "sha256": "259b76fd8af0dcbecb6b397f55326fc01a65908ff49bb169cee33464486a7c65",
    "bytes": 205695,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdmw388_EN.pdf",
@@ -2119,7 +2119,7 @@
    "sha256": "b7347274afb27ac5c647c398e3416e802eaf41230be95ff2e3fac7db8ec33a45",
    "bytes": 1908500,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdmw390_EN.pdf",
@@ -2127,7 +2127,7 @@
    "sha256": "1de9d0ae257ba0121bdc8adcdc76e046f99c7af98a881299d5ff1ee239724f67",
    "bytes": 1865084,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdnovo2_EN.pdf",
@@ -2135,7 +2135,7 @@
    "sha256": "63b0759285c2605682c239e483aed61bd9e592b574ca73e6330f5ce9730ca867",
    "bytes": 71702,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts273A_NO.pdf",
@@ -2143,7 +2143,7 @@
    "sha256": "ae10ccad803652e22a3905f19a592034d0f336a5c53f8d7dc0800aebf476848d",
    "bytes": 194511,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts273B_NO.pdf",
@@ -2151,7 +2151,7 @@
    "sha256": "c86b29cc7f908d46f57e6194911830205e1911b406f34edc5ac65076fe16f881",
    "bytes": 189606,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts279A_EN.pdf",
@@ -2159,7 +2159,7 @@
    "sha256": "250b939007067f178305611c2d4f08ba150f29342aee29dc0ce087706f668201",
    "bytes": 211496,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts292A_EN.pdf",
@@ -2167,7 +2167,7 @@
    "sha256": "4130ccd4f4db62a05285eec0683b008bec08c4b7aed33fbb1ddb44e1a419df6c",
    "bytes": 216562,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts296A_EN.pdf",
@@ -2175,7 +2175,7 @@
    "sha256": "3be3f80adacc066520111474315a6f03e37e2ff26591c4bed2667970b470aff8",
    "bytes": 199167,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts338_NO.pdf",
@@ -2183,7 +2183,7 @@
    "sha256": "01b155022460b34fe513a3e7b42f7c85aa06f16cac90c1509b58b1be48cd3547",
    "bytes": 90799,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts346_NO.pdf",
@@ -2191,7 +2191,7 @@
    "sha256": "f112fa0105d5ce92c2a5210dff6afb9e02d31bb5c02d50d67822ff48cc668d7f",
    "bytes": 92959,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts3500_NO.pdf",
@@ -2199,7 +2199,7 @@
    "sha256": "56e31545bb6400def7394c84d44e55736674f3297e78e3f9159e72b261fac18e",
    "bytes": 157453,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts380_EN.pdf",
@@ -2207,7 +2207,7 @@
    "sha256": "b9fed3ecd7c618e1cb1f723373650295ac4c733dbf4e0f177756997e9b332446",
    "bytes": 192407,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts388_NO.pdf",
@@ -2215,7 +2215,7 @@
    "sha256": "ec1231befd112304ffb2284bb7d06b9cb78c581c76b0f8284a545fc3398509ce",
    "bytes": 176046,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts390A_NO.pdf",
@@ -2223,7 +2223,7 @@
    "sha256": "95129e61e6a78fbfa530c7860d180f7393ca9eb746cd5a873c922386fbd685ed",
    "bytes": 172806,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts395B_NO.pdf",
@@ -2231,7 +2231,7 @@
    "sha256": "3215302bbd5ab2d14bc1c69c8d412ef804037494903057f9597fa0eb7f9500f2",
    "bytes": 185678,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts610MTPlusB_NO.pdf",
@@ -2239,7 +2239,7 @@
    "sha256": "de9e1437976194dc296361595bd81acca0d5051d176811489aa4c41f77f86846",
    "bytes": 162896,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts610PlusB_NO.pdf",
@@ -2247,7 +2247,7 @@
    "sha256": "d0ae9a018a3ee507478ffc391f7a5152bce44f79f062da2e9767c83ad0411074",
    "bytes": 155443,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts613_EN.pdf",
@@ -2255,7 +2255,7 @@
    "sha256": "049ed11dc2a55b2c64bc7bf4046697fcc406815d2f59a74dd3585aded51fe729",
    "bytes": 173277,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts615_1_NO.pdf",
@@ -2263,7 +2263,7 @@
    "sha256": "143839dafa9b1cb17337ef5bf3616a37af5e7f4d40eee1dbda38edcc40dd1554",
    "bytes": 176239,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts615_2_NO.pdf",
@@ -2271,7 +2271,7 @@
    "sha256": "a2295e67eb0251807e1fc9a0ed66f4ab8c4c1af217a1552e532ca35ee9e8d059",
    "bytes": 178001,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts625_ExNA_EN.pdf",
@@ -2279,7 +2279,7 @@
    "sha256": "5e67c27eba815681a249e6355c07c9fa1731ef8d86d7d73053020936c1c18f21",
    "bytes": 175027,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts629B_NO.pdf",
@@ -2287,7 +2287,7 @@
    "sha256": "641c102a9395b1ec430a01807c2225b46c8b88c1a96f8ca9f0840d1eea81a52e",
    "bytes": 162264,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts630_220_1_NO.pdf",
@@ -2295,7 +2295,7 @@
    "sha256": "6affd856aa6baa4571e9c4d7bac2544274c9b18b37ae19e45cfbee8223ff11f3",
    "bytes": 84343,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts630_NO.pdf",
@@ -2303,7 +2303,7 @@
    "sha256": "b0fd0d34cb7fe1186752a23c4eaae4df0e251f883f167bd3fbab5890a3f8de54",
    "bytes": 176300,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts635_NO.pdf",
@@ -2311,7 +2311,7 @@
    "sha256": "b327b28de7f2b153a86ea3555bc5077fca5df5e2e804108f08812761fca68238",
    "bytes": 186919,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts638_100_2_EN.pdf",
@@ -2319,7 +2319,7 @@
    "sha256": "08517b964a034bf156189de29d899dc3e6aca69e8373e1bdab6a4051bd9ba6ec",
    "bytes": 210266,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts638_46_2_ExNA_EN.pdf",
@@ -2327,7 +2327,7 @@
    "sha256": "6eab0be0b1a83b9e50904bcc9f4f09009056f34fd613ee1256f803a3939ffca1",
    "bytes": 189897,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts650AML_EMEA_NO.pdf",
@@ -2335,7 +2335,7 @@
    "sha256": "38e2bc110ab5e65d65c68b6d5af627c12d898f7c58a4ce71235ff62fa9fc567d",
    "bytes": 245409,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts662FGB_NO.pdf",
@@ -2343,7 +2343,7 @@
    "sha256": "cfb23cb33031a26e60ba5852dfee677fb7c8cb2be06262165bd5d2835b9421d7",
    "bytes": 165758,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts715A_NO.pdf",
@@ -2351,7 +2351,7 @@
    "sha256": "9892fd83394d64d022e3fa441f256475aaae48540be996521c2490ff2efbf884",
    "bytes": 200119,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts715B_NO.pdf",
@@ -2359,7 +2359,7 @@
    "sha256": "5f40383009c2dfdb8b322a06c55610913864eebb010405b9f9669d31dead6521",
    "bytes": 195948,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts715GA_NO.pdf",
@@ -2367,7 +2367,7 @@
    "sha256": "fe2d737d14fb628858e1a97f35a9e958ff74d11dee77dc6f13abb39c46f00d2f",
    "bytes": 145479,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts715GB_NO.pdf",
@@ -2375,7 +2375,7 @@
    "sha256": "f4bc181af3efd94514c4fd91d9cd0a14a17d14d24ed6f0e90af895d7c267817a",
    "bytes": 75341,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts720_EN.pdf",
@@ -2383,7 +2383,7 @@
    "sha256": "3a6aad2b8b258ba5ad3b8761f89f7678c1f0cc6c64bea0ca056e82503fb438f1",
    "bytes": 202348,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts720A_EN.pdf",
@@ -2391,7 +2391,7 @@
    "sha256": "0f8a8cd1bde358e872fb9b9648add62f474ca4af9acc9bf4c747d5b01b271989",
    "bytes": 208527,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts720wD_EMEA_EN.pdf",
@@ -2399,7 +2399,7 @@
    "sha256": "00d1d6989203fae3c9ff3d78caae60d608c21527f3f5af2ec3ac51d3a03b36db",
    "bytes": 180497,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts725A_NO.pdf",
@@ -2407,7 +2407,7 @@
    "sha256": "d6d0e8b45ac753e15b12c32ea6d8f1bc1e6520b67e62ce194de4202bf83a2749",
    "bytes": 226514,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts740a_NO.pdf",
@@ -2415,7 +2415,7 @@
    "sha256": "66a0f8cafc8ef84007f61c2b1cbd05a5c9bc5437d1b6e57f651104473af0f4f9",
    "bytes": 115169,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts752A_NO.pdf",
@@ -2423,7 +2423,7 @@
    "sha256": "15a12bdf584f3185ead4ac0ae4b311a840b6c0ed94eff05ee450779f21b850a3",
    "bytes": 210076,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts752B_NO.pdf",
@@ -2431,7 +2431,7 @@
    "sha256": "af7c3ce02ec88193087d304d5064ebff415e27400222206911f226af807dc1e1",
    "bytes": 210851,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts763B_NO.pdf",
@@ -2439,7 +2439,7 @@
    "sha256": "46bbdae10699c4c4edc174e20a067ea491d2d25ff574bf02a44a2ddbfe9760d6",
    "bytes": 203957,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts772B_NO.pdf",
@@ -2447,7 +2447,7 @@
    "sha256": "29563f52c24aeddd54644a90d21cf570cf84dfde2ed002b48220783ae4f9ee38",
    "bytes": 184819,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts785FGB_NO.pdf",
@@ -2455,7 +2455,7 @@
    "sha256": "35cfa501997088b6829a5dd118910426c9e2697bf56c51f6a137f6b2d184d08f",
    "bytes": 441896,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts787B_NO_Batch numbers before date 240618.pdf",
@@ -2463,7 +2463,7 @@
    "sha256": "8a1a9365e4662eb8be22a6ec310e7577a82c02e3c9533a1da990c76e5e554770",
    "bytes": 188249,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts787B_NO.pdf",
@@ -2471,7 +2471,7 @@
    "sha256": "beb68c509a48aeacf2e3f38b2f353047ae4e57c39a6811819636dbc3c6ab7bc0",
    "bytes": 240272,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts800_NO.pdf",
@@ -2479,7 +2479,7 @@
    "sha256": "edb12318f137eaa8cd8ebf8c8637d36dafc1b5fcd76d2c788c3da9f60e57fd0b",
    "bytes": 157236,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts820N_EN.pdf",
@@ -2487,7 +2487,7 @@
    "sha256": "f83bbe67360d746ca788998ccbeeca1e9fb97da9e1865b6fc339fc31f04ddc24",
    "bytes": 260708,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts850_EN.pdf",
@@ -2495,7 +2495,7 @@
    "sha256": "1ceb5622bde3945fd50e661420161e863982e34e5aa49185b34b243a96744690",
    "bytes": 190794,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts860A_NO.pdf",
@@ -2503,7 +2503,7 @@
    "sha256": "f66df659881897a8b38f4d781f59049b85803f6586c79e969493f7383f91916b",
    "bytes": 208619,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts860C_NO.pdf",
@@ -2511,7 +2511,7 @@
    "sha256": "e31c8cc205a3e50bc53262d531b6016392d737ad03fce152fb3e09f2f2f2514e",
    "bytes": 176358,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts900_NO.pdf",
@@ -2519,7 +2519,7 @@
    "sha256": "c8f79c0fcb70b483ac33bdc1f271035d2a09f4cb4eaa7fd1240368d604013de3",
    "bytes": 167001,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts989_NO.pdf",
@@ -2527,7 +2527,7 @@
    "sha256": "26e393bdcb609f3d8f9feb9f589063319778e9ba5cd0b8c826511e244f1948aa",
    "bytes": 170271,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0200 Product Info.pdf",
@@ -2535,7 +2535,7 @@
    "sha256": "2322a93ef0d14fa5e767ea7b76d4d82c0265cde5c35e0d6163323050f6e0c734",
    "bytes": 1584365,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0401 Product Info.pdf",
@@ -2543,7 +2543,7 @@
    "sha256": "3f083ab3bbb4247caad9e8f33abda7ae1c5ab51b7aab516b9ecc442ce9982d22",
    "bytes": 209525,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0451-0453 Product Info.pdf",
@@ -2551,7 +2551,7 @@
    "sha256": "a571325165abc4d5191198db17808ebc66ee85a670769597d45915d35224fc51",
    "bytes": 1285621,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0460_0680 Product Info.pdf",
@@ -2559,7 +2559,7 @@
    "sha256": "e8ee55e8d57bb0e4cb7c4c0623b46913b6c8ab50400c0660cfd17cb80fa6c58d",
    "bytes": 1846287,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0640 Product Info.pdf",
@@ -2567,7 +2567,7 @@
    "sha256": "a49f382bb8474902cfb66e0a5a2b5b6c392ee69a35477fc7cfa249e47ae52f74",
    "bytes": 319385,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0703-0704 Product Info.pdf",
@@ -2575,7 +2575,7 @@
    "sha256": "2f332058b4e68a640b2d7bf15dd951c51508cc2082c9ed09e47e5fde35f27bbb",
    "bytes": 1567958,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0802 Product Info.pdf",
@@ -2583,7 +2583,7 @@
    "sha256": "14c5b7ec72481ed35125cd01364c7e04f917e41bd4448dade684323f445db302",
    "bytes": 232962,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/0804 Product Info.pdf",
@@ -2591,7 +2591,7 @@
    "sha256": "c40500a3bf4eb6f8dd3b7c4f59c653fa11ea12f4cbeada25eac4019bd54a759a",
    "bytes": 268416,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1136 Product Info.pdf",
@@ -2599,7 +2599,7 @@
    "sha256": "1d749068b36ed7f064fe05dd9a4be9550806e1c929bfd7b788cc89b033c0c70a",
    "bytes": 190619,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1150 Product Info.pdf",
@@ -2607,7 +2607,7 @@
    "sha256": "65be5b48cc8bd5c1240e341defb18767def2ce8706226400a2785bf145629c20",
    "bytes": 339961,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1232 Product Info.pdf",
@@ -2615,7 +2615,7 @@
    "sha256": "524263884f84a77618467810d587d8d011f0d5219e068a2c1379d8d2309dafe7",
    "bytes": 435622,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1250-1251 Product Info.pdf",
@@ -2623,7 +2623,7 @@
    "sha256": "d03098ab63ba71310459a63927ea93b098958469fde68bd4d558dc16044a737e",
    "bytes": 236698,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1274-1275 Product Info.pdf",
@@ -2631,7 +2631,7 @@
    "sha256": "b262a1da901044f7542fbe085ae124b6893ac6814c62e4210af2f6dffb2770d9",
    "bytes": 1462919,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1282 Product Info.pdf",
@@ -2639,7 +2639,7 @@
    "sha256": "50121c5d90af0407748b4b214e4b57878d6b19769a94785ca432e7ee450de49e",
    "bytes": 1852761,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1295-1299 Product Info.pdf",
@@ -2647,7 +2647,7 @@
    "sha256": "cb2a79f33b79017b2ce5646ecf3a95c0cbf64474bd99d4c54deb3dc6ec2201d7",
    "bytes": 209524,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1487-1489 Product Info.pdf",
@@ -2655,7 +2655,7 @@
    "sha256": "eb1e43b93cbcf80855cf331fb0581503e3c78a4cf865e35bfaa5cd64eb6c110e",
    "bytes": 1253687,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1498-1499 Product Info.pdf",
@@ -2663,7 +2663,7 @@
    "sha256": "24aa76ad1036ff7e94eeeac24b5ae1f8d2ccc0f1797586bf85cb5882fe066ab5",
    "bytes": 1503886,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/1601-1610_1302_1304 New Duolec.pdf",
@@ -2671,7 +2671,7 @@
    "sha256": "a1e1def7b42344fda0b7d689f23553eba0bdb94f4f476d075d4f3e7b70edc202",
    "bytes": 218208,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2001 Product Info.pdf",
@@ -2679,7 +2679,7 @@
    "sha256": "386e21b2c751785cb3b1d3609b86aff9448336e23abeab0b0d65ff42ce2ac482",
    "bytes": 198653,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2002 Product Info.pdf",
@@ -2687,7 +2687,7 @@
    "sha256": "726a34a84f06df92f93ee044008d6019d3c331df93fef32add5a5d6f9a592a0a",
    "bytes": 1111520,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2011 Product Info.pdf",
@@ -2695,7 +2695,7 @@
    "sha256": "12237fdf3a820649feff3edb43aafcabe9636304b66869cdf51d7b9abbb20b9b",
    "bytes": 221135,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2022 Product Info.pdf",
@@ -2703,7 +2703,7 @@
    "sha256": "5b0dbc6868a7318cae0af4508a5fe454091f97503b5938a8103ba2fcc440c44b",
    "bytes": 290172,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2059 Product Info.pdf",
@@ -2711,7 +2711,7 @@
    "sha256": "2b25c03d620a5113e1569ddbdf21f08ce0cfb6e9ac1a3af2a4be681cb57f3652",
    "bytes": 545752,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2110 Product Info.pdf",
@@ -2719,7 +2719,7 @@
    "sha256": "c1e56608811fba98207d8c021495105b79aa5ff81343a3f9ea1ad21cff53d05e",
    "bytes": 3109894,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2300 Product Info.pdf",
@@ -2727,7 +2727,7 @@
    "sha256": "b875ca353b6051fb0548ca0e13ecc4d660df9a18c62d4874c2a3238b5550a16a",
    "bytes": 536779,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2421 Product Info.pdf",
@@ -2735,7 +2735,7 @@
    "sha256": "7f4efc732da88778f2050401b8680c682f8aca0751491120a3356f08a7fdac45",
    "bytes": 4142495,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2705 Product Info.pdf",
@@ -2743,7 +2743,7 @@
    "sha256": "baa9133c34b5d8b544b83d2fcadba1c9bc3af5fdd362aebef78438a5c3d39e1e",
    "bytes": 1483035,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2710 Product Info.pdf",
@@ -2751,7 +2751,7 @@
    "sha256": "282004bb6ce1e33f6339ae99f00047c91b07046e9e2e6a70969f6517677a16cf",
    "bytes": 219789,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/2799 Product Info.pdf",
@@ -2759,7 +2759,7 @@
    "sha256": "c81231eb1ce7987bf817832c47069c2813ea7cbbcd1ebd95f47aef71f3359bee",
    "bytes": 192701,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/3353 Product Info.pdf",
@@ -2767,7 +2767,7 @@
    "sha256": "ed5434ec3dd689e400c5af6437af6c88e9682d48ed66383e8858ba463302871b",
    "bytes": 272400,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/3750-3752 Product Info.pdf",
@@ -2775,7 +2775,7 @@
    "sha256": "3eb5a3c300ef239cd56d76ba7b60f95fbffdcdf16f58e600d10f2ad496ed1b82",
    "bytes": 286797,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4010-4040 Product Info.pdf",
@@ -2783,7 +2783,7 @@
    "sha256": "43c51e3414048486946e4b91d6ff41c43bd407d546d2ebf72cf9069db156de22",
    "bytes": 261709,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4022-4025 Product Info.pdf",
@@ -2791,7 +2791,7 @@
    "sha256": "3abc533c38991a247059ff5ce71a0ad322dc3397b0b1e24e299dffeeda1e2e0b",
    "bytes": 391015,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf",
@@ -2807,7 +2807,7 @@
    "sha256": "0c6f054203ac56b7bb5949d02de7f6c0f21ee89488fd1a4c84294a258f02df02",
    "bytes": 383227,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4058-4059 Product Info.pdf",
@@ -2815,7 +2815,7 @@
    "sha256": "40b0b0f9de8ef8dd62079dc70910843b2baa0dc886a023918020ac0b81bee69b",
    "bytes": 2401015,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4061 Product Info.pdf",
@@ -2823,7 +2823,7 @@
    "sha256": "9f913a07eb37dfbed37510a8b3673714803a8ad1286954e51a1883b574f2c853",
    "bytes": 1299728,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4070-4072 Product Info.pdf",
@@ -2831,7 +2831,7 @@
    "sha256": "92a7b68ebdd020586cdd105d67c349c561a49e04f18fb1ebd6f574e18af41c57",
    "bytes": 760050,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4090_4140_4250 Product Info.pdf",
@@ -2839,7 +2839,7 @@
    "sha256": "c006ad3c1a80f9437ed08c4a7616fd184266e684680f085145791d99769d9d79",
    "bytes": 304681,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4150_4220_4320_4460 Product Info.pdf",
@@ -2847,7 +2847,7 @@
    "sha256": "cfa6d11f928dcc6b8baee0a6885f82a331431028ab06663db9e8046adc073be1",
    "bytes": 1486424,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4201 4204 Product Info.pdf",
@@ -2855,7 +2855,7 @@
    "sha256": "9122d8fb5a65542138dc3ad9bcf2fba8d3004aa12ff78b1d324d82f3935fb853",
    "bytes": 904107,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4622 Product Info.pdf",
@@ -2863,7 +2863,7 @@
    "sha256": "d62222c314d854b8237516665566ddb0988049430511e15c8cc56cae46295e7d",
    "bytes": 417033,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4700-4702 Product Info.pdf",
@@ -2871,7 +2871,7 @@
    "sha256": "41e48215bbc7b54f08c6898d46d1caea376698868c3e47354a0cb35bc6ea668f",
    "bytes": 312426,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4932-4934 Product Info.pdf",
@@ -2879,7 +2879,7 @@
    "sha256": "bb7c3a2c0b56da08587a734ba901f5c5b40fe29b65d4ad50c43c723dd11ecf73",
    "bytes": 195569,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/4941-4946 Product Info.pdf",
@@ -2887,7 +2887,7 @@
    "sha256": "3c94767087d20952345553515a77f6d8b48c6b825cf7858dc68ef346fc0239c9",
    "bytes": 463609,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/5100_5180_5182 Product Info.pdf",
@@ -2895,7 +2895,7 @@
    "sha256": "1db46b79d09212f2443ae00d6c6762bc45aee664dd85e9bd5d9e193e21be0c03",
    "bytes": 282113,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/5190 Product Info.pdf",
@@ -2903,7 +2903,7 @@
    "sha256": "cdfd069f797dc9fc3dfac8535dd160757b149690e9f0b627cdb689163946c3dd",
    "bytes": 1079394,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6132_6146_6168 Product Info.pdf",
@@ -2911,7 +2911,7 @@
    "sha256": "3b5b1d63f99ee74612ea3152c71f4eeb8e1eab9482d6a89e804cea220a039874",
    "bytes": 347604,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6200-6190-6140 Product Info.pdf",
@@ -2919,7 +2919,7 @@
    "sha256": "29a53a74077df9a36d8b627b588fe267c02035331bbcb9d07ce1c7547cb4e434",
    "bytes": 1155574,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6260 Product Info.pdf",
@@ -2927,7 +2927,7 @@
    "sha256": "68869a17390218b12ecf81364d6ef964f7e360a432aed7701717c1f56d7fc44c",
    "bytes": 274261,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6303 Product Info.pdf",
@@ -2935,7 +2935,7 @@
    "sha256": "cd3a5b8995606334a88457e7cf44d7d87432b77df314a6014955b9ea60416b9f",
    "bytes": 308608,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6312_6315 Product Info.pdf",
@@ -2943,7 +2943,7 @@
    "sha256": "7a0680bc8953f99300c74bf13352eb4eee1d084c3c91b6360a66e29caecff182",
    "bytes": 127222,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6322 Product Info.pdf",
@@ -2951,7 +2951,7 @@
    "sha256": "c3b54533edd7bd7374f02fa5b7bc0f08f773ac54f95fb1755ee3b9fba7c64283",
    "bytes": 1140343,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6330 Product Info.pdf",
@@ -2959,7 +2959,7 @@
    "sha256": "f5ccb55c2116749c92f1c8065c893a1aa928e0d7ef8de6d713a485f289384998",
    "bytes": 1716221,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6401-6407 Product Info.pdf",
@@ -2967,7 +2967,7 @@
    "sha256": "4809b93a1ca4a5b99b4309cf3335b05153de0b5a0e051509c499aab81c302bc2",
    "bytes": 329646,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6412-6414 Product Info.pdf",
@@ -2975,7 +2975,7 @@
    "sha256": "66981521c0db2d3f16881715dcf6c5e6ddbdb75c837ae46872f03b5d2146c8b4",
    "bytes": 230347,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6461-6463 Product Info.pdf",
@@ -2983,7 +2983,7 @@
    "sha256": "2f0c1eb1a0d6d68b48155a75fa0cbfa469b4063a3e420f13f7a73f3e53038456",
    "bytes": 1847873,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6469 Product Info.pdf",
@@ -2991,7 +2991,7 @@
    "sha256": "23eb6db450a1f21e9b882d8001e345ddabe92000853622e06aa56000b062e661",
    "bytes": 1266644,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6481-6482 Product Info.pdf",
@@ -2999,7 +2999,7 @@
    "sha256": "d75efec7e34670da78c3d44a67b8afa1883d15829580876110166fb7c88be1c2",
    "bytes": 1235956,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6522_6532_6546 Product Info.pdf",
@@ -3007,7 +3007,7 @@
    "sha256": "cc5b9ab244ea6a47230b533b2df0d84ab936a82758920677c6a8e267adf1b09c",
    "bytes": 309035,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6603 Product Info.pdf",
@@ -3015,7 +3015,7 @@
    "sha256": "358dfbf9b60b55579ac2ede8f7eece9e417c693f337647f9cf40cde2d8c629cc",
    "bytes": 248027,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6734_6739 Product Info.pdf",
@@ -3023,7 +3023,7 @@
    "sha256": "8f652cc2efd94c2f2c82c085a544d48c6e6a16870ca942cbd44eee4b874e5ad6",
    "bytes": 783874,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6751 Product Info.pdf",
@@ -3031,7 +3031,7 @@
    "sha256": "50254ee4815173a5d72658fb1cd3f7ff0ec641f882ae55fc622eef0137a3ed75",
    "bytes": 1564707,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6760 Product Info.pdf",
@@ -3039,7 +3039,7 @@
    "sha256": "2b573001de83b2ad80cdabbd9377fc2f147b4b8899d808303ce9ef55c0759fb2",
    "bytes": 150277,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6801-6807 Product Info.pdf",
@@ -3047,7 +3047,7 @@
    "sha256": "b1e748d663793ac742dd7707325768df2e570ca1483d450e2dd7175616e83f11",
    "bytes": 653763,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/6910 Product Info.pdf",
@@ -3055,7 +3055,7 @@
    "sha256": "8ea56fc66894c52f6e7091fdafbac651301ed259fb1b4afcc2a1536a58510b09",
    "bytes": 2459514,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/7500 Product Info.pdf",
@@ -3063,7 +3063,7 @@
    "sha256": "57d8bef7447a777b751cb20642deb39923c32c43ecbbcc7c3e2a14602ccf30e8",
    "bytes": 366520,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/7511_7531_7551 Product Info.pdf",
@@ -3071,7 +3071,7 @@
    "sha256": "c82bcea3b0078b6352db177f9a29c9b3d828bf0e4b0dcde5b41b4e722a47ab6a",
    "bytes": 244771,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8430-8450 Product Info.pdf",
@@ -3079,7 +3079,7 @@
    "sha256": "03f8bf5a01d8cf10a00f792c31c748bb3d44e78eb7f27b237ffcab987c97a31e",
    "bytes": 2676203,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8511-8531 Product Info.pdf",
@@ -3087,7 +3087,7 @@
    "sha256": "f18d461edac6d559625505deafc110dba830d9f537e0624b5531ec71ae9fbc2d",
    "bytes": 1310936,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8700_8730_Product Info.pdf",
@@ -3095,7 +3095,7 @@
    "sha256": "c591058f89089042eca2b820a3f967f1248220d2d2656c587a5c188cc593242e",
    "bytes": 194513,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8800-8801_8130 Product Info.pdf",
@@ -3103,7 +3103,7 @@
    "sha256": "9f051dda828c875794f3f5a64304471de527e6018ca1be4287c9e6dedc160eb2",
    "bytes": 1241763,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8845 Product Info.pdf",
@@ -3111,7 +3111,7 @@
    "sha256": "7b8dc9993bed6436a1601ee592c93bde7cde36a834dcf1d44254e94ab671b8e7",
    "bytes": 1854369,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8854 Product Info.pdf",
@@ -3119,7 +3119,7 @@
    "sha256": "989886d107692827a883ea325efd6275a233106d2350af8f38564052f62a5d53",
    "bytes": 279422,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8900 Product Info.pdf",
@@ -3127,7 +3127,7 @@
    "sha256": "234acf969299b420009363a80653c97fd9ca7d7490983b86c66a2d427568c4a2",
    "bytes": 2816082,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/8945 Product Info.pdf",
@@ -3135,7 +3135,7 @@
    "sha256": "2ed1459d8546be94d66bc0d3a4dc3dab5920877999ae265b05d69bbd055964c5",
    "bytes": 1255823,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9000_9011 Product Info.pdf",
@@ -3143,7 +3143,7 @@
    "sha256": "2f5e6786d155826cc32802c40e7cf629de3c1210bf90763dfa3c94db30ca2517",
    "bytes": 2176421,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9020 Product Info.pdf",
@@ -3151,7 +3151,7 @@
    "sha256": "d58bd60a514eb14c89c1021722769231ea4c4e5b9a05337d693692a08bf0532f",
    "bytes": 1364591,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9032-9150 9220-9680 Product Info.pdf",
@@ -3159,7 +3159,7 @@
    "sha256": "fc94b6eeaf568ee66bce2acc1bd381bc9b46d0e62a1f24ffecf9938ce148d8cc",
    "bytes": 295053,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9102 Product Info.pdf",
@@ -3167,7 +3167,7 @@
    "sha256": "a397f08937f7f3e8d3d3360b27f9549fca92a6219dfd15105ed246c11c21feb1",
    "bytes": 380777,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9200 Product Info.pdf",
@@ -3175,7 +3175,7 @@
    "sha256": "fc085edb745ac3cb1e471b14a8ffe02692cfd976dbb0794fa4e6244a47941b09",
    "bytes": 210734,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9210-9214 Product Info.pdf",
@@ -3183,7 +3183,7 @@
    "sha256": "0d227f02eee00dc413991beac24e9fae0c760a6496a1c1d327a2908f6bcbe313",
    "bytes": 664212,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9705-9707 Product Info.pdf",
@@ -3191,7 +3191,7 @@
    "sha256": "455c57fea3d6c9da0608fe291cc1c8d074c64fe2dc5ce2437b9d0b235de6a43a",
    "bytes": 299360,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9808-9868 Product Info.pdf",
@@ -3199,7 +3199,7 @@
    "sha256": "8cefb69699b205e2de82c1ed13055f6d9ffbfd7caa6949278f8cba3258eecc01",
    "bytes": 854602,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9901 Product Info.pdf",
@@ -3207,7 +3207,7 @@
    "sha256": "47152bd2c5a99d1794178e85c44e8aaa9826e36bf3a2bc307c43ff8623551c64",
    "bytes": 1953517,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9919_9923 Product Info.pdf",
@@ -3215,7 +3215,7 @@
    "sha256": "732b605c8b9d2c0978fdc703f9ee2e751fc2bc3d108839cc46f19746ad1006e5",
    "bytes": 213282,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9963 Product Info.pdf",
@@ -3223,7 +3223,7 @@
    "sha256": "0b112f36386ed7902562210d493cc664b3e779ccdfd930477b5f2893ae3043de",
    "bytes": 2014859,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/9965 Product Info.pdf",
@@ -3231,7 +3231,7 @@
    "sha256": "be1b03052c0d882e1f1753187674babc219a2296a7716c565f26a65208bd590c",
    "bytes": 438823,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/pds/flyers/Graphite Block Product Info.pdf",
@@ -3239,7 +3239,7 @@
    "sha256": "e19c45e48a39c5aab03b17fb8f419791b0562ca4a2fa1d0948c00161defdaa08",
    "bytes": 932793,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1136-NO-EGHS.pdf",
@@ -3247,7 +3247,7 @@
    "sha256": "320778896cc66ecfb388a6521bbe14ad363cdb4d3c134cfdf6d913c300b5b294",
    "bytes": 97771,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1150-NO-EGHS.pdf",
@@ -3255,7 +3255,7 @@
    "sha256": "aaba3ffb5a4e86d0368d3c81dc1c72e5e665b54baa07b62f136e1108bd7ee2b4",
    "bytes": 143420,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1232-NO-EGHS.pdf",
@@ -3263,7 +3263,7 @@
    "sha256": "a5912f97aea314f988ee8fe7565fce6a8c670f7f8296a8c8d9a36abbaf704049",
    "bytes": 124578,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1250-NO-EGHS.pdf",
@@ -3271,7 +3271,7 @@
    "sha256": "61c0d8a1aacdcec938916fee672018d9a5ce65ddf46deedfe2b220c0fb4553af",
    "bytes": 104450,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1251-NO-EGHS.pdf",
@@ -3279,7 +3279,7 @@
    "sha256": "c2cccd8a8e9cfa317a7f616598cafea00a4c8865dcf77003de673fc574429a9a",
    "bytes": 103589,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1274-NO-EGHS.pdf",
@@ -3287,7 +3287,7 @@
    "sha256": "c7eb205b9effdfc16e98e2b69b7030b1fec36242a89a9782bf4669fe4edcc74a",
    "bytes": 120689,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1275-NO-EGHS.pdf",
@@ -3295,7 +3295,7 @@
    "sha256": "d8c41c341c90546974e60e2425fdd10e945fc230e834f74cf553916f98e9ac67",
    "bytes": 121599,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1282-NO-EGHS.pdf",
@@ -3303,7 +3303,7 @@
    "sha256": "8b2ff8f98205ce1bd84c23d15becef088ae38902899a67b0bc683c8126194e49",
    "bytes": 97081,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1295-NO-EGHS.pdf",
@@ -3311,7 +3311,7 @@
    "sha256": "3a24a7c907bf12e65bf1f43b1a31f2b5ca7201ecb0b2b37c37b9236a0d2c07a6",
    "bytes": 144652,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1297-NO-EGHS.pdf",
@@ -3319,7 +3319,7 @@
    "sha256": "f8671e2b4265657b4be97131d5993c63d148251edda3aa1cbc4230be7017b122",
    "bytes": 144684,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1298-NO-EGHS.pdf",
@@ -3327,7 +3327,7 @@
    "sha256": "43de1a6ef9e6e0b002af63c1a90e7e808cc5b30deb94ee50de2d416cf87c4299",
    "bytes": 144671,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1299-NO-EGHS.pdf",
@@ -3335,7 +3335,7 @@
    "sha256": "85a6df39cc01ce1faa9911096c2e9754c07100c069f5ceb81966d6ce8ecc9ad5",
    "bytes": 144642,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1302-NO-EGHS.pdf",
@@ -3343,7 +3343,7 @@
    "sha256": "1c599ba24d13a3d26ab47ffff8f2e3d15ebbb2429292bff7358ac3cb9185c2f6",
    "bytes": 108281,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1304-NO-EGHS.pdf",
@@ -3351,7 +3351,7 @@
    "sha256": "bbd68c240fdbc6e7bf9cfdbea35aec1b959e7e7bbb70c2c4095c41cd66c2eb7a",
    "bytes": 107736,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1487-NO-EGHS.pdf",
@@ -3359,7 +3359,7 @@
    "sha256": "43b2288facdfdcdb6ebbadc53c9c8248398b501ea97914802aa3a67dd63708fd",
    "bytes": 120945,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1488-NO-EGHS.pdf",
@@ -3367,7 +3367,7 @@
    "sha256": "ec3d7bc8dbada035bf7014aa7f3f36bf7e02f532faa9f9b773f2d5f3050702c9",
    "bytes": 133726,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1489-NO-EGHS.pdf",
@@ -3375,7 +3375,7 @@
    "sha256": "c0075adbb73e56bd588984113b02932b219e24b34284fcbc92111564f8992854",
    "bytes": 112400,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1498-NO-EGHS.pdf",
@@ -3383,7 +3383,7 @@
    "sha256": "7ac8754cda16089fb217f5c0a1966544501124704a7237afc16d51035821821b",
    "bytes": 105423,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1499-NO-EGHS.pdf",
@@ -3391,7 +3391,7 @@
    "sha256": "86caefde1f079278c8fe014447e10d5abe312aea383d3f0f750b4d8fe2f00a42",
    "bytes": 104615,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1601-NO-EGHS.pdf",
@@ -3399,7 +3399,7 @@
    "sha256": "8120037ee6de70a1783fb7880475edf1b4640c3955c6ea50e8a55f5865f399e0",
    "bytes": 109186,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1602-NO-EGHS.pdf",
@@ -3407,7 +3407,7 @@
    "sha256": "431b8bfc8b77eb5c3a2d6426019354d1dfc3c924c03885f5628c0ca7ff973c31",
    "bytes": 109545,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1603-NO-EGHS.pdf",
@@ -3415,7 +3415,7 @@
    "sha256": "92569e3ebfad9b249ec206b8f272834a6b40dae115234e7c68393e1a4149f23e",
    "bytes": 121199,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1604-NO-EGHS.pdf",
@@ -3423,7 +3423,7 @@
    "sha256": "1529cfc2df9116b2330ab0d8a8cb3783ae6507ce3bd22aeb5f0d869163497fe9",
    "bytes": 110083,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1605-NO-EGHS.pdf",
@@ -3431,7 +3431,7 @@
    "sha256": "68ba1cf1304f5784bac2bf9f534d4c9d0775ba6dc639bb0163da868f96a15727",
    "bytes": 109970,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1606-NO-EGHS.pdf",
@@ -3439,7 +3439,7 @@
    "sha256": "b1f2e1e6421b7b0b13ca759c7e834c950e44277f85bb068044f2d0b091834d43",
    "bytes": 109902,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1607-NO-EGHS.pdf",
@@ -3447,7 +3447,7 @@
    "sha256": "034e78d94f5af55de44149dc0d999f56aed9014c5af452fafaacd18254a86313",
    "bytes": 109899,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1608-NO-EGHS.pdf",
@@ -3455,7 +3455,7 @@
    "sha256": "640a3f9ac3af803f1e859508940a57a61e5512f758159ca5c47fe0342a2eb425",
    "bytes": 108775,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1609-NO-EGHS.pdf",
@@ -3463,7 +3463,7 @@
    "sha256": "2a4a277275e5d0ac970d0ef7905b8b0761202f946a2adf0dd59c8a77b5c15606",
    "bytes": 108771,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-1610-NO-EGHS.pdf",
@@ -3471,7 +3471,7 @@
    "sha256": "42864d9297b8b4080b9ded0ca413b0fa042f6cc3cb98e86d7ce89c8d65bef9c8",
    "bytes": 108420,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-200-NO-EGHS.pdf",
@@ -3479,7 +3479,7 @@
    "sha256": "dbb14e271ebe5e3c1358851e558ab3dcead33b3401af0a933066e4e62ea8770e",
    "bytes": 83489,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2001-NO-EGHS.pdf",
@@ -3487,7 +3487,7 @@
    "sha256": "7cdd6d2f6c5dc3b34e741d2da96dcb293d24a2827351cd7f2f5a3796eb82d11d",
    "bytes": 135466,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2001A-NO-EGHS.pdf",
@@ -3495,7 +3495,7 @@
    "sha256": "424289146ef7cb9e3f667b8b157701427047a5303fec3c87c891183fd6b1c9ce",
    "bytes": 159279,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2002-NO-EGHS.pdf",
@@ -3503,7 +3503,7 @@
    "sha256": "d3e389696212bbe0ccfd09b9940886d211ea4148e9b1166691996dc252f39772",
    "bytes": 110260,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2011-NO-EGHS.pdf",
@@ -3511,7 +3511,7 @@
    "sha256": "d199693a96d7fd2eb69db7223beb5211f749b280d58245f1e5fc5a99d8aa8268",
    "bytes": 130337,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2022-NO-EGHS.pdf",
@@ -3519,7 +3519,7 @@
    "sha256": "55c0cfc01f9e758c7e1beaffb34763e541405d39db77ffc65f77ed5903aaf22e",
    "bytes": 113284,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2059-NO-EGHS.pdf",
@@ -3527,7 +3527,7 @@
    "sha256": "616b55de25d69b1facfc8da3710aaf059a54d0c6736428c977ef3aed6c900ef0",
    "bytes": 143916,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2059A-NO-EGHS.pdf",
@@ -3535,7 +3535,7 @@
    "sha256": "0ac241b41919ac778c115fe3a2538e5caef94efc3c19d0d75fe898214636a095",
    "bytes": 167789,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2110-NO-EGHS.pdf",
@@ -3543,7 +3543,7 @@
    "sha256": "65ff3cacdf27e699dc0f440ca09cfea50958db20e172be098e270a054b4707ea",
    "bytes": 127805,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2300-NO-EGHS.pdf",
@@ -3551,7 +3551,7 @@
    "sha256": "d73202051feb38dde689c45abacbca6830cfbabaf969d0a648a2948674dd5611",
    "bytes": 131705,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2421-NO-EGHS.pdf",
@@ -3559,7 +3559,7 @@
    "sha256": "f0a6134148618abc40c5e79c0b8353de565e095f9f98a47e55ba265f3c48a6b0",
    "bytes": 199549,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2705-NO-EGHS.pdf",
@@ -3567,7 +3567,7 @@
    "sha256": "28946dd8ddd1805e73d140e65ac3492c1ae8ac9dd45381b6bfcbaef6e905eeba",
    "bytes": 138116,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2710-NO-EGHS.pdf",
@@ -3575,7 +3575,7 @@
    "sha256": "a980177365061c64fd4822be73b181830b6482afc39729fa5b311d5cba433d14",
    "bytes": 110897,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-2799-NO-EGHS.pdf",
@@ -3583,7 +3583,7 @@
    "sha256": "a3fea7840b4ad5444b0c166d614b339573b873ec3439ace6949b6f67c831e689",
    "bytes": 123092,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-3353-NO-EGHS.pdf",
@@ -3591,7 +3591,7 @@
    "sha256": "5ff4f3ceb770e3d5fee9ab5e619f95f499fbc9dffa8f02092265d0cc6b64aea8",
    "bytes": 106459,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-3750-NO-EGHS.pdf",
@@ -3599,7 +3599,7 @@
    "sha256": "79fcb604068cc40e7dde9ecc797106232473aad07e8b09f2e6044b23a295c813",
    "bytes": 110430,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-3751-NO-EGHS.pdf",
@@ -3607,7 +3607,7 @@
    "sha256": "0b26e3817537618587017401e43f11eb52ff93dca815be3d1caf1fe9552b434e",
    "bytes": 112739,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-3752-NO-EGHS.pdf",
@@ -3615,7 +3615,7 @@
    "sha256": "f71a3c4e122427f594f616e4de1fa718f7417474d7a8427df79c4d69bc42d015",
    "bytes": 129222,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-401-NO-EGHS.pdf",
@@ -3623,7 +3623,7 @@
    "sha256": "89eae264b59038142ed8f8544724caa2f58e4ac6f668d1caf6d31d656a7d1d0c",
    "bytes": 117565,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4010-NO-EGHS.pdf",
@@ -3631,7 +3631,7 @@
    "sha256": "5f54350e20ca113d2d7a4a6da912985b6dbcc48ac0403a0b754874d072df739a",
    "bytes": 105069,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4020-NO-EGHS.pdf",
@@ -3639,7 +3639,7 @@
    "sha256": "751292ecc898de0ee20d06c1411318a7c522f8545f5e0eb1f7adfb7290cc49c2",
    "bytes": 104615,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4022-NO-EGHS.pdf",
@@ -3647,7 +3647,7 @@
    "sha256": "0740393dbc45835acaf57dfc143c00448b1e4dc0efd27f5b785048c783cb8fdc",
    "bytes": 115498,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4023-NO-EGHS.pdf",
@@ -3655,7 +3655,7 @@
    "sha256": "2fe412c977f8c9af6cc72a6da8876c20cfa40211a4996cd2fac3230416c9b25b",
    "bytes": 115543,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4024-NO-EGHS.pdf",
@@ -3663,7 +3663,7 @@
    "sha256": "7b7e47940ef8fc67fa7cae69a833395f61de900926297be48faac5eb71f719d3",
    "bytes": 115683,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4025-NO-EGHS.pdf",
@@ -3671,7 +3671,7 @@
    "sha256": "5cfadfce00760359755354add237043ec044e601e68ab14e4d817bb3db23d688",
    "bytes": 115473,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4025A-NO-EGHS.pdf",
@@ -3679,7 +3679,7 @@
    "sha256": "d0616caedc1eac0c0ea0b8a288f5b6e29d2ae5d897904368bb03d633b6c1d055",
    "bytes": 166883,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4030-NO-EGHS.pdf",
@@ -3687,7 +3687,7 @@
    "sha256": "db4387c4c54b1d4eb8c8109cc83b5efc994c942e086301f8b1a3bc6b830307cc",
    "bytes": 105595,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4032-NO-EGHS.pdf",
@@ -3695,7 +3695,7 @@
    "sha256": "d24bc81f1786535c896e62c7f3362fb6b649473b90f2974c111bcdceb0efb7bc",
    "bytes": 88282,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4040-NO-EGHS.pdf",
@@ -3703,7 +3703,7 @@
    "sha256": "9e28a1a07af818215ceb42b21c1ca44e0170d8366e2657b4e40b8446d309df7e",
    "bytes": 109009,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4046-NO-EGHS.pdf",
@@ -3711,7 +3711,7 @@
    "sha256": "e16f8f95ba193d5b5ad9704b2363056a928beb8ba939a06d8e984690904ae199",
    "bytes": 85198,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4051-NO-EGHS.pdf",
@@ -3719,7 +3719,7 @@
    "sha256": "9e8c7639efb30c7dc54cf066071ed396ab10b3dcb78635fb08c56aa6ab9bf6b0",
    "bytes": 141393,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4058-NO-EGHS.pdf",
@@ -3727,7 +3727,7 @@
    "sha256": "d85355bb4ee45d85d858d8f4bf967ae0b4ecf9534720028cc41cac977ae20e3c",
    "bytes": 114390,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4059A-NO-EGHS.pdf",
@@ -3735,7 +3735,7 @@
    "sha256": "74391f746d0aee128223ad12b9b15086884129228030d0cb7e52ee98df7963b0",
    "bytes": 139848,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4061-NO-EGHS.pdf",
@@ -3743,7 +3743,7 @@
    "sha256": "dbf4a6b878b256f636442ae9849c62a1668c636932f5db31c9aab7ab97ac6492",
    "bytes": 87636,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4068-NO-EGHS.pdf",
@@ -3751,7 +3751,7 @@
    "sha256": "dc6e813809b2160613bf8071dbe5668630f641a3b847af5acc38b41e7e2660c4",
    "bytes": 84783,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4070-NO-EGHS.pdf",
@@ -3759,7 +3759,7 @@
    "sha256": "d7b0e606be82e6a86f575a143e59b1ef2e44483af6c49d2b0c530df1b305874e",
    "bytes": 105847,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4071-NO-EGHS.pdf",
@@ -3767,7 +3767,7 @@
    "sha256": "fe75b6b35b51ae0710e6a473bba7c82eaa2ee130e21a7552eb5610fd695b15d0",
    "bytes": 106914,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4072-NO-EGHS.pdf",
@@ -3775,7 +3775,7 @@
    "sha256": "aa408ae0e5dd51ef92319a22f3b646e66ec7fc7013f5c2d0850fe9e4f332fec1",
    "bytes": 107271,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4090-NO-EGHS.pdf",
@@ -3783,7 +3783,7 @@
    "sha256": "2120adef82552268a6890d588b912aa321f0c7c2cd30331835622f299ec35ff2",
    "bytes": 104087,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4140-NO-EGHS.pdf",
@@ -3791,7 +3791,7 @@
    "sha256": "63addf95b9008d991c36d17e1ab2d425aebf60737ddcadf3e82ad8ede32c08fc",
    "bytes": 104018,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4150-NO-EGHS.pdf",
@@ -3799,7 +3799,7 @@
    "sha256": "e0beea66a44edc37c539212b0db063885545e5190f2f8ac875fea6775cf25170",
    "bytes": 96149,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4201-NO-EGHS.pdf",
@@ -3807,7 +3807,7 @@
    "sha256": "9e2ce68c37b31f42eaf0934c519bbc40f96668d9f0301659465d6803e667296a",
    "bytes": 97350,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4204-NO-EGHS.pdf",
@@ -3815,7 +3815,7 @@
    "sha256": "e092dabd84d3d623a651c2bd043fc5275ccd577cf54b2b91de3ff6787a07afa3",
    "bytes": 96587,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4220-NO-EGHS.pdf",
@@ -3823,7 +3823,7 @@
    "sha256": "a147354aa2031965b5cc230c603274ca3e41abfdfae6fd77a04d09c4975708d9",
    "bytes": 96124,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4250-NO-EGHS.pdf",
@@ -3831,7 +3831,7 @@
    "sha256": "f41833dbd427f448fc479c2a5ac1aa7fa1f7c5db64c25dffb2acc56567e32466",
    "bytes": 103807,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4320-NO-EGHS.pdf",
@@ -3839,7 +3839,7 @@
    "sha256": "71f58fcedd5a916e8986f06201938b0a8f59327bf6695817d8baa4ae10406d7e",
    "bytes": 96236,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4460-NO-EGHS.pdf",
@@ -3847,7 +3847,7 @@
    "sha256": "e89927ad1ee76abd43f267a2561135759d2a2fa3213f9e43beb89f46e0618d12",
    "bytes": 96138,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-451-NO-EGHS.pdf",
@@ -3855,7 +3855,7 @@
    "sha256": "6fe203796c50771f0e211d34a0eea8949e9919cc28a5b61b2981b6cfb69eefef",
    "bytes": 114926,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-452-NO-EGHS.pdf",
@@ -3863,7 +3863,7 @@
    "sha256": "10de96ae1ba58b0bd383d1690673e4e2a2c3142ea686ba70294c56eca67e2561",
    "bytes": 114998,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-453-NO-EGHS.pdf",
@@ -3871,7 +3871,7 @@
    "sha256": "c27f8b280689a0a3a2c2b8f3024182e29be5c694dbc175cb103c273ef6cad6bf",
    "bytes": 117485,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-460-NO-EGHS.pdf",
@@ -3879,7 +3879,7 @@
    "sha256": "1bb1ac7aa7d182b2cb96fec07e8a877c7b7836def862dc31097bc22c42748053",
    "bytes": 121120,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4622-NO-EGHS.pdf",
@@ -3887,7 +3887,7 @@
    "sha256": "0f797f6e385f74638a24c11d999da4670cf0053228b9aa146110f1a96d2a0fb9",
    "bytes": 124350,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4700-NO-EGHS.pdf",
@@ -3895,7 +3895,7 @@
    "sha256": "6423b4b70f3308db01a465f667fe54768def1f452c99617ec5704fd1bd73003e",
    "bytes": 122858,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4701-NO-EGHS.pdf",
@@ -3903,7 +3903,7 @@
    "sha256": "d5d23a57c4d5d8b1748d5a32faaab39b44acafe73bf322928be1dc3357453504",
    "bytes": 122444,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4702-NO-EGHS.pdf",
@@ -3911,7 +3911,7 @@
    "sha256": "01dcb1a8485251e9eda82e9c44e3720978aedb81e80e136b30094e77a3ff958b",
    "bytes": 121859,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4932-NO-EGHS.pdf",
@@ -3919,7 +3919,7 @@
    "sha256": "6c483875d215a10b577b66ad7ec93ad34594b887d6f6b7142f9b6981d765916d",
    "bytes": 126736,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4933-NO-EGHS.pdf",
@@ -3927,7 +3927,7 @@
    "sha256": "38c3b6ec4202dbd9caef75efe0f59fb01bdaf5b0f0b03ece4ccf1bdd25489fce",
    "bytes": 125845,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4934-NO-EGHS.pdf",
@@ -3935,7 +3935,7 @@
    "sha256": "fb7351ff76d8e9a7712ae437700d1386384fe395b793f9a10a536856978156ae",
    "bytes": 125898,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4941-NO-EGHS.pdf",
@@ -3943,7 +3943,7 @@
    "sha256": "a81903ff9dbf6c7d882633986e29ba5243bdcddddbad17d26f4f3efb5f1622ee",
    "bytes": 106742,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4943-NO-EGHS.pdf",
@@ -3951,7 +3951,7 @@
    "sha256": "77f14694e4d284ffcbcb2cc49731173aa0d188926f05ba14b22323ae7af47c1b",
    "bytes": 109348,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4945-NO-EGHS.pdf",
@@ -3959,7 +3959,7 @@
    "sha256": "8e9da903279e3e7390ed45b72e072ab7911b5494ca88ea49273d757e33a8cdbb",
    "bytes": 108113,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-4946-NO-EGHS.pdf",
@@ -3967,7 +3967,7 @@
    "sha256": "2d19ea74eaeeb684eed3f0c3bd68eaf624af04cdb7803b0f0721745c3849d706",
    "bytes": 108162,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-5100A-NO-EGHS.pdf",
@@ -3975,7 +3975,7 @@
    "sha256": "065c090c9f78813d9142f120a273e12b623625d325533d0d36d9b164a8eedbfb",
    "bytes": 156875,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-5180-NO-EGHS.pdf",
@@ -3983,7 +3983,7 @@
    "sha256": "0aa058ff80a16518c16dba14aace2f2df11815a141f551209e2861549aeba386",
    "bytes": 119697,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-5182-NO-EGHS.pdf",
@@ -3991,7 +3991,7 @@
    "sha256": "3fdb876e47c66bf4f96870937b5bf95b9ed2be83f8a2f58a3c2f19d72b06bd96",
    "bytes": 113716,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-5190-NO-EGHS.pdf",
@@ -3999,7 +3999,7 @@
    "sha256": "92d35c65fcbf70414420b9614f36ebe75d378c584d865681300d4922642905f2",
    "bytes": 137040,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6132-NO-EGHS.pdf",
@@ -4007,7 +4007,7 @@
    "sha256": "4c9a1363154690ceb043944f5808a3fad851c2ecd1f24fabdb3d158512cd8a7e",
    "bytes": 127195,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6140-NO-EGHS.pdf",
@@ -4015,7 +4015,7 @@
    "sha256": "541f5b3f05308fe71f1a6e9a26793248fa828f01f874e61ac8af84569a5e762d",
    "bytes": 110892,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6146-NO-EGHS.pdf",
@@ -4023,7 +4023,7 @@
    "sha256": "70718eaadc747bbd00417a40feeeeefb212c9ebbc1b57bf6526676d7ffd127c6",
    "bytes": 126300,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6168-NO-EGHS.pdf",
@@ -4031,7 +4031,7 @@
    "sha256": "f54c07aea2bb74b09aa71a05014c18db47b3c18244514c9ad25f7dfe1286a2c8",
    "bytes": 126238,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6190-NO-EGHS.pdf",
@@ -4039,7 +4039,7 @@
    "sha256": "4dd3f1aeb23bda6eeda541a988233c6051836d671acfe1b255482b1f1a6576e1",
    "bytes": 110880,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6200-NO-EGHS.pdf",
@@ -4047,7 +4047,7 @@
    "sha256": "9370a6dfe6bb387025660f08b15086e4c78f6890ee199e7b1349d160064a55bc",
    "bytes": 114064,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6260-NO-EGHS.pdf",
@@ -4055,7 +4055,7 @@
    "sha256": "578851206c252835b327db30d9b0c9925829dc29e9a5805d525c5f3efdc30fe1",
    "bytes": 112973,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6303-NO-EGHS.pdf",
@@ -4063,7 +4063,7 @@
    "sha256": "1355df204f8082dde4e011c3759283eb3aecabed16174b6fc2868c23be08b249",
    "bytes": 112279,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6312-NO-EGHS.pdf",
@@ -4071,7 +4071,7 @@
    "sha256": "af19c244ec24b95f61dc13c7b4ec18a9bac5bf417ef1ef41584ffb37d3506d92",
    "bytes": 96910,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6315-NO-EGHS.pdf",
@@ -4079,7 +4079,7 @@
    "sha256": "44868005559ddc4f5cc838bafcc701a0dcd838c7e0457f8d45eabbef332118dc",
    "bytes": 101129,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6322-NO-EGHS.pdf",
@@ -4087,7 +4087,7 @@
    "sha256": "3066657d62ba8aa0f0ec8bc1879d0ceff1ca2b4122d1cf6f1546f3818e3ab57f",
    "bytes": 110258,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6330-NO-EGHS.pdf",
@@ -4095,7 +4095,7 @@
    "sha256": "4802c8439e3ad5cf3f51879bcd2925a926e2c0a55953daceb28dbd5369ec198e",
    "bytes": 126310,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-640-NO-EGHS.pdf",
@@ -4103,7 +4103,7 @@
    "sha256": "f3177fd533e142be2835b6cb10970dbe114a4ee0cd09849cb1f3f7abd883b5e0",
    "bytes": 112315,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6401-NO-EGHS.pdf",
@@ -4111,7 +4111,7 @@
    "sha256": "8ef5aacf71db8e95a2b340f763369a363f108695cf27004ffb19a148d4d16e4e",
    "bytes": 112774,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6402-NO-EGHS.pdf",
@@ -4119,7 +4119,7 @@
    "sha256": "ffa8c29582e76c184123462d45089c7aa110e40dd2114fd544e6f24a973699c7",
    "bytes": 111589,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6403-NO-EGHS.pdf",
@@ -4127,7 +4127,7 @@
    "sha256": "5c6283fad91f5627e5248820dda9bb4271bcd6044ef84adbf29a0de6235e2589",
    "bytes": 111508,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6404-NO-EGHS.pdf",
@@ -4135,7 +4135,7 @@
    "sha256": "d5d4f4e2e16abad3bbc0d25cd958784de14ef4802f7d4efd10126413ccbcfeaa",
    "bytes": 111572,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6405-NO-EGHS.pdf",
@@ -4143,7 +4143,7 @@
    "sha256": "69a2c57baf8d3be18d602e8f12f6256b4733ad7acc7f7ed2759f3b00225703bd",
    "bytes": 113193,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6406-NO-EGHS.pdf",
@@ -4151,7 +4151,7 @@
    "sha256": "f9fee67760362e2241ff217f58cbf944eff1f709ec7e87b33b3bfdcf80fcac66",
    "bytes": 113198,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6407-NO-EGHS.pdf",
@@ -4159,7 +4159,7 @@
    "sha256": "4953afaa26d99dd274f339ee13ef0c2a78c213b661a181ba26d0506d915c1b2c",
    "bytes": 125179,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6412-NO-EGHS.pdf",
@@ -4167,7 +4167,7 @@
    "sha256": "faf8bd657c35f26e3ba001b5410890ca5072a66a2bbb22705467cc82c8eafe9a",
    "bytes": 101365,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6413-NO-EGHS.pdf",
@@ -4175,7 +4175,7 @@
    "sha256": "f5f17bbb6499c230be598de4c4eee5b3bcbbc08e8b1ef80f4a5a1a116441721c",
    "bytes": 101360,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6414-NO-EGHS.pdf",
@@ -4183,7 +4183,7 @@
    "sha256": "8835f431a24394111681558ccc192c9535445d4561264378e569f0c642c3cf88",
    "bytes": 101320,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6461-NO-EGHS.pdf",
@@ -4191,7 +4191,7 @@
    "sha256": "a30f03a1c1569274d498d187ab4d7ad6667e04970f21ed11d8ba8a3284a377e0",
    "bytes": 104506,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6462-NO-EGHS.pdf",
@@ -4199,7 +4199,7 @@
    "sha256": "65dca0e901cc34ebbc4e9b4c8abc0efdeb0b5e9e5ef4df0a74fc562e559d586c",
    "bytes": 112543,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6463-NO-EGHS.pdf",
@@ -4207,7 +4207,7 @@
    "sha256": "7e64b74975c848700762cbd311e656d0d932a3c776ff2683a7725d79e891a3db",
    "bytes": 111275,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6469-NO-EGHS.pdf",
@@ -4215,7 +4215,7 @@
    "sha256": "a47b2827eda8a4a3f6b67e5f924f8f3f7116c9d6a268dd837cfae09edd8222bf",
    "bytes": 98642,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6481-NO-EGHS.pdf",
@@ -4223,7 +4223,7 @@
    "sha256": "bbc63897181050ccc7a67e4cbecd941b359cd93f20b44638b988525ad57b7b70",
    "bytes": 117240,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6482-NO-EGHS.pdf",
@@ -4231,7 +4231,7 @@
    "sha256": "a193ad6bf1e3a7aba4c5c147b00ff800b7588797b2235c797b22b5546ea49f89",
    "bytes": 117738,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6522-NO-EGHS.pdf",
@@ -4239,7 +4239,7 @@
    "sha256": "9fd0d1299246cb21c8ce2f8aaad881f56b9c6b5b11555b3a4372d691b3c11fb6",
    "bytes": 136459,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6532-NO-EGHS.pdf",
@@ -4247,7 +4247,7 @@
    "sha256": "0f5b4a88e8137570407787b3e21c56c9857bb95809978ba7aa560905664dfd12",
    "bytes": 130931,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6546-NO-EGHS.pdf",
@@ -4255,7 +4255,7 @@
    "sha256": "91a9bb4dfa81fb95095c90f406c3a0aa7da61200c35810b58251ed88ca1cf9c7",
    "bytes": 130078,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6603-NO-EGHS.pdf",
@@ -4263,7 +4263,7 @@
    "sha256": "cd456d5acdd4d64f37b4d9611fda412e084bc96c70e99ef2b08722d81fbebd19",
    "bytes": 107365,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6734-NO-EGHS.pdf",
@@ -4271,7 +4271,7 @@
    "sha256": "9b52d0644980c6b79a2da3cd606c02e6cd66369e82abcbcb3fe5c686f56b7672",
    "bytes": 125544,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6739-NO-EGHS.pdf",
@@ -4279,7 +4279,7 @@
    "sha256": "8e4d8bfc84cb723a84c1b90011e450ac5f2edf9fad3d45d80489252fb5d8501c",
    "bytes": 125330,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6751-NO-EGHS.pdf",
@@ -4287,7 +4287,7 @@
    "sha256": "e55d8e120d5323dc03423c85c4db372a619884cce62b2c49e0602abed1129c77",
    "bytes": 100192,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6760-NO-EGHS.pdf",
@@ -4295,7 +4295,7 @@
    "sha256": "5e91fc9bd8034122375970eed5d14ee235591cbd71158bef4fb5844ad37a8125",
    "bytes": 122546,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-680-NO-EGHS.pdf",
@@ -4303,7 +4303,7 @@
    "sha256": "32ca90befa62776c93816a45a7a8c5958eaf8b0921cefec8c7e83d48b720d99e",
    "bytes": 121116,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6801-NO-EGHS.pdf",
@@ -4311,7 +4311,7 @@
    "sha256": "ae30ebfab7db6f4d92372dae092f9a56d3f6fbd54b270f772cdfae604e8739dd",
    "bytes": 109454,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6802-NO-EGHS.pdf",
@@ -4319,7 +4319,7 @@
    "sha256": "9d80a7e97d148cc2710676d056fe5696b47fec655ac58f1f722f11fbb30d8f97",
    "bytes": 109176,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6803-NO-EGHS.pdf",
@@ -4327,7 +4327,7 @@
    "sha256": "0a839c0ee3ce09ac10e5ae601d22b04bd60a579e3eedfdc6182fa9a88ddb62e9",
    "bytes": 109163,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6804-NO-EGHS.pdf",
@@ -4335,7 +4335,7 @@
    "sha256": "c9d282394a9cb306ce33a15125ff8ab3346a9a9e1833c8b5254c1293b4a779af",
    "bytes": 108431,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6805-NO-EGHS.pdf",
@@ -4343,7 +4343,7 @@
    "sha256": "80435ce6b65a8678e925097505df22c2d9049cd89d3e53ca22f6b5bdfb82e4c8",
    "bytes": 108886,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6806-NO-EGHS.pdf",
@@ -4351,7 +4351,7 @@
    "sha256": "7adc1c6a60c357c14236d5ee9d049f1e0fcdc7c4e75d8959fedf4cc49416d209",
    "bytes": 108991,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6807-NO-EGHS.pdf",
@@ -4359,7 +4359,7 @@
    "sha256": "f76bdc8d0d4dc21d207be43763cbf3513d1adefc797319f3c11ed3b0c8e7cd04",
    "bytes": 108965,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-6910-NO-EGHS.pdf",
@@ -4367,7 +4367,7 @@
    "sha256": "ac445fc77ced14f19cbd98822f5a4141994c6a036eeca390c4988fe707924ff4",
    "bytes": 130266,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-703-NO-EGHS.pdf",
@@ -4375,7 +4375,7 @@
    "sha256": "f7f0a162d267566640fa555517161c754282ff6e9d5cbf11306b1cc65acd167d",
    "bytes": 133941,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-704-NO-EGHS.pdf",
@@ -4383,7 +4383,7 @@
    "sha256": "a2d4b5dac1ca5bafe26dee515ba685c6a400842ab812ee91596784e98de83620",
    "bytes": 135674,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-7500-NO-EGHS.pdf",
@@ -4391,7 +4391,7 @@
    "sha256": "663d63aa749b2edddd2503755ec17e5b785a5e7772e98d530f7fa67d4b64c15b",
    "bytes": 152790,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-7511-NO-EGHS.pdf",
@@ -4399,7 +4399,7 @@
    "sha256": "cad0790450c00cc50509d7b8ab1d973c9b2559406386b00ee3a1fd4fc8819dd0",
    "bytes": 149564,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-7531-NO-EGHS.pdf",
@@ -4407,7 +4407,7 @@
    "sha256": "53b797f1a77b4002f92a4c390c844a3883781df28a8d344bca4126d2fa05d321",
    "bytes": 149663,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-7551-NO-EGHS.pdf",
@@ -4415,7 +4415,7 @@
    "sha256": "4e9c79607884d4d7b8ebac9063927933e3bcd17ddc43701f60bd2cfd0755d0c9",
    "bytes": 153281,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-802A-NO-EGHS.pdf",
@@ -4423,7 +4423,7 @@
    "sha256": "10ea50d0168916662efe054f56e91aa677fccb7a39e9ede0a61f0e019ef27b28",
    "bytes": 152456,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-804A-NO-EGHS.pdf",
@@ -4431,7 +4431,7 @@
    "sha256": "dc2a7266462cdeeaac3f9bd5d287a6f4c50776546fbfee0f45975b275c2202ec",
    "bytes": 155320,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8130-NO-EGHS.pdf",
@@ -4439,7 +4439,7 @@
    "sha256": "36690cc1127d9e5f78c24fb8599449885fe3af62374bb27fd7167727f229ed3a",
    "bytes": 106988,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8430-NO-EGHS.pdf",
@@ -4447,7 +4447,7 @@
    "sha256": "fcb516645b1d58f05b80272c701b04d1b6ea5ee766e9aad7e70d52e2231e0609",
    "bytes": 105585,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8440-NO-EGHS.pdf",
@@ -4455,7 +4455,7 @@
    "sha256": "ea27a4fe9201bb51767a9ca8f63ccdc8dd102645362de52b780b5527df15d2a8",
    "bytes": 107313,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8450-NO-EGHS.pdf",
@@ -4463,7 +4463,7 @@
    "sha256": "5288260cb91d78878c5f32345404efbe2fb896e962e4a0fe01178cf7e9e27609",
    "bytes": 107339,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8511-NO-EGHS.pdf",
@@ -4471,7 +4471,7 @@
    "sha256": "71d68f49c4b32d4b1d215e7750b1d91aac6e5bc629dc432ea56d5a548f913150",
    "bytes": 111578,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8521-NO-EGHS.pdf",
@@ -4479,7 +4479,7 @@
    "sha256": "54126d37b09057770368b7f48999b06fd923bb9f6f981981f1980e2fa6f844dd",
    "bytes": 105906,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8531-NO-EGHS.pdf",
@@ -4487,7 +4487,7 @@
    "sha256": "171d8fec0f14cc9d0e64e52d79cea65f0974eb9262257df783a607008509d1ea",
    "bytes": 105758,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8700-NO-EGHS.pdf",
@@ -4495,7 +4495,7 @@
    "sha256": "22378ab7b685eeaf47628fad757a9058f9b45d7a34421ccfbdd920c5430eaefe",
    "bytes": 131589,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8730-NO-EGHS.pdf",
@@ -4503,7 +4503,7 @@
    "sha256": "c46e08776f9c2af64d0f67748b3463a7c5ceba62a288fde18a4683c2ca04be71",
    "bytes": 138610,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8800-NO-EGHS.pdf",
@@ -4511,7 +4511,7 @@
    "sha256": "21adbfe2eb7aa24ca4eaeb360abdf0956665bdb82445f9d06d4bd29786727065",
    "bytes": 107081,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8801-NO-EGHS.pdf",
@@ -4519,7 +4519,7 @@
    "sha256": "7bd15d198e33fdcbb672e35807c4bb4269bcb47d514c90e6e84cc132ede14afd",
    "bytes": 106969,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8845-NO-EGHS.pdf",
@@ -4527,7 +4527,7 @@
    "sha256": "b5040a3f3d57608d4da1588231e5950e891e3ebdefd19f39f39f975f0e13cfbe",
    "bytes": 105346,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8854-NO-EGHS.pdf",
@@ -4535,7 +4535,7 @@
    "sha256": "5cf5a0180679589532943c6ad91e81a34157098feceb9211674e99b8706f3be7",
    "bytes": 120505,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8900-NO-EGHS.pdf",
@@ -4543,7 +4543,7 @@
    "sha256": "24597488002c3df366523db56f385870fbcab06931ef1d692852b91180831bf2",
    "bytes": 111007,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-8945-NO-EGHS.pdf",
@@ -4551,7 +4551,7 @@
    "sha256": "4b514b4997514024b91c59bc53ebc183c508c26fcfd58532ee2c26055cfcada0",
    "bytes": 103591,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9000-NO-EGHS.pdf",
@@ -4559,7 +4559,7 @@
    "sha256": "27e1bb392ffa4d4fa39938acf1e48d01dd5bb6c08badfb7ca77923a3ac2c84e3",
    "bytes": 104790,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9011-NO-EGHS.pdf",
@@ -4567,7 +4567,7 @@
    "sha256": "a830eba9261ec441b1c66415dc6bd528c105add83aef1647d33263ab406a28c0",
    "bytes": 131877,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9020-NO-EGHS.pdf",
@@ -4575,7 +4575,7 @@
    "sha256": "315593a7fe9693eb9e5dcc3ebff2cb262f10dbfc22a346e1bd17931efd122474",
    "bytes": 110492,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9032-NO-EGHS.pdf",
@@ -4583,7 +4583,7 @@
    "sha256": "adbbdf23f1368e1d500aa4fe06037e8d53cda47e945c7451475fd50010a672e5",
    "bytes": 101379,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9046-NO-EGHS.pdf",
@@ -4591,7 +4591,7 @@
    "sha256": "83f49d5dc44d4f4357af114ba3ec9ca601fd070ff18e2f8158278b2cf1c967b4",
    "bytes": 98031,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9068-NO-EGHS.pdf",
@@ -4599,7 +4599,7 @@
    "sha256": "4864fc55f5e82d07f8e9f3741d79e28662a622ac6462d96b17d9f73c34c72fa8",
    "bytes": 98032,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9100-NO-EGHS.pdf",
@@ -4607,7 +4607,7 @@
    "sha256": "c1fbeac04d25a4bd8c21bcebc115651abda801de152d4221e1d47c47cd7acd67",
    "bytes": 96453,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9102A-NO-EGHS.pdf",
@@ -4615,7 +4615,7 @@
    "sha256": "c2af364b9528894542db4df7c7604b6ec7d2cd261b419fe80d570d58cac0adf0",
    "bytes": 179606,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9150-NO-EGHS.pdf",
@@ -4623,7 +4623,7 @@
    "sha256": "000cd1f1999ba19c09e34db8bca79f7a236796d6a86f1ad84575b9f44e82849e",
    "bytes": 98010,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9200A-NO-EGHS.pdf",
@@ -4631,7 +4631,7 @@
    "sha256": "b3c84eeef672371ac878d255d13561f7c9111b60e1501c71a3173c8c031d7b73",
    "bytes": 169033,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9210-NO-EGHS.pdf",
@@ -4639,7 +4639,7 @@
    "sha256": "a7dbb634c5eb9a6cb5e11b7a259240f43a938fa43959f6e0637f038f7c2d5ffd",
    "bytes": 115032,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9211-NO-EGHS.pdf",
@@ -4647,7 +4647,7 @@
    "sha256": "adb6a0bda41a6deeb71f4ec565f9c12a39176a5b675fc20f35aa4f4c62faa2ee",
    "bytes": 114983,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9212-NO-EGHS.pdf",
@@ -4655,7 +4655,7 @@
    "sha256": "29f859f9537ad66ea6221319d280d5e9cbb00832e744e33749a6eeaeb740be9f",
    "bytes": 114989,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9213-NO-EGHS.pdf",
@@ -4663,7 +4663,7 @@
    "sha256": "d684d5684c32f032126f351d4b84317f62ce05d578643afbd5b9035e8e6784f3",
    "bytes": 115016,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9214-NO-EGHS.pdf",
@@ -4671,7 +4671,7 @@
    "sha256": "796838f5d3056954e80f71d876ca02d1fb3f8538b5c5792e22ff1e92ddf0db7b",
    "bytes": 115019,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9220-NO-EGHS.pdf",
@@ -4679,7 +4679,7 @@
    "sha256": "4a30738e72028dc5645e7718f84bd4f079ed03e539eaa9b7d8fd353e03bcdf97",
    "bytes": 97999,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9320-NO-EGHS.pdf",
@@ -4687,7 +4687,7 @@
    "sha256": "ac706f1055a5fd206ced7d84da019d6b80fe858adc0f04503bce48e5adeb5e0f",
    "bytes": 98018,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9460-NO-EGHS.pdf",
@@ -4695,7 +4695,7 @@
    "sha256": "4ff6f06ba406b1cc07f63a3d69b646246743dffad07b86d53781fdee82450d9c",
    "bytes": 98034,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9680-NO-EGHS.pdf",
@@ -4703,7 +4703,7 @@
    "sha256": "bcc34258eb0d718c2f4966105c8c327dc49c8d7e06b5c977eee33bb694ac3ece",
    "bytes": 97711,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9705-NO-EGHS.pdf",
@@ -4711,7 +4711,7 @@
    "sha256": "963351667035968cfa185a1d8a87c5bfff05cb4049df3b4697a331896659fd10",
    "bytes": 86023,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9706-NO-EGHS.pdf",
@@ -4719,7 +4719,7 @@
    "sha256": "8041f19347ba304e0a6f4c6e05c1dbcae86568effee034a8ab494023a7aeef8f",
    "bytes": 86124,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9707-NO-EGHS.pdf",
@@ -4727,7 +4727,7 @@
    "sha256": "8f8151ba168c2130f748de792d4b38df10baeae2ed0902b2ffd6d2e451ad3f21",
    "bytes": 86157,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9808-NO-EGHS.pdf",
@@ -4735,7 +4735,7 @@
    "sha256": "244a7c5def7a8f57ae0f6d83eb9d36bc802022f158ae370ba2f0a6590d26d48e",
    "bytes": 100341,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9815-NO-EGHS.pdf",
@@ -4743,7 +4743,7 @@
    "sha256": "87933b4a4c46ec453ad9970b33d0e5712c9a7d00309b7313d7cb9e003582095c",
    "bytes": 101662,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9822-NO-EGHS.pdf",
@@ -4751,7 +4751,7 @@
    "sha256": "e5fdb1a8f863ec3ae41c6f6b39be4fd13f95d5b15ba9979cbf815a319e00fa0b",
    "bytes": 100643,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9832-NO-EGHS.pdf",
@@ -4759,7 +4759,7 @@
    "sha256": "6e81c676dda6b2ac8a8a9c66dd618f8973f6635492087baf33ae808fcfa91e28",
    "bytes": 101110,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9846-NO-EGHS.pdf",
@@ -4767,7 +4767,7 @@
    "sha256": "7f8cfc85654b2bda2dd99df8420186b3be4b423e37457793631f010a25614f11",
    "bytes": 100666,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9868-NO-EGHS.pdf",
@@ -4775,7 +4775,7 @@
    "sha256": "54cf3b1f0a18f9df169c0be9573a44cbd75f63d15bac94cb40ec1e7e81ac6bfd",
    "bytes": 100357,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9901-NO-EGHS.pdf",
@@ -4783,7 +4783,7 @@
    "sha256": "4be388703dec3b121dbc54ed51f6f273f3436bc7d3388912e0382c87733276cb",
    "bytes": 109889,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9919-NO-EGHS.pdf",
@@ -4791,7 +4791,7 @@
    "sha256": "2735325541ac68f9966153e6c34acbf1c7aaaaa1d139965df5097d6225c8ce7c",
    "bytes": 130494,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9923-NO-EGHS.pdf",
@@ -4799,7 +4799,7 @@
    "sha256": "439ce12215dce33bbfb7c7d1b524f17867ddf8e5c1c1f8e80d09213fb6c23f28",
    "bytes": 132672,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9963-NO-EGHS.pdf",
@@ -4807,7 +4807,7 @@
    "sha256": "010d16f4c49de7c72e6eba5d03a78517c0cff2179118b6d470037485655da8e9",
    "bytes": 135639,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   },
   {
    "fil": "le/datablad/sds/LE-9965-NO-EGHS.pdf",
@@ -4815,7 +4815,7 @@
    "sha256": "1ea9962013c2fea64472a44ba1b07c4fbd3bd0f345ebad8af3d851cab5544bbc",
    "bytes": 89218,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-12"
   }
  ]
 }
