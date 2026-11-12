@@ -137,6 +137,9 @@ async function pool(items, n, fn) {
 
   // Samlet datablad-oversikt for fuglesangstech.no/datablad (verktoy/oversikt.js)
   let ovr = null, ovrErr = '';
+  // Chesterton-litteratur (brosjyrer, kataloger, bruksanvisninger, case) – må kjøres før oversikten bygges
+  let lit = null, litErr = '';
+  try { lit = await require('./litteratur.js').run(root, grab(ch, 'CD').map(r => String(r[2]))); } catch (e) { litErr = e.message; }
   try { ovr = require('./oversikt.js').build(root, grab(ch, 'CD'), grab(le, 'LD')); } catch (e) { ovrErr = e.message; }
 
   // Lenkesjekk av hele fuglesangstech.no (verktoy/lenkesjekk.js) – kjøres etter at filene over er oppdatert
@@ -148,7 +151,7 @@ async function pool(items, n, fn) {
   catch (e) { certErr = e.message; }
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
@@ -163,6 +166,7 @@ async function pool(items, n, fn) {
       : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n') +
     require('./vickers.js').rapport(vik, vikErr) +
     require('./perma.js').rapport(per, perErr) +
+    '\n## Chesterton-litteratur\n' + (lit ? 'Dokumenter hos Chesterton: ' + lit.funnet + '. Koblet til våre produkter: ' + lit.koblet + '. Generelle: ' + lit.generelt + '.\n' : 'Kunne ikke oppdateres denne gangen: ' + litErr + ' (litteratur.json er uendret).\n') +
     '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '. Andre dokumenter: ' + ovr.dok + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
     require('./lenkesjekk.js').rapport(lnk, lnkErr);
   fs.writeFileSync(path.join(root, 'synk-rapport.md'), md);

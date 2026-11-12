@@ -13,7 +13,11 @@
   Hver rad: { lev, nr, navn, sds: [[etikett, språk, fil]], pds: [...], dok: [[etikett, språk, fil, type]], lenke }
   «dok» er andre dokumenter enn SDS/PDS. Typer: sertifikat, bruksanvisning (flere kan komme: brosjyre, katalog, case).
     Chesterton – sertifikater.json (verktoy/sertifikater.js, utløpte er allerede tatt ut)
+    Chesterton – litteratur.json (verktoy/litteratur.js): brosjyrer, kataloger, bruksanvisninger og case-studier
+                 (lenker til chesterton.com). Dokumenter som gjelder mange produkter, blir egne rader.
     Vickers    – sertifikater og bruksanvisning i vickers/produkter.json
+    Alle       – dokumenter.json (verktoy/lag_dokumenter.py): utvalgte brosjyrer, kataloger, bruksanvisninger,
+                 tekniske veiledninger og firmasertifikater fra Vickers, Perma-Tec og LE (lenker).
 */
 'use strict';
 const fs = require('fs'), path = require('path');
@@ -28,15 +32,19 @@ function build(root, CD, LD) {
   const S = 'https://www.fuglesangstech.no';
 
   const cert = (read(root, 'sertifikater.json') || { produkter: {} }).produkter || {};
+  const lit = read(root, 'litteratur.json') || { produkter: {}, generelt: [] };
   const dok = (list, type) => (list || []).filter(d => Array.isArray(d) && d[2]).map(d => [String(d[0] || ''), String(d[1] || 'EN'), String(d[2]), type]);
 
   // Chesterton
   const chFile = p => /^https?:/.test(p) ? p : (have.has('chesterton/datablad/' + p) ? 'chesterton/datablad/' + p : CH_PDF + encodeURI(p).replace(/#/g, '%23'));
   (CD || []).forEach(r => {
     const docs = l => (l || []).filter(d => Array.isArray(d) && d[2]).map(d => [String(d[0] || ''), String(d[1] || 'EN'), chFile(String(d[2]))]);
-    const sds = docs(r[7]), pds = docs(r[8]), d = dok(cert[String(r[2])], 'sertifikat');
+    const sds = docs(r[7]), pds = docs(r[8]), d = dok(cert[String(r[2])], 'sertifikat').concat((lit.produkter || {})[String(r[2])] || []);
     if (sds.length || pds.length || d.length) rows.push({ lev: 'Chesterton', nr: String(r[2]), navn: String(r[3]), sds, pds, dok: d, lenke: S + '/produkter#' + pid(r[2]) });
   });
+
+  // Chesterton – generelle dokumenter (kataloger og brosjyrer for hele sortimentet)
+  (lit.generelt || []).forEach(d => rows.push({ lev: 'Chesterton', nr: '', navn: d[0], sds: [], pds: [], dok: [d], lenke: d[2] }));
 
   // LE
   const first = {};
@@ -75,9 +83,23 @@ function build(root, CD, LD) {
     if (sds.length || pds.length || d.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, dok: d, lenke: S + '/vickers-katalog?q=' + encodeURIComponent(p.navn) });
   });
 
+  rows.forEach(r => { if (!r.dok) r.dok = []; });
+
+  // Utvalgte dokumenter (dokumenter.json): ved produktene «produkter» peker på, ellers som egen rad
+  const utvalg = (read(root, 'dokumenter.json') || { dokumenter: [] }).dokumenter || [];
+  utvalg.forEach(d => {
+    const rad = [d.navn, d.sprak || 'EN', d.url, d.type];
+    let treff = [];
+    if (d.produkter) { const rx = new RegExp(d.produkter, 'i'); treff = rows.filter(r => r.lev === d.lev && rx.test(r.navn)); }
+    if (treff.length) treff.forEach(r => { if (!r.dok.some(x => x[2] === d.url)) r.dok.push(rad); });
+    else rows.push({ lev: d.lev, nr: '', navn: d.navn, sds: [], pds: [], dok: [rad], lenke: d.url });
+  });
+  // radene samlet per leverandør (generelle dokumenter sist innen leverandøren)
+  const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils'];
+  const pos = new Map(rows.map((r, i) => [r, i]));
+  rows.sort((a, b) => (levRek.indexOf(a.lev) - levRek.indexOf(b.lev)) || (pos.get(a) - pos.get(b)));
   const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec'], rader: rows };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));
-  rows.forEach(r => { if (!r.dok) r.dok = []; });
   return { rader: rows.length, sds: rows.reduce((n, r) => n + r.sds.length, 0), pds: rows.reduce((n, r) => n + r.pds.length, 0), dok: rows.reduce((n, r) => n + r.dok.length, 0) };
 }
 

@@ -129,7 +129,7 @@ async function run(root, codes, log) {
   return res;
 }
 
-module.exports = { run };
+module.exports = { run, MAP, key };
 
 if (require.main === module) {
   (async () => {

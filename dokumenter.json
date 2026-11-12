@@ -1,0 +1,765 @@
+{
+ "oppdatert": "2026-11-12",
+ "merknad": "Utvalg laget med verktoy/lag_dokumenter.py. Lenker, ikke kopier.",
+ "dokumenter": [
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma produktkatalog",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/d/5/0/b/d50b8b65dfd51f08e90724127916be096bf250d0/Product_catalogue_perma_en_118762.pdf",
+   "type": "katalog"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma STAR VARIO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/0/9/3/0093eb0334fdb70074b657a87e01b6d829d79b3a/Installation_Guide_perma_STAR_VARIO_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma STAR VARIO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma FUTURA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/4/5/d/4/45d4411862e2d856096f4481a49823a72ac5613c/Installation_Guide_perma_FUTURA_FUTURA_PLUS_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma FUTURA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: tilbehør og installasjonssett perma STAR",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/5/f/3/a/5f3ae730be8523bde56b3dab012386c54fd94d74/220920_perma_Installation_guide_ACCESSORY_KITS_INSTALLATIO_%20KITS_STAR_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^(perma STAR|Støtteflenser perma STAR|Beskyttelseshetter perma STAR)"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma STAR CONTROL",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/7/5/c/4/75c4cca9df848c552a0155b990eff143d36c8437/Installation_Guide_perma_STAR_CONTROL_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma STAR CONTROL"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma FLEX",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/8/5/0/4/850441a644d7915db12b352877449c10c54b1c68/Installation_Guide_perma_FLEX_FLEX_PLUS_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma FLEX"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma PRO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/9/2/2/1/9221a02da00343392f20732ffd2560c1af620aa2/Installation_Guide_perma_PRO_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma ULTRA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/a/f/1/5/af1597b12663adec7c2578d7d758ee17ce6a7bfe/Installation_Guide_perma_ULTRA_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma ULTRA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma CLASSIC",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/d/c/7/0/dc70f6b9dbe565a6368ece1feb5ab6c0aff5f4fb/Installation_Guide_perma_CLASSIC_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma CLASSIC"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Installasjonsveiledning: perma NOVA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/e/f/8/b/ef8ba764df3813b6570c550c17a5cc72ca20914d/Installation_Guide_perma_NOVA_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma NOVA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma STAR VARIO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/a/0/7/0a07b6de87594480600a4b48d51ae59d8ea4f4ac/Quick_Start_Guide_perma_STAR_VARIO_103774_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma STAR VARIO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma CLASSIC",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/b/d/4/0bd48b70bffb8c7341deb805917d8abdde87309a/Quick_Start_Guide_perma_CLASSIC_103770_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma CLASSIC"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma STAR CONTROL",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/d/6/6/0d66d579210a51900d9bb69a46d7a73102a555ca/Quick_Start_Guide_perma_STAR_CONTROL_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma STAR CONTROL"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma PRO LINE",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/1/7/c/4/17c424a87b7f4c2078a0a9b84c69621d7e4f23ed/221220_perma_Quick_Start_Guide_PRO_LINE_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma PRO C LINE",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/4/c/f/5/4cf504b1a7b1260a5a71a0db22be838cc618630f/Quick_Start_Guide_perma_PRO_C_LINE_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma ULTRA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/6/6/9/a/669afebb390dedc095a68d4ab634c409e5f0fa49/Quick_Start_Guide_perma_ULTRA_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma ULTRA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma NOVA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/7/6/2/6/7626a936c58e746caeadc1d131edc2d154400e7b/Quick_Start_Guide_perma_NOVA_103773_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma NOVA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma PRO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/b/c/1/1/bc1127bc5ad145b8211880ff6ba19f71292825b8/Quick_Start_Guide_perma_PRO_C_MP-6_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma FUTURA",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/b/c/c/1/bcc17469924eaa24bafb52e7c963fe9a4d12a335/Quick_Start_Guide_perma_FUTURA_103771_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma FUTURA"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma FLEX",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/f/4/6/c/f46cedb71935130188c2a35a420a9302beeb70b2/Quick_Start_Guide_perma_FLEX_103772_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma FLEX"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Hurtigstart: perma PRO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/f/b/6/f/fb6fdcdb4b0ca9f8a51d44f0cdf07c5363f34086/221220_perma_Quick_Start_Guide_PRO_MP-6_en.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Bruksanvisning: perma PRO",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/2/6/1/a/261a47f1f3a4db4ed0f26fc98cf11a93e8a1e3d3/111323_PRO_System_PE_A01_en_2026_06_03.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma PRO"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Bruksanvisning: perma ECOSY",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/e/3/7/9/e379e19228184f2f3708089168ff062369778b1e/108641_ECOSY5_PE_A01_en_2026_09_15.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^perma ECOSY"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for rulletrapper og rullebånd",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/5/f/d/05fd37db3348a6ec110dd0b862433588ac9f8da4/Industryflyer_perma_Escalators_moving_walkways_en_115251.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for treforedling og papir",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/7/a/6/07a6688a3832d8b0fdb29c7d90e2e1dff242e347/Industryflyer_perma_Pulp_paper_en_110725.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for avløpsrensing",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/8/0/f/080f0dd293cd6209f123b0bf69451390f404b5fa/Industryflyer_perma_Wastewater_treatment_en_108908.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for vindkraft",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/a/a/c/0aac9ef5a770e3f6110a7a590eadc198caa59fe8/Industryflyer_perma_Wind_power_en_117535.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for sement, gips og kalk",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/1/0/d/6/10d6a4ba0f1ba6c4d8aed9863e5e7fbca22e8480/Industryflyer_perma_Cement_gypsum_lime_en_110318.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for stålindustri",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/1/c/a/e/1caea271cc15ee078737b528fb29c94b9492b85e/Industryflyer_perma_Stahlindustrie_en_118979.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for bilindustri",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/2/a/d/7/2ad73f90933be2ced38b62f2a4259d75c1e38a34/Industryflyer_perma_Automotive_en_118946.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for pukkverk",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/6/a/a/1/6aa12855bdcfca5a5e086fe5092e43389aeaeb7c/Industryflyer_perma_Quarrying_industry_en_110323.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for heiser",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/8/8/f/a/88fa4e6f944ea30c4faf02be132082575ae1a82b/Industryflyer_perma_Elevators_en_115248.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for gjenvinning",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/9/a/0/6/9a06f9a7f696fe57641d159d7759c3cda353cc18/Industryflyer_perma_Recycling_en_110308.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for gruve og mineralforedling",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/a/b/6/1/ab61c284c60c493756ba0ae1160e1e66a6849170/Industryflyer_perma_Mining_Minerals_Processing_en_118967.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for kjemi og farmasi",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/a/c/2/a/ac2adeea9310b50e45a356487609e07add3aa3cd/Industryflyer_perma_Chemical_Pharmaceutical_en_118955.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for næringsmiddel og drikke",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/c/4/b/b/c4bbfde59ecbee384ffeba660d17143528f1bb26/Industryflyer_perma_Food_Beverage_en_118961.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for raffinerier",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/c/d/d/d/cddd3258d3d3395b88d9bcff41646e106235e4d2/Industryflyer_perma_Refineries_en_118973.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for kraftproduksjon",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/d/d/1/9/dd1948b9f4a996068e6b2871859e9a286d4fdb21/Industryflyer_perma_Power_Generation_en_110313.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma for asfaltverk",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/f/8/5/a/f85a5aae5ccfa802d081e00e961aab9e78085a42/Industryflyer_perma_Asphalt_mixing_plants_en_113232.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av rulle- og glidelagre",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/0/6/7/8/0678dc14b2f44712ef5e8a62310b59d7ccdcf41a/Application_flyer_perma_Roller_Sliding_bearings_en_118731.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av spindler og åpne tannhjul",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/3/b/7/f/3b7f5d75de785b1a45630b6252d1b0d929600ba7/Application_flyer_perma_Spindles_Open_gears_en_118736.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av transportbånd",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/5/9/1/8/59181ff4e7b8f597dea5213407edc5af5c45621d/Application_flyer_perma_Conveyors_EMEA_en_111964.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av lineærføringer",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/6/f/2/7/6f271866c0572a2ef23cf81b7e699215df954451/Application_flyer_perma_Linear_guides_en_112995.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av kjeder",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/8/0/b/c/80bcb5b87eabb719adfd36d88c7b439fb1f76719/Application_flyer_perma_Chains_en_116414.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av pumper",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/8/9/3/3/89337089a2fd758bf4ec660032a613d450dc69a1/Application_flyer_perma_Pumps_en_111979.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av vifter og blåsere",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/a/8/f/1/a8f1b32340666fcc348ca114014294c3caca1d7b/Application_flyer_perma_Blowers_Fans_en_111974.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "Automatisk smøring av elektromotorer",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/f/e/8/2/fe8236b3ac955841e7fabb11962080d7d93bfb93/Application_flyer_perma_Electric_motors_en_111969.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma og bærekraft",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/7/3/9/e/739e48a94eba6bf3344467ff75092a88c91ec420/Flyer_perma_Sustainability_en_118589.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma smøremidler – oversikt",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/8/f/1/2/8f12dc994e5578644719528cf448fcf7cc703b02/LINE_CARD_perma_Lubricants_EMEA_en.pdf",
+   "type": "brosjyre",
+   "produkter": "\\((S[FO]\\d\\d)\\)$"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma STAR-serien",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/9/a/b/5/9ab514f321bf0bc15885cf43c2196731e1a7cd6e/perma_Flyer_STAR_PRODUCT_LINE_en_120042.pdf",
+   "type": "brosjyre",
+   "produkter": "^perma STAR"
+  },
+  {
+   "lev": "Perma-Tec",
+   "navn": "perma STAR VARIO-sett",
+   "sprak": "EN",
+   "url": "https://www.perma-tec.com/_Resources/Persistent/b/5/c/d/b5cd1378f9535e523d54afed03ddeaed62479767/perma_STAR_VARIO_Sets_Flyer_EMEA_en_117129.pdf",
+   "type": "brosjyre",
+   "produkter": "^perma STAR VARIO"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers produktkatalog – smøremidler og fett",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2026/02/A4_Lubricants-Greases_v10_web.pdf",
+   "type": "katalog"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickerlube FG – katalog for næringsmiddelindustrien",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/Food-Grade-catalogue-v17.pdf",
+   "type": "katalog"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers hydraulikkoljer",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/05/A4_Hydraulic_Fluids_v5_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers giroljer",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/05/A4_Gear_oils_v6_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers fett",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/01/A4_Grease_v12_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers kjedeoljer",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/05/A4_Chain_oils_v6_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers spray",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/05/A4_Aerosols_v6_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers spesialprodukter",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2025/05/A4_Specialty_v4_web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Biologisk nedbrytbare smøremidler (EAL)",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/04/Biodegradable-Lubricants_Brochure_A4_v12-web.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Korrosjonsbeskyttelse",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/Corrosion-prevention-brochure.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Smøremidler for bakerier",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2024/10/Bakery_brochure_4pp_v14-lr-1.pdf",
+   "type": "brosjyre"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Ecosure – miljøtilpassede hydraulikkoljer",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/ECOSURE-4PP-v30.pdf",
+   "type": "brosjyre",
+   "produkter": "^Ecosure"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Biogear XP – miljøtilpassede giroljer",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/BIOGEAR-XP-v33.pdf",
+   "type": "brosjyre",
+   "produkter": "^Biogear XP"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Biogrease EP – miljøtilpasset fett",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/BIOGREASE-EP-v26.pdf",
+   "type": "brosjyre",
+   "produkter": "^Biogrease EP"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Bruksanvisning Biogear XP",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/BIOGEAR-XP-Instructions-for-Use.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^Biogear XP"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Bruksanvisning Biogrease EP0 og EP2",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/BIOGREASE-EP0-and-BIOGREASE-EP2-Instructions-for-use-1.pdf",
+   "type": "bruksanvisning",
+   "produkter": "^Biogrease EP"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Allergenerklæring Vickerlube FG",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/05/VICKERLUBE-FG-Range-Allergen-Statement-1.pdf",
+   "type": "sertifikat",
+   "produkter": "^Vickerlube FG"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers Oils ISO 9001",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/ISO-9001-Certificate-exp-2029.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers Oils ISO 14001 (miljø)",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/Env-certificate-2025-to-28.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers Oils Halal-sertifikat",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/21971-1_Vickers_Oils_HCE_NON_GSO_Halal_Certificate.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Vickers Oils",
+   "navn": "Vickers Oils Kosher-sertifikat",
+   "sprak": "EN",
+   "url": "https://vickers-oil.com/wp-content/uploads/2021/03/Kosher-Cert-26-27.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Selecting Hydraulic Oils",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/035%20Selecting%20Hydraulic%20Oils.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Centralized Automatic Lube Systems",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/037%20Centralized%20Automatic%20Lube%20Systems.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Preparation of Gearbox Reservoirs for LE Gear Lubricants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/047%20Preparation%20of%20Gearbox%20Reservoirs.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Explanation of API-SAE Engine Oil Service Categories",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/051%20Current%20API%20SAE%20Engine%20Oil%20Service.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Water & Wastewater Treatment Plants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/057%20WWTP%20Lubrication.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Gear Oils",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/079%20Gear%20Oils.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Influent Screens at Wastewater Treatment Plants, Industrial Complexes & Power Stations",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/086%20Influent%20Screens%20WWTP.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Engines Supplying Power at Water & Wastewater Treatment Plants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/090%20Engines%20WWTP.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Blowers at Water & Wastewater Treatment Plants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/091%20Blowers%20WWTP.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Pumps at Wastewater Treatment Plants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/092%20Pumps%20WWTP.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Gear Reducers at Wastewater Treatment Plants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/093%20Gear%20Reducers%20WWTP.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Gear Reducers",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/093a%20Gear%20Reducers.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Open Gears: Grinding & Pulverizing Mills",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/102%20Open%20Gears%20Grinding%20Pulverizing%20Mills.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Changeover Procedures for LE Compressor Oils",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/106%20Compressor%20Changeover.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Pyroshield Products Provide Extreme Protection for Open Gears",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/108%20Pyroshield.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Gears and Gear Lubrication",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/110%20Gears%20and%20Gear%20Lubrication.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Electric Motors",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/114%20Electric%20Motors.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Lubrication of Electric Motors & LE Solutions",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/114a%20Electric%20Motors%20and%20LE.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Why the Need for Worm Gear Lubricants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/118%20Worm%20Gear%20Lubes.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Selection Process & Application Guidelines for LE’s Oven Chain Lubricants",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/119%20App%20Guidelines%20Oven%20Chain%20Lubes.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Grease Compatibility",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/120%20Grease%20Compatibility.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Filtration Plays Vital Role in Oil Cleanliness",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/121%20Filtration.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Food Grade Lubricant Safety",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/124%20Food%20Grade%20Lubricant%20Safety.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Easy Bar with Almasol Q&A",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/techtips/125%20Easy%20Bar%20with%20Almasol%20Q&A.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "Techni-Tip: Understanding MOSH & MOAH",
+   "sprak": "EN",
+   "url": "https://www.lelubricants.com/wp-content/uploads/pdf/techtips/126%20Understanding%20MOSH%20&%20MOAH.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE ISO 9001",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/ISO%209001-2015%20Certification.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE ILMA-medlemskap",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/ILMA%20Certificate.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE allergenerklæring for H1-produkter",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/H1%20Allergen%20Certificate.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE Halal-sertifikat",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/Halal%20Certification.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE Halal-sertifikat for spray",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/Halal%20Certification-Aerosols.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE Kosher-sertifikat",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/Kosher%20Certification%20Letter.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Lubrication Engineers",
+   "navn": "LE NSF H1-sertifikater",
+   "sprak": "EN",
+   "url": "https://lelubricants.com/wp-content/uploads/pdf/certs/NSF%20H1%20Certifications.pdf",
+   "type": "sertifikat"
+  }
+ ]
+}

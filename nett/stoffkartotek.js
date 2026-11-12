@@ -14,7 +14,7 @@
 (function () {
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
-  var VERSJON = '2026-11-12c';
+  var VERSJON = '2026-11-12d';
   var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -183,6 +183,7 @@
     rows.forEach(function (tr, pos) {
       var td = tr.querySelector('td.c-no'); if (!td) return;
       var r = R[+tr.getAttribute('data-i')]; if (!r) return;
+      if (!r.sds.length && !r.pds.length) return;   // rene dokumenter (brosjyrer, kataloger osv.) hører ikke hjemme i stoffkartoteket
       var on = !!VALGT[key(r)];
       var cb = td.querySelector('.ftsk-cb input');
       if (!cb) {
