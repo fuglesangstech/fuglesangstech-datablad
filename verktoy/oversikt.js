@@ -103,6 +103,9 @@ function build(root, CD, LD) {
   //   /datablad  (datablad-oversikt.json) – det som hører til ett produkt: SDS, PDS, produktsertifikater, bruksanvisninger
   //   /ressurser (ressurser.json)         – alt annet: kataloger, brosjyrer, case-studier, tekniske veiledninger, fagartikler
   //                                         og generelle dokumenter (f.eks. firmasertifikater). Produktene beholdes som stikkord.
+  // Produktnavnet som stikkord: produktnummeret foran bare når det ikke allerede står først i navnet (samme regel på sidene)
+  const flat = x => String(x).toLowerCase().replace(/\(e\)/g, '').replace(/[^a-z0-9]/g, '');
+  const produktTagg = r => (r.nr && flat(r.navn).indexOf(flat(r.nr)) !== 0 ? r.nr + ' ' : '') + r.navn;
   const RESSURS = new Set(['katalog', 'brosjyre', 'case', 'teknisk', 'artikkel']);
   const res = new Map();
   const tilRessurs = (lev, d, produkt) => {
@@ -113,7 +116,7 @@ function build(root, CD, LD) {
   const produktRader = [];
   rows.forEach(r => {
     if (r.generelt) { r.dok.forEach(d => tilRessurs(r.lev, d, '')); return; }
-    const navn = (r.nr && r.navn.indexOf(r.nr) !== 0 ? r.nr + ' ' : '') + r.navn;
+    const navn = produktTagg(r);
     r.dok = r.dok.filter(d => { if (RESSURS.has(d[3])) { tilRessurs(r.lev, d, navn); return false; } return true; });
     if (r.sds.length || r.pds.length || r.dok.length) produktRader.push(r);
   });

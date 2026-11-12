@@ -1,4 +1,4 @@
-<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – ressurser</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -186,6 +186,10 @@
   #ftx .ftx-rc-tags { font-size: 13.5px; color: var(--muted); line-height: 1.4; }
   #ftx .ftx-rc-foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 14px; color: var(--muted); }
   #ftx .ftx-rc-foot .go { color: var(--navy); font-weight: 600; white-space: nowrap; }
+  #ftx .ftx-dbhint { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 18px; padding: 14px 18px; border-radius: 12px; background: #eef3fb; border: 1px solid #d6e0ef; font-size: 15px; }
+  #ftx .ftx-dbhint b { color: var(--navy); }
+  #ftx .ftx-dbhint a { color: var(--navy); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  #ftx .ftx-dbhint svg { width: 20px; height: 20px; color: var(--navy); flex: 0 0 20px; }
   #ftx .ftx-rmore { text-align: center; margin: 24px 0 0; }
   #ftx .ftx-rnote { margin-top: 36px; padding: 18px 22px; border-radius: 12px; background: var(--bg-2); font-size: 16px; }
   #ftx .ftx-rnote a { color: var(--navy); font-weight: 600; }
@@ -207,8 +211,8 @@
       <p class="ftx-top-text">Kataloger, brosjyrer, case-studier og tekniske veiledninger fra leverandørene våre – og fagartikler fra oss. Datablad og bruksanvisninger for hvert produkt finner du under <a class="ftx-link" href="https://www.fuglesangstech.no/datablad">Datablad</a>.</p>
       <div class="ftx-badge"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span>Lenkene kontrolleres hver måned – sist <b id="ftx-dato">12.11.2026</b></span></div>
       <div class="ftx-stats">
-        <div><b id="ftx-nR">204</b><span>dokumenter</span></div>
-        <div><b id="ftx-nC">112</b><span>case-studier</span></div>
+        <div><b id="ftx-nR">201</b><span>dokumenter</span></div>
+        <div><b id="ftx-nC">111</b><span>case-studier</span></div>
       </div>
     </div>
   </section>
@@ -226,6 +230,7 @@
   <section class="ftx-list">
     <div class="ftx-wrap">
       <p class="ftx-count" id="ftx-count" aria-live="polite"></p>
+      <div class="ftx-dbhint" id="ftx-dbhint" hidden></div>
       <ul class="ftx-rgrid" id="ftx-rgrid"></ul>
       <div class="ftx-rmore" id="ftx-more" hidden><button type="button" class="ftx-btn alt" id="ftx-more-btn">Vis flere</button></div>
       <div class="ftx-empty" id="ftx-empty" hidden><b>Ingen treff</b>Prøv et annet søkeord, eller <a class="ftx-link" href="https://www.fuglesangstech.no/kontakt-oss">spør oss</a>.</div>
@@ -326,7 +331,25 @@
     $('ftx-more-btn').textContent = 'Vis alle ' + list.length;
     $('ftx-count').textContent = list.length === R.length ? 'Viser ' + Math.min(shown, list.length) + ' av ' + R.length + ' dokumenter' : list.length + ' treff';
   }
-  function update() { shown = PAGE; chips(); render(); }
+  // Søk etter et produkt: vis vei til databladene på /datablad (datablad-oversikt.json lastes først når noen søker)
+  var DB = null, dbLaster = false;
+  function dbHint() {
+    var box = $('ftx-dbhint');
+    if (!st.q || st.q.length < 2) { box.hidden = true; return; }
+    if (!DB) {
+      if (!dbLaster) { dbLaster = true; get(GH + 'datablad-oversikt.json').then(function (d) { DB = d.rader.filter(function (r) { return r.sds.length || r.pds.length; }).map(function (r) { var fl = function (x) { return String(x).toLowerCase().replace(/\(e\)/g, '').replace(/[^a-z0-9]/g, ''); }, n = (r.nr && fl(r.navn).indexOf(fl(r.nr)) !== 0 ? r.nr + ' ' : '') + r.navn; return { n: n, h: norm(r.lev + ' ' + n) }; }); dbHint(); }).catch(function () {}); }
+      return;
+    }
+    var ord = st.q.split(/\s+/), hit = DB.filter(function (r) { return ord.every(function (w) { return r.h.indexOf(w) > -1; }); });
+    if (!hit.length) { box.hidden = true; return; }
+    var ic = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>';
+    var q = $('ftx-q').value.trim();
+    box.innerHTML = ic + (hit.length <= 3
+      ? '<span><b>Datablad:</b> ' + hit.map(function (r) { return '<a href="/datablad?q=' + encodeURIComponent(r.n) + '">' + esc(r.n) + '</a>'; }).join(', ') + ' – sikkerhetsdatablad, produktdatablad og sertifikater.</span>'
+      : '<span><b>' + hit.length + ' produkter</b> med datablad passer søket. <a href="/datablad?q=' + encodeURIComponent(q) + '">Se sikkerhetsdatablad og produktdatablad</a></span>');
+    box.hidden = false;
+  }
+  function update() { shown = PAGE; chips(); render(); dbHint(); }
   $('ftx-types').addEventListener('click', function (e) { var b = e.target.closest('.ftx-chip'); if (!b) return; st.type = b.getAttribute('data-type'); update(); });
   $('ftx-chips').addEventListener('click', function (e) { var b = e.target.closest('.ftx-chip'); if (!b) return; st.lev = b.getAttribute('data-lev'); update(); });
   $('ftx-more-btn').addEventListener('click', function () { shown = 1e9; render(); });

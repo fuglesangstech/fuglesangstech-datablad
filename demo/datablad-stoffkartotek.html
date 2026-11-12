@@ -1,4 +1,4 @@
-<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – datablad</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -195,6 +195,7 @@
   #ftx .ftx-dg summary:hover .t { text-decoration: underline; text-underline-offset: 2px; }
   #ftx .ftx-dg summary:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
   #ftx .ftx-dg > .ftx-docs { margin: 8px 0 4px 8px; padding-left: 12px; border-left: 2px solid var(--line); }
+  #ftx .ftx-rlink { display: inline-block; margin-top: 6px; font-size: 13.5px; font-weight: 600; color: var(--navy); text-decoration: underline; text-underline-offset: 3px; }
   #ftx .ftx-types { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
   #ftx .ftx-types > span { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
   #ftx .ftx-help { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
@@ -384,6 +385,22 @@
     if (f(n).indexOf(f(nr)) === 0) { var m = /^\S+/.exec(n)[0]; return '<b class="ftx-no">' + esc(m) + '</b>' + esc(n.slice(m.length)); }
     return '<b class="ftx-no">' + esc(nr) + '</b> ' + esc(n);
   }
+  // Lenke til /ressurser for produkter som har case-studier, brosjyrer o.l. der (ressurser.json lastes etter tabellen)
+  var RES = null, RNAVN = { 'case': ['case-studie', 'case-studier'], brosjyre: ['brosjyre', 'brosjyrer'], katalog: ['katalog', 'kataloger'], teknisk: ['teknisk veiledning', 'tekniske veiledninger'], artikkel: ['fagartikkel', 'fagartikler'], sertifikat: ['sertifikat', 'sertifikater'] };
+  function flat(x) { return String(x).toLowerCase().replace(/\(e\)/g, '').replace(/[^a-z0-9]/g, ''); }
+  function tagg(it) { return (it.nr && flat(it.name).indexOf(flat(it.nr)) !== 0 ? it.nr + ' ' : '') + it.name; }
+  function ressursLenke(it) {
+    var c = RES && RES[it.lev + '|' + tagg(it)]; if (!c) return '';
+    var txt = Object.keys(c).map(function (t) { return c[t] + ' ' + (RNAVN[t] ? RNAVN[t][c[t] === 1 ? 0 : 1] : 'dokumenter'); }).join(' · ');
+    return '<a class="ftx-rlink" href="/ressurser?q=' + encodeURIComponent(tagg(it)) + '">' + esc(txt) + ' →</a>';
+  }
+  function lastRessurser() {
+    get(GH + 'ressurser.json').then(function (d) {
+      RES = {};
+      d.dokumenter.forEach(function (x) { (x.produkter || []).forEach(function (p) { var k = x.lev + '|' + p, c = RES[k] = RES[k] || {}; c[x.type] = (c[x.type] || 0) + 1; }); });
+      render();
+    }).catch(function () {});
+  }
   function render() {
     var list = P.filter(function (x) { return matches(x); }), h = '', last = null;
     list.slice(0, shown).forEach(function (it) {
@@ -396,7 +413,7 @@
           + '<td class="c-sds tom"></td><td class="c-pds tom"></td><td class="c-dok"><div class="ftx-docs">' + dlink([TNAVN[d0[3]] || 'Dokument'].concat(d0.slice(1)), '') + '</div></td></tr>';
         return;
       }
-      h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + navn(it) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span></td>'
+      h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + navn(it) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span>' + ressursLenke(it) + '</td>'
         + '<td class="c-sds"><span class="ftx-dl">SDS</span>' + (sds.length ? '<div class="ftx-docs">' + sds.map(function (d) { return link('SDS', d, it.name, many); }).join('') + '</div>' : ask('SDS', it.name)) + '</td>'
         + '<td class="c-pds"><span class="ftx-dl">PDS</span>' + (it.pds.length ? '<div class="ftx-docs">' + it.pds.map(function (d) { return link('PDS', d, it.name, it.pds.length > 1); }).join('') + '</div>' : ask('PDS', it.name)) + '</td>'
         + '<td class="c-dok' + (it.dok.length ? '' : ' tom') + '">' + (it.dok.length ? '<span class="ftx-dl">Sertifikater og bruksanvisninger</span>' + grupper(it) : '') + '</td></tr>';
@@ -441,7 +458,7 @@
   $('ftx-count').textContent = 'Laster databladene …';
   $('ftx-table').style.display = 'none';
   get(GH + 'datablad-oversikt.json').catch(function () { return get(RAWB + 'datablad-oversikt.json'); })
-    .then(function (d) { load(d); start(); document.dispatchEvent(new CustomEvent('ftdb:klar')); })
+    .then(function (d) { load(d); start(); document.dispatchEvent(new CustomEvent('ftdb:klar')); lastRessurser(); })
     .catch(function () {
       $('ftx-count').textContent = '';
       $('ftx-empty').innerHTML = '<b>Databladene kunne ikke lastes akkurat nå</b>Prøv å laste siden på nytt, eller <a class="ftx-link" href="https://www.fuglesangstech.no/kontakt-oss">kontakt oss</a> – vi sender databladet.';
