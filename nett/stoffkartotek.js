@@ -14,7 +14,7 @@
 (function () {
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
-  var VERSJON = '2026-11-12a';
+  var VERSJON = '2026-11-12b';
   var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -474,14 +474,14 @@
       var F = f[0], B = f[1], navy = L.rgb(0.02, 0.17, 0.41), grey = L.rgb(0.35, 0.39, 0.45), line = L.rgb(0.86, 0.89, 0.93), red = L.rgb(0.7, 0.14, 0.09);
       var W = 595.28, H = 841.89, M = 44, page, y, pno = 0;
       function safe(s, font) {   // Helvetica kan bare WinAnsi-tegn
-        s = String(s == null ? '' : s).replace(/[‐–—−]/g, '-').replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+        s = String(s == null ? '' : s).replace(/³/g, '3').replace(/²/g, '2').replace(/[‐–—−]/g, '-').replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
         var out = '';
         for (var i = 0; i < s.length; i++) { var c = s[i]; try { font.encodeText(c); out += c; } catch (e) { out += '?'; } }
         return out;
       }
       function fit(s, font, size, w) { s = safe(s, font); if (font.widthOfTextAtSize(s, size) <= w) return s; while (s.length > 1 && font.widthOfTextAtSize(s + '…', size) > w) s = s.slice(0, -1); return s + '…'; }
       function text(s, x, yy, size, font, color, w) { page.drawText(w ? fit(s, font, size, w) : safe(s, font), { x: x, y: yy, size: size, font: font, color: color || L.rgb(0.1, 0.14, 0.2) }); }
-      var COLS = [[M, 190, 'Produkt'], [M + 196, 92, 'Leverandør'], [M + 292, 52, 'Dokument'], [M + 348, 40, 'Språk'], [M + 392, W - M - (M + 392), 'Fil i ZIP-filen']];
+      var COLS = [[M, 236, 'Produkt'], [M + 244, 54, 'Dokument'], [M + 302, 46, 'Språk'], [M + 352, W - M - (M + 352), 'Fil i ZIP-filen (mappe: leverandør)']];
       function head() {
         y -= 6;
         COLS.forEach(function (c) { text(c[2], c[0], y, 8.5, B, grey); });
@@ -517,11 +517,10 @@
         }
         var prod = (x.r.nr && x.r.name.indexOf(x.r.nr) !== 0 ? x.r.nr + ' ' : '') + x.r.name + (x.label && x.label !== x.type ? ' (' + x.label + ')' : '');
         text(prod, COLS[0][0], y, 9, F, null, COLS[0][1]);
-        text(x.r.lev, COLS[1][0], y, 9, F, grey, COLS[1][1]);
-        text(x.type, COLS[2][0], y, 9, F, null, COLS[2][1]);
-        text(x.lang === 'NO' ? 'Norsk' : x.lang === 'EN' ? 'Engelsk' : '–', COLS[3][0], y, 9, F, null, COLS[3][1]);
-        var st = x.status === 'mangler' ? 'Ingen SDS her – spør oss' : x.job.ok ? x.job.fil : 'Kunne ikke hentes – se nettsiden';
-        text(st, COLS[4][0], y, 8, F, x.job && x.job.ok ? grey : red, COLS[4][1]);
+        text(x.type, COLS[1][0], y, 9, F, null, COLS[1][1]);
+        text(x.lang === 'NO' ? 'Norsk' : x.lang === 'EN' ? 'Engelsk' : '-', COLS[2][0], y, 9, F, null, COLS[2][1]);
+        var st = x.status === 'mangler' ? 'Ingen SDS i oversikten – spør oss ved behov' : x.job.ok ? x.job.fil.replace(/^[^\/]+\//, '') : 'Kunne ikke hentes – se nettsiden';
+        text(st, COLS[3][0], y, 8, F, x.job && !x.job.ok ? red : grey, COLS[3][1]);
         y -= 5; page.drawLine({ start: { x: M, y: y }, end: { x: W - M, y: y }, thickness: 0.4, color: line }); y -= 11;
       });
       var pages = doc.getPages();
