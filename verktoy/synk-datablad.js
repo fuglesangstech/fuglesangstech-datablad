@@ -157,7 +157,7 @@ async function pool(items, n, fn) {
 
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (utv ? utv.feil.length + utv.meldinger.length : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (utv ? utv.feil.length + utv.meldinger.length : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length + (lnk.tilSkjult || []).length + (lnk.katalog || []).length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +

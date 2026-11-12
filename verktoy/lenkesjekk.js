@@ -37,6 +37,11 @@ async function pool(items, n, fn) {
 }
 const unesc = s => s.replace(/&amp;/g, '&').replace(/&#x2F;/g, '/').replace(/&quot;/g, '"');
 
+// Leverandørkatalogene er skjult for besøkende (videresendes til /produkter av blokk 9 i footer-injeksjonen),
+// men ligger der som datakilde for /produkter og synken. Ingen side skal lenke til dem.
+// /produkter (egen kode) sjekkes ikke her – blokk 9 skjuler/omskriver katalog-lenkene der mens siden kjører.
+const SKJULTE = { '/chesterton-katalog': 'ch', '/le-katalog': 'le', '/utb-katalog': 'utb', '/vickers-katalog': 'vik', '/perma-tec-katalog': 'perma' };
+
 async function run(root) {
   const xml = await (await fetch(SITE + '/sitemap.xml', { headers: UA })).text();
   // Sider som ikke står i sitemap.xml, men som må virke (skjult side for tilbudslisten)
@@ -45,17 +50,27 @@ async function run(root) {
   if (!pages.length) throw new Error('fant ingen sider i sitemap.xml');
   const links = new Map();       // url -> Set(sider)
   const repoRefs = new Map();    // fil i repoet -> Set(sider/kilder)
-  const sideFeil = [];
+  const sideFeil = [], tilSkjult = [], katalog = [];
+  let videresending = false, produkterKode = null;
   const add = (map, k, from) => { if (!map.has(k)) map.set(k, new Set()); map.get(k).add(from); };
 
   await pool(pages, 4, async pg => {
     let h;
     try {
-      const r = await fetch(pg, { headers: UA });
+      const r = await fetch(pg, { headers: UA, redirect: 'manual' });
+      if (r.status >= 300 && r.status < 400) return;   // omdirigert side (URL Mapping) – står fortsatt i sitemap en stund
       if (!r.ok) { sideFeil.push(pg + ' (HTTP ' + r.status + ')'); return; }
       h = await r.text();
     } catch (e) { sideFeil.push(pg + ' (' + e.message + ')'); return; }
     const short = pg.replace(SITE, '') || '/';
+    if (/'\/chesterton-katalog': 'ch'/.test(h) && /location\.replace\('\/produkter\?/.test(h)) videresending = true;
+    if (short === '/produkter') produkterKode = h;
+    if (SKJULTE[short] && !/<meta[^>]+name="robots"[^>]+noindex/i.test(h)) katalog.push(short + ' er ikke skjult for søkemotorer – skru på «Hide page from search results» under SEO i Page Settings');
+    if (!SKJULTE[short] && short !== '/produkter') for (const m of h.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)) {
+      let u; try { u = new URL(unesc(m[1]), pg); } catch (e) { continue; }
+      const k = u.pathname.replace(/\/+$/, '');
+      if (u.hostname.endsWith('fuglesangstech.no') && SKJULTE[k]) tilSkjult.push(short + ' lenker til ' + k + ' – bytt til /produkter?lev=' + SKJULTE[k]);
+    }
     const refs = [];
     for (const m of h.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)) refs.push(m[1]);
     for (const m of h.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/gi)) refs.push(m[1]);
@@ -98,17 +113,22 @@ async function run(root) {
     if (!f || f.endsWith('/')) continue;
     if (!fs.existsSync(path.join(root, f))) mangler.push(f + ' – brukt på: ' + [...from].slice(0, 4).join(', '));
   }
-  return { sider: pages.length, lenker: links.size, repoFiler: repoRefs.size, sideFeil, borte: borte.sort(), mangler: mangler.sort(), nett: nett.sort() };
+  // Katalogsidene må ligge der (data), videresendingen må være på plass, og /produkter må kjenne alle leverandørene
+  for (const k of Object.keys(SKJULTE)) { if (!pages.some(x => x.endsWith(k))) { const st = await status(SITE + k); if (st !== 200) katalog.push(k + ' svarer ikke (HTTP ' + st + ') – siden må ligge der, /produkter henter data fra den'); } }
+  if (!videresending) katalog.push('Videresendingen fra katalogsidene (blokk 9 i footer-injeksjonen) finnes ikke på sidene – besøkende ser katalogsidene');
+  if (produkterKode) for (const v of Object.values(SKJULTE)) if (!new RegExp("key: '" + v + "'").test(produkterKode)) katalog.push('/produkter kjenner ikke leverandøren «' + v + '» – lenker til /produkter?lev=' + v + ' viser alle produkter');
+  return { sider: pages.length, tilSkjult: [...new Set(tilSkjult)].sort(), katalog, lenker: links.size, repoFiler: repoRefs.size, sideFeil, borte: borte.sort(), mangler: mangler.sort(), nett: nett.sort() };
 }
 
 function rapport(r, err) {
   const sec = (t, a) => a && a.length ? '\n### ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
   if (!r) return '\n## Lenkesjekk av fuglesangstech.no\nKunne ikke kjøres denne gangen: ' + err + '\n';
-  const feil = r.sideFeil.length + r.borte.length + r.mangler.length;
+  const feil = r.sideFeil.length + r.borte.length + r.mangler.length + (r.tilSkjult || []).length + (r.katalog || []).length;
   return '\n## Lenkesjekk av fuglesangstech.no\nSider: ' + r.sider + '. Lenker og bilder sjekket: ' + r.lenker + '. Filer i GitHub sjekket: ' + r.repoFiler +
     '. Døde lenker: ' + r.borte.length + '. Manglende filer i GitHub: ' + r.mangler.length + '. Sider som ikke svarer: ' + r.sideFeil.length + '.' +
     (feil ? '' : ' Alt OK.') + '\n' +
     sec('Sider som ikke svarer', r.sideFeil) + sec('Døde lenker og bilder (må rettes)', r.borte) + sec('Filer som mangler i GitHub (må rettes)', r.mangler) +
+    sec('Lenker til skjulte katalogsider (bør byttes til /produkter)', r.tilSkjult) + sec('Katalogsidene og videresendingen', r.katalog) +
     (r.nett.length ? '\nKunne ikke sjekkes herfra (blokkert domene eller tidsavbrudd – ikke nødvendigvis feil): ' + Object.entries(r.nett.reduce((o, x) => { const d = x.split('/')[2]; o[d] = (o[d] || 0) + 1; return o; }, {})).map(e => e[0] + ' (' + e[1] + ')').join(', ') + '.\n' : '');
 }
 
