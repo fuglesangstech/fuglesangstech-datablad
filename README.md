@@ -79,3 +79,9 @@ Katalogsidene legger til produkter med `window.FTTilbud.add({...})` eller en kna
 
 ## Perma-Tec smøresystemer i /produkter
 `perma/bilder/` har produktbilder av de 16 perma-systemene (enpunkts og flerpunkts) som vises i /produkter, hentet fra perma-tec.com. Systemdata, artikkelnumre for drivenheter og deler, og datablad leses fra `perma/produkter.json` og `perma/datablad.json`. Perma sine smøremidler og artikkelnumre for ferdigfylte patroner vises ikke – Fuglesangs Tech fyller systemene med eget fett.
+
+## Ressurser på produktsidene (verktoy/sjekk-ressurser.js)
+Produktkatalogen på /produkter viser «Case studies og fagstoff» på hver produktside. Den leser `ressurser.json` og `dokumenter.json` når siden lastes, og kobler dokumentene til produktene etter produktnavnet (Chesterton etter produktnummer, f.eks. «ARC 858» eller «630 SXCF 220 #1»).
+Et dokument som nevner et produktnavn katalogen ikke har (navnebytte, skrivefeil), vises ikke på noe produkt. Den månedlige kontrollen fanger dette:
+`NODE_USE_ENV_PROXY=1 node verktoy/sjekk-ressurser.js` (krever Playwright). Perma-fett (SF/SO-numre) er med vilje utenfor, fordi Fuglesangs Tech selger systemene fylt med eget fett.
+Test mot en lokal versjon av kodeblokken med `FT_KATALOG_FIL=<fil>`.
