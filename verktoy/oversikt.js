@@ -9,6 +9,11 @@
     Perma-Tec   – perma/produkter.json
     Vickers     – vickers/produkter.json
   Stier uten https:// er filer i dette repoet. Brukes av synk-datablad.js.
+
+  Hver rad: { lev, nr, navn, sds: [[etikett, språk, fil]], pds: [...], dok: [[etikett, språk, fil, type]], lenke }
+  «dok» er andre dokumenter enn SDS/PDS. Typer: sertifikat, bruksanvisning (flere kan komme: brosjyre, katalog, case).
+    Chesterton – sertifikater.json (verktoy/sertifikater.js, utløpte er allerede tatt ut)
+    Vickers    – sertifikater og bruksanvisning i vickers/produkter.json
 */
 'use strict';
 const fs = require('fs'), path = require('path');
@@ -22,12 +27,15 @@ function build(root, CD, LD) {
   const rows = [];
   const S = 'https://www.fuglesangstech.no';
 
+  const cert = (read(root, 'sertifikater.json') || { produkter: {} }).produkter || {};
+  const dok = (list, type) => (list || []).filter(d => Array.isArray(d) && d[2]).map(d => [String(d[0] || ''), String(d[1] || 'EN'), String(d[2]), type]);
+
   // Chesterton
   const chFile = p => /^https?:/.test(p) ? p : (have.has('chesterton/datablad/' + p) ? 'chesterton/datablad/' + p : CH_PDF + encodeURI(p).replace(/#/g, '%23'));
   (CD || []).forEach(r => {
     const docs = l => (l || []).filter(d => Array.isArray(d) && d[2]).map(d => [String(d[0] || ''), String(d[1] || 'EN'), chFile(String(d[2]))]);
-    const sds = docs(r[7]), pds = docs(r[8]);
-    if (sds.length || pds.length) rows.push({ lev: 'Chesterton', nr: String(r[2]), navn: String(r[3]), sds, pds, lenke: S + '/produkter#' + pid(r[2]) });
+    const sds = docs(r[7]), pds = docs(r[8]), d = dok(cert[String(r[2])], 'sertifikat');
+    if (sds.length || pds.length || d.length) rows.push({ lev: 'Chesterton', nr: String(r[2]), navn: String(r[3]), sds, pds, dok: d, lenke: S + '/produkter#' + pid(r[2]) });
   });
 
   // LE
@@ -63,12 +71,14 @@ function build(root, CD, LD) {
   const vik = read(root, 'vickers/produkter.json');
   (vik ? vik.produkter : []).forEach(p => {
     const sds = (p.sds || []).map(d => [d[0], d[1], d[2]]), pds = (p.pds || []).map(d => [d[0], d[1], d[2]]);
-    if (sds.length || pds.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, lenke: S + '/vickers-katalog?q=' + encodeURIComponent(p.navn) });
+    const d = dok(p.sertifikater, 'sertifikat').concat(dok(p.bruksanvisning, 'bruksanvisning'));
+    if (sds.length || pds.length || d.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, dok: d, lenke: S + '/vickers-katalog?q=' + encodeURIComponent(p.navn) });
   });
 
   const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec'], rader: rows };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));
-  return { rader: rows.length, sds: rows.reduce((n, r) => n + r.sds.length, 0), pds: rows.reduce((n, r) => n + r.pds.length, 0) };
+  rows.forEach(r => { if (!r.dok) r.dok = []; });
+  return { rader: rows.length, sds: rows.reduce((n, r) => n + r.sds.length, 0), pds: rows.reduce((n, r) => n + r.pds.length, 0), dok: rows.reduce((n, r) => n + r.dok.length, 0) };
 }
 
 module.exports = { build };

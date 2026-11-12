@@ -80,7 +80,7 @@ async function run(root) {
   // Filer som katalogfilene i repoet peker til
   const json = f => { const p = path.join(root, f); return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null; };
   const ov = json('datablad-oversikt.json');
-  (ov ? ov.rader : []).forEach(r => r.sds.concat(r.pds).forEach(d => {
+  (ov ? ov.rader : []).forEach(r => r.sds.concat(r.pds, r.dok || []).forEach(d => {
     if (/^https?:/.test(d[2])) add(links, d[2], '/datablad (' + r.lev + ')'); else add(repoRefs, d[2], '/datablad');
   }));
   const vik = json('vickers/produkter.json');

@@ -1,4 +1,4 @@
-<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – stoffkartotek på /datablad</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – datablad og dokumenter</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
 <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -186,6 +186,8 @@
   #ftx .ftx-flt button::before { content: ""; width: 14px; height: 14px; border-radius: 3px; border: 1.5px solid currentColor; box-sizing: border-box; }
   #ftx .ftx-flt button[aria-pressed="true"]::before { background: #fff; box-shadow: inset 0 0 0 2px var(--navy); }
   #ftx .ftx-more-row { text-align: center; margin: 22px 0 0; }
+  #ftx .ftx-types { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+  #ftx .ftx-types > span { font-size: 13px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
   #ftx .ftx-help { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
   #ftx .ftx-help div { border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; background: #fff; }
   #ftx .ftx-help b { display: block; color: var(--navy); font-size: 16px; margin-bottom: 4px; }
@@ -194,6 +196,11 @@
   @media (max-width: 900px) {
     #ftx .ftx-dl { display: block; }
     #ftx .ftx-table td.c-sds, #ftx .ftx-table td.c-pds { padding-top: 10px; display: inline-block; width: 49%; vertical-align: top; }
+    #ftx .ftx-table td.c-dok { padding-top: 10px; display: block; width: auto; }
+    #ftx .ftx-types, #ftx .ftx-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -16px; padding-right: 16px; }
+    #ftx .ftx-types::-webkit-scrollbar, #ftx .ftx-chips::-webkit-scrollbar { display: none; }
+    #ftx .ftx-types .ftx-chip, #ftx .ftx-chips .ftx-chip { flex: 0 0 auto; }
+    #ftx .ftx-table td.c-dok:empty, #ftx .ftx-table td.c-dok.tom { display: none; }
     #ftx .ftx-table tr { padding-left: 0; min-height: 0; }
     #ftx .ftx-help { grid-template-columns: minmax(0, 1fr); }
   }
@@ -204,13 +211,14 @@
   <section class="ftx-top">
     <div class="ftx-wrap">
       <p class="ftx-crumb"><a href="https://www.fuglesangstech.no/">Forside</a> / <a href="https://www.fuglesangstech.no/produkter">Produkter</a> / Datablad</p>
-      <h1>Sikkerhetsdatablad og produktdatablad</h1>
-      <p class="ftx-top-text">Søk opp sikkerhetsdatablad (SDS) og produktdatablad (PDS) for produktene vi leverer – fra Chesterton, Lubrication Engineers, UTB, Vickers Oils og Perma-Tec. Søk på produktnavn eller produktnummer og last ned PDF-en direkte – eller kryss av produktene dere bruker og last ned hele stoffkartoteket i én ZIP-fil.</p>
+      <h1>Datablad og dokumenter</h1>
+      <p class="ftx-top-text">Søk opp sikkerhetsdatablad (SDS), produktdatablad (PDS), sertifikater og godkjenninger (blant annet NSF H1 og CE) og bruksanvisninger for produktene vi leverer – fra Chesterton, Lubrication Engineers, UTB, Vickers Oils og Perma-Tec. Søk på produktnavn eller produktnummer og last ned PDF-en direkte – eller kryss av produktene dere bruker og last ned hele stoffkartoteket i én ZIP-fil.</p>
       <div class="ftx-badge"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span>Kontrollert mot leverandørene hver måned – sist <b id="ftx-dato">11.11.2026</b></span></div>
       <div class="ftx-stats">
         <div><b id="ftx-nP">509</b><span>produkter</span></div>
         <div><b id="ftx-nS">594</b><span>sikkerhetsdatablad</span></div>
         <div><b id="ftx-nNO">425</b><span>på norsk</span></div>
+        <div><b id="ftx-nD">169</b><span>sertifikater og andre dokumenter</span></div>
       </div>
     </div>
   </section>
@@ -221,6 +229,7 @@
         <label class="ftx-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="ftx-q" type="search" placeholder="Søk – f.eks. 785, Monolec, Ecosure, Synlub 5W-30" autocomplete="off" aria-label="Søk etter produkt"></label>
       </div>
       <div class="ftx-chips" id="ftx-chips" aria-label="Leverandører"></div>
+      <div class="ftx-types" id="ftx-types" aria-label="Dokumenttype"><span>Dokumenttype</span></div>
       <div class="ftx-flt" id="ftx-flt"><button type="button" data-f="no" aria-pressed="false">Bare SDS på norsk</button></div>
     </div>
   </div>
@@ -229,7 +238,7 @@
     <div class="ftx-wrap">
       <p class="ftx-count" id="ftx-count" aria-live="polite"></p>
       <table class="ftx-table" id="ftx-table">
-        <thead><tr><th>Produkt</th><th style="width:30%">Sikkerhetsdatablad (SDS)</th><th style="width:24%">Produktdatablad (PDS)</th></tr></thead>
+        <thead><tr><th>Produkt</th><th style="width:24%">Sikkerhetsdatablad (SDS)</th><th style="width:21%">Produktdatablad (PDS)</th><th style="width:21%">Sertifikater og annet</th></tr></thead>
         <tbody id="ftx-tbody"></tbody>
       </table>
       <div class="ftx-more-row" id="ftx-more" hidden><button type="button" class="ftx-btn alt" id="ftx-more-btn">Vis flere</button></div>
@@ -286,13 +295,22 @@
     var lab = many && d[0] && d[0] !== kind ? d[0] : kind;
     return '<a class="ftx-doc" href="' + esc(url(d[2])) + '" target="_blank" rel="noopener" title="' + esc((kind === 'SDS' ? 'Sikkerhetsdatablad' : 'Produktdatablad') + ' for ' + name + (d[1] === 'NO' ? ' på norsk' : ' på engelsk')) + ' (PDF)">' + DOC + '<span class="t">' + esc(lab) + '</span><span class="ftx-lang ' + esc(d[1].toLowerCase()) + '">' + esc(d[1]) + '</span></a>';
   }
+  function dlink(d, name) {
+    var lab = d[0] || TNAVN[d[3]] || 'Dokument';
+    return '<a class="ftx-doc" href="' + esc(url(d[2])) + '" target="_blank" rel="noopener" title="' + esc((TNAVN[d[3]] || 'Dokument') + ' for ' + name + ' (PDF)') + '">' + DOC + '<span class="t">' + esc(lab) + '</span><span class="ftx-lang ' + esc(String(d[1]).toLowerCase()) + '">' + esc(d[1]) + '</span></a>';
+  }
   function ask(kind, name) { return '<a class="ftx-doc ask" href="https://www.fuglesangstech.no/kontakt-oss" title="Be om ' + kind + ' for ' + esc(name) + '">' + DOC + '<span class="t">Be om ' + kind + '</span></a>'; }
-  var st = { lev: '', q: '', no: false };
+  var st = { lev: '', q: '', no: false, type: '' };
+  // Dokumenttyper – nye typer i datablad-oversikt.json (dok[3]) trenger bare en linje her
+  var TYPER = [['sds', 'Sikkerhetsdatablad'], ['pds', 'Produktdatablad'], ['sertifikat', 'Sertifikater og godkjenninger'], ['bruksanvisning', 'Bruksanvisninger'], ['brosjyre', 'Brosjyrer'], ['katalog', 'Kataloger'], ['case', 'Case-studier']];
+  var TNAVN = { sertifikat: 'Sertifikat', bruksanvisning: 'Bruksanvisning', brosjyre: 'Brosjyre', katalog: 'Katalog', case: 'Case-studie' };
+  function harType(it, t) { return t === 'sds' ? it.sds.length > 0 : t === 'pds' ? it.pds.length > 0 : it.dok.some(function (d) { return d[3] === t; }); }
   function load(d) {
     LEV = d.leverandorer;
     P = d.rader.map(function (r) {
-      return { i: 0, lev: r.lev, nr: r.nr, name: r.navn, sds: r.sds, pds: r.pds, link: r.lenke,
-        hay: norm([r.lev, r.nr, r.navn, r.sds.map(function (x) { return x[0]; }).join(' '), r.pds.map(function (x) { return x[0]; }).join(' ')].join(' ')) };
+      var dok = r.dok || [];
+      return { i: 0, lev: r.lev, nr: r.nr, name: r.navn, sds: r.sds, pds: r.pds, dok: dok, link: r.lenke,
+        hay: norm([r.lev, r.nr, r.navn, r.sds.map(function (x) { return x[0]; }).join(' '), r.pds.map(function (x) { return x[0]; }).join(' '), dok.map(function (x) { return x[0]; }).join(' ')].join(' ')) };
     });
     P.forEach(function (x, i) { x.i = i; });
     window.ftDatablad = { rader: P, oppdatert: d.oppdatert, treff: function () { return P.filter(function (x) { return matches(x); }); } };
@@ -300,10 +318,12 @@
     $('ftx-nP').textContent = P.length;
     $('ftx-nS').textContent = P.reduce(function (n, x) { return n + x.sds.length; }, 0);
     $('ftx-nNO').textContent = P.reduce(function (n, x) { return n + x.sds.filter(function (s) { return s[1] === 'NO'; }).length; }, 0);
+    $('ftx-nD').textContent = P.reduce(function (n, x) { return n + x.dok.length; }, 0);
   }
   function matches(it, skipLev) {
     if (!skipLev && st.lev && it.lev !== st.lev) return false;
     if (st.no && !it.sds.some(function (s) { return s[1] === 'NO'; })) return false;
+    if (st.type && !harType(it, st.type)) return false;
     if (!st.q) return true;
     return st.q.split(/\s+/).every(function (w) { return it.hay.indexOf(w) > -1 || it.hay.replace(/\s+/g, '').indexOf(w) > -1; });
   }
@@ -315,16 +335,32 @@
       if (n) h += '<button class="ftx-chip" data-lev="' + esc(l) + '" aria-pressed="' + (st.lev === l) + '">' + esc(l) + '<small>' + n + '</small></button>';
     });
     $('ftx-chips').innerHTML = h;
+    var t = st.type; st.type = '';
+    var base2 = P.filter(function (x) { return matches(x); }); st.type = t;
+    var th = '<span>Dokumenttype</span><button class="ftx-chip" data-type="" aria-pressed="' + (!st.type) + '">Alle<small>' + base2.length + '</small></button>';
+    TYPER.forEach(function (ty) { var n = base2.filter(function (x) { return harType(x, ty[0]); }).length; if (n) th += '<button class="ftx-chip" data-type="' + ty[0] + '" aria-pressed="' + (st.type === ty[0]) + '">' + ty[1] + '<small>' + n + '</small></button>'; });
+    $('ftx-types').innerHTML = th;
+    ['ftx-chips', 'ftx-types'].forEach(function (id) { var box = $(id), on = box.querySelector('[aria-pressed="true"]'); if (on && box.scrollWidth > box.clientWidth && on.offsetLeft + on.offsetWidth > box.clientWidth) box.scrollLeft = on.offsetLeft - 70; });
+  }
+  // Produktnummeret vises alltid først i blått: står det allerede først i navnet, markeres den delen i stedet for å gjenta det
+  function navn(it) {
+    var n = it.name, nr = it.nr;
+    if (!nr) return esc(n);
+    var f = function (x) { return String(x).toLowerCase().replace(/\(e\)/g, '').replace(/[^a-z0-9]/g, ''); };
+    if (n.indexOf(nr) === 0 && n.length > nr.length) return '<b class="ftx-no">' + esc(nr) + '</b>' + esc(n.slice(nr.length));
+    if (f(n).indexOf(f(nr)) === 0) { var m = /^\S+/.exec(n)[0]; return '<b class="ftx-no">' + esc(m) + '</b>' + esc(n.slice(m.length)); }
+    return '<b class="ftx-no">' + esc(nr) + '</b> ' + esc(n);
   }
   function render() {
     var list = P.filter(function (x) { return matches(x); }), h = '', last = null;
     list.slice(0, shown).forEach(function (it) {
-      if (!st.lev && it.lev !== last) { h += '<tr class="grp"><td colspan="3">' + esc(it.lev) + '</td></tr>'; last = it.lev; }
+      if (!st.lev && it.lev !== last) { h += '<tr class="grp"><td colspan="4">' + esc(it.lev) + '</td></tr>'; last = it.lev; }
       var sds = it.sds.filter(function (s) { return !st.no || s[1] === 'NO'; });
       var many = it.sds.length > 1;
-      h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + (it.nr && it.name.indexOf(it.nr) !== 0 ? '<b class="ftx-no">' + esc(it.nr) + '</b> ' : '') + esc(it.name) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span></td>'
+      h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + navn(it) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span></td>'
         + '<td class="c-sds"><span class="ftx-dl">SDS</span>' + (sds.length ? '<div class="ftx-docs">' + sds.map(function (d) { return link('SDS', d, it.name, many); }).join('') + '</div>' : ask('SDS', it.name)) + '</td>'
-        + '<td class="c-pds"><span class="ftx-dl">PDS</span>' + (it.pds.length ? '<div class="ftx-docs">' + it.pds.map(function (d) { return link('PDS', d, it.name, it.pds.length > 1); }).join('') + '</div>' : ask('PDS', it.name)) + '</td></tr>';
+        + '<td class="c-pds"><span class="ftx-dl">PDS</span>' + (it.pds.length ? '<div class="ftx-docs">' + it.pds.map(function (d) { return link('PDS', d, it.name, it.pds.length > 1); }).join('') + '</div>' : ask('PDS', it.name)) + '</td>'
+        + '<td class="c-dok' + (it.dok.length ? '' : ' tom') + '">' + (it.dok.length ? '<span class="ftx-dl">Sertifikater og annet</span><div class="ftx-docs">' + it.dok.map(function (d) { return dlink(d, it.name); }).join('') + '</div>' : '') + '</td></tr>';
     });
     $('ftx-tbody').innerHTML = h;
     $('ftx-empty').hidden = list.length > 0;
@@ -336,6 +372,7 @@
   }
   function update() { shown = PAGE; chips(); render(); }
   $('ftx-chips').addEventListener('click', function (e) { var b = e.target.closest('.ftx-chip'); if (!b) return; st.lev = b.getAttribute('data-lev'); update(); });
+  $('ftx-types').addEventListener('click', function (e) { var b = e.target.closest('.ftx-chip'); if (!b) return; st.type = b.getAttribute('data-type'); update(); });
   $('ftx-flt').addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; st.no = !st.no; b.setAttribute('aria-pressed', st.no); update(); });
   $('ftx-more-btn').addEventListener('click', function () { shown = 1e9; render(); });
   var t;
@@ -358,6 +395,7 @@
     var p = new URLSearchParams(location.search);
     if (p.get('q')) { $('ftx-q').value = p.get('q'); st.q = norm(p.get('q')); }
     if (p.get('lev') && LEV.indexOf(p.get('lev')) > -1) st.lev = p.get('lev');
+    if (p.get('type') && TYPER.some(function (t) { return t[0] === p.get('type'); })) st.type = p.get('type');
     update();
   }
   function get(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
