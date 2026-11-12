@@ -94,7 +94,7 @@ tt = open(os.path.join(D, 'le-tt.html')).read()
 for m in re.finditer(r'href="([^"]+techtips/[^"]+\.pdf)"[^>]*>([\s\S]{0,300}?)</a>', tt):
     t = html.unescape(re.sub(r'<[^>]+>|\s+', ' ', m.group(2))).strip()
     t = re.sub(r'^\d+a?\s+', '', t)
-    u = html.unescape(m.group(1)).replace(' ', '%20')
+    u = html.unescape(m.group(1)).replace('https://www.', 'https://').replace(' ', '%20')
     if u.startswith('/'): u = 'https://lelubricants.com' + u
     if not any(x['url'] == u for x in out): add('Lubrication Engineers', 'Techni-Tip: ' + t, u, 'teknisk')
 cert = open(os.path.join(D, 'le-cert.html')).read()
