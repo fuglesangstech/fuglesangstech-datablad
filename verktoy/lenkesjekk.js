@@ -45,7 +45,8 @@ const SKJULTE = { '/chesterton-katalog': 'ch', '/le-katalog': 'le', '/utb-katalo
 async function run(root) {
   const xml = await (await fetch(SITE + '/sitemap.xml', { headers: UA })).text();
   // Sider som ikke står i sitemap.xml, men som må virke (skjult side for tilbudslisten)
-  const MA_MED = [SITE + '/tilbud'];
+  // + de skjulte katalogsidene, som forsvinner fra sitemap når de er skjult for søkemotorer, men som må sjekkes (data, noindex)
+  const MA_MED = [SITE + '/tilbud', SITE + '/produkter'].concat(Object.keys(SKJULTE).map(k => SITE + k));
   const pages = [...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => unesc(m[1]).replace(/\/$/, '') || SITE).concat(MA_MED))];
   if (!pages.length) throw new Error('fant ingen sider i sitemap.xml');
   const links = new Map();       // url -> Set(sider)
@@ -65,6 +66,9 @@ async function run(root) {
     const short = pg.replace(SITE, '') || '/';
     if (/'\/chesterton-katalog': 'ch'/.test(h) && /location\.replace\('\/produkter\?/.test(h)) videresending = true;
     if (short === '/produkter') produkterKode = h;
+    // Chesterton- og LE-katalogen er datakilder for /produkter: produktdataene må finnes i sidekoden
+    const DATA = { '/chesterton-katalog': ['CC', 'CD'], '/le-katalog': ['LC', 'RC', 'PK', 'LD', 'RD'] };
+    if (DATA[short]) { const mangler = DATA[short].filter(v => !new RegExp('\\bvar ' + v + '\\s*=').test(h)); if (mangler.length) katalog.push(short + ' mangler produktdata (' + mangler.join(', ') + ') – kodeblokken er overskrevet; /produkter viser ikke disse produktene. Lim inn katalogkoden på nytt'); }
     if (SKJULTE[short] && !/<meta[^>]+name="robots"[^>]+noindex/i.test(h)) katalog.push(short + ' er ikke skjult for søkemotorer – skru på «Hide page from search results» under SEO i Page Settings');
     if (!SKJULTE[short] && short !== '/produkter') for (const m of h.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)) {
       let u; try { u = new URL(unesc(m[1]), pg); } catch (e) { continue; }
