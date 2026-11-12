@@ -1,0 +1,376 @@
+<!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Demo – stoffkartotek på /datablad</title><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body style="margin:0;font-family:Barlow,sans-serif">
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  .page-section:has(#ftx) { min-height: 0 !important; padding: 0 !important; }
+  .page-section:has(#ftx) .content-wrapper { padding: 0 !important; max-width: none !important; }
+  .page-section:has(#ftx) .content { width: 100% !important; }
+  .page-section:has(#ftx) .fluid-engine { display: block !important; }
+  .fe-block:has(#ftx), .sqs-block:has(#ftx), .sqs-block:has(#ftx) .sqs-block-content { padding: 0 !important; margin: 0 !important; }
+  body { overflow-x: hidden; }
+  #ftx {
+    --navy: #052b69;
+    --navy-d: #031c47;
+    --sky: #9cc2ff;
+    --tint: #e9eff8;
+    --ink: #111a28;
+    --text: #2a3443;
+    --muted: #5f6b7a;
+    --line: #d6dbe2;
+    --bg: #ffffff;
+    --bg-2: #f3f4f6;
+    width: 100vw; position: relative; left: 50%; margin-left: -50vw;
+    background: var(--bg); color: var(--text);
+    font-family: "Barlow", system-ui, sans-serif; font-size: 17px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  #ftx *, #ftx *::before, #ftx *::after { box-sizing: border-box; }
+  #ftx :where(h1, h2, h3, p, ul, ol) { margin: 0; padding: 0; }
+  #ftx :where(p) { color: inherit; font-size: inherit; line-height: inherit; }
+  #ftx :where(ul, ol) { list-style: none; }
+  #ftx :where(h1, h2, h3) { text-transform: none; font-family: "Barlow Semi Condensed", "Barlow", sans-serif; color: var(--ink); line-height: 1.08; letter-spacing: -.005em; }
+  #ftx :where(a) { color: inherit; text-decoration: none; }
+  #ftx :where(img) { display: block; max-width: 100%; }
+  #ftx .ftx-wrap { max-width: 1240px; margin: 0 auto; padding: 0 28px; }
+  #ftx .ftx-sec { padding: 88px 0; }
+  #ftx .ftx-head { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; flex-wrap: wrap; border-top: 2px solid var(--ink); padding-top: 18px; margin-bottom: 36px; position: relative; }
+  #ftx .ftx-head::before { content: ""; position: absolute; top: -3px; left: 0; width: 56px; height: 4px; background: var(--navy); }
+  #ftx .ftx-head h2 { font-size: clamp(28px, 3.2vw, 40px); font-weight: 700; }
+  #ftx .ftx-btn { display: inline-block; padding: 13px 22px; border-radius: 6px; font-weight: 600; font-size: 16px; border: 1.5px solid var(--navy); background: var(--navy); color: #fff !important; cursor: pointer; transition: background .15s, border-color .15s; }
+  #ftx .ftx-btn:hover { background: var(--navy-d); border-color: var(--navy-d); }
+  #ftx .ftx-btn.alt { background: transparent; color: var(--navy) !important; }
+  #ftx .ftx-btn.alt:hover { background: var(--bg-2); }
+  #ftx .ftx-btn.light { background: #fff; border-color: #fff; color: var(--navy) !important; }
+  #ftx .ftx-btn.light:hover { background: var(--tint); }
+  #ftx .ftx-btn.ghost { background: transparent; border-color: rgba(255,255,255,.5); color: #fff !important; }
+  #ftx .ftx-btn.ghost:hover { border-color: #fff; }
+  #ftx .ftx-eyebrow { display: block; font-size: 14px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--navy); margin-bottom: 12px; }
+
+  /* SIDETOPP */
+  #ftx .ftx-top { padding: calc(var(--ftx-hdr, 0px) + 64px) 0 0; }
+  #ftx .ftx-crumb { font-size: 14px; font-weight: 600; color: var(--muted); margin-bottom: 14px; }
+  #ftx .ftx-crumb a:hover { color: var(--navy); text-decoration: underline; }
+  #ftx .ftx-top h1 { font-size: clamp(38px, 4.6vw, 56px); font-weight: 700; color: var(--navy); }
+  #ftx .ftx-top-text { font-size: clamp(17px, 1.5vw, 20px); margin-top: 16px; max-width: 680px; }
+  #ftx .ftx-lab-badge { display: inline-flex; align-items: center; gap: 12px; margin-top: 28px; padding: 10px 18px 10px 10px; background: var(--tint); border-radius: 999px; color: var(--text); font-size: 16px; }
+  #ftx .ftx-lab-badge .ic { width: 34px; height: 34px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; flex: 0 0 34px; }
+  #ftx .ftx-lab-badge svg { width: 18px; height: 18px; }
+  #ftx .ftx-lab-badge b { color: var(--navy); font-weight: 600; }
+
+  /* LE-KATALOG */
+  #ftx .ftx-badge { display: inline-flex; align-items: center; gap: 10px; margin-top: 22px; padding: 8px 16px 8px 8px; background: var(--tint); border-radius: 999px; font-size: 16px; color: var(--text); }
+  #ftx .ftx-badge .ic { width: 30px; height: 30px; border-radius: 50%; background: var(--navy); color: #fff; display: grid; place-items: center; flex: 0 0 30px; }
+  #ftx .ftx-badge svg { width: 16px; height: 16px; }
+  #ftx .ftx-badge b { color: var(--navy); font-weight: 600; }
+  #ftx .ftx-kat-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px; align-items: end; }
+  #ftx .ftx-kat-logo { background: #fff; border: 1px solid var(--line); border-radius: 12px; width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; padding: 22px 30px; }
+  #ftx .ftx-kat-logo img { max-height: 76px; max-width: 100%; object-fit: contain; }
+  #ftx .ftx-stats { display: flex; gap: 36px; flex-wrap: wrap; margin-top: 30px; }
+  #ftx .ftx-stats b { display: block; font-family: "Barlow Semi Condensed", sans-serif; font-size: 34px; font-weight: 700; color: var(--navy); line-height: 1; }
+  #ftx .ftx-stats span { font-size: 15px; color: var(--muted); }
+
+  #ftx .ftx-tools { position: sticky; top: var(--ftx-hdr, 0px); z-index: 5; background: rgba(255,255,255,.97); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); margin-top: 44px; }
+  #ftx .ftx-tools-in { padding-top: 16px; padding-bottom: 14px; }
+  #ftx .ftx-row1 { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  #ftx .ftx-tabs { display: inline-flex; background: var(--bg-2); border-radius: 8px; padding: 4px; }
+  #ftx .ftx-tab { appearance: none; border: 0; background: transparent; font: inherit; font-weight: 600; font-size: 16px; color: var(--muted); padding: 9px 16px; border-radius: 6px; cursor: pointer; }
+  #ftx .ftx-tab[aria-selected="true"] { background: #fff; color: var(--navy); box-shadow: 0 1px 3px rgba(17,26,40,.12); }
+  #ftx .ftx-tab small { font-weight: 500; color: var(--muted); margin-left: 4px; font-size: 14px; }
+  #ftx .ftx-search { position: relative; flex: 1 1 280px; min-width: 0; }
+  #ftx .ftx-search svg { position: absolute; left: 14px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+  #ftx .ftx-search input { width: 100%; font: inherit; font-size: 16px; padding: 11px 14px 11px 42px; border: 1.5px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); outline: none; }
+  #ftx .ftx-search input:focus { border-color: var(--navy); }
+  #ftx .ftx-syn { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 500; color: var(--text); cursor: pointer; user-select: none; white-space: nowrap; }
+  #ftx .ftx-syn input { width: 18px; height: 18px; accent-color: var(--navy); margin: 0; }
+  #ftx .ftx-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  #ftx .ftx-chip { appearance: none; flex: 0 0 auto; font: inherit; font-size: 14.5px; font-weight: 500; padding: 6px 13px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--text); cursor: pointer; white-space: nowrap; }
+  #ftx .ftx-chip:hover { border-color: var(--navy); }
+  #ftx .ftx-chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #fff; }
+  #ftx .ftx-chip small { opacity: .7; margin-left: 3px; }
+
+  #ftx .ftx-list { padding: 22px 0 80px; }
+  #ftx .ftx-count { font-size: 15px; color: var(--muted); margin-bottom: 12px; }
+  #ftx .ftx-table { width: 100%; border-collapse: collapse; font-size: 16px; }
+  #ftx .ftx-table th { text-align: left; font-size: 13px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); padding: 10px 14px; border-bottom: 2px solid var(--ink); background: #fff; }
+  #ftx .ftx-table td { padding: 13px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  #ftx .ftx-table tr.grp td { background: var(--bg-2); font-family: "Barlow Semi Condensed", sans-serif; font-size: 19px; font-weight: 700; color: var(--navy); padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  #ftx .ftx-table tbody tr:not(.grp):hover td { background: #f8fafd; }
+  #ftx .ftx-no { font-family: "Barlow Semi Condensed", sans-serif; font-weight: 700; font-size: 18px; color: var(--navy); white-space: nowrap; }
+  #ftx .ftx-sku { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13.5px; color: var(--navy); font-weight: 600; }
+  #ftx .ftx-sku .more { display: block; color: var(--muted); font-weight: 400; font-family: "Barlow", sans-serif; font-size: 13px; margin-top: 2px; }
+  #ftx td.c-img { width: 76px; padding-top: 10px; padding-bottom: 10px; }
+  #ftx .ftx-thumb { display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; border: 1px solid var(--line); border-radius: 8px; background: #fff; overflow: hidden; }
+  #ftx .ftx-thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  #ftx .ftx-thumb.ph { background: var(--bg-2); }
+  #ftx .ftx-thumb.ph img { width: 70%; height: auto; opacity: .55; filter: grayscale(1); }
+  #ftx .ftx-name { font-weight: 600; color: var(--ink); }
+  #ftx a.ftx-name:hover { text-decoration: underline; text-underline-offset: 3px; }
+  #ftx .ftx-name .ftx-no { font-size: inherit; margin-right: 2px; }
+  #ftx .ftx-docs { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; }
+  #ftx .ftx-doc { display: inline-flex; align-items: flex-start; gap: 6px; font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.3; }
+  #ftx .ftx-doc:hover span.t { text-decoration: underline; text-underline-offset: 2px; }
+  #ftx .ftx-doc svg { width: 15px; height: 15px; flex: 0 0 15px; margin-top: 1px; }
+  #ftx .ftx-lang { font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 1px 5px; border-radius: 3px; background: var(--tint); color: var(--navy); flex: 0 0 auto; margin-top: 1px; }
+  #ftx .ftx-lang.en, #ftx .ftx-lang.sv, #ftx .ftx-lang.da { background: var(--bg-2); color: var(--muted); }
+  #ftx .ftx-none { font-size: 14px; color: var(--muted); }
+  #ftx .ftx-dl { display: none; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  #ftx .ftx-tag { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 4px; background: var(--tint); color: var(--navy); margin-left: 8px; vertical-align: 2px; }
+  #ftx .ftx-gr { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
+  #ftx .ftx-cat { color: var(--muted); font-size: 15px; }
+  #ftx .ftx-packs { display: flex; flex-wrap: wrap; gap: 5px; }
+  #ftx .ftx-pack { font-size: 13px; padding: 3px 8px; border-radius: 4px; border: 1px solid var(--line); background: #fff; color: var(--text); white-space: nowrap; }
+  #ftx .ftx-link { display: inline-flex; align-items: center; gap: 4px; font-size: 14.5px; font-weight: 600; color: var(--navy); white-space: nowrap; }
+  #ftx .ftx-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+  #ftx .ftx-lks { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  #ftx .ftx-sds svg { width: 15px; height: 15px; }
+  #ftx .ftx-nb { font-size: 11px; font-weight: 700; padding: 1px 5px; border-radius: 3px; background: var(--tint); color: var(--navy); }
+  #ftx .ftx-en { font-size: 11px; font-weight: 700; padding: 1px 5px; border-radius: 3px; background: var(--bg-2); color: var(--muted); }
+  #ftx .ftx-link svg { width: 14px; height: 14px; }
+  #ftx .ftx-empty { padding: 48px 0; text-align: center; color: var(--muted); }
+  #ftx .ftx-empty b { display: block; font-family: "Barlow Semi Condensed", sans-serif; font-size: 22px; color: var(--ink); margin-bottom: 6px; }
+  #ftx .ftx-note { margin-top: 26px; font-size: 14.5px; color: var(--muted); max-width: 820px; }
+  #ftx .ftx-note a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+
+  #ftx .ftx-cta { background: var(--navy-d); color: #fff; padding: 72px 0; }
+  #ftx .ftx-cta-inner { display: flex; justify-content: space-between; align-items: center; gap: 28px; flex-wrap: wrap; }
+  #ftx .ftx-cta h2 { color: #fff; font-size: clamp(26px, 3vw, 36px); font-weight: 700; }
+  #ftx .ftx-cta p { color: rgba(255,255,255,.8); margin-top: 8px; max-width: 620px; }
+  #ftx .ftx-cta-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 900px) {
+    #ftx .ftx-kat-top { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+    #ftx .ftx-kat-logo { order: -1; width: 220px; height: 110px; }
+    #ftx .ftx-table thead { display: none; }
+    #ftx .ftx-table, #ftx .ftx-table tbody, #ftx .ftx-table tr, #ftx .ftx-table td { display: block; width: 100%; }
+    #ftx .ftx-table tr { border-bottom: 1px solid var(--line); padding: 12px 0 12px 76px; position: relative; min-height: 86px; }
+    #ftx .ftx-table td.c-img { position: absolute; left: 0; top: 14px; width: 64px; padding: 0; }
+    #ftx .ftx-table tr.grp { padding: 0; border: 0; margin-top: 10px; min-height: 0; }
+    #ftx .ftx-table td { border: 0; padding: 3px 4px; }
+    #ftx .ftx-table td.c-cat { display: none; }
+    #ftx .ftx-table td.c-pk { padding-top: 8px; }
+    #ftx .ftx-table td.c-lk { padding-top: 8px; }
+    #ftx .ftx-dl { display: block; }
+    #ftx .ftx-table td.c-sds, #ftx .ftx-table td.c-pds { padding-top: 10px; }
+    #ftx .ftx-lks { flex-direction: row; flex-wrap: wrap; gap: 6px 18px; }
+    #ftx .ftx-table tbody tr:not(.grp):hover td { background: transparent; }
+  }
+  @media (max-width: 640px) {
+    #ftx { font-size: 16px; }
+    #ftx .ftx-wrap { padding: 0 18px; }
+    #ftx .ftx-top { padding-top: calc(var(--ftx-hdr, 0px) + 40px); }
+    #ftx .ftx-stats { gap: 24px; }
+    #ftx .ftx-stats b { font-size: 28px; }
+    #ftx .ftx-tabs { width: 100%; }
+    #ftx .ftx-tab { flex: 1; padding: 9px 8px; }
+    #ftx .ftx-search { flex-basis: 100%; }
+    #ftx .ftx-tools { margin-top: 32px; position: static; }
+    #ftx .ftx-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  }
+  #ftx .ftx-cross { display: flex; width: max-content; max-width: 100%; align-items: center; gap: 8px; margin-top: 16px; font-weight: 600; color: var(--navy); border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+  #ftx .ftx-cross svg { width: 16px; height: 16px; transition: transform .15s; }
+  #ftx .ftx-cross:hover svg { transform: translateX(3px); }
+  /* Datablad */
+  #ftx .ftx-doc { display: inline-flex; align-items: flex-start; gap: 6px; font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.3; }
+  #ftx .ftx-doc:hover span.t { text-decoration: underline; text-underline-offset: 2px; }
+  #ftx .ftx-doc svg { width: 15px; height: 15px; flex: 0 0 15px; margin-top: 1px; }
+  #ftx .ftx-doc.ask { color: var(--muted); font-weight: 500; }
+  #ftx .ftx-docs { display: flex; flex-direction: column; gap: 6px; }
+  #ftx .ftx-dl { display: none; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  #ftx .ftx-lev { display: block; font-size: 13px; color: var(--muted); margin-top: 3px; }
+  #ftx a.ftx-name { color: var(--ink); }
+  #ftx .ftx-flt { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  #ftx .ftx-flt button { font: inherit; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--navy); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+  #ftx .ftx-flt button[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #fff; }
+  #ftx .ftx-flt button::before { content: ""; width: 14px; height: 14px; border-radius: 3px; border: 1.5px solid currentColor; box-sizing: border-box; }
+  #ftx .ftx-flt button[aria-pressed="true"]::before { background: #fff; box-shadow: inset 0 0 0 2px var(--navy); }
+  #ftx .ftx-more-row { text-align: center; margin: 22px 0 0; }
+  #ftx .ftx-help { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
+  #ftx .ftx-help div { border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; background: #fff; }
+  #ftx .ftx-help b { display: block; color: var(--navy); font-size: 16px; margin-bottom: 4px; }
+  #ftx .ftx-help p { margin: 0; font-size: 14.5px; color: var(--muted); line-height: 1.5; }
+  #ftx .ftx-help a { color: var(--navy); font-weight: 600; }
+  @media (max-width: 900px) {
+    #ftx .ftx-dl { display: block; }
+    #ftx .ftx-table td.c-sds, #ftx .ftx-table td.c-pds { padding-top: 10px; display: inline-block; width: 49%; vertical-align: top; }
+    #ftx .ftx-table tr { padding-left: 0; min-height: 0; }
+    #ftx .ftx-help { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>
+
+<div class="ftx" id="ftx" lang="nb">
+
+  <section class="ftx-top">
+    <div class="ftx-wrap">
+      <p class="ftx-crumb"><a href="https://www.fuglesangstech.no/">Forside</a> / <a href="https://www.fuglesangstech.no/produkter">Produkter</a> / Datablad</p>
+      <h1>Sikkerhetsdatablad og produktdatablad</h1>
+      <p class="ftx-top-text">Søk opp sikkerhetsdatablad (SDS) og produktdatablad (PDS) for produktene vi leverer – fra Chesterton, Lubrication Engineers, UTB, Vickers Oils og Perma-Tec. Søk på produktnavn eller produktnummer og last ned PDF-en direkte – eller kryss av produktene dere bruker og last ned hele stoffkartoteket i én ZIP-fil.</p>
+      <div class="ftx-badge"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span>Kontrollert mot leverandørene hver måned – sist <b id="ftx-dato">11.11.2026</b></span></div>
+      <div class="ftx-stats">
+        <div><b id="ftx-nP">509</b><span>produkter</span></div>
+        <div><b id="ftx-nS">594</b><span>sikkerhetsdatablad</span></div>
+        <div><b id="ftx-nNO">425</b><span>på norsk</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ftx-tools">
+    <div class="ftx-wrap ftx-tools-in">
+      <div class="ftx-row1">
+        <label class="ftx-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="ftx-q" type="search" placeholder="Søk – f.eks. 785, Monolec, Ecosure, Synlub 5W-30" autocomplete="off" aria-label="Søk etter produkt"></label>
+      </div>
+      <div class="ftx-chips" id="ftx-chips" aria-label="Leverandører"></div>
+      <div class="ftx-flt" id="ftx-flt"><button type="button" data-f="no" aria-pressed="false">Bare SDS på norsk</button></div>
+    </div>
+  </div>
+
+  <section class="ftx-list">
+    <div class="ftx-wrap">
+      <p class="ftx-count" id="ftx-count" aria-live="polite"></p>
+      <table class="ftx-table" id="ftx-table">
+        <thead><tr><th>Produkt</th><th style="width:30%">Sikkerhetsdatablad (SDS)</th><th style="width:24%">Produktdatablad (PDS)</th></tr></thead>
+        <tbody id="ftx-tbody"></tbody>
+      </table>
+      <div class="ftx-more-row" id="ftx-more" hidden><button type="button" class="ftx-btn alt" id="ftx-more-btn">Vis flere</button></div>
+      <div class="ftx-empty" id="ftx-empty" hidden><b>Ingen treff</b>Prøv et annet søkeord, eller <a class="ftx-link" href="https://www.fuglesangstech.no/kontakt-oss">be oss om databladet</a>.</div>
+
+      <div class="ftx-help">
+        <div><b>Stoffkartotek</b><p>Kryss av produktene, lim inn en liste med varenumre eller hent fra tilbudslisten – og last ned alle sikkerhetsdatabladene med innholdsfortegnelse. Valget huskes i nettleseren til neste gang.</p></div>
+        <div><b>Alltid oppdatert</b><p>Vi sjekker hvert datablad mot leverandøren hver måned og bytter ut kopien når det kommer en ny revisjon. SDS er på norsk der leverandøren har det, ellers på engelsk.</p></div>
+        <div><b>Finner du det ikke?</b><p>Ikke alle produkter har datablad her ennå. <a href="https://www.fuglesangstech.no/kontakt-oss">Kontakt oss</a> eller ring <a href="tel:22542000">22 54 20 00</a>, så sender vi det.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftx-cta">
+    <div class="ftx-wrap">
+      <div class="ftx-cta-inner">
+        <div>
+          <h2>Trenger du hjelp med datablad eller stoffkartotek?</h2>
+          <p>Vi sender datablad som mangler, og hjelper dere å finne riktig produkt.</p>
+        </div>
+        <div class="ftx-cta-btns">
+          <a class="ftx-btn light" href="https://www.fuglesangstech.no/kontakt-oss">Kontakt oss</a>
+          <a class="ftx-btn ghost" href="tel:22542000">Ring 22 54 20 00</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('ftx');
+  if (!root) return;
+  function setHeader() {
+    var h = document.querySelector('#header, header.header');
+    var v = (h && getComputedStyle(h).position === 'fixed') ? h.offsetHeight : 0;
+    root.style.setProperty('--ftx-hdr', v + 'px');
+  }
+  setHeader();
+  window.addEventListener('load', setHeader);
+  window.addEventListener('resize', setHeader);
+})();
+</script>
+<script>
+(function () {
+  var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/', RAWB = 'https://raw.githubusercontent.com/fuglesangstech/fuglesangstech-datablad/main/', LEV = [], P = [], PAGE = 60, shown = PAGE;
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function url(p) { return /^https?:/.test(p) ? p : GH + p.split('/').map(encodeURIComponent).join('/'); }
+  function norm(s) { return String(s).toLowerCase().replace(/[®™]/g, '').replace(/[‐–−]/g, '-'); }
+  var DOC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>';
+  function link(kind, d, name, many) {
+    var lab = many && d[0] && d[0] !== kind ? d[0] : kind;
+    return '<a class="ftx-doc" href="' + esc(url(d[2])) + '" target="_blank" rel="noopener" title="' + esc((kind === 'SDS' ? 'Sikkerhetsdatablad' : 'Produktdatablad') + ' for ' + name + (d[1] === 'NO' ? ' på norsk' : ' på engelsk')) + ' (PDF)">' + DOC + '<span class="t">' + esc(lab) + '</span><span class="ftx-lang ' + esc(d[1].toLowerCase()) + '">' + esc(d[1]) + '</span></a>';
+  }
+  function ask(kind, name) { return '<a class="ftx-doc ask" href="https://www.fuglesangstech.no/kontakt-oss" title="Be om ' + kind + ' for ' + esc(name) + '">' + DOC + '<span class="t">Be om ' + kind + '</span></a>'; }
+  var st = { lev: '', q: '', no: false };
+  function load(d) {
+    LEV = d.leverandorer;
+    P = d.rader.map(function (r) {
+      return { i: 0, lev: r.lev, nr: r.nr, name: r.navn, sds: r.sds, pds: r.pds, link: r.lenke,
+        hay: norm([r.lev, r.nr, r.navn, r.sds.map(function (x) { return x[0]; }).join(' '), r.pds.map(function (x) { return x[0]; }).join(' ')].join(' ')) };
+    });
+    P.forEach(function (x, i) { x.i = i; });
+    window.ftDatablad = { rader: P, oppdatert: d.oppdatert, treff: function () { return P.filter(function (x) { return matches(x); }); } };
+    var dt = d.oppdatert.split('-'); $('ftx-dato').textContent = dt[2] + '.' + dt[1] + '.' + dt[0];
+    $('ftx-nP').textContent = P.length;
+    $('ftx-nS').textContent = P.reduce(function (n, x) { return n + x.sds.length; }, 0);
+    $('ftx-nNO').textContent = P.reduce(function (n, x) { return n + x.sds.filter(function (s) { return s[1] === 'NO'; }).length; }, 0);
+  }
+  function matches(it, skipLev) {
+    if (!skipLev && st.lev && it.lev !== st.lev) return false;
+    if (st.no && !it.sds.some(function (s) { return s[1] === 'NO'; })) return false;
+    if (!st.q) return true;
+    return st.q.split(/\s+/).every(function (w) { return it.hay.indexOf(w) > -1 || it.hay.replace(/\s+/g, '').indexOf(w) > -1; });
+  }
+  function chips() {
+    var base = P.filter(function (x) { return matches(x, true); });
+    var h = '<button class="ftx-chip" data-lev="" aria-pressed="' + (!st.lev) + '">Alle<small>' + base.length + '</small></button>';
+    LEV.forEach(function (l) {
+      var n = base.filter(function (x) { return x.lev === l; }).length;
+      if (n) h += '<button class="ftx-chip" data-lev="' + esc(l) + '" aria-pressed="' + (st.lev === l) + '">' + esc(l) + '<small>' + n + '</small></button>';
+    });
+    $('ftx-chips').innerHTML = h;
+  }
+  function render() {
+    var list = P.filter(function (x) { return matches(x); }), h = '', last = null;
+    list.slice(0, shown).forEach(function (it) {
+      if (!st.lev && it.lev !== last) { h += '<tr class="grp"><td colspan="3">' + esc(it.lev) + '</td></tr>'; last = it.lev; }
+      var sds = it.sds.filter(function (s) { return !st.no || s[1] === 'NO'; });
+      var many = it.sds.length > 1;
+      h += '<tr data-i="' + it.i + '"><td class="c-no"><a class="ftx-name" href="' + esc(it.link) + '" title="Se produktet">' + (it.nr && it.name.indexOf(it.nr) !== 0 ? '<b class="ftx-no">' + esc(it.nr) + '</b> ' : '') + esc(it.name) + '</a><span class="ftx-lev">' + esc(it.lev) + '</span></td>'
+        + '<td class="c-sds"><span class="ftx-dl">SDS</span>' + (sds.length ? '<div class="ftx-docs">' + sds.map(function (d) { return link('SDS', d, it.name, many); }).join('') + '</div>' : ask('SDS', it.name)) + '</td>'
+        + '<td class="c-pds"><span class="ftx-dl">PDS</span>' + (it.pds.length ? '<div class="ftx-docs">' + it.pds.map(function (d) { return link('PDS', d, it.name, it.pds.length > 1); }).join('') + '</div>' : ask('PDS', it.name)) + '</td></tr>';
+    });
+    $('ftx-tbody').innerHTML = h;
+    $('ftx-empty').hidden = list.length > 0;
+    $('ftx-table').style.display = list.length ? '' : 'none';
+    $('ftx-more').hidden = list.length <= shown;
+    $('ftx-more-btn').textContent = 'Vis alle ' + list.length;
+    document.dispatchEvent(new CustomEvent('ftdb:render'));
+    $('ftx-count').textContent = list.length === P.length ? 'Viser ' + Math.min(shown, list.length) + ' av ' + P.length + ' produkter – søk for å finne raskere' : list.length + ' treff';
+  }
+  function update() { shown = PAGE; chips(); render(); }
+  $('ftx-chips').addEventListener('click', function (e) { var b = e.target.closest('.ftx-chip'); if (!b) return; st.lev = b.getAttribute('data-lev'); update(); });
+  $('ftx-flt').addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; st.no = !st.no; b.setAttribute('aria-pressed', st.no); update(); });
+  $('ftx-more-btn').addEventListener('click', function () { shown = 1e9; render(); });
+  var t;
+  $('ftx-q').addEventListener('input', function (e) { clearTimeout(t); t = setTimeout(function () { st.q = norm(e.target.value.trim()); update(); }, 120); });
+
+  var tools = document.querySelector('#ftx .ftx-tools'), hdr = document.querySelector('#header, header.header'), until = 0;
+  function stick() {
+    var b = 0;
+    if (hdr) { var pos = getComputedStyle(hdr).position; if (pos === 'fixed' || pos === 'sticky') b = Math.max(0, Math.round(hdr.getBoundingClientRect().bottom)); }
+    tools.style.top = b + 'px';
+    if (performance.now() < until) requestAnimationFrame(stick);
+  }
+  function kick() { var idle = performance.now() >= until; until = performance.now() + 800; if (idle) requestAnimationFrame(stick); }
+  window.addEventListener('scroll', kick, { passive: true });
+  window.addEventListener('resize', kick);
+  window.addEventListener('load', kick);
+  kick();
+
+  function start() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) { $('ftx-q').value = p.get('q'); st.q = norm(p.get('q')); }
+    if (p.get('lev') && LEV.indexOf(p.get('lev')) > -1) st.lev = p.get('lev');
+    update();
+  }
+  function get(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  $('ftx-count').textContent = 'Laster databladene …';
+  $('ftx-table').style.display = 'none';
+  get(GH + 'datablad-oversikt.json').catch(function () { return get(RAWB + 'datablad-oversikt.json'); })
+    .then(function (d) { load(d); start(); document.dispatchEvent(new CustomEvent('ftdb:klar')); })
+    .catch(function () {
+      $('ftx-count').textContent = '';
+      $('ftx-empty').innerHTML = '<b>Databladene kunne ikke lastes akkurat nå</b>Prøv å laste siden på nytt, eller <a class="ftx-link" href="https://www.fuglesangstech.no/kontakt-oss">kontakt oss</a> – vi sender databladet.';
+      $('ftx-empty').hidden = false;
+    });
+})();
+</script>
+<script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/stoffkartotek.js" defer></script>
+</body></html>
