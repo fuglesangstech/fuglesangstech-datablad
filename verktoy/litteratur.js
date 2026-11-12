@@ -57,6 +57,7 @@ async function run(root, codes) {
   let koblet = 0;
   all.forEach(d => {
     const lang = sprak(d.tittel); if (!lang) return;
+    if (/\/Files\/Product assets\/(Rotating|Fluid Power|Packing and Gaskets|Engineered Polymer Seals)\//i.test(d.url)) return;   // tetninger og pakninger fører vi ikke
     const url = abs(d.url); if (sett.has(url)) return;
     const rad = [etikett(d), lang, url, TYPER[d.type]];
     const treff = new Set(d.prod.split(',').map(s => s.trim()).filter(Boolean).map(s => by[key(MAP[s] || s)]).filter(Boolean));
