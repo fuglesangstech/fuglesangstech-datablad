@@ -49,7 +49,7 @@ function build(root, CD, LD) {
 
   // LE
   const first = {};
-  (LD || []).forEach(r => { const n = String(r[1]); if (!(n in first)) first[n] = String(r[0]).split(' / ')[0]; });
+  (LD || []).forEach(r => { const n = String(r[1]); if (!(n in first)) first[n] = String(r[0]); });   // hele produktnummeret, f.eks. «6312 / 6315» → #le-6312-6315 som i /produkter
   (LD || []).forEach(r => {
     const nrs = String(r[0]).split(' / '), flag = String(r[8] || ''), sds = [];
     nrs.forEach(nr => {
@@ -69,12 +69,26 @@ function build(root, CD, LD) {
     if (sds.length || pds.length) rows.push(Object.assign({ lev: 'UTB', nr: '', navn: p.navn, sds, pds, lenke: S + '/produkter#utb-' + pid(p.navn) }, vnr.length ? { vnr } : {}));
   });
 
+  // Samme slug som /produkter bruker for produkt-ID-er
+  const pslug = t => String(t).toLowerCase().replace(/æ/g, 'ae').replace(/ø/g, 'o').replace(/å/g, 'a').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   // Perma-Tec (kopi i perma/datablad/ når den finnes, ellers perma sin lenke)
+  const PERMA_SYS = ['star vario long range', 'star vario bluetooth', 'star vario ex', 'star vario', 'star control', 'futura plus', 'futura', 'classic', 'flex plus', 'flex', 'nova', 'ultra', 'pro', 'ecosy'];
+  const permaId = navn => {
+    const n = navn.toLowerCase();
+    if (!/^perma /.test(n) || /\blc\b|\(s[fo]\d\d\)/.test(n)) return '';
+    const k = PERMA_SYS.find(x => n.startsWith('perma ' + x));
+    if (!k) return '';
+    return 'perma-' + ({ 'star vario ex': 'star vario', pro: 'pro line' }[k] || k).replace(/\s+/g, '-');
+  };
   const perma = read(root, 'perma/produkter.json'), pm = require('./perma.js');
   const pf = u => (u.startsWith(pm.PRE) && have.has(pm.local(u))) ? pm.local(u) : u;
   (perma ? perma.produkter : []).forEach(p => {
     const sds = (p.sds || []).map(d => [d[0], 'EN', pf(d[1])]), pds = (p.pds || []).map(d => [d[0], 'EN', pf(d[1])]);
-    if (sds.length || pds.length) rows.push({ lev: 'Perma-Tec', nr: '', navn: p.navn, sds, pds, lenke: S + '/perma-tec-katalog?q=' + encodeURIComponent(p.navn.replace(/\s*\(S[FO]\d\d\)$/, '')) });
+    // Fuglesangs Tech selger bare smøresystemene (fylt med eget fett) – ikke perma-fett, LC-patroner eller tilbehør.
+    // Systemene lenkes til produktet i /produkter (katalogsiden er skjult).
+    const sid = permaId(p.navn);
+    if (!sid) return;
+    if (sds.length || pds.length) rows.push({ lev: 'Perma-Tec', nr: '', navn: p.navn, sds, pds, lenke: S + '/produkter#' + sid });
   });
 
   // Vickers Oils
@@ -82,7 +96,7 @@ function build(root, CD, LD) {
   (vik ? vik.produkter : []).forEach(p => {
     const sds = (p.sds || []).map(d => [d[0], d[1], d[2]]), pds = (p.pds || []).map(d => [d[0], d[1], d[2]]);
     const d = dok(p.sertifikater, 'sertifikat').concat(dok(p.bruksanvisning, 'bruksanvisning'));
-    if (sds.length || pds.length || d.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, dok: d, lenke: S + '/vickers-katalog?q=' + encodeURIComponent(p.navn) });
+    if (sds.length || pds.length || d.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, dok: d, lenke: S + '/produkter#vik-' + pslug(p.navn) });   // aliaset til produktkortet i /produkter
   });
 
   rows.forEach(r => { if (!r.dok) r.dok = []; });
