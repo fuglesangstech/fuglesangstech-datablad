@@ -14,7 +14,7 @@
 (function () {
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
-  var VERSJON = '2026-11-12b';
+  var VERSJON = '2026-11-12c';
   var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -209,7 +209,7 @@
   var bar, dock;
   function tilbudAntall() { var t = lsGet(TKEY, []); return Array.isArray(t) ? t.length : 0; }
   function buildBar() {
-    bar = document.createElement('div'); bar.id = 'ftsk-bar';
+    bar = document.createElement('div'); bar.id = 'ftsk-bar'; bar.setAttribute('data-anker', 'stoffkartotek');
     bar.innerHTML = '<div class="ftsk-intro">' + ICON.box + '<div><b>Lag stoffkartotek</b><span>Kryss av produktene dere bruker, og last ned alle databladene samlet i én ZIP-fil.</span></div></div>' +
       '<div class="ftsk-acts"><button type="button" class="ftsk-b" data-a="alle">' + ICON.all + '<span>Velg alle treff</span></button>' +
       '<button type="button" class="ftsk-b" data-a="lim">' + ICON.paste + '<span>Lim inn liste</span></button>' +
@@ -237,7 +237,7 @@
     ba.querySelector('span').textContent = alleValgt ? 'Fjern alle ' + treff.length + ' treff' : 'Velg alle ' + treff.length + ' treff';
     ba.setAttribute('data-av', alleValgt ? '1' : '');
     ba.disabled = !treff.length;
-    var tb = bar.querySelector('[data-a="tilbud"]'), nt = tilbudAntall();
+    var tb = bar.querySelector('[data-a="tilbud"]'), nt = tilbudsliste().length;
     tb.hidden = !nt; tb.querySelector('span').textContent = 'Hent fra tilbudslisten (' + nt + ')';
     var v = valgte(), n = v.length;
     dock.classList.toggle('on', n > 0);
@@ -330,9 +330,16 @@
   }
 
   /* ---------- hent fra tilbudslisten ---------- */
+  function tilbudsliste() {
+    var t = lsGet(TKEY, []);
+    if (Array.isArray(t) && t.length) return t;
+    // etter innsending er tilbudslisten tømt – Footer-koden har tatt vare på en kopi i økten
+    try { t = JSON.parse(sessionStorage.getItem('ft-sk-tilbud-kopi') || '[]'); } catch (e) { t = []; }
+    return Array.isArray(t) ? t : [];
+  }
   function fraTilbud() {
-    var t = lsGet(TKEY, []); if (!Array.isArray(t) || !t.length) return;
-    vnrIndex().then(function () {
+    var t = tilbudsliste(); if (!t.length) return Promise.resolve(0);
+    return vnrIndex().then(function () {
       var lagt = 0, ikke = [];
       t.forEach(function (it) {
         var levR = R.filter(function (r) { return r.lev === it.lev; });
@@ -353,6 +360,7 @@
       });
       save(); refresh();
       toast(lagt + ' produkter hentet fra tilbudslisten' + (ikke.length ? ' – fant ikke datablad for ' + ikke.length : ''));
+      return lagt;
     });
   }
 
@@ -543,7 +551,10 @@
     document.addEventListener('ftdb:render', refresh);
     window.addEventListener('fttilbud:endret', refresh);
     window.addEventListener('storage', function (e) { if (e.key === TKEY) refresh(); });
-    if (/[?&]stoffkartotek=1/.test(location.search) && valgte().length) visListe();
+    var mode = new URLSearchParams(location.search).get('stoffkartotek');
+    if (mode === 'tilbud') fraTilbud().then(function () { if (valgte().length) visListe(); });
+    else if (mode === '1' && valgte().length) visListe();
+    if (mode || location.hash === '#stoffkartotek') setTimeout(function () { bar.scrollIntoView({ block: 'center' }); }, 150);
   }
   window.FTStoffkartotek = { versjon: VERSJON, vis: function () { visListe(); }, antall: function () { return valgte().length; } };
   if (window.ftDatablad) init(); else document.addEventListener('ftdb:klar', init);
