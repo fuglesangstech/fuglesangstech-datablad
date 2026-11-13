@@ -223,7 +223,7 @@
     var d = [];
     if (x.nr) d.push('Produktnr. ' + esc(x.nr));
     if (x.variant) d.push(esc(x.variant));
-    if (x.fett) d.push('Fett: ' + esc(x.fett));
+    if (x.fett) d.push('Fylles med: ' + esc(x.fett));
     else if (x.lev !== 'Perma-Tec') d.push(x.emb ? 'Emballasje: ' + esc(x.emb) : 'Emballasje ikke valgt');
     if (x.varenr && x.varenr !== x.nr) d.push('Varenr. ' + esc(x.varenr));
     return (x.lev ? esc(x.lev) + ' · ' : '') + d.join(' · ');
