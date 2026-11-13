@@ -40,6 +40,8 @@ const unesc = s => s.replace(/&amp;/g, '&').replace(/&#x2F;/g, '/').replace(/&qu
 // Leverandørkatalogene er skjult for besøkende (videresendes til /produkter av blokk 9 i footer-injeksjonen),
 // men ligger der som datakilde for /produkter og synken. Ingen side skal lenke til dem.
 // /produkter (egen kode) sjekkes ikke her – blokk 9 skjuler/omskriver katalog-lenkene der mens siden kjører.
+// Gamle adresser som skal sendes videre (Squarespace: Settings › Advanced › URL Mappings). Ingen side skal lenke til dem.
+const FLYTTET = { '/nummersok-1': '/finn-olje-til-bilen', '/tjeneste-kurs-bolttiltrekning': '/tjeneste-kurs' };
 const SKJULTE = { '/chesterton-katalog': 'ch', '/le-katalog': 'le', '/utb-katalog': 'utb', '/vickers-katalog': 'vik', '/perma-tec-katalog': 'perma' };
 
 async function run(root) {
@@ -75,6 +77,7 @@ async function run(root) {
       const k = u.pathname.replace(/\/+$/, '');
       if (u.hostname.endsWith('fuglesangstech.no') && SKJULTE[k]) tilSkjult.push(short + ' lenker til ' + k + ' – bytt til /produkter?lev=' + SKJULTE[k]);
     }
+    for (const [gml, ny] of Object.entries(FLYTTET)) if (new RegExp("(fuglesangstech\\.no|['\"(])" + gml.replace(/[-/]/g, '\\$&') + "(?![\\w-])").test(h)) tilSkjult.push(short + ' lenker til gammel adresse ' + gml + ' – bytt til ' + ny);
     const refs = [];
     for (const m of h.matchAll(/<a\b[^>]*\shref="([^"]+)"/gi)) refs.push(m[1]);
     for (const m of h.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/gi)) refs.push(m[1]);
@@ -118,6 +121,11 @@ async function run(root) {
     if (!fs.existsSync(path.join(root, f))) mangler.push(f + ' – brukt på: ' + [...from].slice(0, 4).join(', '));
   }
   // Katalogsidene må ligge der (data), videresendingen må være på plass, og /produkter må kjenne alle leverandørene
+  for (const [gml, ny] of Object.entries(FLYTTET)) {
+    const r = await fetch(SITE + gml, { headers: UA, redirect: 'manual' }).catch(() => null);
+    const til = r && r.headers.get('location') ? new URL(r.headers.get('location'), SITE).pathname.replace(/\/+$/, '') : '';
+    if (!r || r.status < 300 || r.status > 399 || til !== ny) katalog.push('Den gamle adressen ' + gml + ' sendes ikke videre til ' + ny + (r ? ' (HTTP ' + r.status + (til ? ' til ' + til : '') + ')' : '') + ' – legg inn «' + gml + ' -> ' + ny + ' 301» under Settings › Advanced › URL Mappings');
+  }
   for (const k of Object.keys(SKJULTE)) { if (!pages.some(x => x.endsWith(k))) { const st = await status(SITE + k); if (st !== 200) katalog.push(k + ' svarer ikke (HTTP ' + st + ') – siden må ligge der, /produkter henter data fra den'); } }
   if (!videresending) katalog.push('Videresendingen fra katalogsidene (blokk 9 i footer-injeksjonen) finnes ikke på sidene – besøkende ser katalogsidene');
   if (produkterKode) for (const v of Object.values(SKJULTE)) if (!new RegExp("key: '" + v + "'").test(produkterKode)) katalog.push('/produkter kjenner ikke leverandøren «' + v + '» – lenker til /produkter?lev=' + v + ' viser alle produkter');
@@ -132,7 +140,7 @@ function rapport(r, err) {
     '. Døde lenker: ' + r.borte.length + '. Manglende filer i GitHub: ' + r.mangler.length + '. Sider som ikke svarer: ' + r.sideFeil.length + '.' +
     (feil ? '' : ' Alt OK.') + '\n' +
     sec('Sider som ikke svarer', r.sideFeil) + sec('Døde lenker og bilder (må rettes)', r.borte) + sec('Filer som mangler i GitHub (må rettes)', r.mangler) +
-    sec('Lenker til skjulte katalogsider (bør byttes til /produkter)', r.tilSkjult) + sec('Katalogsidene og videresendingen', r.katalog) +
+    sec('Lenker til skjulte katalogsider eller gamle adresser (bør byttes)', r.tilSkjult) + sec('Katalogsidene og videresendingen', r.katalog) +
     (r.nett.length ? '\nKunne ikke sjekkes herfra (blokkert domene eller tidsavbrudd – ikke nødvendigvis feil): ' + Object.entries(r.nett.reduce((o, x) => { const d = x.split('/')[2]; o[d] = (o[d] || 0) + 1; return o; }, {})).map(e => e[0] + ' (' + e[1] + ')').join(', ') + '.\n' : '');
 }
 
