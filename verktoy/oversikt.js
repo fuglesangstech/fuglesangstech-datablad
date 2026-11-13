@@ -106,7 +106,7 @@ function build(root, CD, LD) {
     const lev = p.serie === 'biomax' ? 'BioMax' : 'Royal Purple Industrial';
     const sds = p.varianter.map(v => [p.varianter.length > 1 ? 'SDS ' + (v.grad || v.kode) : 'SDS', 'NO', v.sds]);
     const pds = (p.pds || []).map(d => ['PDS', d[1] || 'EN', d[2]]);
-    rows.push({ lev, nr: '', navn: p.navn, sds, pds, vnr: p.varianter.map(v => v.kode), lenke: S + '/produkter#' + (p.serie === 'biomax' ? 'biomax-' : 'rpi-') + p.id });
+    rows.push({ lev, nr: '', navn: p.navn, sds, pds, vnr: p.varianter.map(v => v.kode), lenke: S + '/produkter#' + (p.serie === 'biomax' ? (/^biomax-/.test(p.id) ? '' : 'biomax-') : 'rpi-') + p.id });
   });
 
   rows.forEach(r => { if (!r.dok) r.dok = []; });
