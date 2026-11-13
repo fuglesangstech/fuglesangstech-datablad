@@ -26,11 +26,11 @@ Kontrollert: 129 norske SDS og 43 PDS. Uendret: 129. Nye: 0. Endret: 0. Borte: 0
 ## Chesterton-litteratur
 Dokumenter hos Chesterton: 1346. Koblet til våre produkter: 152. Generelle: 9.
 
-## Dokumentutvalg (Perma-Tec, Vickers, LE, artikler)
-Dokumenter: 106 (Perma 51, Vickers 21, LE 32, artikler 2).
+## Dokumentutvalg (Perma-Tec, Vickers, LE, Royal Purple/BioMax, artikler)
+Dokumenter: 126 (Perma 51, Vickers 21, LE 32, Royal Purple/BioMax 20, artikler 2).
 
 ## Datablad-oversikt (/datablad)
-Produkter: 525. SDS: 708. PDS: 540. Sertifikater og bruksanvisninger: 296. Ressurser (/ressurser): 202.
+Produkter: 525. SDS: 708. PDS: 540. Sertifikater og bruksanvisninger: 310. Ressurser (/ressurser): 218.
 
 ## Lenkesjekk av fuglesangstech.no
-Sider: 36. Lenker og bilder sjekket: 430. Filer i GitHub sjekket: 1318. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.
+Sider: 36. Lenker og bilder sjekket: 457. Filer i GitHub sjekket: 1316. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.

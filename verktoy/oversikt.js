@@ -113,10 +113,13 @@ function build(root, CD, LD) {
 
   // Utvalgte dokumenter (dokumenter.json): ved produktene «produkter» peker på, ellers som egen rad
   const utvalg = (read(root, 'dokumenter.json') || { dokumenter: [] }).dokumenter || [];
+  // Royal Purple Industrial og BioMax er samme produsent: et RPI-dokument kan høre til BioMax-produkter og omvendt
+  const RPF = new Set(['Royal Purple Industrial', 'BioMax']);
+  const samme = (a, b) => a === b || (RPF.has(a) && RPF.has(b));
   utvalg.forEach(d => {
     const rad = [d.navn, d.sprak || 'EN', d.url, d.type];
     let treff = [];
-    if (d.produkter) { const rx = new RegExp(d.produkter); treff = rows.filter(r => r.lev === d.lev && !r.generelt && rx.test(r.navn)); }
+    if (d.produkter) { const rx = new RegExp(d.produkter); treff = rows.filter(r => samme(r.lev, d.lev) && !r.generelt && rx.test(r.navn)); }
     if (treff.length) treff.forEach(r => { if (!r.dok.some(x => x[2] === d.url)) r.dok.push(rad); });
     else rows.push({ lev: d.lev, nr: '', navn: d.navn, sds: [], pds: [], dok: [rad], lenke: d.url, generelt: true });
   });

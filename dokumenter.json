@@ -754,6 +754,161 @@
    "type": "sertifikat"
   },
   {
+   "lev": "BioMax",
+   "navn": "EU Ecolabel-sertifikat (BioMax)",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/EU%20EcoLabel%20Certification.pdf",
+   "type": "sertifikat",
+   "produkter": "^BioMax"
+  },
+  {
+   "lev": "BioMax",
+   "navn": "Halal-sertifikat BioMax Multi-Purpose EP Grease",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Halal%20Certification%20-%20BioMax%20EAL%20MP%20EP%20Grease.pdf",
+   "type": "sertifikat",
+   "produkter": "^BioMax™ Multi-Purpose"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Halal-sertifikat",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Halal%20Certification%20-%20RPI%20Products.pdf",
+   "type": "sertifikat",
+   "produkter": "^(Barrier Fluid FDA|Crystal-|Poly-Guard)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Royal Purple Industrial ISO 9001 (produseres av Lubrication Engineers)",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/ISO%209001-2015%20Certification.pdf",
+   "type": "sertifikat"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Kosher-sertifikat (Royal Purple Industrial og BioMax)",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Kosher%20Certification.pdf",
+   "type": "sertifikat",
+   "produkter": "^(Barrier Fluid FDA|Crystal-|Poly-Guard|BioMax™ Multi-Purpose)"
+  },
+  {
+   "lev": "BioMax",
+   "navn": "BioMax – miljøtilpassede smøremidler (EAL)",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/BioMax%20Brochure.pdf",
+   "type": "brosjyre",
+   "produkter": "^BioMax"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Smøremidler for raffinerier",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Oil%20Refinery%20Industry%20Brochure.pdf",
+   "type": "brosjyre",
+   "produkter": "^(Barrier Fluid|Coupling|Enduro|Max|Syndraulic|Synergy|Synfilm|Thermyl-Glyde|Ultra-Performance|VP Preservative)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Smøremidler for kraftproduksjon",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Power%20Gen%20Industry%20Brochure.pdf",
+   "type": "brosjyre",
+   "produkter": "^(Coupling|Enduro|Marine Hydraulic|Max|Syndraulic|Synergy|Synfilm|Thermyl|Ultra-Performance|VP Preservative)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Smøremidler for treforedling og papir",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Pulp%20&%20Paper%20Industry%20Brochure.pdf",
+   "type": "brosjyre",
+   "produkter": "^(Barrier Fluid|Coupling|Enduro|MaxFilm|Max-Tuff|Paper Mill|Poly-Guard|Syndraulic|Synergy|Synfilm|Thermyl|Ultra-Performance|VP Preservative)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Royal Purple Industrial – smøreguide og produktoversikt",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/RP%20Industrial%20Lubrication%20Guide.pdf",
+   "type": "katalog",
+   "produkter": "^(?!BioMax)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Ny olje er ikke alltid ren olje",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20001%20Oil%20Cleanliness.pdf",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Industrielle giroljer – standarder, ytelse og valg",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20002%20Gear%20Oils.pdf",
+   "type": "teknisk",
+   "produkter": "^(Synergy|Synfilm®$|Synfilm® GT|Thermyl|BioMax™ Gear)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Valg av hydraulikkolje og feilsøking",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20003%20Hydraulic%20Oils.pdf",
+   "type": "teknisk",
+   "produkter": "^(Syndraulic|Marine Hydraulic|BioMax™ Hydraulic)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Blanding av fett – hvilke fetttyper passer sammen",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20004%20Grease%20Compatibility.pdf",
+   "type": "teknisk",
+   "produkter": "(Grease|Thermasil)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Smøring i metallindustrien",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20005%20Primary%20Metals%20Industry.pdf",
+   "type": "teknisk",
+   "produkter": "^(Enduro|Thermasil|Thermax|Thermyl|Ultra-Performance)"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Techni-Tip: Driftssikre doble mekaniske tetninger i olje, gass og petrokjemi",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20006%20Dual%20Mechanical%20Seal%20Reliability.pdf",
+   "type": "teknisk",
+   "produkter": "^Barrier Fluid"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Syntetisk eller mineralsk smøremiddel – en teknisk sammenligning",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/resources/synthetic-vs-mineral-lubricants/",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Totale eierkostnader for industrismøremidler – og hvordan de beregnes",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/resources/what-total-cost-of-ownership-really-means-for-industrial-lubricants/",
+   "type": "teknisk"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Barrierevæske eller buffervæske – riktig støtte for doble mekaniske tetninger",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/resources/barrier-fluid-vs-buffer-fluid-getting-dual-mechanical-seal-support-right/",
+   "type": "teknisk",
+   "produkter": "^Barrier Fluid"
+  },
+  {
+   "lev": "Royal Purple Industrial",
+   "navn": "Slik leser du et produktdatablad",
+   "sprak": "EN",
+   "url": "https://www.royalpurpleind.com/resources/reading-a-product-data-sheet/",
+   "type": "teknisk"
+  },
+  {
    "lev": "Fuglesangs Tech",
    "navn": "Bakterievekst i hydraulikksystemer",
    "sprak": "NO",
@@ -965,6 +1120,26 @@
   "https://www.perma-tec.com/_Resources/Persistent/f/4/6/c/f46cedb71935130188c2a35a420a9302beeb70b2/Quick_Start_Guide_perma_FLEX_103772_en.pdf",
   "https://www.perma-tec.com/_Resources/Persistent/f/8/5/a/f85a5aae5ccfa802d081e00e961aab9e78085a42/Industryflyer_perma_Asphalt_mixing_plants_en_113232.pdf",
   "https://www.perma-tec.com/_Resources/Persistent/f/b/6/f/fb6fdcdb4b0ca9f8a51d44f0cdf07c5363f34086/221220_perma_Quick_Start_Guide_PRO_MP-6_en.pdf",
-  "https://www.perma-tec.com/_Resources/Persistent/f/e/8/2/fe8236b3ac955841e7fabb11962080d7d93bfb93/Application_flyer_perma_Electric_motors_en_111969.pdf"
+  "https://www.perma-tec.com/_Resources/Persistent/f/e/8/2/fe8236b3ac955841e7fabb11962080d7d93bfb93/Application_flyer_perma_Electric_motors_en_111969.pdf",
+  "https://www.royalpurpleind.com/resources/barrier-fluid-vs-buffer-fluid-getting-dual-mechanical-seal-support-right/",
+  "https://www.royalpurpleind.com/resources/reading-a-product-data-sheet/",
+  "https://www.royalpurpleind.com/resources/synthetic-vs-mineral-lubricants/",
+  "https://www.royalpurpleind.com/resources/what-total-cost-of-ownership-really-means-for-industrial-lubricants/",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/EU%20EcoLabel%20Certification.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Halal%20Certification%20-%20BioMax%20EAL%20MP%20EP%20Grease.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Halal%20Certification%20-%20RPI%20Products.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/ISO%209001-2015%20Certification.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Kosher%20Certification.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/BioMax%20Brochure.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Oil%20Refinery%20Industry%20Brochure.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Power%20Gen%20Industry%20Brochure.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/Pulp%20&%20Paper%20Industry%20Brochure.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/RP%20Industrial%20Lubrication%20Guide.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20001%20Oil%20Cleanliness.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20002%20Gear%20Oils.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20003%20Hydraulic%20Oils.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20004%20Grease%20Compatibility.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20005%20Primary%20Metals%20Industry.pdf",
+  "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Techni-Tips/RPI%20TT%20006%20Dual%20Mechanical%20Seal%20Reliability.pdf"
  ]
 }

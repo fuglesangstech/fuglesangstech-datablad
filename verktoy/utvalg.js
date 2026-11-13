@@ -11,6 +11,8 @@
     - Vickers Oils: bare dokumenter for land (fast liste med filnavn-mønster – ny versjon plukkes opp av seg selv).
       Nye PDF-er på vickers-oil.com/downloads tas IKKE med automatisk (kan gjelde marine produkter), men meldes.
     - Lubrication Engineers: alle Techni-Tips og firmasertifikatene.
+    - Royal Purple Industrial og BioMax: brosjyrer, sertifikater, Techni-Tips og fagartikler fra ressurssidene (regler i RPD).
+      Nye dokumenter tas med med engelsk navn og meldes.
     - Fuglesangs Tech: alle sider under /artikler/ (Squarespace-blogg eller sitemap).
     - dokumenter-egne.json: alltid med (f.eks. norske brosjyrer vi har fått). «erstatter» fjerner leverandørens utgave.
   Feiler en kilde, beholdes forrige måneds dokumenter fra den kilden.
@@ -149,6 +151,67 @@ async function le(add, kandidat) {
   return n;
 }
 
+// ---------- Royal Purple Industrial og BioMax ----------
+// Ressurssidene på royalpurpleind.com: brosjyrer, sertifikater, Techni-Tips og fagartikler (blogg).
+// [filnavn uten .pdf (eller adresse-slug for artikler), leverandør, norsk navn, type, produkter (regex mot produktnavn)]
+// Leverandør «BioMax» = dokumentet hører til BioMax-knappen. Regex kan også treffe BioMax-produkter for RPI-dokumenter (samme familie).
+const RPI = 'Royal Purple Industrial';
+const H1RP = '^(Barrier Fluid FDA|Crystal-|Poly-Guard|BioMax™ Multi-Purpose)';
+const RPD = [
+  ['BioMax Brochure', 'BioMax', 'BioMax – miljøtilpassede smøremidler (EAL)', 'brosjyre', '^BioMax'],
+  ['RP Industrial Lubrication Guide', RPI, 'Royal Purple Industrial – smøreguide og produktoversikt', 'katalog', '^(?!BioMax)'],
+  ['Power Gen Industry Brochure', RPI, 'Smøremidler for kraftproduksjon', 'brosjyre', '^(Coupling|Enduro|Marine Hydraulic|Max|Syndraulic|Synergy|Synfilm|Thermyl|Ultra-Performance|VP Preservative)'],
+  ['Oil Refinery Industry Brochure', RPI, 'Smøremidler for raffinerier', 'brosjyre', '^(Barrier Fluid|Coupling|Enduro|Max|Syndraulic|Synergy|Synfilm|Thermyl-Glyde|Ultra-Performance|VP Preservative)'],
+  ['Pulp & Paper Industry Brochure', RPI, 'Smøremidler for treforedling og papir', 'brosjyre', '^(Barrier Fluid|Coupling|Enduro|MaxFilm|Max-Tuff|Paper Mill|Poly-Guard|Syndraulic|Synergy|Synfilm|Thermyl|Ultra-Performance|VP Preservative)'],
+  ['RPI TT 001 Oil Cleanliness', RPI, 'Techni-Tip: Ny olje er ikke alltid ren olje', 'teknisk'],
+  ['RPI TT 002 Gear Oils', RPI, 'Techni-Tip: Industrielle giroljer – standarder, ytelse og valg', 'teknisk', '^(Synergy|Synfilm®$|Synfilm® GT|Thermyl|BioMax™ Gear)'],
+  ['RPI TT 003 Hydraulic Oils', RPI, 'Techni-Tip: Valg av hydraulikkolje og feilsøking', 'teknisk', '^(Syndraulic|Marine Hydraulic|BioMax™ Hydraulic)'],
+  ['RPI TT 004 Grease Compatibility', RPI, 'Techni-Tip: Blanding av fett – hvilke fetttyper passer sammen', 'teknisk', '(Grease|Thermasil)'],
+  ['RPI TT 005 Primary Metals Industry', RPI, 'Techni-Tip: Smøring i metallindustrien', 'teknisk', '^(Enduro|Thermasil|Thermax|Thermyl|Ultra-Performance)'],
+  ['RPI TT 006 Dual Mechanical Seal Reliability', RPI, 'Techni-Tip: Driftssikre doble mekaniske tetninger i olje, gass og petrokjemi', 'teknisk', '^Barrier Fluid'],
+  ['ISO 9001-2015 Certification', RPI, 'Royal Purple Industrial ISO 9001 (produseres av Lubrication Engineers)', 'sertifikat'],
+  ['Kosher Certification', RPI, 'Kosher-sertifikat (Royal Purple Industrial og BioMax)', 'sertifikat', H1RP],
+  ['Halal Certification - RPI Products', RPI, 'Halal-sertifikat', 'sertifikat', '^(Barrier Fluid FDA|Crystal-|Poly-Guard)'],
+  ['Halal Certification - BioMax EAL MP EP Grease', 'BioMax', 'Halal-sertifikat BioMax Multi-Purpose EP Grease', 'sertifikat', '^BioMax™ Multi-Purpose'],
+  ['EU EcoLabel Certification', 'BioMax', 'EU Ecolabel-sertifikat (BioMax)', 'sertifikat', '^BioMax'],
+  ['NSF H1 Certification', null], // bare en henvisning til NSF sitt søk – tas ikke med (produktene er merket NSF H1 i katalogen)
+  ['synthetic-vs-mineral-lubricants', RPI, 'Syntetisk eller mineralsk smøremiddel – en teknisk sammenligning', 'teknisk'],
+  ['what-total-cost-of-ownership-really-means-for-industrial-lubricants', RPI, 'Totale eierkostnader for industrismøremidler – og hvordan de beregnes', 'teknisk'],
+  ['barrier-fluid-vs-buffer-fluid-getting-dual-mechanical-seal-support-right', RPI, 'Barrierevæske eller buffervæske – riktig støtte for doble mekaniske tetninger', 'teknisk', '^Barrier Fluid'],
+  ['reading-a-product-data-sheet', RPI, 'Slik leser du et produktdatablad', 'teknisk']];
+async function rpi(add, kandidat) {
+  const RB = 'https://www.royalpurpleind.com/resources/';
+  const sider = ['resource-type/brochures/?_resource_type=brochures', 'resource-type/certifications/?_resource_type=certifications', 'resource-type/technitips/?_resource_type=technitips'];
+  const pdf = new Set(), blogg = new Map();
+  for (const sd of sider) for (const pg of ['', 'page/2/']) {
+    let h; try { h = await text(RB + sd.replace('/?', '/' + pg + '?')); } catch (e) { if (pg) continue; throw e; }
+    for (const m of h.matchAll(/href="(https:\/\/www\.royalpurpleind\.com\/wp-content\/uploads\/pdf\/(?:Literature\/(?:Brochures|Techni-Tips)|Certifications)\/[^"?]+\.pdf)/g)) pdf.add(unesc(m[1]).replace(/ /g, '%20'));
+  }
+  for (const pg of ['', 'page/2/']) {
+    let h; try { h = await text(RB + pg + '?_resource_type=blog'); } catch (e) { if (pg) continue; throw e; }
+    for (const m of h.matchAll(/href="https:\/\/www\.royalpurpleind\.com\/resources\/([a-z0-9-]+)\/"[^>]*>([^<]{10,200})</g))
+      if (!/^(resource-type|page|pds|electrical-power|the-synthetic-advantage)/.test(m[1])) blogg.set(m[1], unesc(m[2]).trim());
+  }
+  let n = 0;
+  const regel = k => RPD.find(r => r[0] === k);
+  for (const u of [...pdf].sort()) {
+    const k = decodeURIComponent(fil(u)).replace(/\.pdf$/i, ''), r = regel(k);
+    if (r && !r[1]) continue;
+    if (!r) { kandidat(RPI, u, 'nytt dokument hos Royal Purple – tatt med med engelsk navn, gi det gjerne et norsk navn i RPD i verktoy/utvalg.js');
+      add(RPI, k, u, /Certification/.test(u) ? 'sertifikat' : /Techni-Tips/.test(u) ? 'teknisk' : 'brosjyre'); n++; continue; }
+    add(r[1], r[2], u, r[3], r[4]); n++;
+  }
+  for (const [slug, tittel] of blogg) {
+    const r = regel(slug), u = RB + slug + '/';
+    if (!r) kandidat(RPI, u, 'ny fagartikkel hos Royal Purple – tatt med som «' + tittel + '», gi den gjerne et norsk navn i RPD i verktoy/utvalg.js');
+    add(r ? r[1] : RPI, r ? r[2] : tittel, u, 'teknisk', r && r[4]); n++;
+  }
+  for (const r of RPD) if (r[1] && !/^[a-z0-9-]+$/.test(r[0]) && ![...pdf].some(u => decodeURIComponent(fil(u)) === r[0] + '.pdf'))
+    kandidat(RPI, RB, 'fant ikke lenger «' + r[2] + '» (' + r[0] + '.pdf) – sjekk om den er fjernet eller har fått nytt navn');
+  if (n < 12) throw new Error('fant bare ' + n + ' Royal Purple-dokumenter – ressurssidene kan være endret');
+  return n;
+}
+
 // ---------- Fuglesangs Tech: fagartikler ----------
 const rensTittel = t => unesc(t || '').replace(/^Artikkel:\s*/i, '').replace(/\s*[|–—-]\s*Fuglesangs Tech\s*$/i, '').replace(/\s+\|.*$/, '').trim();
 async function artikler(add, kandidat, forrige) {
@@ -190,7 +253,7 @@ async function run(root) {
   const rep = { kilder: {}, feil: [], meldinger: [], nye: [], borte: [] };
   const out = [];
 
-  for (const [lev, fn, kilde] of [['Perma-Tec', perma, 'perma'], ['Vickers Oils', vickers, 'vickers'], ['Lubrication Engineers', le, 'le'], ['Fuglesangs Tech', artikler, 'artikler']]) {
+  for (const [lev, fn, kilde] of [['Perma-Tec', perma, 'perma'], ['Vickers Oils', vickers, 'vickers'], ['Lubrication Engineers', le, 'le'], [RPI, rpi, 'rpi'], ['Fuglesangs Tech', artikler, 'artikler']]) {
     const del = [];
     const add = (l, navn, url, type, produkter, sprak) => { const d = { lev: l, navn, sprak: sprak || 'EN', url, type }; if (produkter) d.produkter = produkter; del.push(d); };
     const kand = [];
@@ -201,7 +264,7 @@ async function run(root) {
       for (const k of kand) if (/fant ikke lenger/.test(k.hva) || (!sett.has(k.url) && !forsteGang)) rep.meldinger.push(k); else sett.add(k.url);
     } catch (e) {
       rep.feil.push(lev + ': ' + e.message + ' – forrige utvalg er beholdt');
-      out.push(...forrige.dokumenter.filter(d => d.lev === lev && !d.egen));
+      out.push(...forrige.dokumenter.filter(d => (d.lev === lev || (lev === RPI && d.lev === 'BioMax')) && !d.egen));
     }
   }
 
@@ -230,9 +293,9 @@ async function run(root) {
 }
 
 function rapport(r, err) {
-  let s = '\n## Dokumentutvalg (Perma-Tec, Vickers, LE, artikler)\n';
+  let s = '\n## Dokumentutvalg (Perma-Tec, Vickers, LE, Royal Purple/BioMax, artikler)\n';
   if (!r) return s + 'Kunne ikke kjøres: ' + err + ' (forrige dokumenter.json er beholdt).\n';
-  s += 'Dokumenter: ' + r.antall + ' (Perma ' + (r.kilder.perma ?? '–') + ', Vickers ' + (r.kilder.vickers ?? '–') + ', LE ' + (r.kilder.le ?? '–') + ', artikler ' + (r.kilder.artikler ?? '–') + ').\n';
+  s += 'Dokumenter: ' + r.antall + ' (Perma ' + (r.kilder.perma ?? '–') + ', Vickers ' + (r.kilder.vickers ?? '–') + ', LE ' + (r.kilder.le ?? '–') + ', Royal Purple/BioMax ' + (r.kilder.rpi ?? '–') + ', artikler ' + (r.kilder.artikler ?? '–') + ').\n';
   if (r.feil.length) s += r.feil.map(x => '- FEIL: ' + x).join('\n') + '\n';
   if (r.nye.length) s += '\nNye i utvalget (vises automatisk):\n' + r.nye.map(d => '- ' + d.lev + ': ' + d.navn + ' – ' + d.url).join('\n') + '\n';
   if (r.borte.length) s += '\nFjernet fra utvalget (finnes ikke lenger hos leverandøren, eller ny versjon):\n' + r.borte.map(d => '- ' + d.lev + ': ' + d.navn + ' – ' + d.url).join('\n') + '\n';

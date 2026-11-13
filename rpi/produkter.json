@@ -249,7 +249,7 @@
     "BioMax™ Gear EAL er laget for lukkede girsystemer under krevende forhold: høye temperaturer, tunge belastninger, glidekontakt og hyppige start og stopp.",
     "Syntetiske baseoljer og Synerlec®-additivteknologi gir god beskyttelse og lang levetid. Oljen er EU Ecolabel-sertifisert og anbefales der det kreves eller ønskes et miljøtilpasset smøremiddel (EAL)."
    ],
-   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde": "rpi/bilder/biomax-fat.webp",
    "bilde_generisk": true,
    "pds": [
     [
@@ -344,7 +344,7 @@
     "BioMax™ Hydraulic EAL anbefales for alle hydraulikk- og sirkulasjonssystemer som krever et miljøtilpasset smøremiddel. Den gir god smøring, god slitasjebeskyttelse og motstand mot avleiringer, også ved høy belastning og små oljevolumer.",
     "Syntetiske baseoljer og Synerlec®-additivteknologi gjør at utstyret går jevnere, kjøligere og mer effektivt. Oljen er EU Ecolabel-sertifisert."
    ],
-   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde": "rpi/bilder/biomax-fat.webp",
    "bilde_generisk": true,
    "pds": [
     [
@@ -419,8 +419,8 @@
     "BioMax™ Multi-Purpose EP Grease er for utstyr i miljøsensitive områder og der tilfeldig kontakt med næringsmidler kan forekomme, for eksempel i marin drift, industri og næringsmiddelproduksjon.",
     "Fettet er biologisk nedbrytbart og lite giftig. Det gir svært god EP- og slitasjebeskyttelse, god rust- og korrosjonsbeskyttelse og høy motstand mot utvasking. Det er EU Ecolabel-sertifisert, NSF H1-registrert og Halal-godkjent."
    ],
-   "bilde": "rpi/bilder/royal-purple-fat.webp",
-   "bilde_generisk": true,
+   "bilde": "rpi/bilder/biomax-multi-purpose-ep-grease.webp",
+   "bilde_generisk": false,
    "pds": [
     [
      "Produktdatablad",
@@ -459,7 +459,7 @@
     "BioMax™ Stern Tube EAL er laget for smøring av hekkrør i marint miljø. Den er biologisk nedbrytbar og lite giftig, og gir god smøring og slitasjebeskyttelse for lagre og andre deler i hekkrøret.",
     "God forenlighet med tetninger reduserer risikoen for lekkasje inn og ut av hekkrøret. Oljen er EU Ecolabel-sertifisert."
    ],
-   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde": "rpi/bilder/biomax-fat.webp",
    "bilde_generisk": true,
    "pds": [
     [
@@ -1006,7 +1006,7 @@
     "Max-Chain® er et syntetisk EP-smøremiddel for kjeder, åpne girdrift og andre utsatte metallflater med tung belastning, også i støvete, våte eller sure miljøer.",
     "Det trenger inn i ruller, bolter og hylser. Løsemiddelet fordamper og etterlater en tørr, voksaktig film som ikke trekker til seg støv, og som beskytter mot slitasje, rust og korrosjon."
    ],
-   "bilde": null,
+   "bilde": "rpi/bilder/max-chain.webp",
    "bilde_generisk": false,
    "pds": [
     [
@@ -1053,7 +1053,7 @@
     "MaxFilm® er en syntetisk EP-krypolje og et flerbrukssmøremiddel. Den trenger dypt inn, renser og løsner fastrustede deler.",
     "Når løsemiddelet har fordampet, blir det igjen en seig smørefilm som beskytter mot slitasje, rust og korrosjon over tid."
    ],
-   "bilde": null,
+   "bilde": "rpi/bilder/maxfilm.webp",
    "bilde_generisk": false,
    "pds": [
     [
@@ -1174,8 +1174,8 @@
     "Paper Mill Grease er et syntetisk aluminiumkompleksfett som dekker mange bruksområder i papir- og masseproduksjon med ett produkt.",
     "Det er særlig egnet for lagre i papirmaskiner fra våtende til tørrende, ved hastigheter fra 1500 til 6500 fot per minutt (fpm)."
    ],
-   "bilde": "rpi/bilder/royal-purple-fat.webp",
-   "bilde_generisk": true,
+   "bilde": "rpi/bilder/paper-mill-grease.webp",
+   "bilde_generisk": false,
    "pds": [
     [
      "Produktdatablad",
@@ -2154,6 +2154,7 @@
      "grad": "",
      "emballasje": [
       "Patron",
+      "Spann",
       "Kagge"
      ],
      "sds": "rpi/sds/RP-RPGR005-NO-EGHS.pdf",
