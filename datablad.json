@@ -2023,7 +2023,8 @@
    "sha256": "5f21963c3a5b4ee89a261b28bd0cd7c312bcee595cc10c73d2f39ae2715aefe8",
    "bytes": 1878088,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-13"
+   "kontrollert": "2026-11-13",
+   "ikkeIKatalogen": true
   },
   {
    "fil": "chesterton/datablad/Lubricants/tdcl820_NO.pdf",
@@ -2143,7 +2144,8 @@
    "sha256": "ae10ccad803652e22a3905f19a592034d0f336a5c53f8d7dc0800aebf476848d",
    "bytes": 194511,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-13"
+   "kontrollert": "2026-11-13",
+   "ikkeIKatalogen": true
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts273B_NO.pdf",
@@ -2151,7 +2153,8 @@
    "sha256": "c86b29cc7f908d46f57e6194911830205e1911b406f34edc5ac65076fe16f881",
    "bytes": 189606,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-13"
+   "kontrollert": "2026-11-13",
+   "ikkeIKatalogen": true
   },
   {
    "fil": "chesterton/datablad/Lubricants/ts279A_EN.pdf",
@@ -3696,6 +3699,14 @@
    "sha256": "db4387c4c54b1d4eb8c8109cc83b5efc994c942e086301f8b1a3bc6b830307cc",
    "bytes": 105595,
    "hentet": "2026-11-05",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "le/datablad/sds/LE-4031-NO-EGHS.pdf",
+   "kilde": "https://lelubricants.com/wp-content/uploads/LE-MSDS/LE-4031-NO-EGHS.pdf",
+   "sha256": "4a5c53073aca2485a3dc3fca38543b83602d963ba0ac0409482b29bc0e413b2d",
+   "bytes": 105553,
+   "hentet": "2026-11-13",
    "kontrollert": "2026-11-13"
   },
   {
