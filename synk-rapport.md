@@ -1,11 +1,14 @@
 # Datablad-synk 2026-11-13
 
-STATUS: MÅ SJEKKES – 1 problem(er), se under
+STATUS: OK
 
-Kontrollert: 602 datablad. Uendret: 601. Nye: 0. Endret: 0. Borte hos leverandør: 1. Feil: 0.
+Kontrollert: 602 datablad. Uendret: 601. Nye: 1. Endret: 0. Borte hos leverandør: 0. Feil: 0.
 
-## Borte hos leverandør (gammel kopi beholdt – bør sjekkes) (1)
-- le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf (404)
+## Nye (1)
+- le/datablad/pds/flyers/4031 4032 4046 4068 Product Info.pdf
+
+## Ikke lenger brukt i katalogen (beholdt) (1)
+- le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf
 
 ## Chesterton-sertifikater
 Dokumenter hos Chesterton: 223. Koblet til 68 produkter (99 filer). Nye: 0. Endret: 0. Feil: 0.
@@ -33,4 +36,4 @@ Dokumenter: 126 (Perma 51, Vickers 21, LE 32, Royal Purple/BioMax 20, artikler 2
 Produkter: 525. SDS: 708. PDS: 540. Sertifikater og bruksanvisninger: 310. Ressurser (/ressurser): 218.
 
 ## Lenkesjekk av fuglesangstech.no
-Sider: 36. Lenker og bilder sjekket: 457. Filer i GitHub sjekket: 1316. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.
+Sider: 36. Lenker og bilder sjekket: 458. Filer i GitHub sjekket: 1321. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.

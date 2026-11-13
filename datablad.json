@@ -2794,12 +2794,21 @@
    "kontrollert": "2026-11-13"
   },
   {
+   "fil": "le/datablad/pds/flyers/4031 4032 4046 4068 Product Info.pdf",
+   "kilde": "https://lelubricants.com/wp-content/uploads/pdf/flyers/4031%204032%204046%204068%20Product%20Info.pdf",
+   "sha256": "ea41159b14f2330784e267937b9bc032b3f32972449ba744b6ec15424f74f768",
+   "bytes": 1549906,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
    "fil": "le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf",
    "kilde": "https://lelubricants.com/wp-content/uploads/pdf/flyers/4032_4046_4068%20Product%20Info.pdf",
    "sha256": "f6d2736411577c345ebce9c60153baa3f8081c30a8a85c10fe138916c30913d9",
    "bytes": 222700,
    "hentet": "2026-11-05",
-   "kontrollert": "2026-11-09"
+   "kontrollert": "2026-11-09",
+   "ikkeIKatalogen": true
   },
   {
    "fil": "le/datablad/pds/flyers/4051 Product Info.pdf",
