@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-11-12",
+ "oppdatert": "2026-11-13",
  "filer": [
   {
    "fil": "vickers/datablad/pds/BIOGEAR-XP-Instructions-for-Use.pdf",
@@ -7,7 +7,7 @@
    "sha256": "819bbea95ccfa6eed0c3adc81107b05afd0d2de978a6c130a3f1f59041beac3d",
    "bytes": 141589,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/BIOGEAR-XP-RANGE-Industrial-2.pdf",
@@ -15,7 +15,7 @@
    "sha256": "a44f8c25244dcd9ffc54aa49fa87abec59ade72a64cde1d3ad90946fe4219e61",
    "bytes": 203513,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/BIOGREASE-EP0-and-BIOGREASE-EP2-Instructions-for-use-1.pdf",
@@ -23,7 +23,7 @@
    "sha256": "da0ebbd83b645be12a354af8675238e0de4d295d86cbe27c50b41fcde4b910ac",
    "bytes": 123338,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/BIOGREASE-EP0.pdf",
@@ -31,7 +31,7 @@
    "sha256": "64701980d8406a6ac3949cb7ee5b9e4ad9f337322043fa3802603f0dbbbc0836",
    "bytes": 148663,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/BIOGREASE-EP2-Industrial-1.pdf",
@@ -39,7 +39,7 @@
    "sha256": "01c22ca82f460fcf7cbc887e2c889110542ac5a76220bdba9aa15868bdfcbc74",
    "bytes": 159917,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/ECOSURE-EAF-RANGE-INDUSTRIAL-rev-4.pdf",
@@ -47,7 +47,7 @@
    "sha256": "94b39cb7885a33e699160e00e04c9f97d292b4d6b7b59de96cc1e2fd9d246e6e",
    "bytes": 171754,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/ECOSURE-HSE-RANGE-Industrial-rev-2.pdf",
@@ -55,7 +55,7 @@
    "sha256": "8f5113b4038d906e7146eb2b8cbb3bbc725e361e02a23d2d00d0794201bd322d",
    "bytes": 164573,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/ECOSURE-RANGE-Instructions-for-Use.pdf",
@@ -63,7 +63,7 @@
    "sha256": "29a0220a63d80db8f832bbfb6b08ce55fcb611d73d42bb412b8d736df693719f",
    "bytes": 141502,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/PDS-VICKERLUBE-FGS-LT-CHAIN-OIL-1.pdf",
@@ -71,7 +71,7 @@
    "sha256": "f7c4a015af40042b611599d5f296f4cca7fd858722dfd44d642d229a2116be4a",
    "bytes": 240331,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-BIO-FLUSHING-OIL.pdf",
@@ -79,7 +79,7 @@
    "sha256": "c59d5c4fb7b01ae2b09b759f6d8a7c839fab18653cd73c56b5ca1028019642d5",
    "bytes": 494892,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-BIO-HYF-RANGE-1.pdf",
@@ -87,7 +87,7 @@
    "sha256": "baf3850895bd11c6e1982040b934b7d8cdccf5badd326c187f4b949272bde5df",
    "bytes": 306474,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-BIO-WDF.pdf",
@@ -95,7 +95,7 @@
    "sha256": "97bad4479f92828ecebd5023a92c26001edebef21db62f43f79eb565696cb796",
    "bytes": 119311,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-BIO-WRL-Rev-5.pdf",
@@ -103,7 +103,7 @@
    "sha256": "67f62872b49a0335c94efdc422d419dc025960cc36334921efece4ccfc4819e2",
    "bytes": 118078,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-CLEANER-SPRAY.pdf",
@@ -111,7 +111,7 @@
    "sha256": "f9918615facb507576471d23be8624f687702d9284065d3f5e3033da4bee3933",
    "bytes": 193912,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-CPVI.pdf",
@@ -119,7 +119,7 @@
    "sha256": "258f718be4f4720e9e11d00f6480b28d655d65ceb3e7387d418f5f72dc9edc34",
    "bytes": 105326,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-3H-DIVIDER-OIL-1.pdf",
@@ -127,7 +127,7 @@
    "sha256": "78218e0ca7dac9ab7cc978b8136520044191fcf0ca207746cd81dec161640bfd",
    "bytes": 228935,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-3HDC-GREASE-2.pdf",
@@ -135,7 +135,7 @@
    "sha256": "41a21f6445eea20472b697388189d85d48583c1e3fd62098cd9bb78fc73d5377",
    "bytes": 256837,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-CHAIN-OIL-100.pdf",
@@ -143,7 +143,7 @@
    "sha256": "e473cd225352b60fdba435a41768042db3dc08e509e1e84c9a487b8d4da34388",
    "bytes": 206418,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-EP-GREASE-00.pdf",
@@ -151,7 +151,7 @@
    "sha256": "c64bd018dd95117be31782750aad93a2d4c45d7a200de6372950d3e977db3c1f",
    "bytes": 231721,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-EP-GREASE-1-Rev-6.pdf",
@@ -159,7 +159,7 @@
    "sha256": "f2de0457416a1ada6ac1f8b0ade83666e4cec0ed92546c6bee79e409707111ad",
    "bytes": 370151,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-EP-GREASE-2-1.pdf",
@@ -167,7 +167,7 @@
    "sha256": "c0cce75c91bf269e4567b79e3dd90636b7cdc7b5f458946372a1f6c188a38d2a",
    "bytes": 213917,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-FLUID-SERIES.pdf",
@@ -175,7 +175,7 @@
    "sha256": "9de654d9f364e2b93314486a27b7adafe6d59b95214cb9a3702ebee73a16e7c4",
    "bytes": 290450,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-GEAR-OIL-SERIES-3.pdf",
@@ -183,7 +183,7 @@
    "sha256": "a63e8b236c7167e1a1abb63047b3a3faa5bf0299e14abe73149e1d1c26fe6e4a",
    "bytes": 568239,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-HLW-GREASE-2-1.pdf",
@@ -191,7 +191,7 @@
    "sha256": "270367241446b9c8d0180f3a729c1b288f7a8a153b4db5d4fb2edac227d8ef7e",
    "bytes": 237726,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-HTF-32-2.pdf",
@@ -199,7 +199,7 @@
    "sha256": "e964cfae84b57031f7d1fe577b2030d29c046b3f92e991fd29cdc21b9299db1f",
    "bytes": 232490,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-MULTI-TAK.pdf",
@@ -207,7 +207,7 @@
    "sha256": "b68b87def91eb140c0191d3953af244792744ffa118727f423d6339655c971cf",
    "bytes": 288738,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-SUGARSOL.pdf",
@@ -215,7 +215,7 @@
    "sha256": "daeda9780a50683b13ae2c73b25b62faf03994c7935a270b695013061b16d280",
    "bytes": 342112,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-UNIVERSAL-OIL-32-1.pdf",
@@ -223,7 +223,7 @@
    "sha256": "abc202310b53ad58f60c860af4b6dd4b739d554a398737880bbd0df0e7b3d592",
    "bytes": 148098,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FG-WD-SPRAY.pdf",
@@ -231,7 +231,7 @@
    "sha256": "d816b981474020a99a654ee3980421ae394c2861081250e23af7993e2dfb7f8c",
    "bytes": 172696,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-CHAIN-OIL-2.pdf",
@@ -239,7 +239,7 @@
    "sha256": "6c743b11bb1e2de58dee1ffff3b9b63e0b4048617fe3222fb577352df48cf748",
    "bytes": 215025,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-CHAIN-SPRAY-1.pdf",
@@ -247,7 +247,7 @@
    "sha256": "1982caede4a62e218a85fd82604b084e8fe690ffd78d6a0846170ce57baa8242",
    "bytes": 173558,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-EP-GREASE-2-1.pdf",
@@ -255,7 +255,7 @@
    "sha256": "cbe07ad2bb3d3237d44562bba2ddd965a9418972510406d41a29dd2d7652fcc5",
    "bytes": 243229,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-FLUID-SERIES-1.pdf",
@@ -263,7 +263,7 @@
    "sha256": "734abeb9f84cd4a8582f42eab25e8ddb5b5e9389aa4a1b26331dd351746e4ac9",
    "bytes": 301729,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-FRIDGECOM-68.pdf",
@@ -271,7 +271,7 @@
    "sha256": "519d84e27b01bef045d16492cbaf3d546f90987e19c1ec4b436870a3ebd6302b",
    "bytes": 235899,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-GEAR-OIL-SERIES.pdf",
@@ -279,7 +279,7 @@
    "sha256": "218e3caebc410f95338de1ac39b7477026eff3eefedb8d2753174b24ed913116",
    "bytes": 571167,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-GREASE-SPRAY.pdf",
@@ -287,7 +287,7 @@
    "sha256": "ee1b5a774be7ddf9f9a083099dc1d0c7d87dba3f53775070c2d93c42292f6f55",
    "bytes": 176339,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-HLW-GREASE-2.pdf",
@@ -295,7 +295,7 @@
    "sha256": "fad1fe8ca01d3c6c5202b3fd8db5e0f2f746bd987257f2a5983470dd5b4b3246",
    "bytes": 242762,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-HT-CHAIN-OIL-SERIES-2.pdf",
@@ -303,7 +303,7 @@
    "sha256": "fd83f459a4144f51a8bb9b4001b5ae9d5e6d56c603db6bc6cd8569b8d397abbc",
    "bytes": 520180,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-LT-GREASE-1.pdf",
@@ -311,7 +311,7 @@
    "sha256": "ad32660fe5bf559330275f4d67cfb5c02bf2cbea092ef5b1055e18fa1270e78e",
    "bytes": 235023,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FGS-SIL-SPRAY-1.pdf",
@@ -319,7 +319,7 @@
    "sha256": "43cae8b4dfdf4df47a896d388a24753d9841b0bbe05865aa9bd4f44a795c6f70",
    "bytes": 233944,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FLEX-PLUS-OPERATING-INSTRUCTIONS.pdf",
@@ -327,7 +327,7 @@
    "sha256": "456514f5125f1e08fd618d86798e7325eb3c22f81fd431966b78ec750250f902",
    "bytes": 4426410,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-FLEX-PLUS.pdf",
@@ -335,7 +335,7 @@
    "sha256": "40b26aae3218bdc126792ad41c8d852ce7e2d9702e83f045f5f35e7d35b624a0",
    "bytes": 248878,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-HD-GREASE-EP2.pdf",
@@ -343,7 +343,7 @@
    "sha256": "ff23542de907a5f1f48e5eaf917e54116293c94d6b52b96a915aa22606ca3b26",
    "bytes": 119797,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-HV-EP-1000-1.5-1.pdf",
@@ -351,7 +351,7 @@
    "sha256": "bb334fe899cc6ba1f7a60eeb66341b191c619686d6671db4e0706caa8a3425e1",
    "bytes": 118732,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-HV-WRL-Rev-6.pdf",
@@ -359,7 +359,7 @@
    "sha256": "4b7d263764adeee83e44f00f875cb8b59f5f26e4dcdd676ecd96045e7e4c4ae1",
    "bytes": 116054,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-OGL-1860-0-Rev-2.pdf",
@@ -367,7 +367,7 @@
    "sha256": "04aa14f6cfcc6b6489710e6ad40b6f2a142c722beabbe73db4960ed4f7d2e24d",
    "bytes": 118749,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-SOFT-COAT-CPF-Rev-3.pdf",
@@ -375,7 +375,7 @@
    "sha256": "bcd0bbee98420f0f9687303dcfd73ea99f2d3623c157b0d25d21f96673c6e73c",
    "bytes": 158530,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/pds/VICKERLUBE-SYNGEAR-RANGE-1.pdf",
@@ -383,7 +383,7 @@
    "sha256": "ccac67c82db4cc195ba21b1256a91191e5712a80a13cecdd2391967a2ad11ce7",
    "bytes": 125114,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGEAR-XP-220GB10.pdf",
@@ -391,7 +391,7 @@
    "sha256": "444d291c9eb25b7974462d7fb455700e879b233bdb5e8ad7e4c23882faa566df",
    "bytes": 142566,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGEAR-XP-320GB10.pdf",
@@ -399,7 +399,7 @@
    "sha256": "5a3ce96ee8cb123f9f0c2c89007e0863ac91e7f399a7514ee34f230e55aa4763",
    "bytes": 143186,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGEAR-XP-460GB10-1.pdf",
@@ -407,7 +407,7 @@
    "sha256": "968ece46a4f689288da01e597fe195e09296c04ced155f21f91f3285b4b5285c",
    "bytes": 143227,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGREASE-EP0-UK-12.pdf",
@@ -415,7 +415,7 @@
    "sha256": "a73406e108711982d0e3c7bbcda5ed42d34dc0548a7f19a011a220e141f90409",
    "bytes": 124274,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGREASE-EP0NO12.pdf",
@@ -423,7 +423,7 @@
    "sha256": "c5d27a0272d044a65d934ec21b5636fbdbb244948b6531d88dfd0c3b45ab0d3c",
    "bytes": 146665,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGREASE-EP2-Norway-12.pdf",
@@ -431,7 +431,7 @@
    "sha256": "33cae571c7e729bd298606c0e4f30f2f4d7f81d9e7c2c82e9fa5f29e6a423ad9",
    "bytes": 123710,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/BIOGREASE-EP2GB13.pdf",
@@ -439,7 +439,7 @@
    "sha256": "dbd51eda585e27fd06ffbf4bad78ffc9fef05928f75c7bbc0ede01cb6e857740",
    "bytes": 152616,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSURE-EAF-100GB11.pdf",
@@ -447,7 +447,7 @@
    "sha256": "de7dbf69e32a9fb9a891bebfdd8058c7adea903e55705b417469b933f94fac0d",
    "bytes": 147273,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSURE-EAF-22GB12.pdf",
@@ -455,7 +455,7 @@
    "sha256": "ab95e03b0c4d991a0b8b9034a9f3d1a1482174b2283895f8fb4f50fc305a89e4",
    "bytes": 147254,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSURE-EAF-32GB12-1.pdf",
@@ -463,7 +463,7 @@
    "sha256": "91ac7294c04ec4c43fbc03162bf51d2072a22939a5f652b7af4e310fac3f01bc",
    "bytes": 154535,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSURE-EAF-46GB12-1.pdf",
@@ -471,7 +471,7 @@
    "sha256": "762e149cd1c97db07a7b6980b81de59c107caed5949dc3c7538b3fd46244dbe7",
    "bytes": 152934,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSURE-EAF-68GB12.pdf",
@@ -479,7 +479,7 @@
    "sha256": "45cd3217b82b68efa8982a3c27f76f342ce9a9dff682b4abb8f6ab56f98f1e47",
    "bytes": 152707,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE100-Norway-11.pdf",
@@ -487,7 +487,7 @@
    "sha256": "67c96be0e0ecceecf3060cc4d138da85e652f8613e2c5f9862090f65067f3b7c",
    "bytes": 120220,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE100-UK-11.pdf",
@@ -495,7 +495,7 @@
    "sha256": "f9176c55f705c34af63cd6583c5c834591c4e15d08f6578ad0699db0376d82dc",
    "bytes": 119695,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE32-Norway-11.pdf",
@@ -503,7 +503,7 @@
    "sha256": "705f6d17cc6de7ddd6df6d1074de25969420e90a04850bc09ef05cb833753246",
    "bytes": 120087,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE32GB12.pdf",
@@ -511,7 +511,7 @@
    "sha256": "c0dfb96164e64bcceb6539a7d332a945ceee43ac28506e066196ccadb0037cd4",
    "bytes": 153014,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE46-Norway-11.pdf",
@@ -519,7 +519,7 @@
    "sha256": "aa6aa97daf3f2cd33ef70d451e27492933b420bb7ae4c952bfe646c0242eef21",
    "bytes": 119997,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE46-UK-11.pdf",
@@ -527,7 +527,7 @@
    "sha256": "538d6b8a83e4f0ee667e51884530684f11b9ffc7253215ce777cda6566df9010",
    "bytes": 119518,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE68-Norway-11.pdf",
@@ -535,7 +535,7 @@
    "sha256": "ee49a39955d37f7f9131c607fa7729092863741244bc0e75185ca6db634c3fc5",
    "bytes": 119499,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/ECOSUREHSE68GB12.pdf",
@@ -543,7 +543,7 @@
    "sha256": "59ad92589dfe41c676bc298e7e4ef74700d3d2da299b3812d9d4735d601a5091",
    "bytes": 153011,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/PERMA-FLEX-PLUS-GB.pdf",
@@ -551,7 +551,7 @@
    "sha256": "5ce256e661465d76a138eb9cd8d54a71f87a601fa1e7b6eaccd5f4a0e5ab1ae1",
    "bytes": 114320,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE_SOFTCOAT_CPFGB10.pdf",
@@ -559,7 +559,7 @@
    "sha256": "09e130313e4aef76ccce775df36b56b44a8976db5f998e3a95741784946987d4",
    "bytes": 128450,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-BIO-WDFGB10-1.pdf",
@@ -567,7 +567,7 @@
    "sha256": "55086210c6a41d18587796afd50b66600f39af7ae56be8bc5febcba3a62524a0",
    "bytes": 140975,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-BIO-WRLGB10-1.pdf",
@@ -575,7 +575,7 @@
    "sha256": "d15d071e836ab7a5c1c72813b192ce5cc6b8c0d9553344a25398e61e9e317ffb",
    "bytes": 142772,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-CLEANER-SPRAYGB11-1.pdf",
@@ -583,7 +583,7 @@
    "sha256": "b7bca24be3d0dc6fbca10c5f5c0287eafae5ba696f6a899a9b305de36b6930ec",
    "bytes": 344560,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-CPVIGB10.pdf",
@@ -591,7 +591,7 @@
    "sha256": "ecd5b72bd1ec0fa86ecddd5148efa0bda13819789f68e80e843543b39defa80d",
    "bytes": 175006,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-3H-Divider-Oil-Norway-10.pdf",
@@ -599,7 +599,7 @@
    "sha256": "9d1138256b6dab20cd5302b621b3578d08b8faeeaf8cb8e54f10453a7e4bb135",
    "bytes": 116672,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-3HDC-GREASE2GB11.pdf",
@@ -607,7 +607,7 @@
    "sha256": "f11aaea3fda85592154f38a95fb8b6868a36661c15079b5cf12e95580d5da761",
    "bytes": 142458,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-CHAIN-OIL-100GB12-1.pdf",
@@ -615,7 +615,7 @@
    "sha256": "c9960efbc636d2c17daf1a776c657e62852893f9ebdf2cc96e3d5fe4e6696bd6",
    "bytes": 160211,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-EP-GREASE-1GB10-1.pdf",
@@ -623,7 +623,7 @@
    "sha256": "15b1a03a8aab584c56895c9a5bb539f6725d97727f70a750805248905dcf5f49",
    "bytes": 142600,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-EP-GREASE-2GB11.pdf",
@@ -631,7 +631,7 @@
    "sha256": "56a927842f578587f5cac0a67fc01e74f23a3a9db3ab1946b1a5f238aa9138a8",
    "bytes": 142122,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-EP-GREASE-2NO11.pdf",
@@ -639,7 +639,7 @@
    "sha256": "c5faf944d1558b4cb46f097b98b31548bd9da747289888c3e29b2952588f48aa",
    "bytes": 128725,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-100-Norway-10.pdf",
@@ -647,7 +647,7 @@
    "sha256": "029fcdc697c9320ec5f6ebe48f95cef0698155853c60e9306c8ed9160e57078e",
    "bytes": 119052,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-100GB12-1.pdf",
@@ -655,7 +655,7 @@
    "sha256": "e3848b3389c938fcf6aaad1203ed3d4f0ff484cb828fb756a775b123e36999f9",
    "bytes": 159620,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-15GB12.pdf",
@@ -663,7 +663,7 @@
    "sha256": "65cc91c78a6d214b9adb7341ca6935105499dfc36c3c7d81924b5cf414bba857",
    "bytes": 190443,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-15NO11.pdf",
@@ -671,7 +671,7 @@
    "sha256": "274a7aa8920f70f24f05b83ef96dd8568ef591b69035875084b88f0bc89d271d",
    "bytes": 163422,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-22-Norway-10.pdf",
@@ -679,7 +679,7 @@
    "sha256": "8b80e6edb800fcd12b49700ecfe960247a2f5862b105674daa94a5d82966edc5",
    "bytes": 122728,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-22GB11-1.pdf",
@@ -687,7 +687,7 @@
    "sha256": "24f4282bb7fe03a09a876c6e6b23133e1deb135581683bbcb5c8106b02aa3a6d",
    "bytes": 164605,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-32GB12-1.pdf",
@@ -695,7 +695,7 @@
    "sha256": "a4657cc2694b69427c524b61e6e3b22dcd72ee95965efe1976f04424e614cee4",
    "bytes": 167487,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-32NO11.pdf",
@@ -703,7 +703,7 @@
    "sha256": "fb84416677ea548a7ce981b1ba2b0bac3af98ebdc1c7b99297cd82b470b47271",
    "bytes": 166595,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-46GB12.pdf",
@@ -711,7 +711,7 @@
    "sha256": "7a5f4eb57e35f80ced92d389da6b8254cb8566a07508a1ab4f22adbe6ba055e2",
    "bytes": 167195,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-68-Norway-10.pdf",
@@ -719,7 +719,7 @@
    "sha256": "0898414945313f4465b3e25bbe96ac2d3b0b3a4460474b94aeef5eb2175e43fa",
    "bytes": 119084,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-FLUID-68GB12-1.pdf",
@@ -727,7 +727,7 @@
    "sha256": "da9e3ada6c72e41b2fea876138113ecc18e5dc32eeda0eefa45a203c2fe6bfcd",
    "bytes": 167397,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL-220GB12.pdf",
@@ -735,7 +735,7 @@
    "sha256": "3fdb9e1022237fadb61f0b4e2400cfe077f961a7b4d92acc924319e91183b709",
    "bytes": 159147,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL-320GB12.pdf",
@@ -743,7 +743,7 @@
    "sha256": "cec533b5f0647d253cdb52b495df50069afd46f3fdb47bc908337c5875e71fa1",
    "bytes": 159336,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL-460GB12.pdf",
@@ -751,7 +751,7 @@
    "sha256": "ff0adbdede7376292a854d507299c89803831f5ae218f7072d3ec33fbfcff792",
    "bytes": 159139,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL220NO11.pdf",
@@ -759,7 +759,7 @@
    "sha256": "1fb79c5dd4759482065a42af4519f4c3713c5bcb5bc4c420b3a056ce4232e7dc",
    "bytes": 130099,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL320-Norway-10.pdf",
@@ -767,7 +767,7 @@
    "sha256": "26aeaaf8eb1966df52158f338e0c4cd565c29428e8d227124a05ec450b2f3f6b",
    "bytes": 119174,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-GEAR-OIL460-Norway-10.pdf",
@@ -775,7 +775,7 @@
    "sha256": "4d8541a8fa634d5223e259b931ba0a8194ab60cdb9ba32172d38d88b3ec4c2ac",
    "bytes": 119302,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-HTF-32GB11.pdf",
@@ -783,7 +783,7 @@
    "sha256": "eacc071881cca0a8ecc6f6fbbd951220adc82b28e62328c9b3483460ed7cab6d",
    "bytes": 148977,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-MULTI-TAKGB11.pdf",
@@ -791,7 +791,7 @@
    "sha256": "570a76080dba8405c56dc1ad6cb14ecabe2c8bbf8853b27c494aeb43717dd2fb",
    "bytes": 140871,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-MULTI-TAKNO11.pdf",
@@ -799,7 +799,7 @@
    "sha256": "1e4b3996ad9cb5a81e66b3b513d8ba6d0643e85d61ae0029b3276065c26e0acc",
    "bytes": 128154,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-SUGARSOLGB10.pdf",
@@ -807,7 +807,7 @@
    "sha256": "1425fd8d4843651d7d557837bbf60058c580921ef050ad63e099b4b20df7ce4d",
    "bytes": 140780,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-UNIVERSAL-OIL-32GB10.pdf",
@@ -815,7 +815,7 @@
    "sha256": "3ebe856cbc1b5a66b53e19c104fd5a5fffe581fd1264387f1f1deec5a502964c",
    "bytes": 142299,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FG-WD-SPRAYGB12.pdf",
@@ -823,7 +823,7 @@
    "sha256": "7a87a7974b6f3121060cebf6b7d1f53ed62721f4b7bba36f07bd8c5d675cd7f3",
    "bytes": 346557,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-CHAIN-OIL-220GB10.pdf",
@@ -831,7 +831,7 @@
    "sha256": "153c9a1bc5793a0e98a26b7f6ad2c5d776f572b95992bfb2752279c51dfde91a",
    "bytes": 157081,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-CHAIN-OIL-320GB10-2.pdf",
@@ -839,7 +839,7 @@
    "sha256": "84b0a6c5290480312c23ebd4453ba7408b75e8899958ad7817d21dcb1bd3a4c8",
    "bytes": 148920,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-CHAIN-SPRAYGB11-1.pdf",
@@ -847,7 +847,7 @@
    "sha256": "0c0d26153384d4aba14f296a64df16215497e009d8b7c3d2a06cca45641f0d68",
    "bytes": 347862,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-EP-GREASE-2GB11.pdf",
@@ -855,7 +855,7 @@
    "sha256": "048860d9e464916a33ec0befecc4024450f7f780f5fdeb7a979b641ffa286de9",
    "bytes": 142624,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-100GB12.pdf",
@@ -863,7 +863,7 @@
    "sha256": "6fc13dc70ee1fe29bf83f0a7d9feaaf60930d701f1b57e4ee907a20068b4e1d9",
    "bytes": 189668,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-15GB12-1.pdf",
@@ -871,7 +871,7 @@
    "sha256": "f923a0b33fe0982033a40b6d225b0310211d45e52f9e37f6b0a2e526686457fd",
    "bytes": 221822,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-22GB12.pdf",
@@ -879,7 +879,7 @@
    "sha256": "87281197fea1a4e3bfaccbfeae42c08e9f8e3621f0b06ef72d30553e1b33c047",
    "bytes": 164549,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-32GB12-1.pdf",
@@ -887,7 +887,7 @@
    "sha256": "8aeedbf740a87e263695688ac86fd47e810d60b43f93490ffc3b7876dca51e1d",
    "bytes": 159003,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-46GB12.pdf",
@@ -895,7 +895,7 @@
    "sha256": "19f42809a90c039e957fd5a82d0a26d705df6d7247501b9959d01fe7cc24b4c8",
    "bytes": 158805,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FLUID-68GB12-1.pdf",
@@ -903,7 +903,7 @@
    "sha256": "85c1ed65b242fa27425405c35260d7bd9c79a695d081643ce3756a245833ece5",
    "bytes": 158633,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-FRIDGECOM-68GB11-1.pdf",
@@ -911,7 +911,7 @@
    "sha256": "6421ac18d82fa8abb7c079913829f9c989b7e25b0357249eeee2452512d175da",
    "bytes": 188104,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-150-Norway-10.pdf",
@@ -919,7 +919,7 @@
    "sha256": "7bcf72345c8e92b1fb79086ca9be175fa152934a288773b32bf470f29388ff91",
    "bytes": 117586,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-150GB12-1.pdf",
@@ -927,7 +927,7 @@
    "sha256": "fd644009f60dcdbc36db6f11b4275d11bacd0f2d269a7b1cbc15182465bca373",
    "bytes": 146651,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-220-Norway-10.pdf",
@@ -935,7 +935,7 @@
    "sha256": "def8c8a184313d5d5fe26d9578de915e7daefbacf981a8d8233181728fced276",
    "bytes": 119402,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-220GB12-1.pdf",
@@ -943,7 +943,7 @@
    "sha256": "215d5cc18d33eac0e87e0ec33b265e4a4c2f25754b2465c90d96f6d892b963e8",
    "bytes": 147369,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-320-Norway-10.pdf",
@@ -951,7 +951,7 @@
    "sha256": "45361e31cc56cac2bc7d7fb0cfbdbdb3bc7b224f8d5cf4325e98c8898124a61e",
    "bytes": 117579,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-320GB12-1.pdf",
@@ -959,7 +959,7 @@
    "sha256": "947a21c04de8da5b20dfbf1c3d4ffe276aaf6f81725e64a4bc84371d76ee701e",
    "bytes": 147347,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-460-Norway-10.pdf",
@@ -967,7 +967,7 @@
    "sha256": "57aab9e31c812f859c76da9def0f377bcf5a079c197ccfb50de402ab11da29c1",
    "bytes": 117585,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-460GB12.pdf",
@@ -975,7 +975,7 @@
    "sha256": "84fe34ecc07498a7227fe454cc30600ec05f60cbf5e2e92369c70c45a0d8d8ab",
    "bytes": 146789,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GEAR-OIL-680GB12.pdf",
@@ -983,7 +983,7 @@
    "sha256": "082ffc4bfb1e65d783f2694d8c531e0f91caf56a50459f017fbdbd5a4cfdf450",
    "bytes": 146889,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-GREASE-SPRAYGB11-1.pdf",
@@ -991,7 +991,7 @@
    "sha256": "b392599b603af736a6e9d9d44d75cc8ac5c47865a88bc0afb9b537937640ac7b",
    "bytes": 267684,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-HLW-GREASE-2GB10.pdf",
@@ -999,7 +999,7 @@
    "sha256": "ea4321a111a43839c89a9eccfd88daa0108f6b622d228cbf441813b8f497f8e2",
    "bytes": 160604,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-HT-CHAIN-OIL-220GB10-1.pdf",
@@ -1007,7 +1007,7 @@
    "sha256": "fa816ecf383ae3f3ae95ca0c6e2765790c89dd0f2e486521cd2e5bf1d4b56d7b",
    "bytes": 157845,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-HT-CHAIN-OIL-320GB10.pdf",
@@ -1015,7 +1015,7 @@
    "sha256": "5ca0a4fefc19290dc7d4dc278108b8eebe5e8b5b9f2fba9ee0e83fd667b6d9de",
    "bytes": 157818,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-LT-CHAIN-OILGB12-1.pdf",
@@ -1023,7 +1023,7 @@
    "sha256": "38ba92144aa91b31e46045f1ea1b82f43ffbc19c8451264ded62cd66a3eac398",
    "bytes": 222290,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-LT-GREASE-1GB10.pdf",
@@ -1031,7 +1031,7 @@
    "sha256": "eb7a3f55f0335aa54fbe98da297f43dc6c2ccd685d85e1cd5faaace5d6b517e9",
    "bytes": 141393,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-FGS-SIL-SPRAYGB10.pdf",
@@ -1039,7 +1039,7 @@
    "sha256": "ee165f4d0ebc21be455c89e5f39b59982cbcd16c6de274bc9fb115383b8df600",
    "bytes": 330880,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-HD-GREASE-EP2GB11-1.pdf",
@@ -1047,7 +1047,7 @@
    "sha256": "063dcf6a59ee8e8b404e4a3797f5904af4691eaa185f112fdfdbcc705311caee",
    "bytes": 161960,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-HV-EP-1000-1.5GB10.pdf",
@@ -1055,7 +1055,7 @@
    "sha256": "1ddf575e965b1211aab1783e35c0b11fa179112752c75068b232644d6dd4fc78",
    "bytes": 142486,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-HV-WRLGB11.pdf",
@@ -1063,7 +1063,7 @@
    "sha256": "0d423ced1adf911bbea6ad72317a1c88995e5be6eb6197e9c9104916d8f452b3",
    "bytes": 205735,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-OGL1860-0GB10.pdf",
@@ -1071,7 +1071,7 @@
    "sha256": "2c9c5660fadec0c32946293c0d428966bc066072db0c46edd65718e9f91deb6b",
    "bytes": 157675,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-SYNGEAR-220GB10.pdf",
@@ -1079,7 +1079,7 @@
    "sha256": "6e850e69e4ea5520ee230b91ac13ff39540894534042a5e9248d6655c743d4cc",
    "bytes": 181176,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-SYNGEAR-320GB10.pdf",
@@ -1087,7 +1087,7 @@
    "sha256": "4a5e39d9939f7257ffbceba48d467aaa04c57a975711c8363884fa0c879d417f",
    "bytes": 182216,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-SYNGEAR-460GB10.pdf",
@@ -1095,7 +1095,7 @@
    "sha256": "0f491e8365ede41f1a04905eebbc1df045695b2662b5c381b48b9b01f757d1cb",
    "bytes": 181750,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBE-SYNGEAR-680GB10-2.pdf",
@@ -1103,7 +1103,7 @@
    "sha256": "8d98482807c1fa721918ef0eb92196b4261c39e5e064551fa30736342dcfae2c",
    "bytes": 181519,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEBIOHYF32GB10.pdf",
@@ -1111,7 +1111,7 @@
    "sha256": "2b4e2fb6e7d635b5cc1b77129c32f59cec1a09e8024cf4200d7519324c83d86d",
    "bytes": 151654,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEBIOHYF46GB10-1.pdf",
@@ -1119,7 +1119,7 @@
    "sha256": "6199f27f2403ee4a58e44575e70e59e3933abf4463614a82adc239a077f5b192",
    "bytes": 151758,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFG3HDCGREASE2NO11.pdf",
@@ -1127,7 +1127,7 @@
    "sha256": "620c620531ea710a2378a1011acae09c0a42b14bddab1f36dd47d0b8b0626191",
    "bytes": 129812,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFG3HDividerOilGB11-1.pdf",
@@ -1135,7 +1135,7 @@
    "sha256": "e68e3956df8bd3b1f07824abec36491ef781857624fade3c5744ff5e185cef03",
    "bytes": 128653,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFGCHAINOIL100NO10.pdf",
@@ -1143,7 +1143,7 @@
    "sha256": "5e2573011d0e35c8ea846a45004139c3bb4bfd6c488e4a30c86e46606babeba2",
    "bytes": 141571,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFGEPGREASE00GB10-1.pdf",
@@ -1151,7 +1151,7 @@
    "sha256": "c135b17c048eb00e38f5dce8e230661b8b8a2acae3a36e897962cd0f3751ee16",
    "bytes": 118616,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFGFLUID46NO11.pdf",
@@ -1159,7 +1159,7 @@
    "sha256": "d8b71decf3d013e395014a09755f7db6ba6bbf50b7a206af79364f3a907381fb",
    "bytes": 168010,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFGHLWGREASE2GB10.pdf",
@@ -1167,7 +1167,7 @@
    "sha256": "daf90100e2fbda7a0e7965b0109036448876606e23f8364dd1e66a5778e7a5d0",
    "bytes": 124940,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sds/VICKERLUBEFGSGEAROIL680NO11.pdf",
@@ -1175,7 +1175,7 @@
    "sha256": "9968f3399e809c948ce83f63bf95825b0127909259a3c124565165d82a95a186",
    "bytes": 129629,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160382.pdf",
@@ -1183,7 +1183,7 @@
    "sha256": "9446875224d752b5c4cad8412d403ba22968538726cb7a56cf674bc35106cb5c",
    "bytes": 15272,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160648.pdf",
@@ -1191,7 +1191,7 @@
    "sha256": "0640afe3068a700a56aecdc38ffc70346232ee03140ec073358f292f15f47bc9",
    "bytes": 15158,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160653.pdf",
@@ -1199,7 +1199,7 @@
    "sha256": "cdcca7954914bd3d4fcd91d03eb07430c59e11a6c1136cf8360590fa1bb208a8",
    "bytes": 15287,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160655.pdf",
@@ -1207,7 +1207,7 @@
    "sha256": "8b6077507168c1bd16c74a1a7552e1028e47ab65ed022dca19cfb0981a5f4c12",
    "bytes": 15273,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160685.pdf",
@@ -1215,7 +1215,7 @@
    "sha256": "eed11e121306a2429ba9c7b04de865179aec3b0ae7a174c55d8071bb9017e4a1",
    "bytes": 15264,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/160862.pdf",
@@ -1223,7 +1223,7 @@
    "sha256": "fcfdb44749b4e24d0c010f3f807e22fac0b5e178ea868b4829b68c4996af0c83",
    "bytes": 15266,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161273.pdf",
@@ -1231,7 +1231,7 @@
    "sha256": "f43a91507b3d5b1701bdeea1ca97d0ccf891ab3ad34a56862cd70ade9b9d6e32",
    "bytes": 15265,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161274.pdf",
@@ -1239,7 +1239,7 @@
    "sha256": "12a29494be8e8dfd2a1a1fa3ac136a77bb8c53d97917cea113e0f0bc1e88ae34",
    "bytes": 15272,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161275.pdf",
@@ -1247,7 +1247,7 @@
    "sha256": "dfd383f0159a3dc7147258fadb83be3a0e42e88df6f1cbcdfc4744a9a26b5f81",
    "bytes": 14993,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161276.pdf",
@@ -1255,7 +1255,7 @@
    "sha256": "fff9f747d3e0b707e78539e4385c0e051a162c6bc7817baf23fc9e2a0ba70823",
    "bytes": 15270,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161277.pdf",
@@ -1263,7 +1263,7 @@
    "sha256": "b55f3d7ee78bc9ca782ba15e4335abdacec654e26dc500cbe6c8ab778bfd0c48",
    "bytes": 15277,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161343.pdf",
@@ -1271,7 +1271,7 @@
    "sha256": "00157c654f0b27722ae74438529b2a27433d110ccb338d38298a8328723f0673",
    "bytes": 16428,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161347.pdf",
@@ -1279,7 +1279,7 @@
    "sha256": "e75ecb722631c5f1db2b6e2b7355bd14afda64bf47ad0a77c534527045dea98a",
    "bytes": 15275,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161348.pdf",
@@ -1287,7 +1287,7 @@
    "sha256": "c64d1a4f6ba7c31f67826c5b4b16a9566c74bf313fda40614ec0a22b54fb85d5",
    "bytes": 15277,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161349.pdf",
@@ -1295,7 +1295,7 @@
    "sha256": "b464a1de11e691cd8e1d69cb5e052362930161edbb8131511ae02305a7ee93a3",
    "bytes": 15261,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161350.pdf",
@@ -1303,7 +1303,7 @@
    "sha256": "1499a4afe50cc94d1dc5a49ddb29bf989301c329d246e1236dff4f5bb83bba07",
    "bytes": 15240,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161530.pdf",
@@ -1311,7 +1311,7 @@
    "sha256": "f0241731971af2822046106d7084ba19a1224c371c64e6d53539ac354447a184",
    "bytes": 15277,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161650.pdf",
@@ -1319,7 +1319,7 @@
    "sha256": "d7e7f575bfd7e3655d3e70c44f2a895a8a9e21606f8f9a912166907e7e251f17",
    "bytes": 15286,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161651.pdf",
@@ -1327,7 +1327,7 @@
    "sha256": "dd9f283dbccf6fec0cc2bed034be483f45beb65877d763e81e3fb5e12c1df963",
    "bytes": 15284,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161652.pdf",
@@ -1335,7 +1335,7 @@
    "sha256": "015be559ccd2b09a4b2faced1a024b894418a37edf1cfb408cd6555cd8c07cdf",
    "bytes": 15279,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161653.pdf",
@@ -1343,7 +1343,7 @@
    "sha256": "fea035f66fd54c3778919df88ae6a150382c38d3d61d0d636b0b28a67ad5a094",
    "bytes": 15277,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161767.pdf",
@@ -1351,7 +1351,7 @@
    "sha256": "e378f53acb9a97404dc5432abbd0e707f1f5a1a98aa53cb651b557362b67dcc1",
    "bytes": 15289,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161768.pdf",
@@ -1359,7 +1359,7 @@
    "sha256": "3022e73310a0fc1c136ad1aee7cadb480fd7d50c3b248aaa96a5a1b539a70e90",
    "bytes": 15282,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/161769.pdf",
@@ -1367,7 +1367,7 @@
    "sha256": "d8d9c61745c318d8be289ee0071b073b8774a094aaf29a3dd71a07857c7bbdb5",
    "bytes": 15269,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162114.pdf",
@@ -1375,7 +1375,7 @@
    "sha256": "ec1e7df499ed56d1e41cfd860ce8fca039613436bacf7c92c7fcda27114bf2e4",
    "bytes": 15268,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162115.pdf",
@@ -1383,7 +1383,7 @@
    "sha256": "50cfc496f054dbf91b285fe019e30b59767a3db667e58ff36cfc9da993d1cf16",
    "bytes": 15265,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162116.pdf",
@@ -1391,7 +1391,7 @@
    "sha256": "a599eab6525541e647343683c65ce97a9c0b66567426ac9e01f0b060c22e1ba2",
    "bytes": 15268,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162117.pdf",
@@ -1399,7 +1399,7 @@
    "sha256": "1932ccb6cb5340a55b0c4dba92d8d5c5dbbd314f9e259266af1a820ed38a4245",
    "bytes": 15272,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162118.pdf",
@@ -1407,7 +1407,7 @@
    "sha256": "0b5741aa1f0f0c8b1202979fc09352bd86849e99047e3dc5a1735e4ee22c6eb8",
    "bytes": 15267,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162119.pdf",
@@ -1415,7 +1415,7 @@
    "sha256": "cf8063ed9a1aa6a9963291278756dea6f5806c7b1991c7e830ad406954eddcd8",
    "bytes": 15260,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162120.pdf",
@@ -1423,7 +1423,7 @@
    "sha256": "59afe6e70e89ed890817e2452ae245db9d74c4c9caefdbb4ded868b2471acb49",
    "bytes": 15278,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162304.pdf",
@@ -1431,7 +1431,7 @@
    "sha256": "2ec53be6fede9aa2f2aa80f8a197d762b960dfdf75b50008a7e38eb4886ded6a",
    "bytes": 15405,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/162911.pdf",
@@ -1439,7 +1439,7 @@
    "sha256": "8cb5664202eb60b143949016d550a0ef77661a34d11d0d3516cc5bdb5cc37d0a",
    "bytes": 15252,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/163536.pdf",
@@ -1447,7 +1447,7 @@
    "sha256": "9f4b1a77f3fbe634d80339ab122257c30eb13dc4bc6e2b63189d3f912e57acc9",
    "bytes": 15305,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/165877.pdf",
@@ -1455,7 +1455,7 @@
    "sha256": "092db50677dc1a669176f9ff8006e2e648e4bff2f0bd97dd40b0df225568380a",
    "bytes": 682829,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/166209.pdf",
@@ -1463,7 +1463,7 @@
    "sha256": "1083541e7ecaddb5dae5c76a41cae3408ef2b8049e87ebdf1166c404a18847c8",
    "bytes": 683464,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FG-CHAIN-OIL-100.pdf",
@@ -1471,7 +1471,7 @@
    "sha256": "3cc1ee09947cd026848840ae1cbf3010b2a5a0acb935f37eeda4661c802884ea",
    "bytes": 717539,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FG-EP-GREASE-00.pdf",
@@ -1479,7 +1479,7 @@
    "sha256": "9bbd29a62cbb06d1215a3b118a803ddbdb63885265f45d0b199c6970cfcd3987",
    "bytes": 682839,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FG-SUGARSOL.pdf",
@@ -1487,7 +1487,7 @@
    "sha256": "6a683b806ce83a0a29604c32ba10e926b5c2e1025c7f6d61b8307a239bdceb66",
    "bytes": 17338,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FGS-CHAIN-OIL-220.pdf",
@@ -1495,7 +1495,7 @@
    "sha256": "99b09d0f16203c2771e08c09b1df69e43cd5ab8f0d29db478ff662f753a676e3",
    "bytes": 17358,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FGS-CHAIN-OIL-320.pdf",
@@ -1503,7 +1503,7 @@
    "sha256": "65776d9da00454a3c4aca560120795bb6e4245ebb8537b719b5bd95e746fc986",
    "bytes": 17344,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-Certificate-VICKERLUBE-FGS-FLUID-100.pdf",
@@ -1511,7 +1511,7 @@
    "sha256": "345cdcec12c01218eba9b56a7638379e7ef5480cce5940ef2aabca2fff5b7762",
    "bytes": 591075,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-VICKERLUBE-FGS-HLW-GREASE-2.pdf",
@@ -1519,7 +1519,7 @@
    "sha256": "9940391ca61b4887034841ae79bcb7542360808355254787deafb879983b77c5",
    "bytes": 591071,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   },
   {
    "fil": "vickers/datablad/sertifikater/NSF-VICKERLUBE-FGS-LT-CHAIN-OIL-172582.pdf",
@@ -1527,7 +1527,7 @@
    "sha256": "0633853ddd37c0642b906db3a4949fc2dd6f6752201fa84ae973ad0b2344f778",
    "bytes": 591062,
    "hentet": "2026-11-09",
-   "kontrollert": "2026-11-12"
+   "kontrollert": "2026-11-13"
   }
  ]
 }

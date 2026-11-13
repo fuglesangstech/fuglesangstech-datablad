@@ -1,0 +1,1037 @@
+{
+ "oppdatert": "2026-11-13",
+ "filer": [
+  {
+   "fil": "rpi/sds/RP-RPAL000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPAL000-NO-EGHS.pdf",
+   "sha256": "356a2751ab0d0c94717c981a00cde94ad3f55921001e14aee7201fff908ba134",
+   "bytes": 122454,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF000-NO-EGHS.pdf",
+   "sha256": "04d0ef9a20fe01f8f6c10a2d9a3d8bd0242fd5f19d2dae01ccecfe747d438131",
+   "bytes": 117551,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF001-NO-EGHS.pdf",
+   "sha256": "9c837d72ddecbfa597fa4e93e5eb2ca302e85ad36b8fe0adbbaba621b7572f79",
+   "bytes": 112577,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF002-NO-EGHS.pdf",
+   "sha256": "bea192990c46673f3cc1acd54565e1ad3230c3eecf2369853a40f6d6c2158efa",
+   "bytes": 85191,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF003-NO-EGHS.pdf",
+   "sha256": "d0066ef439f4fbbb80a3af9edab995c8466f37f6966619f2ff22b0d9ce6155cc",
+   "bytes": 85174,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF004-NO-EGHS.pdf",
+   "sha256": "3669c7afd3221f95a17392a8b662a86ebaf7051f6bb39242791b6ee939723a74",
+   "bytes": 84305,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF005-NO-EGHS.pdf",
+   "sha256": "c2f9c15ea69d4f23054fc08504314e1c72deab931c10932aa9f692a9b82e1c25",
+   "bytes": 117737,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF006-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF006-NO-EGHS.pdf",
+   "sha256": "018b26aeceddf1b6b15a3a5e4397c02290f582f9e6702b1579a4b4e78930efd0",
+   "bytes": 112671,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF007-NO-EGHS.pdf",
+   "sha256": "1ce411c8674613e0e6a4f3720420941878dbd66a972f523310bb958bc0df833c",
+   "bytes": 112816,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF008-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF008-NO-EGHS.pdf",
+   "sha256": "275aed415187a0d1dd805fc0e189ade4ad73494d3134e11ad7374cc893f6b304",
+   "bytes": 84199,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF009-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF009-NO-EGHS.pdf",
+   "sha256": "22b4d1657e0ab0da14a8517972f87a2cbd01bd789b77017afb4f8fc532a9e76f",
+   "bytes": 84198,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPBF010-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPBF010-NO-EGHS.pdf",
+   "sha256": "00ef415074394800267f521dda28974947658dedf73589e74e36b6d4941b8370",
+   "bytes": 84200,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCH000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCH000-NO-EGHS.pdf",
+   "sha256": "eaf76abc8d301f9c1d79dd6db6e24372787b705627f8f2144bac212b5db031d6",
+   "bytes": 112572,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCH001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCH001-NO-EGHS.pdf",
+   "sha256": "51e30df2af1a25ccf4103b23d477acee34d7b2bfdd8723b774979fe3f2b51c92",
+   "bytes": 137757,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCH001A-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCH001A-NO-EGHS.pdf",
+   "sha256": "6cfe23280fd0cb74f0b7f75222024765a4923f76d8d83e32157ea9c2a87d723c",
+   "bytes": 149603,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCI000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCI000-NO-EGHS.pdf",
+   "sha256": "01c1f0bccbc42e411c720033207a25aff02b36970b126597b54f9d47e083467b",
+   "bytes": 138188,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP000-NO-EGHS.pdf",
+   "sha256": "317bcd9ce66a8e704d99e60421b68e63b2db307fa7e0836d0a30546604291dd1",
+   "bytes": 108949,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP001-NO-EGHS.pdf",
+   "sha256": "82b69c88d54079c105316d8f560fb1354d7d6336e13cbca25a6734dfb78a1877",
+   "bytes": 99514,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP002-NO-EGHS.pdf",
+   "sha256": "7e3cb2180d8a6f6226efaef14135eab808a2c5b36e159e513ebda5305bfffc2b",
+   "bytes": 84154,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP003-NO-EGHS.pdf",
+   "sha256": "16ca65c71e7c94a57f1b0f5bcfce7c5a39712e8e1c6fabb63360cc12a1908a19",
+   "bytes": 84122,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP004-NO-EGHS.pdf",
+   "sha256": "dd2dafbd461defd67d1fb801fca169be023b2cac14be6169cb2e38765a74e686",
+   "bytes": 84138,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP005-NO-EGHS.pdf",
+   "sha256": "6c3ec9cccde05521b9fa228a5e3124401a551e3c885e4bd52160ca906eeb22eb",
+   "bytes": 84129,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP006-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP006-NO-EGHS.pdf",
+   "sha256": "7631ed11d00ddbcab5baef98d3c7f61b6160d0409cf9d32b645e732f12f76425",
+   "bytes": 84137,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP007-NO-EGHS.pdf",
+   "sha256": "f9bcc25db169053955e8bf72dc8ba8f1b3f85e23efd1c53422ea61ed35191012",
+   "bytes": 116789,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP008-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP008-NO-EGHS.pdf",
+   "sha256": "928b7d4689b8c75c0f19e1cbb9b1bb7b96474b048218cb260f70e1a22c52c451",
+   "bytes": 108607,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP009-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP009-NO-EGHS.pdf",
+   "sha256": "74f44d2f99c21185335f3e0127d7bdf3f4e8f02c7a36d124a3be5395cfae906c",
+   "bytes": 104989,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP010-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP010-NO-EGHS.pdf",
+   "sha256": "519c2b194b693db606a03409c54d0010654e95631a2d101bbf8c065045e60976",
+   "bytes": 105546,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP011-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP011-NO-EGHS.pdf",
+   "sha256": "d0ecffb688b0da007720bf99041377d55a49ef8c006ec5897c7bdcf9bef6acb9",
+   "bytes": 104983,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP012-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP012-NO-EGHS.pdf",
+   "sha256": "464c747c1ff5c19223338eba1ae16313fc210ed2a5ea6a646d78da33e00825a3",
+   "bytes": 105582,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP013-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP013-NO-EGHS.pdf",
+   "sha256": "8818bd9e6f98fa55712721700b920656921b56f00bfdddef44224c5cec1c8051",
+   "bytes": 105005,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP014-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP014-NO-EGHS.pdf",
+   "sha256": "cf5355660fd64e57ed9dfcb5e40ef6c01b4a36e27854edf7fa6ec8f9ef30cedb",
+   "bytes": 107527,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCP015-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCP015-NO-EGHS.pdf",
+   "sha256": "b1cb8aff2200e06261cc1308a5ce4f3ea48fdb426d533df0abbfa988da4ac7f1",
+   "bytes": 107492,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPCR000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPCR000-NO-EGHS.pdf",
+   "sha256": "4180e950c1ffb93b449382c55a3a62a5d01bdc40b5aa69a59a253f3d093e5c58",
+   "bytes": 128182,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPEO000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPEO000-NO-EGHS.pdf",
+   "sha256": "5db54840c11df6f37770822aac0fc13ac6de72e6acb64940a1e3f147371c6ed2",
+   "bytes": 106929,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPEO001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPEO001-NO-EGHS.pdf",
+   "sha256": "8bcf6e49c5e3beaa54b2f91b4cddf2c40aa8dde98d4cd6f596f9bdfe361a591b",
+   "bytes": 152758,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPEO002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPEO002-NO-EGHS.pdf",
+   "sha256": "d4126381c79bac38d10b58fc209f7401e23ebeed0df806dc8d4ba338d83b4166",
+   "bytes": 152751,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL000-NO-EGHS.pdf",
+   "sha256": "e8c010509ce4fe48867bf7996218cb083daafd8fc32e72dd4a02bc261d6f0cae",
+   "bytes": 115214,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL001-NO-EGHS.pdf",
+   "sha256": "d7b8e907e30c4c0c5c0d9931387568641ea53201630076f47c4a0e02cb694aec",
+   "bytes": 115986,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL002-NO-EGHS.pdf",
+   "sha256": "f0f75c456139b1439b992b6fee5934181b238a4301989be392878761c33f6a93",
+   "bytes": 115270,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL003-NO-EGHS.pdf",
+   "sha256": "cdb79221ae7f868c250c16faf7394f64113d843f2c1c8e2e57583f2c493d779c",
+   "bytes": 116053,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL004-NO-EGHS.pdf",
+   "sha256": "3fb1543e7af7a5e02d510a49d6bd29d69923e366f97bbb1469586e2049288165",
+   "bytes": 116301,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL005-NO-EGHS.pdf",
+   "sha256": "ceda37192795e9bdb17fe30a6ca89080b69f11bd323be93ed38d4ee30d24ca68",
+   "bytes": 116465,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL007-NO-EGHS.pdf",
+   "sha256": "64b8982973e975025edb1e8d3f3d0d9520442074beb53e946c22c4d43d87a940",
+   "bytes": 109012,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL008-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL008-NO-EGHS.pdf",
+   "sha256": "45220acd94e097e595b84df5ee84b7c82a19e95ba8e47054b54b894ab49633ea",
+   "bytes": 109002,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL009-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL009-NO-EGHS.pdf",
+   "sha256": "a97e6c8928d7c87dc06654007f6b4c747352277c9abd0610c19b670fa5ee5f0b",
+   "bytes": 109035,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL010-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL010-NO-EGHS.pdf",
+   "sha256": "4231e12fe374607c9fb6b02de45c4743294d3727df53ef9da8fdae7a21638900",
+   "bytes": 109021,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL011-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL011-NO-EGHS.pdf",
+   "sha256": "782dce8914252f08e4c7ac308ebda64db089501890344bd3b6c9763da1d659d5",
+   "bytes": 109044,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL012-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL012-NO-EGHS.pdf",
+   "sha256": "51a95176df512544382e57966515c42e5c36f44a336453764bf3ee5169b6419f",
+   "bytes": 109061,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL013-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL013-NO-EGHS.pdf",
+   "sha256": "314a37e96992d908d2b24c870258a8da0226601ea18ceba8ddc94e2e52495a4a",
+   "bytes": 117575,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL014-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL014-NO-EGHS.pdf",
+   "sha256": "9c17493a2f8de9946498178be8e57e9f1dec7f7661955f3add9de7da19c669b8",
+   "bytes": 117582,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL015-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL015-NO-EGHS.pdf",
+   "sha256": "0e31d8373fc59afe9a597c1cf4f5768f74e5c4ec4c959a9bb23c7e06aeda0661",
+   "bytes": 105691,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL016-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL016-NO-EGHS.pdf",
+   "sha256": "1843b1646cb8455f435ee64be884868c530e95b794fc163e4c31ab2ffedd4ad2",
+   "bytes": 110246,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL017-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL017-NO-EGHS.pdf",
+   "sha256": "8f6cab4644a16af51132fcc2d8bbef5ee267008468ede3eee8e0126d3228c78e",
+   "bytes": 110265,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL018-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL018-NO-EGHS.pdf",
+   "sha256": "1782cc321c73ab79d7f3240d1a3510d1ef4b821180bfbb297b993b0af108dab7",
+   "bytes": 110245,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL019-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL019-NO-EGHS.pdf",
+   "sha256": "3a1f0603d9715a9f7dce8761d0561b66d1895c2a1ab0afa507586c6dd929d8bd",
+   "bytes": 110247,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL020-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL020-NO-EGHS.pdf",
+   "sha256": "0e21494394ec62f34eef5f0d93f22b5169d54ae1900e347a5bbd5fa398a99e6b",
+   "bytes": 110224,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL021-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL021-NO-EGHS.pdf",
+   "sha256": "f53114c403103eee518569d8f2ec519f9d372de628179c70d82dca3d779cdbe8",
+   "bytes": 110253,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL022-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL022-NO-EGHS.pdf",
+   "sha256": "327dd83e627fbfad2f53e2da79706ad111d4a962eafc322726ad6363b0d3b3e6",
+   "bytes": 103902,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL023-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL023-NO-EGHS.pdf",
+   "sha256": "679fc89bfc884f3186b51577e97b6d366327dc0ad206df7292c6f0ebd228c4ba",
+   "bytes": 103903,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL024-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL024-NO-EGHS.pdf",
+   "sha256": "71c82fd262cf3c9af8e136e1543da9f942e773768aa2006103c26fa7a0098b72",
+   "bytes": 100414,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL025-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL025-NO-EGHS.pdf",
+   "sha256": "266a796d7666ee2545e6c54fb6eb8f4366a0cd122b88edab7400bca7bdc80842",
+   "bytes": 100370,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGL026-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGL026-NO-EGHS.pdf",
+   "sha256": "60fbbe0f8132169be7032a6fb6d1d47ec0ad5b98b08f2091d93016e1f27a2764",
+   "bytes": 105172,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR000-NO-EGHS.pdf",
+   "sha256": "eebd92a84fb24358c4d7f3b5272248fc0f4a71bd1eebed6ad2761bce64afedde",
+   "bytes": 127349,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR001-NO-EGHS.pdf",
+   "sha256": "0b5b32482e77759a780fcd23bca9602dbeb15a1c5fb1a48f9af9cc105e824c16",
+   "bytes": 113507,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR002-NO-EGHS.pdf",
+   "sha256": "aba084af22618559f560702eadb5d1ea706b3708c86b84a24bee53c7ecb91442",
+   "bytes": 149612,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR003-NO-EGHS.pdf",
+   "sha256": "676ff08a86421e31901a7d95b339dcffb0e5e31daf2466e17080fff288d40d2c",
+   "bytes": 126408,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR004-NO-EGHS.pdf",
+   "sha256": "0d1baa49ca035599cfb42c734e2f0e7cbf04d11761de884af89ea2f901d34351",
+   "bytes": 127551,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR005-NO-EGHS.pdf",
+   "sha256": "c62a656320bcc3d4a5df3e4aa3919bdd6f03e49f5525b3c2f9029362c30f5156",
+   "bytes": 128675,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR006-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR006-NO-EGHS.pdf",
+   "sha256": "32975eabe9dd00632f2aa18e8cd9c70c9317a4c4410968e3ff179c8addfb135d",
+   "bytes": 150882,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPGR007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPGR007-NO-EGHS.pdf",
+   "sha256": "84afa58d20c0c7a375bc24b9437c4e0bac9c8c7329e9bbb3326efa8d7f6071d7",
+   "bytes": 151381,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHT000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHT000-NO-EGHS.pdf",
+   "sha256": "5ef20c54df777d27599569d39f1b18aa668db71327fb89e29b3d325e91b66bdf",
+   "bytes": 98317,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY000-NO-EGHS.pdf",
+   "sha256": "e4ff913faf285a3c97c8f1cd454fb5c856042bd3298e6cca40f30459bba0cf51",
+   "bytes": 125618,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY001-NO-EGHS.pdf",
+   "sha256": "aa8c9ea23eb27dd8b4828c9730ca253e03ef7c6f732e7ba4fd50ffc19f9a8e16",
+   "bytes": 126398,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY002-NO-EGHS.pdf",
+   "sha256": "38ad8041e792ad22ebfb340937bcbd049ec87efc9967288699bc1275fb65173f",
+   "bytes": 130426,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY003-NO-EGHS.pdf",
+   "sha256": "06a9ee52fba925b96ceb23e8cb080756c0b6260a529ec36ae05d586939df2ff5",
+   "bytes": 126947,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY004-NO-EGHS.pdf",
+   "sha256": "8878f49523eaa3e6236852aa37ca373a372c8703e51f40e2c450297a80c2ccba",
+   "bytes": 147216,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY005-NO-EGHS.pdf",
+   "sha256": "4a18a7cbfd4592614d4548ec471501e9ab963e92399d4ae420d81741929452eb",
+   "bytes": 120647,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY006-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY006-NO-EGHS.pdf",
+   "sha256": "eef374e140f9638d35223b10da7401734563288484b0afe374bcc5c225e2beed",
+   "bytes": 120653,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY007-NO-EGHS.pdf",
+   "sha256": "a33be1e91f219027b9c5f17cdf5ddaa56398dfe6686c3586ceb184baf2a7a6b9",
+   "bytes": 117197,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY008-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY008-NO-EGHS.pdf",
+   "sha256": "b5b77fbacb7b340a1f433486cbf5c02089c45b380bfbda36c68e08dde8ee0c8b",
+   "bytes": 117105,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY009-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY009-NO-EGHS.pdf",
+   "sha256": "be31e31f9d328f7ce5d9aa14194341f6c8614c68a8fcefe59c47ef2932f6b4fb",
+   "bytes": 120148,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY010-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY010-NO-EGHS.pdf",
+   "sha256": "55e01eb3a9f895d4b00a90e01daf40cef96b15e9b78ff425720e2aa62bf00f7c",
+   "bytes": 120155,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY011-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY011-NO-EGHS.pdf",
+   "sha256": "fe60316283a0a9f8b56b4959610d3391feb0a3a172b098f27cc07abeb5f836e2",
+   "bytes": 120133,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPHY012-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPHY012-NO-EGHS.pdf",
+   "sha256": "4bd14fb335d41c5d676bc4d4618d242dcbfe44983a40d5725c7a88e0dd72e92e",
+   "bytes": 120171,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP000-NO-EGHS.pdf",
+   "sha256": "072514d42152acf447f0f36569667ab79fc5a86d48f68e72ac27a14e2fb62cbe",
+   "bytes": 121209,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP001-NO-EGHS.pdf",
+   "sha256": "12fc4a8d4203491788193f473179348cccf8f892ca045487f05fadac4ad68a53",
+   "bytes": 89146,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP002-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP002-NO-EGHS.pdf",
+   "sha256": "37a9cca7d1236d7eddf178694a8bbdef7a9131298e65164bfaaac2258cb58c09",
+   "bytes": 85646,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP003-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP003-NO-EGHS.pdf",
+   "sha256": "3d2d851c7facec160dce308f1083ba74554cdb103550f2e3b97d52a54963d44c",
+   "bytes": 85687,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP004-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP004-NO-EGHS.pdf",
+   "sha256": "a515c9a88e63fd44b3f46a62a3c64a5ba9045055e5775c09e8ddee9a93cd4fa3",
+   "bytes": 85666,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP005-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP005-NO-EGHS.pdf",
+   "sha256": "b6624bf0946763eeaf7576c56bc69e053ea4c402cd026339ebf047e916609276",
+   "bytes": 85666,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP006-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP006-NO-EGHS.pdf",
+   "sha256": "92cb9c46f077bb1414bde62b8d4d4011fb2a9af7cbc576b73863299aa793832b",
+   "bytes": 85683,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP007-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP007-NO-EGHS.pdf",
+   "sha256": "a2c675efd34a7d66b2e3f660f68d48171c70af77f3536e7ed3f694172151be6e",
+   "bytes": 85691,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP008-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP008-NO-EGHS.pdf",
+   "sha256": "5d953eb3a5652cd387e581740e59ff35c737f2ce0e678553425cad2d9be83fc8",
+   "bytes": 85671,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP009-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP009-NO-EGHS.pdf",
+   "sha256": "12d65548ac4ee889c975c64eb9d0eb8d93364a2ea92ee7379b3aacfb509a3cc9",
+   "bytes": 85705,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP010-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP010-NO-EGHS.pdf",
+   "sha256": "5a3d9a3cbe1237154527448d07162987f6593638aec6fafde20825f821edee95",
+   "bytes": 85675,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP012-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP012-NO-EGHS.pdf",
+   "sha256": "2140c221ea6d1a2b93de972528c2beb219b1cce7f1b6fe6b627a8178267fcbac",
+   "bytes": 112474,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP013-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP013-NO-EGHS.pdf",
+   "sha256": "4a1515b9326ef8e014d3dec84ca2b8bb3c7bde3e7567b235ac3d5c7b9528bddf",
+   "bytes": 112851,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP014-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP014-NO-EGHS.pdf",
+   "sha256": "d321812756d56b760d0e2dd69df0dcb7c9454ace27e4fa6bbaa33cb6deacec62",
+   "bytes": 112535,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP015-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP015-NO-EGHS.pdf",
+   "sha256": "cf98e0ddeecd15d3865bf82bd4023a80053b62691a99d481aefe87a9cd140ab5",
+   "bytes": 112520,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP016-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP016-NO-EGHS.pdf",
+   "sha256": "7748c7d9c38619961bc3f28169972800e3ed761f053478d0893e5854891b1693",
+   "bytes": 112838,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP017-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP017-NO-EGHS.pdf",
+   "sha256": "7e6970beb28763483243e4aceb20022f6a8921fc5958ea4e287420b06be89681",
+   "bytes": 112526,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP018-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP018-NO-EGHS.pdf",
+   "sha256": "c5d0f935290961bc5cbe1b18f7f61e7c6b15f2f5da4fec91c8c9f315c7d47d8c",
+   "bytes": 112778,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP019-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP019-NO-EGHS.pdf",
+   "sha256": "1a78c78e8e562fa4dc0a9c6fe5c208a7bc5819aadbe52b76c7d5e476e95826cf",
+   "bytes": 112512,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP020-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP020-NO-EGHS.pdf",
+   "sha256": "925bf7e774c9149df557624db4f460e55177d289f5fbd208f35d15f145ad748b",
+   "bytes": 112818,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP021-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP021-NO-EGHS.pdf",
+   "sha256": "33d4123a8f2c331c4494f016ddccd67d0a72ee2f7c22ab4599e5d3ed6086a6ae",
+   "bytes": 108661,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP022-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP022-NO-EGHS.pdf",
+   "sha256": "57e1a14657d406b552b4fa74c03b92c3f5a673264ac1d7776ee4df4867770046",
+   "bytes": 104873,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP023-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP023-NO-EGHS.pdf",
+   "sha256": "2162c05e2c9dfac0b9c4bc3d3a62f0e8bafd2a9b36f2b55c12c014dd85ee6edf",
+   "bytes": 105584,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP024-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP024-NO-EGHS.pdf",
+   "sha256": "280dcfefab34c709b94894118cf42902c0a5c7ae526d9c8dcbaee7c8a64b0414",
+   "bytes": 105040,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP025-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP025-NO-EGHS.pdf",
+   "sha256": "87bdcd25074ace56fc277f07c549e4355d7d84a94165bb873687ae956a15e0eb",
+   "bytes": 105590,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP026-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP026-NO-EGHS.pdf",
+   "sha256": "1244f4421dba61e8dd084965a7062d03bddcdf2823484ca037e93c77373290b0",
+   "bytes": 105011,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP027-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP027-NO-EGHS.pdf",
+   "sha256": "cdf8b3b4e1350d83ddcf3b80d4cc8e7144b52ab9d147283bfb8e191aa2014e0e",
+   "bytes": 105611,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP028-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP028-NO-EGHS.pdf",
+   "sha256": "7fea865b5aef9b16217089ffa3b49a260a3d534142d5870c330bd52a13b51e6a",
+   "bytes": 105061,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP029-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP029-NO-EGHS.pdf",
+   "sha256": "cbd34b1aa453ca9681c3ec55a7bbe4598891e1bb38389c3fea428038b958dbfb",
+   "bytes": 105614,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP030-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP030-NO-EGHS.pdf",
+   "sha256": "3ad9d9c91cbf9832833618d8bf33a564f5f96baa6736419277e521c3811a930f",
+   "bytes": 105007,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP031-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP031-NO-EGHS.pdf",
+   "sha256": "d32fdfa6e68b5e72297873b843b7552aabaef8ff1cc0c4b20d48a8236d4d1111",
+   "bytes": 105050,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP032-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP032-NO-EGHS.pdf",
+   "sha256": "88350c30199fba69c870fbdb9f93abec521dc58acd1c6bffb7203748847cffec",
+   "bytes": 105619,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP033-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP033-NO-EGHS.pdf",
+   "sha256": "9f4e0fdd286dfd8d571257af172e1cd4e23571613e34a088af7cae1ea0dcff84",
+   "bytes": 105026,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP034-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP034-NO-EGHS.pdf",
+   "sha256": "0e202259106dd851f4614a97cb789caaeab8f0d72c0a823b61725ff630caca58",
+   "bytes": 105628,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP035-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP035-NO-EGHS.pdf",
+   "sha256": "d6d81016d64531bf56bb20513a643d4968e38b379545ef8d3f00e93201c53dbc",
+   "bytes": 105061,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPMP036-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPMP036-NO-EGHS.pdf",
+   "sha256": "5f95fae0f6e8e8af6247ebf0d026fc0cfb7fbfae5bd1e080aaba33f0c1ab98f1",
+   "bytes": 105043,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPPN000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPPN000-NO-EGHS.pdf",
+   "sha256": "b29f57cd9adfdc383cd72457b77b6d3e94f7b1d4dafb92c0d0a0bf05d5feff32",
+   "bytes": 156853,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPPN000A-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPPN000A-NO-EGHS.pdf",
+   "sha256": "6703c13f6b8dcd887599599e265dd40a58a1cd8dbece0d167f47fab894592484",
+   "bytes": 169460,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPRF000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPRF000-NO-EGHS.pdf",
+   "sha256": "a76e043e5db4d05f447416bdcfafa45eac65451f48bd80e77d92dd977b67c1e5",
+   "bytes": 123375,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPST000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPST000-NO-EGHS.pdf",
+   "sha256": "8cb5be984b8ae69b41669e58c2ab110368898cd8f0d1874e346a1b5c171d9d36",
+   "bytes": 112857,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPST001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPST001-NO-EGHS.pdf",
+   "sha256": "6f4ce4e2de2f2b05e006fac9863e1038c7a1227204386fa9368867017b459ab3",
+   "bytes": 113621,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPTR000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPTR000-NO-EGHS.pdf",
+   "sha256": "48a7c0c160718114a37e357900eed46fd8d5e89b6d076d01196f0b823189ea8f",
+   "bytes": 153701,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPTR001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPTR001-NO-EGHS.pdf",
+   "sha256": "3be48d825de0961e142ba4ed079678315e4a839d700923205441beb36e3475a9",
+   "bytes": 155474,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPWR000-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPWR000-NO-EGHS.pdf",
+   "sha256": "d846817e3b788a92149a78710314c8b946d0fef229501de36e32118ca49b73e3",
+   "bytes": 127804,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  },
+  {
+   "fil": "rpi/sds/RP-RPWR001-NO-EGHS.pdf",
+   "kilde": "https://www.royalpurpleind.com/wp-content/uploads/LE-MSDS/RP-RPWR001-NO-EGHS.pdf",
+   "sha256": "b8a0557fa3645e1bcdb44781d889d73de63fafb5127628a40c000e106f7ebd8d",
+   "bytes": 104557,
+   "hentet": "2026-11-13",
+   "kontrollert": "2026-11-13"
+  }
+ ]
+}

@@ -8,6 +8,7 @@
     UTB         – utb/produkter.json
     Perma-Tec   – perma/produkter.json
     Vickers     – vickers/produkter.json
+    Royal Purple Industrial og BioMax – rpi/produkter.json
   Stier uten https:// er filer i dette repoet. Brukes av synk-datablad.js.
 
   Hver rad: { lev, nr, navn, sds: [[etikett, språk, fil]], pds: [...], dok: [[etikett, språk, fil, type]], lenke, generelt? }
@@ -99,6 +100,15 @@ function build(root, CD, LD) {
     if (sds.length || pds.length || d.length) rows.push({ lev: 'Vickers Oils', nr: '', navn: p.navn, sds, pds, dok: d, lenke: S + '/produkter#vik-' + pslug(p.navn) });   // aliaset til produktkortet i /produkter
   });
 
+  // Royal Purple Industrial og BioMax (rpi/produkter.json) – én rad per produktfamilie, norsk SDS per variant
+  const rpi = read(root, 'rpi/produkter.json');
+  (rpi ? rpi.produkter : []).forEach(p => {
+    const lev = p.serie === 'biomax' ? 'BioMax' : 'Royal Purple Industrial';
+    const sds = p.varianter.map(v => [p.varianter.length > 1 ? 'SDS ' + (v.grad || v.kode) : 'SDS', 'NO', v.sds]);
+    const pds = (p.pds || []).map(d => ['PDS', d[1] || 'EN', d[2]]);
+    rows.push({ lev, nr: '', navn: p.navn, sds, pds, vnr: p.varianter.map(v => v.kode), lenke: S + '/produkter#' + (p.serie === 'biomax' ? 'biomax-' : 'rpi-') + p.id });
+  });
+
   rows.forEach(r => { if (!r.dok) r.dok = []; });
 
   // Utvalgte dokumenter (dokumenter.json): ved produktene «produkter» peker på, ellers som egen rad
@@ -111,7 +121,7 @@ function build(root, CD, LD) {
     else rows.push({ lev: d.lev, nr: '', navn: d.navn, sds: [], pds: [], dok: [rad], lenke: d.url, generelt: true });
   });
   // radene samlet per leverandør (generelle dokumenter sist innen leverandøren)
-  const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils', 'Fuglesangs Tech'];
+  const levRek = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Perma-Tec', 'Vickers Oils', 'Royal Purple Industrial', 'BioMax', 'Fuglesangs Tech'];
   const pos = new Map(rows.map((r, i) => [r, i]));
   rows.sort((a, b) => (levRek.indexOf(a.lev) - levRek.indexOf(b.lev)) || (pos.get(a) - pos.get(b)));
   // Delingen mellom sidene:
@@ -135,7 +145,7 @@ function build(root, CD, LD) {
     r.dok = r.dok.filter(d => { if (RESSURS.has(d[3])) { tilRessurs(r.lev, d, navn); return false; } return true; });
     if (r.sds.length || r.pds.length || r.dok.length) produktRader.push(r);
   });
-  const levs = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec'];
+  const levs = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec', 'Royal Purple Industrial', 'BioMax'];
   const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: levs, rader: produktRader };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));
   const ressurser = [...res.values()];

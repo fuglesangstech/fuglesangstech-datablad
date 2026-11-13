@@ -1,12 +1,8 @@
-# Datablad-synk 2026-11-12
+# Datablad-synk 2026-11-13
 
 STATUS: MÅ SJEKKES – 1 problem(er), se under
 
-Kontrollert: 602 datablad. Uendret: 599. Nye: 0. Endret: 2. Borte hos leverandør: 1. Feil: 0.
-
-## Endret hos leverandør (kopien er erstattet) (2)
-- chesterton/datablad/Lubricants/PDS_218(E) HDP_Batch numbers after date 250513-NO.pdf
-- chesterton/datablad/Lubricants/SDS_218(E)_Bulk_Batch numbers after date 250513-NO.pdf
+Kontrollert: 602 datablad. Uendret: 601. Nye: 0. Endret: 0. Borte hos leverandør: 1. Feil: 0.
 
 ## Borte hos leverandør (gammel kopi beholdt – bør sjekkes) (1)
 - le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf (404)
@@ -24,6 +20,9 @@ Produkter: 75. Filer: 191. Uendret: 191. Nye: 0. Endret: 0. Borte hos Vickers: 0
 ## Perma-Tec
 Kontrollert: 43 datablad. Uendret: 43. Nye: 0. Endret: 0. Borte hos Perma: 0. Feil: 0.
 
+## Royal Purple Industrial og BioMax
+Kontrollert: 129 norske SDS og 43 PDS. Uendret: 129. Nye: 0. Endret: 0. Borte: 0. Feil: 0.
+
 ## Chesterton-litteratur
 Dokumenter hos Chesterton: 1346. Koblet til våre produkter: 152. Generelle: 9.
 
@@ -31,7 +30,7 @@ Dokumenter hos Chesterton: 1346. Koblet til våre produkter: 152. Generelle: 9.
 Dokumenter: 106 (Perma 51, Vickers 21, LE 32, artikler 2).
 
 ## Datablad-oversikt (/datablad)
-Produkter: 509. SDS: 594. PDS: 525. Sertifikater og bruksanvisninger: 309. Ressurser (/ressurser): 202.
+Produkter: 525. SDS: 708. PDS: 540. Sertifikater og bruksanvisninger: 296. Ressurser (/ressurser): 202.
 
 ## Lenkesjekk av fuglesangstech.no
-Sider: 35. Lenker og bilder sjekket: 377. Filer i GitHub sjekket: 1215. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.
+Sider: 36. Lenker og bilder sjekket: 430. Filer i GitHub sjekket: 1318. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.

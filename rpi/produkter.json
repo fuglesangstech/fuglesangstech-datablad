@@ -1,0 +1,2556 @@
+{
+ "oppdatert": "2026-11-13",
+ "kilde": "royalpurpleind.com (PDS, SDS-søk og nettbutikk)",
+ "kategorier": [
+  "Kompressoroljer",
+  "Barrierevæsker",
+  "Giroljer",
+  "Hydraulikkoljer",
+  "Fett",
+  "Hekkrøroljer",
+  "Rengjøring og spyling",
+  "Transmisjonsoljer",
+  "Motoroljer",
+  "Kjedesmøring",
+  "Varmeoverføringsoljer",
+  "Spray og vedlikehold",
+  "Monteringspasta",
+  "Industrioljer",
+  "Spesialsmøremidler",
+  "Wiresmøring",
+  "Korrosjonsbeskyttelse"
+ ],
+ "produkter": [
+  {
+   "id": "alkalube",
+   "navn": "Alkalube™",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk kompressorolje for kompressorer som håndterer alkaliske gasser og væsker.",
+   "tekst": [
+    "Alkalube™ er laget for kompressorer i alkaliske miljøer, der vanlige oljer ofte ikke beskytter godt nok. Formuleringen gir økt korrosjonsbeskyttelse for metallflater som utsettes for alkaliske væsker og gasser, og reduserer slitasje.",
+    "Syntetiske baseoljer og Synerlec®-additivteknologi gir en sterk smørefilm, slik at utstyret går jevnere, kjøligere og mer effektivt. Alkalube er ufarget."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Alkalube.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP000",
+     "navn": "ALKALUBE™ 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "barrier-fluid-fda",
+   "navn": "Barrier Fluid FDA®",
+   "serie": "rpi",
+   "kategori": "Barrierevæsker",
+   "egenskaper": [
+    "Syntetisk",
+    "Matvaregodkjent (NSF H1)"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk barrierevæske for doble mekaniske tetninger, NSF H1-registrert for næringsmiddel- og legemiddelindustrien.",
+   "tekst": [
+    "Barrier Fluid FDA® er en ren, ikke-reaktiv syntetisk barrierevæske med svært lavt fuktinnhold. Den smører og kjøler doble mekaniske tetninger, både tandem og doble, og forlenger levetiden på tetningene.",
+    "Den fungerer over et bredt temperaturområde, har god flyt ved lave temperaturer og god varmeoverføring. Alle fem viskositetene er NSF H1-registrert, og godkjent som Kosher og Halal."
+   ],
+   "bilde": "rpi/bilder/barrier-fluid-fda.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20(PDS)/RPI%20PDS%20Barrier%20Fluid%20FDA.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPBF000",
+     "navn": "BARRIER FLUID FDA® 22",
+     "grad": "22",
+     "emballasje": [
+      "Flaske",
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPBF000-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPBF001",
+     "navn": "BARRIER FLUID FDA® 34",
+     "grad": "34",
+     "emballasje": [
+      "Flaske",
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPBF001-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPBF002",
+     "navn": "BARRIER FLUID FDA® 56",
+     "grad": "56",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF002-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPBF003",
+     "navn": "BARRIER FLUID FDA® 78",
+     "grad": "78",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF003-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPBF004",
+     "navn": "BARRIER FLUID FDA® 910",
+     "grad": "910",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF004-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "barrier-fluid-gt",
+   "navn": "Barrier Fluid GT®",
+   "serie": "rpi",
+   "kategori": "Barrierevæsker",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk barrierevæske for doble mekaniske tetninger, særlig ved høye temperaturer.",
+   "tekst": [
+    "Barrier Fluid GT® er en ikke-reaktiv syntetisk barrierevæske med svært lavt fuktinnhold, som smører og kjøler doble mekaniske tetninger og forlenger levetiden på dem.",
+    "Den anbefales særlig ved høye temperaturer der nitrogenspyling ikke er mulig og næringsmiddelgodkjenning ikke kreves. GT 34 finnes både ufarget og farget (lilla); de andre variantene er ufargede."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20(PDS)/RPI%20PDS%20Barrier%20Fluid%20GT.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPBF005",
+     "navn": "BARRIER FLUID GT® 22",
+     "grad": "22",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF005-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPBF006",
+     "navn": "BARRIER FLUID GT® 34",
+     "grad": "34",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPBF006-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPBF007",
+     "navn": "BARRIER FLUID GT® 34 DYED",
+     "grad": "34 farget",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPBF007-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPBF008",
+     "navn": "BARRIER FLUID GT® 56",
+     "grad": "56",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF008-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPBF009",
+     "navn": "BARRIER FLUID GT® 78",
+     "grad": "78",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF009-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPBF010",
+     "navn": "BARRIER FLUID GT® 910",
+     "grad": "910",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPBF010-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "biomax-gear-eal",
+   "navn": "BioMax™ Gear EAL",
+   "serie": "biomax",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)",
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Miljøtilpasset syntetisk girolje (EAL) for lukkede gir under krevende forhold, med EU Ecolabel.",
+   "tekst": [
+    "BioMax™ Gear EAL er laget for lukkede girsystemer under krevende forhold: høye temperaturer, tunge belastninger, glidekontakt og hyppige start og stopp.",
+    "Syntetiske baseoljer og Synerlec®-additivteknologi gir god beskyttelse og lang levetid. Oljen er EU Ecolabel-sertifisert og anbefales der det kreves eller ønskes et miljøtilpasset smøremiddel (EAL)."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20BioMax%20EAL%20Gear%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL000",
+     "navn": "BIOMAX™ GEAR EAL 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL001",
+     "navn": "BIOMAX™ GEAR EAL 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPGL001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL002",
+     "navn": "BIOMAX™ GEAR EAL 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL002-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL003",
+     "navn": "BIOMAX™ GEAR EAL 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPGL003-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL004",
+     "navn": "BIOMAX™ GEAR EAL 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL004-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL005",
+     "navn": "BIOMAX™ GEAR EAL 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPGL005-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "biomax-hydraulic-eal",
+   "navn": "BioMax™ Hydraulic EAL",
+   "serie": "biomax",
+   "kategori": "Hydraulikkoljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)",
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Miljøtilpasset syntetisk hydraulikkolje (EAL) for hydraulikk- og sirkulasjonssystemer, med EU Ecolabel.",
+   "tekst": [
+    "BioMax™ Hydraulic EAL anbefales for alle hydraulikk- og sirkulasjonssystemer som krever et miljøtilpasset smøremiddel. Den gir god smøring, god slitasjebeskyttelse og motstand mot avleiringer, også ved høy belastning og små oljevolumer.",
+    "Syntetiske baseoljer og Synerlec®-additivteknologi gjør at utstyret går jevnere, kjøligere og mer effektivt. Oljen er EU Ecolabel-sertifisert."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20BioMax%20EAL%20Hydraulic%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPHY000",
+     "navn": "BIOMAX™ HYDRAULIC EAL 22",
+     "grad": "ISO VG 22",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY001",
+     "navn": "BIOMAX™ HYDRAULIC EAL 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY002",
+     "navn": "BIOMAX™ HYDRAULIC EAL 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY002-NO-EGHS.pdf",
+     "sds_rev": "2026-07-01"
+    },
+    {
+     "kode": "RPHY003",
+     "navn": "BIOMAX™ HYDRAULIC EAL 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY003-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "biomax-multi-purpose-ep-grease",
+   "navn": "BioMax™ Multi-Purpose EP Grease",
+   "serie": "biomax",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)",
+    "Matvaregodkjent (NSF H1)",
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Miljøtilpasset syntetisk EP-fett med kalsiumsulfonatkompleks, NSF H1-registrert og med EU Ecolabel.",
+   "tekst": [
+    "BioMax™ Multi-Purpose EP Grease er for utstyr i miljøsensitive områder og der tilfeldig kontakt med næringsmidler kan forekomme, for eksempel i marin drift, industri og næringsmiddelproduksjon.",
+    "Fettet er biologisk nedbrytbart og lite giftig. Det gir svært god EP- og slitasjebeskyttelse, god rust- og korrosjonsbeskyttelse og høy motstand mot utvasking. Det er EU Ecolabel-sertifisert, NSF H1-registrert og Halal-godkjent."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20BioMax%20EAL%20MP%20EP%20Grease.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR000",
+     "navn": "BIOMAX™ MULTI-PURPOSE EP GREASE",
+     "grad": "",
+     "emballasje": [
+      "Patron",
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGR000-NO-EGHS.pdf",
+     "sds_rev": "2025-10-14"
+    }
+   ]
+  },
+  {
+   "id": "biomax-stern-tube-eal",
+   "navn": "BioMax™ Stern Tube EAL",
+   "serie": "biomax",
+   "kategori": "Hekkrøroljer",
+   "egenskaper": [
+    "Miljøtilpasset (EAL)",
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Miljøtilpasset syntetisk hekkrørolje (EAL) for skip, med EU Ecolabel.",
+   "tekst": [
+    "BioMax™ Stern Tube EAL er laget for smøring av hekkrør i marint miljø. Den er biologisk nedbrytbar og lite giftig, og gir god smøring og slitasjebeskyttelse for lagre og andre deler i hekkrøret.",
+    "God forenlighet med tetninger reduserer risikoen for lekkasje inn og ut av hekkrøret. Oljen er EU Ecolabel-sertifisert."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20BioMax%20EAL%20Stern%20Tube%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPST000",
+     "navn": "BIOMAX™ STERN TUBE EAL 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPST000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPST001",
+     "navn": "BIOMAX™ STERN TUBE EAL 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPST001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "cap-700-460",
+   "navn": "CAP 700/460",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk smøremiddel for sylindre og pakkbokser i gasskompressorer, også høytrykksenheter.",
+   "tekst": [
+    "CAP er et syntetisk smøremiddel for sylindre og pakkbokser i gasskompressorer, inkludert reinjeksjons- og andre høytrykksenheter. Det danner en slitesterk oljefilm som motstår skjær, vanndamp og hydrokarbongasser.",
+    "Korrosjonshemmere beskytter mot hydrogensulfid, våt karbondioksid og andre syrer. Fordi filmen holder, kan injeksjonsmengden ofte reduseres."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20CAP%20Compressor%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP001",
+     "navn": "CAP 700/460",
+     "grad": "",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "clean-flush",
+   "navn": "Clean & Flush™",
+   "serie": "rpi",
+   "kategori": "Rengjøring og spyling",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Rense- og spyleolje (delvis syntetisk) som fjerner slam, lakk og avleiringer fra oljesystemer.",
+   "tekst": [
+    "Clean & Flush™ renser utstyr og spyler oljesystemer mens utstyret er i drift. Den kan tilsettes eksisterende olje før tapping, brukes som midlertidig fylling for å fjerne lakk, slam og avleiringer, eller brukes til å spyle ut polyglykololje før bytte til en annen oljetype."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Clean%20%26%20Flush%20Oil%20System%20Cleaner.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCR000",
+     "navn": "CLEAN & FLUSH™ 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCR000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "cmt-transmission-fluid",
+   "navn": "CMT™ Transmission Fluid",
+   "serie": "rpi",
+   "kategori": "Transmisjonsoljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Delvis syntetisk transmisjonsolje for manuelle girkasser og powershift-transmisjoner.",
+   "tekst": [
+    "CMT™ er en delvis syntetisk transmisjonsolje laget av mineralske og syntetiske baseoljer, som oppfyller kravene til mange ledende produsenter.",
+    "Den gir gode friksjonsegenskaper med både metalliske og ikke-metalliske friksjonsmaterialer i powershift-transmisjoner, hindrer bremsestøy og clutchsluring, og flyter godt ved lave temperaturer."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20CMT%20Transmission%20Fluid.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPTR000",
+     "navn": "CMT™ 30",
+     "grad": "SAE 30",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPTR000-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPTR001",
+     "navn": "CMT™ 50",
+     "grad": "SAE 50",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPTR001-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "id": "coupling-grease",
+   "navn": "Coupling Grease",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk litiumkompleksfett for smurte akselkoblinger.",
+   "tekst": [
+    "Coupling Grease er et litiumkompleksfett med høy filmstyrke for smurte akselkoblinger, der høy hastighet og sentrifugalkraft kan føre til oljeutskilling, lekkasje og avkast.",
+    "Fettet har høyviskøse syntetiske baseoljer, klebrige polymerer og Synslide™ EP-additiv, og passer for tann-, grid- og andre smurte koblinger."
+   ],
+   "bilde": "rpi/bilder/coupling-grease.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Coupling%20Grease.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR001",
+     "navn": "COUPLING GREASE",
+     "grad": "",
+     "emballasje": [
+      "Patron"
+     ],
+     "sds": "rpi/sds/RP-RPGR001-NO-EGHS.pdf",
+     "sds_rev": "2025-10-29"
+    }
+   ]
+  },
+  {
+   "id": "crystal-clear",
+   "navn": "Crystal-Clear®",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk",
+    "Matvaregodkjent (NSF H1)"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk hvit kompressorolje for prosessgass, NSF H1-registrert.",
+   "tekst": [
+    "Crystal-Clear® er en ren, ikke-reaktiv syntetisk hvit kompressorolje med god slitasjebeskyttelse over et bredt temperaturområde. Den forgifter ikke katalysatorer nedstrøms for kompressoren og motstår fortynning fra prosessgasser.",
+    "Den oppfyller kravene til hvite mineraloljer, men har lengre levetid. Oljen er NSF H1-registrert og Halal- og Kosher-godkjent."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Crystal-Clear.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP002",
+     "navn": "CRYSTAL-CLEAR® 40X",
+     "grad": "40X",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP002-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "crystal-pure",
+   "navn": "Crystal-Pure®",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk",
+    "Matvaregodkjent (NSF H1)"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk næringsmiddelgodkjent kompressorolje for gasser som karbondioksid, oksygen og nitrogen.",
+   "tekst": [
+    "Crystal-Pure® er ren, inert, askefri og ikke-reaktiv, og passer for produsenter av industrigasser som karbondioksid, oksygen og nitrogen til næringsmiddel-, legemiddel- og helseformål.",
+    "Den brukes i prosessgasskompressorer med høyt og lavt trykk, også sentrifugal-, stempel- og membrankompressorer. Alle variantene er NSF H1-registrert og Halal- og Kosher-godkjent."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Crystal-Pure.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP003",
+     "navn": "CRYSTAL-PURE® 1X",
+     "grad": "1X",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP003-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP004",
+     "navn": "CRYSTAL-PURE® 2X",
+     "grad": "2X",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP004-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP005",
+     "navn": "CRYSTAL-PURE® 40X",
+     "grad": "40X",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP005-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP006",
+     "navn": "CRYSTAL-PURE® 60X",
+     "grad": "60X",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP006-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "exdura-hd-engine-oil",
+   "navn": "Exdura™ HD Engine Oil",
+   "serie": "rpi",
+   "kategori": "Motoroljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Delvis syntetisk motorolje for tunge dieselmotorer, API CK-4.",
+   "tekst": [
+    "Exdura™ HD er en delvis syntetisk motorolje for krevende dieselmotorer på vei, i anlegg og i stasjonær drift. Den finnes i SAE 10W-30 og SAE 15W-40 og er formulert for å møte kravene i API CK-4.",
+    "Et additivsystem med lavt SAPS-innhold og Synerlec®-additivteknologi gir slitasjebeskyttelse, ren motor og lang levetid på oljen."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Exdura%20HD%20Engine%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPEO002",
+     "navn": "EXDURA™ HD ENGINE OIL",
+     "grad": "SAE 10W-30",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPEO002-NO-EGHS.pdf",
+     "sds_rev": "2026-09-11"
+    },
+    {
+     "kode": "RPEO001",
+     "navn": "EXDURA™ HD ENGINE OIL",
+     "grad": "SAE 15W-40",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPEO001-NO-EGHS.pdf",
+     "sds_rev": "2026-09-11"
+    }
+   ]
+  },
+  {
+   "id": "enduro-mp-grease",
+   "navn": "Enduro-MP™ Grease",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [],
+   "gradetikett": "",
+   "kort": "Flerbruks EP-fett (delvis syntetisk) med kalsiumsulfonatkompleks.",
+   "tekst": [
+    "Enduro-MP™ er et flerbruks EP-fett med delvis syntetisk baseolje og kalsiumsulfonatkompleks som fortykningsmiddel. Det gir en sterk smørefilm som beskytter mot friksjon og slitasje, god rust- og korrosjonsbeskyttelse og motstand mot utvasking.",
+    "Fettet er stabilt ved høye driftstemperaturer, og Synslide™-additivet bidrar til jevnere og roligere drift."
+   ],
+   "bilde": "rpi/bilder/enduro-mp-grease.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Enduro-MP%20Grease.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR002",
+     "navn": "Enduro-MP™ Grease",
+     "grad": "",
+     "emballasje": [
+      "Patron",
+      "Spann",
+      "Kagge",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGR002-NO-EGHS.pdf",
+     "sds_rev": "2026-08-27"
+    }
+   ]
+  },
+  {
+   "id": "escalator-chain-lube",
+   "navn": "Escalator Chain Lube",
+   "serie": "rpi",
+   "kategori": "Kjedesmøring",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk kjedeolje for rulletrapper, rullebånd og heisdører.",
+   "tekst": [
+    "Escalator Chain Lube er et syntetisk smøremiddel med høy filmstyrke for kjeder i rulletrapper, rullebånd og heisdører. Det bedrer driftssikkerheten og kan redusere forbruket av smøremiddel med opptil 75 %.",
+    "Det demper støy og forlenger levetiden på kjeder og andre utsatte deler."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Escalator%20Chain%20Lube.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCH000",
+     "navn": "ESCALATOR CHAIN LUBE",
+     "grad": "",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPCH000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "hy-therm-707-heat-transfer-oil",
+   "navn": "Hy-Therm 707 Heat Transfer Oil",
+   "serie": "rpi",
+   "kategori": "Varmeoverføringsoljer",
+   "egenskaper": [
+    "Syntetisk",
+    "Høytemperatur"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk varmeoverføringsolje med høy varmeledningsevne.",
+   "tekst": [
+    "Hy-Therm er en syntetisk varmeoverføringsolje som er mer effektiv og tryggere enn mineraloljebaserte væsker. Varmeledningsevnen er 50–100 % høyere enn for mange vanlige varmeoverføringsvæsker.",
+    "Den kan brukes i åpne systemer opp til ca. 204 °C (400 °F), og i lukkede systemer med inertgass opp til ca. 371 °C (700 °F)."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Hy-Therm%20Heat%20Transfer%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPHT000",
+     "navn": "HY-THERM 707 HEAT TRANSFER OIL",
+     "grad": "",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHT000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "marine-hydraulic-oil",
+   "navn": "Marine Hydraulic Oil",
+   "serie": "rpi",
+   "kategori": "Hydraulikkoljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Askefri, sinkfri hydraulikkolje (delvis syntetisk) for marin og offshore drift.",
+   "tekst": [
+    "Marine Hydraulic Oil er en askefri og sinkfri hydraulikkolje med høy ytelse, for brukere som trenger god beskyttelse av utstyr i sensitive miljøer, som offshoreplattformer og annen marin drift.",
+    "Lang levetid og høy filmstyrke gir økt driftssikkerhet. Oljen har syntetiske baseoljer og Synerlec®-additivteknologi."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Marine%20Hydraulic%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPHY004",
+     "navn": "MARINE HYDRAULIC OIL 15",
+     "grad": "ISO VG 15",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY004-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPHY005",
+     "navn": "MARINE HYDRAULIC OIL 22",
+     "grad": "ISO VG 22",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY005-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY006",
+     "navn": "MARINE HYDRAULIC OIL 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY006-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY007",
+     "navn": "MARINE HYDRAULIC OIL 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY007-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY008",
+     "navn": "MARINE HYDRAULIC OIL 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY008-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "max-chain",
+   "navn": "Max-Chain®",
+   "serie": "rpi",
+   "kategori": "Kjedesmøring",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk EP-kjedesmøring som etterlater en tørr, voksaktig film – også som spray.",
+   "tekst": [
+    "Max-Chain® er et syntetisk EP-smøremiddel for kjeder, åpne girdrift og andre utsatte metallflater med tung belastning, også i støvete, våte eller sure miljøer.",
+    "Det trenger inn i ruller, bolter og hylser. Løsemiddelet fordamper og etterlater en tørr, voksaktig film som ikke trekker til seg støv, og som beskytter mot slitasje, rust og korrosjon."
+   ],
+   "bilde": null,
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Max-Chain%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCH001",
+     "navn": "MAX-CHAIN®",
+     "grad": "Flytende",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPCH001-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPCH001A",
+     "navn": "MAX-CHAIN® AEROSOL",
+     "grad": "Spray",
+     "emballasje": [
+      "Spray"
+     ],
+     "sds": "rpi/sds/RP-RPCH001A-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "id": "maxfilm",
+   "navn": "MaxFilm®",
+   "serie": "rpi",
+   "kategori": "Spray og vedlikehold",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk EP-kryp- og løsneolje og flerbrukssmøremiddel – også som spray.",
+   "tekst": [
+    "MaxFilm® er en syntetisk EP-krypolje og et flerbrukssmøremiddel. Den trenger dypt inn, renser og løsner fastrustede deler.",
+    "Når løsemiddelet har fordampet, blir det igjen en seig smørefilm som beskytter mot slitasje, rust og korrosjon over tid."
+   ],
+   "bilde": null,
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20MaxFilm%20Penetrant%20%26%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPPN000",
+     "navn": "MAXFILM®",
+     "grad": "Flytende",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPPN000-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPPN000A",
+     "navn": "MAXFILM® AEROSOL",
+     "grad": "Spray",
+     "emballasje": [
+      "Spray"
+     ],
+     "sds": "rpi/sds/RP-RPPN000A-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "id": "max-tuff",
+   "navn": "Max-Tuff™",
+   "serie": "rpi",
+   "kategori": "Monteringspasta",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk EP-monteringsmiddel som beskytter ved montering, overhaling og første oppstart.",
+   "tekst": [
+    "Max-Tuff™ er et syntetisk monteringsmiddel som gir beskyttelse med en gang ved montering, overhaling og første oppstart. Filmen fester seg til metallflatene, reduserer metall-mot-metall-kontakt og oppstartsslitasje, og beskytter mot rust og korrosjon.",
+    "Den beskytter til smøremiddelet som brukes i drift, har sirkulert helt."
+   ],
+   "bilde": null,
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Max-Tuff%20Assembly%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPAL000",
+     "navn": "MAX-TUFF™",
+     "grad": "",
+     "emballasje": [
+      "Flaske"
+     ],
+     "sds": "rpi/sds/RP-RPAL000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "ngl-ns",
+   "navn": "NGL-NS™",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk, nesten svovelfri kompressorolje for hydrokarbongass med svovelfølsomme katalysatorer.",
+   "tekst": [
+    "NGL-NS™ er en syntetisk olje for stempelkompressorer for hydrokarbongass, der det er svovelfølsomme katalysatorer nedstrøms for kompressoren.",
+    "Oljen er nesten svovelfri, motstår fortynning fra komprimerte hydrokarbongasser og skiller seg raskt fra vann, som beskytter lagre og andre deler mot rust og korrosjon."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20NGL-NS%20Compressor%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP007",
+     "navn": "NGL-NS™ 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP007-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "paper-mill-grease",
+   "navn": "Paper Mill Grease",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk aluminiumkompleksfett for lagre i papir- og massemaskiner.",
+   "tekst": [
+    "Paper Mill Grease er et syntetisk aluminiumkompleksfett som dekker mange bruksområder i papir- og masseproduksjon med ett produkt.",
+    "Det er særlig egnet for lagre i papirmaskiner fra våtende til tørrende, ved hastigheter fra 1500 til 6500 fot per minutt (fpm)."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Paper%20Mill%20Grease.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR003",
+     "navn": "PAPER MILL GREASE",
+     "grad": "",
+     "emballasje": [
+      "Patron",
+      "Kagge"
+     ],
+     "sds": "rpi/sds/RP-RPGR003-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "id": "poly-guard-fda",
+   "navn": "Poly-Guard® FDA",
+   "serie": "rpi",
+   "kategori": "Industrioljer",
+   "egenskaper": [
+    "Syntetisk",
+    "Matvaregodkjent (NSF H1)"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk næringsmiddelgodkjent olje (NSF H1) for kompressorer, pumper, gir, lagre og hydraulikk.",
+   "tekst": [
+    "Poly-Guard® FDA er et syntetisk, næringsmiddelgodkjent smøremiddel, NSF H1-registrert for tilfeldig kontakt med næringsmidler. Det gir god slitasjebeskyttelse og lang levetid.",
+    "Det anbefales for kompressorer, pumper, girkasser, lagre, hydraulikksystemer og vifter i næringsmiddel- og legemiddelindustrien, og kan bidra til færre oljetyper på lager. Oljen er ufarget og finnes i ISO VG 15 til 680."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Poly-Guard.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPMP000",
+     "navn": "POLY-GUARD® FDA 15",
+     "grad": "ISO VG 15",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP000-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    },
+    {
+     "kode": "RPMP001",
+     "navn": "POLY-GUARD® FDA 22",
+     "grad": "ISO VG 22",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPMP001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP002",
+     "navn": "POLY-GUARD® FDA 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP002-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP003",
+     "navn": "POLY-GUARD® FDA 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP003-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP004",
+     "navn": "POLY-GUARD® FDA 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP004-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP005",
+     "navn": "POLY-GUARD® FDA 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP005-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP006",
+     "navn": "POLY-GUARD® FDA 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP006-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP007",
+     "navn": "POLY-GUARD® FDA 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP007-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP008",
+     "navn": "POLY-GUARD® FDA 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP008-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP009",
+     "navn": "POLY-GUARD® FDA 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP009-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP010",
+     "navn": "POLY-GUARD® FDA 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP010-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "quadrex",
+   "navn": "Quadrex®",
+   "serie": "rpi",
+   "kategori": "Motoroljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Delvis syntetisk SAE 40 motorolje med lavt askeinnhold for firetakts gassmotorer.",
+   "tekst": [
+    "Quadrex® er en delvis syntetisk SAE 40 motorolje med lavt askeinnhold for firetakts naturgassmotorer i krevende stasjonær drift.",
+    "Gassmotoradditiver og Synerlec®-additivteknologi gir sterk film og motstand mot oksidasjon, nitrering, avleiringer og slitasje, som forlenger oljens levetid og holder motoren ren."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Quadrex%204-Cycle%20Natural%20Gas%20Engine%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPEO000",
+     "navn": "QUADREX® 40",
+     "grad": "SAE 40",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPEO000-NO-EGHS.pdf",
+     "sds_rev": "2026-03-23"
+    }
+   ]
+  },
+  {
+   "id": "syndraulic",
+   "navn": "Syndraulic®",
+   "serie": "rpi",
+   "kategori": "Hydraulikkoljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Halvsyntetisk hydraulikkolje med lang levetid og høy filmstyrke.",
+   "tekst": [
+    "Syndraulic® er en ren, energieffektiv halvsyntetisk hydraulikkolje med lang levetid. Den bidrar til mindre lekkasje, gir svært god filmstyrke og slitasjebeskyttelse, og beskytter tetninger, filtre og pumper.",
+    "Oljen har Synerlec®-additivteknologi, som får utstyret til å gå jevnere, kjøligere og mer effektivt."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Syndraulic%20Hydraulic%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPHY009",
+     "navn": "SYNDRAULIC® 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY009-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY010",
+     "navn": "SYNDRAULIC® 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY010-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY011",
+     "navn": "SYNDRAULIC® 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPHY011-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPHY012",
+     "navn": "SYNDRAULIC® 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPHY012-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synergy",
+   "navn": "Synergy®",
+   "serie": "rpi",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk EP-girolje for industrigir under nesten alle forhold.",
+   "tekst": [
+    "Synergy® er Royal Purples mest solgte EP-girolje, laget for å smøre industrigir under nesten alle forhold. Den har lang levetid og får girene til å gå jevnere, roligere og kjøligere.",
+    "Oljen har syntetiske baseoljer og Synslide™-additivteknologi."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synergy.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL007",
+     "navn": "SYNERGY® 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL007-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL008",
+     "navn": "SYNERGY® 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPGL008-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL009",
+     "navn": "SYNERGY® 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPGL009-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL010",
+     "navn": "SYNERGY® 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPGL010-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL011",
+     "navn": "SYNERGY® 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL011-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL012",
+     "navn": "SYNERGY® 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL012-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synergy-worm-gear",
+   "navn": "Synergy® Worm Gear",
+   "serie": "rpi",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk snekkegirolje for krevende drift.",
+   "tekst": [
+    "Synergy® Worm Gear har glatte syntetiske molekyler og spesielle slitasjeadditiver som gir god smøreevne i snekkegir. Et dempende additiv beskytter mot utmattingsbrudd ved plutselige støtbelastninger.",
+    "Oljen er ikke korrosiv for jernholdige og ikke-jernholdige metaller."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synergy%20Worm%20Gear%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL013",
+     "navn": "SYNERGY® Worm Gear 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL013-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL014",
+     "navn": "SYNERGY® Worm Gear 1000",
+     "grad": "ISO VG 1000",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPGL014-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synfilm",
+   "navn": "Synfilm®",
+   "serie": "rpi",
+   "kategori": "Industrioljer",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Delvis syntetisk olje for luftkompressorer, pumper, turbiner, lagre og gir.",
+   "tekst": [
+    "Synfilm® er Royal Purples mest solgte smøremiddel: en delvis syntetisk olje med lang levetid, høy filmstyrke og energieffektiv drift.",
+    "Den anbefales for luftkompressorer, pumper, dampturbiner, lagre, gir, luftverktøy og annet industriutstyr, og erstatter ofte vanlige R&O-oljer. Flere viskositeter finnes også uten farge (No Dye)."
+   ],
+   "bilde": "rpi/bilder/synfilm.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synfilm%20Air%20Compressor%20%26%20Industrial%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPMP012",
+     "navn": "SYNFILM® 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Flaske",
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP012-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP013",
+     "navn": "SYNFILM® 32 NO DYE",
+     "grad": "ISO VG 32 uten farge",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP013-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP014",
+     "navn": "SYNFILM® 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP014-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP015",
+     "navn": "SYNFILM® 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Flaske",
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP015-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP016",
+     "navn": "SYNFILM® 68 NO DYE",
+     "grad": "ISO VG 68 uten farge",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP016-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP017",
+     "navn": "SYNFILM® 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP017-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP018",
+     "navn": "SYNFILM® 100 NO DYE",
+     "grad": "ISO VG 100 uten farge",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPMP018-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP019",
+     "navn": "SYNFILM® 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP019-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP020",
+     "navn": "SYNFILM® 150 NO DYE",
+     "grad": "ISO VG 150 uten farge",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP020-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synfilm-gt",
+   "navn": "Synfilm® GT",
+   "serie": "rpi",
+   "kategori": "Industrioljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk flerbruks industriolje for turbiner, kompressorer, pumper, vifter, lagre og gir.",
+   "tekst": [
+    "Synfilm® GT er en syntetisk flerbruks industriolje med lang levetid, høy filmstyrke og energieffektiv drift.",
+    "I riktig viskositet anbefales den for gass- og dampturbiner, oljetåkesystemer, sentrifugalkompressorer, pumper, vakuumpumper, vifter, lagre, gir og enkelte snekkegir. Flere viskositeter finnes også uten farge (No Dye)."
+   ],
+   "bilde": "rpi/bilder/synfilm-gt.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synfilm%20GT%20MP%20Industrial%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPMP021",
+     "navn": "SYNFILM® GT 22",
+     "grad": "ISO VG 22",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP021-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP022",
+     "navn": "SYNFILM® GT 32",
+     "grad": "ISO VG 32",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP022-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP023",
+     "navn": "SYNFILM® GT 32 NO DYE",
+     "grad": "ISO VG 32 uten farge",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP023-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP024",
+     "navn": "SYNFILM® GT 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP024-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP025",
+     "navn": "SYNFILM® GT 46 NO DYE",
+     "grad": "ISO VG 46 uten farge",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP025-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP026",
+     "navn": "SYNFILM® GT 68",
+     "grad": "ISO VG 68",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP026-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP027",
+     "navn": "SYNFILM® GT 68 NO DYE",
+     "grad": "ISO VG 68 uten farge",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP027-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP028",
+     "navn": "SYNFILM® GT 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP028-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP029",
+     "navn": "SYNFILM® GT 100 NO DYE",
+     "grad": "ISO VG 100 uten farge",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP029-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP030",
+     "navn": "SYNFILM® GT 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP030-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP031",
+     "navn": "SYNFILM® GT 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Kanne",
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP031-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP032",
+     "navn": "SYNFILM® GT 220 NO DYE",
+     "grad": "ISO VG 220 uten farge",
+     "emballasje": [],
+     "sds": "rpi/sds/RP-RPMP032-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP033",
+     "navn": "SYNFILM® GT 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP033-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP034",
+     "navn": "SYNFILM® GT 320 NO DYE",
+     "grad": "ISO VG 320 uten farge",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPMP034-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP035",
+     "navn": "SYNFILM® GT 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP035-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPMP036",
+     "navn": "SYNFILM® GT 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPMP036-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synfilm-gt-wind-gear-320",
+   "navn": "Synfilm® GT Wind Gear 320",
+   "serie": "rpi",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk girolje for girkasser i vindturbiner.",
+   "tekst": [
+    "Synfilm® GT Wind Gear 320 er en syntetisk girolje laget for kravene i moderne girkasser i vindturbiner. Den har vist seg å forlenge oljeskiftintervallene med flere år, gir svært god beskyttelse av lagre og gir, og reduserer tap i girene."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synfilm%20GT%20Wind%20Gear.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL015",
+     "navn": "SYNFILM® GT WIND GEAR 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL015-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synfilm-ngl",
+   "navn": "Synfilm® NGL",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk kompressorolje for hydrokarbongass.",
+   "tekst": [
+    "Synfilm® NGL er en syntetisk kompressorolje med lang levetid og høy filmstyrke for hydrokarbongass. Den motstår fortynning fra gassen og forlenger levetiden på skrue-, sentrifugal-, stempel- og lamellkompressorer.",
+    "Oljen motstår nedbrytning fra syre i urene gasser, skiller seg raskt fra vann og har god termisk stabilitet og oksidasjonsstabilitet."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synfilm%20NGL%20Compressor%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP008",
+     "navn": "SYNFILM® NGL 46",
+     "grad": "ISO VG 46",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP008-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP009",
+     "navn": "SYNFILM® NGL 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP009-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP010",
+     "navn": "SYNFILM® NGL 100 NO DYE",
+     "grad": "ISO VG 100 uten farge",
+     "emballasje": [
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP010-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP011",
+     "navn": "SYNFILM® NGL 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Spann",
+      "Fat",
+      "IBC"
+     ],
+     "sds": "rpi/sds/RP-RPCP011-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP012",
+     "navn": "SYNFILM® NGL 150 NO DYE",
+     "grad": "ISO VG 150 uten farge",
+     "emballasje": [],
+     "sds": "rpi/sds/RP-RPCP012-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP013",
+     "navn": "SYNFILM® NGL 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP013-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "synfilm-recip",
+   "navn": "Synfilm® Recip",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk olje for stempelluftkompressorer.",
+   "tekst": [
+    "Synfilm® Recip er en syntetisk olje som gir langvarig, fuktbestandig beskyttelse av stempelluftkompressorer. Den høye filmstyrken reduserer slitasje mellom sylindervegger og stempelringer.",
+    "Baseoljen holder trykkventilene rene og fri for karbonavleiringer."
+   ],
+   "bilde": "rpi/bilder/synfilm-recip.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Synfilm%20Recip%20Compressor%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCP014",
+     "navn": "SYNFILM® RECIP 100",
+     "grad": "ISO VG 100",
+     "emballasje": [
+      "Flaske",
+      "Kanne",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP014-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPCP015",
+     "navn": "SYNFILM® RECIP 150",
+     "grad": "ISO VG 150",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCP015-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "thermasil-t-100",
+   "navn": "Thermasil T-100",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Seigt, vannbestandig silikagelfett for svært tungt belastede, langsomtgående lagre og glideflater.",
+   "tekst": [
+    "Thermasil T-100 er et viskøst, klebrig og vannbestandig fett for svært tungt belastede, langsomtgående lagre og glideflater som åpne gir, glideskinner og tannkoblinger, i våte, korrosive eller varme miljøer.",
+    "Filmen tåler høy belastning, motstår utvasking og gir god rust- og korrosjonsbeskyttelse."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Thermasil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR004",
+     "navn": "THERMASIL™ T-100",
+     "grad": "",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPGR004-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "id": "thermax-680-grease",
+   "navn": "Thermax™ 680 Grease",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "EP-fett (aluminiumkompleks) med høyviskøs syntetisk baseolje for langsom drift og støtbelastning.",
+   "tekst": [
+    "Thermax™ 680 er et spesialfett med aluminiumkompleks og svært høyviskøse syntetiske baseoljer, for utstyr som trenger høy filmstyrke ved lav hastighet, tung belastning og støtbelastning.",
+    "Synslide™ EP-additiv øker filmstyrken og bæreevnen ved grensesmøring."
+   ],
+   "bilde": "rpi/bilder/thermax-680-grease.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Thermax.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR005",
+     "navn": "THERMAX™ 680",
+     "grad": "",
+     "emballasje": [
+      "Patron",
+      "Kagge"
+     ],
+     "sds": "rpi/sds/RP-RPGR005-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "id": "thermyl-glyde",
+   "navn": "Thermyl-Glyde®",
+   "serie": "rpi",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk girolje for tung last, støtbelastning, lav hastighet og høy temperatur.",
+   "tekst": [
+    "Thermyl-Glyde® har de samme fordelene som Synergy®, men anbefales der girene utsettes for tunge laster, støtbelastninger, lav hastighet eller høye driftstemperaturer.",
+    "Den har lang levetid og får girene til å gå jevnere, roligere og kjøligere. Oljen har syntetiske baseoljer og Synslide™-additivteknologi."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Thermyl-Glyde.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL016",
+     "navn": "THERMYL-GLYDE® 220",
+     "grad": "ISO VG 220",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL016-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL017",
+     "navn": "THERMYL-GLYDE® 320",
+     "grad": "ISO VG 320",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL017-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL018",
+     "navn": "THERMYL-GLYDE® 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL018-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL019",
+     "navn": "THERMYL-GLYDE® 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL019-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL020",
+     "navn": "THERMYL-GLYDE® 1000",
+     "grad": "ISO VG 1000",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL020-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL021",
+     "navn": "THERMYL-GLYDE® 1500",
+     "grad": "ISO VG 1500",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL021-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "thermyl-glyde-worm-gear",
+   "navn": "Thermyl-Glyde® Worm Gear",
+   "serie": "rpi",
+   "kategori": "Giroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Viskositet",
+   "kort": "Syntetisk snekkegirolje for svært krevende drift.",
+   "tekst": [
+    "Thermyl-Glyde® Worm Gear har glatte syntetiske molekyler og spesielle slitasjeadditiver som gir god smøreevne i snekkegir, og et dempende additiv som beskytter mot utmattingsbrudd ved plutselige støtbelastninger.",
+    "Oljen er ikke korrosiv for jernholdige og ikke-jernholdige metaller."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Thermyl-Glyde%20Worm%20Gear%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL022",
+     "navn": "THERMYL-GLYDE® WORM GEAR 460",
+     "grad": "ISO VG 460",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL022-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL023",
+     "navn": "THERMYL-GLYDE® WORM GEAR 680",
+     "grad": "ISO VG 680",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL023-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "thermyl-tuff",
+   "navn": "Thermyl-Tuff®",
+   "serie": "rpi",
+   "kategori": "Spesialsmøremidler",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Seigt, halvflytende syntetisk EP-smøremiddel for svært tungt belastede glideflater og åpne gir.",
+   "tekst": [
+    "Thermyl-Tuff® er et viskøst, klebrig, halvflytende smøremiddel for svært tungt belastede glideflater som åpne gir, glideskinner, foringer, koblinger, lagre og wire.",
+    "Det vaskes ikke av med vann, og syntetiske korrosjonshemmere gir svært god beskyttelse i våte og korrosive miljøer."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Thermyl-Tuff.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGL024",
+     "navn": "THERMYL-TUFF® 100",
+     "grad": "100",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL024-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL025",
+     "navn": "THERMYL-TUFF® 200",
+     "grad": "200",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL025-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    },
+    {
+     "kode": "RPGL026",
+     "navn": "THERMYL-TUFF® 300",
+     "grad": "300",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGL026-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "tuff-coat-m",
+   "navn": "Tuff Coat™ M",
+   "serie": "rpi",
+   "kategori": "Wiresmøring",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "",
+   "kort": "Syntetisk smøremiddel for wire, armerte kabler og ROV-umbilicals i marin drift.",
+   "tekst": [
+    "Tuff Coat™ M forlenger levetiden på wire, armerte kabler og ROV-umbilicals under de varierende temperaturene og krevende forholdene som er vanlige i marin drift.",
+    "Det har korrosjonshemmere og svært god inntrengningsevne, og trenger inn mellom kordelene i stedet for bare å beskytte overflaten."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Tuff%20Coat%20M%20Wire%20Rope%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPWR000",
+     "navn": "TUFF COAT™ M",
+     "grad": "",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPWR000-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "id": "ultra-performance-grease",
+   "navn": "Ultra-Performance™ Grease",
+   "serie": "rpi",
+   "kategori": "Fett",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "NLGI-klasse",
+   "kort": "Syntetisk flerbruksfett (aluminiumkompleks) for lagre, gir og glideflater.",
+   "tekst": [
+    "Ultra-Performance™ Grease (UPG) dekker mange behov og anbefales for lagre, gir, glideflater og generell bruk.",
+    "Det er et syntetisk flerbruksfett med aluminiumkompleks og Synslide™-additivteknologi, med god filmstyrke og slitasjebeskyttelse. Fettet er forenlig med og ikke korrosivt mot jern og gul metall."
+   ],
+   "bilde": "rpi/bilder/ultra-performance-grease.webp",
+   "bilde_generisk": false,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Ultra-Performance%20Grease.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPGR006",
+     "navn": "ULTRA-PERFORMANCE™ GREASE 1",
+     "grad": "NLGI 1",
+     "emballasje": [
+      "Patron",
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPGR006-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    },
+    {
+     "kode": "RPGR007",
+     "navn": "ULTRA-PERFORMANCE™ GREASE 2",
+     "grad": "NLGI 2",
+     "emballasje": [
+      "Patron",
+      "Spann",
+      "Kagge",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPGR007-NO-EGHS.pdf",
+     "sds_rev": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "id": "uni-temp",
+   "navn": "Uni-Temp™",
+   "serie": "rpi",
+   "kategori": "Kompressoroljer",
+   "egenskaper": [
+    "Syntetisk"
+   ],
+   "gradetikett": "Variant",
+   "kort": "Syntetisk kjøleolje for skrue- og stempelkompressorer i kjøleanlegg.",
+   "tekst": [
+    "Uni-Temp™ er en energieffektiv syntetisk kjøleolje med lang levetid for skrue- og stempelkompressorer i kjøleanlegg.",
+    "Synerlec®-additivteknologi og god oksidasjonsstabilitet holder kompressorene rene og gir mye lengre intervaller mellom oljeskift."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Uni-Temp%20Refrigeration%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPRF000",
+     "navn": "UNI-TEMP™ 300",
+     "grad": "300",
+     "emballasje": [
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPRF000-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  },
+  {
+   "id": "vp-preservative-oil",
+   "navn": "VP Preservative Oil",
+   "serie": "rpi",
+   "kategori": "Korrosjonsbeskyttelse",
+   "egenskaper": [],
+   "gradetikett": "Viskositet",
+   "kort": "Konserveringsolje med damphemmer som beskytter mot rust i lukkede systemer.",
+   "tekst": [
+    "VP Preservative Oil gir langvarig beskyttelse mot rust og korrosjon. De aktive stoffene fyller lukkede rom med beskyttende damp, som danner et tynt lag på alle metallflater – også flater der en oljefilm ikke blir liggende.",
+    "Den brukes i lukkede systemer."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20VP%20Preservative%20Oil.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPCI000",
+     "navn": "VP PRESERVATIVE OIL 10",
+     "grad": "ISO VG 10",
+     "emballasje": [
+      "Spann",
+      "Fat"
+     ],
+     "sds": "rpi/sds/RP-RPCI000-NO-EGHS.pdf",
+     "sds_rev": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "id": "wire-rope-lubricant",
+   "navn": "Wire Rope Lubricant",
+   "serie": "rpi",
+   "kategori": "Wiresmøring",
+   "egenskaper": [],
+   "gradetikett": "",
+   "kort": "Smøremiddel for wire og kabler i gruvedrift, marin drift og anlegg.",
+   "tekst": [
+    "Wire Rope Lubricant har syntetiske smøremidler, inntrengningsmidler og additiver som forlenger levetiden på wire over et bredt temperaturområde og under forholdene i gruvedrift, marin drift og anlegg.",
+    "Det har god korrosjonsbeskyttelse, trenger godt inn og danner en film som blir sittende."
+   ],
+   "bilde": "rpi/bilder/royal-purple-fat.webp",
+   "bilde_generisk": true,
+   "pds": [
+    [
+     "Produktdatablad",
+     "EN",
+     "https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Product%20Data%20Sheets%20%28PDS%29/RPI%20PDS%20Wire%20Rope%20Lubricant.pdf"
+    ]
+   ],
+   "kilde": "https://www.royalpurpleind.com/pds/",
+   "varianter": [
+    {
+     "kode": "RPWR001",
+     "navn": "WIRE ROPE LUBRICANT",
+     "grad": "",
+     "emballasje": [
+      "Spann"
+     ],
+     "sds": "rpi/sds/RP-RPWR001-NO-EGHS.pdf",
+     "sds_rev": "2025-09-18"
+    }
+   ]
+  }
+ ]
+}

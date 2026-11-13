@@ -134,7 +134,11 @@ async function pool(items, n, fn) {
   let per = null, perErr = '';
   try { per = await require('./perma.js').run(root); } catch (e) { perErr = e.message; }
   const perFiler = per ? per.filer : (fs.existsSync(path.join(root, 'perma/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'perma/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
-  fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler, perFiler).sort() }));
+  // Royal Purple Industrial og BioMax (verktoy/rpi.js) – norske SDS under rpi/sds/
+  let rpi = null, rpiErr = '';
+  try { rpi = await require('./rpi.js').run(root); } catch (e) { rpiErr = e.message; }
+  const rpiFiler = rpi ? rpi.filer : (fs.existsSync(path.join(root, 'rpi/datablad.json')) ? JSON.parse(fs.readFileSync(path.join(root, 'rpi/datablad.json'), 'utf8')).filer.map(x => x.fil) : []);
+  fs.writeFileSync(path.join(root, 'datablad-indeks.json'), JSON.stringify({ oppdatert: today, filer: list.map(x => x.fil).concat(vikFiler, perFiler, rpiFiler).sort() }));
 
   // Chesterton-sertifikater – før oversikten, så /datablad får månedens sertifikater
   let cert = null, certErr = '';
@@ -157,7 +161,7 @@ async function pool(items, n, fn) {
 
 
   const sec = (t, a) => a.length ? '\n## ' + t + ' (' + a.length + ')\n' + a.map(x => '- ' + x).join('\n') + '\n' : '';
-  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (utv ? utv.feil.length + utv.meldinger.length : 1) + (per ? per.borte.length + per.feil.length : 1) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length + (lnk.tilSkjult || []).length + (lnk.katalog || []).length : 1);
+  const problemer = rep.feil.length + rep.borte.length + (cert ? cert.feil.length : 1) + (vik ? vik.feil.length + vik.borte.length + vik.fjernetProdukter.length : 1) + (ovr ? 0 : 1) + (lit ? 0 : 1) + (utv ? utv.feil.length + utv.meldinger.length : 1) + (per ? per.borte.length + per.feil.length : 1) + require('./rpi.js').problemer(rpi) + (lnk ? lnk.borte.length + lnk.mangler.length + lnk.sideFeil.length + (lnk.tilSkjult || []).length + (lnk.katalog || []).length : 1);
   const md = '# Datablad-synk ' + today + '\n\n' +
     'STATUS: ' + (problemer ? 'MÅ SJEKKES – ' + problemer + ' problem(er), se under' : 'OK') + '\n\n' +
     'Kontrollert: ' + want.length + ' datablad. Uendret: ' + rep.uendret + '. Nye: ' + rep.nye.length + '. Endret: ' + rep.endret.length +
@@ -172,6 +176,7 @@ async function pool(items, n, fn) {
       : 'Kunne ikke oppdateres denne gangen: ' + certErr + ' (sertifikater.json er uendret).\n') +
     require('./vickers.js').rapport(vik, vikErr) +
     require('./perma.js').rapport(per, perErr) +
+    require('./rpi.js').rapport(rpi, rpiErr) +
     '\n## Chesterton-litteratur\n' + (lit ? 'Dokumenter hos Chesterton: ' + lit.funnet + '. Koblet til våre produkter: ' + lit.koblet + '. Generelle: ' + lit.generelt + '.\n' : 'Kunne ikke oppdateres denne gangen: ' + litErr + ' (litteratur.json er uendret).\n') +
     require('./utvalg.js').rapport(utv, utvErr) +
     '\n## Datablad-oversikt (/datablad)\n' + (ovr ? 'Produkter: ' + ovr.rader + '. SDS: ' + ovr.sds + '. PDS: ' + ovr.pds + '. Sertifikater og bruksanvisninger: ' + ovr.dok + '. Ressurser (/ressurser): ' + ovr.ressurser + '.\n' : 'Kunne ikke bygges: ' + ovrErr + ' (forrige datablad-oversikt.json er beholdt).\n') +
