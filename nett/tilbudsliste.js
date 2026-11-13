@@ -122,7 +122,21 @@
     'textarea.ftq-filled{background:#f7f9fc!important}',
     '.ftq-toast span{min-width:0;flex:1}',
     '@media (max-width:600px){.ftq-fab span{display:none}.ftq-fab{padding:13px}.ftq-toast{left:16px;right:16px;max-width:none;transform:translateY(20px)}.ftq-toast.on{transform:none}}',
-    '@media print{.ftq-fab,.ftq-panel,.ftq-bg,.ftq-toast{display:none!important}}'
+    '.ftq-tools{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}',
+    '.ftq-tool{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid #d6dbe2;border-radius:8px;padding:9px 14px;font:inherit;font-size:14.5px;font-weight:600;color:' + NAVY + ';cursor:pointer}.ftq-tool:hover{border-color:' + NAVY + ';background:#f3f6fb}',
+    '.ftq-tool svg{width:17px;height:17px;flex:none}',
+    '.ftq-page .ftq-sum .ftq-tools{justify-content:flex-start}',
+    '.ftq-imp{position:fixed;left:50%;top:max(90px,calc(env(safe-area-inset-top,0px) + 90px));transform:translateX(-50%);z-index:9994;background:#fff;border:1px solid #d6dbe2;border-radius:12px;box-shadow:0 18px 50px -12px rgba(5,43,105,.35);padding:18px 20px;width:min(460px,calc(100% - 32px));font-family:inherit;color:#111a28}',
+    '.ftq-imp p{margin:0 0 6px;line-height:1.45}.ftq-imp small{display:block;color:#5a6680;font-size:13.5px;margin-bottom:14px}',
+    '.ftq-imp div{display:flex;gap:10px;flex-wrap:wrap}.ftq-imp .ftq-go{display:inline-block;padding:11px 18px;font-size:15px;border:0;cursor:pointer;font-family:inherit}',
+    '.ftq-imp .ftq-no{background:none;border:1px solid #d6dbe2;border-radius:6px;padding:11px 16px;font:inherit;font-size:15px;cursor:pointer;color:#3a4558}',
+    '.ftq-print{display:none}',
+    '@media print{html.ftq-printing body>*:not(.ftq-print){display:none!important}html.ftq-printing .ftq-print{display:block!important}html.ftq-printing,html.ftq-printing body{background:#fff!important}}',
+    '.ftq-print{font-family:Barlow,Arial,sans-serif;color:#111;font-size:11pt;padding:0 4mm}.ftq-print h1{font-size:20pt;color:' + NAVY + ';margin:0 0 2mm}.ftq-print .top{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2px solid ' + NAVY + ';padding-bottom:3mm;margin-bottom:5mm}',
+    '.ftq-print .firma{font-weight:700;color:' + NAVY + ';font-size:13pt}.ftq-print .k{text-align:right;font-size:9.5pt;color:#444;line-height:1.5}',
+    '.ftq-print table{width:100%;border-collapse:collapse}.ftq-print th{text-align:left;font-size:9pt;text-transform:uppercase;letter-spacing:.04em;color:#555;border-bottom:1px solid #999;padding:2mm 2mm}.ftq-print td{border-bottom:1px solid #ddd;padding:2.5mm 2mm;vertical-align:top}.ftq-print td.a{text-align:right;white-space:nowrap;font-weight:700}',
+    '.ftq-print .fot{margin-top:6mm;font-size:9pt;color:#555;line-height:1.5;word-break:break-all}',
+    '@media print{.ftq-fab,.ftq-panel,.ftq-bg,.ftq-toast,.ftq-imp{display:none!important}}'
   ].join('\n');
   function injectCss() { if (document.getElementById('ftq-css')) return; var s = document.createElement('style'); s.id = 'ftq-css'; s.textContent = css; document.head.appendChild(s); }
 
@@ -130,6 +144,80 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   var ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5h11M9 12h11M9 19h11"/><path d="M4 5h.01M4 12h.01M4 19h.01" stroke-width="3"/></svg>';
   var CLOSE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+  var ICO_DEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg>';
+  var ICO_PRINT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>';
+  function toolsHtml() { return '<div class="ftq-tools"><button type="button" class="ftq-tool" data-ftq="del">' + ICO_DEL + 'Del lista</button><button type="button" class="ftq-tool" data-ftq="skriv">' + ICO_PRINT + 'Skriv ut / PDF</button></div>'; }
+
+  /* ---------- del lista som lenke: /tilbud#liste=… (lista ligger i lenken, ingenting lagres hos oss) ---------- */
+  var FELT = ['lev', 'navn', 'nr', 'variant', 'emb', 'fett', 'varenr', 'antall', 'url'];
+  function kod(a) {
+    var rows = a.map(function (x) { var r = FELT.map(function (f) { return f === 'antall' ? (x.antall || 1) : (x[f] || ''); }); while (r.length && r[r.length - 1] === '') r.pop(); return r; });
+    var b = btoa(unescape(encodeURIComponent(JSON.stringify(rows))));
+    return b.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+  function dekod(c) {
+    try {
+      var b = c.replace(/-/g, '+').replace(/_/g, '/'); while (b.length % 4) b += '=';
+      var rows = JSON.parse(decodeURIComponent(escape(atob(b))));
+      if (!Array.isArray(rows)) return [];
+      return rows.slice(0, 200).map(function (r) { var x = {}; FELT.forEach(function (f, i) { x[f] = r[i]; }); return x; }).filter(function (x) { return x.navn || x.nr; });
+    } catch (e) { return []; }
+  }
+  function delLenke() { return location.origin + SIDE + '#liste=' + kod(load()); }
+  function msg(t) {
+    if (!toastEl) { toastEl = document.createElement('div'); toastEl.className = 'ftq-toast'; toastEl.setAttribute('role', 'status'); document.body.appendChild(toastEl); }
+    toastEl.innerHTML = '<span>' + t + '</span>'; toastEl.classList.add('on');
+    clearTimeout(tt); tt = setTimeout(function () { toastEl.classList.remove('on'); }, 4000);
+  }
+  function del() {
+    var a = load(); if (!a.length) return;
+    var url = delLenke(), tittel = 'Tilbudsliste fra Fuglesangs Tech (' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ')';
+    if (navigator.share && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) { navigator.share({ title: tittel, text: tittel, url: url }).catch(function () {}); return; }
+    function vis() { window.prompt('Kopier lenken til tilbudslisten:', url); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(function () { msg('Lenken til lista er kopiert. Lim den inn i e-post eller Teams.'); }, vis);
+    else vis();
+  }
+  function importer() {
+    var m = /[#&]liste=([A-Za-z0-9_-]+)/.exec(location.hash); if (!m) return;
+    try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+    var nye = dekod(m[1]); if (!nye.length) return;
+    var box = document.createElement('div'); box.className = 'ftq-imp'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-label', 'Delt tilbudsliste');
+    box.innerHTML = '<p><b>Du har åpnet en delt tilbudsliste med ' + nye.length + (nye.length === 1 ? ' produkt' : ' produkter') + '.</b></p>' +
+      '<small>' + nye.slice(0, 4).map(function (x) { return esc((x.antall || 1) + ' × ' + (x.navn || x.nr)); }).join('<br>') + (nye.length > 4 ? '<br>… og ' + (nye.length - 4) + ' til' : '') + '</small>' +
+      '<div><button type="button" class="ftq-go" data-v="ja">' + (count() ? 'Legg til i min liste' : 'Bruk lista') + '</button><button type="button" class="ftq-no" data-v="nei">Avbryt</button></div>';
+    document.body.appendChild(box);
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      if (b.getAttribute('data-v') === 'ja') { save(merge(load().concat(nye.map(function (x) { return { lev: clean(x.lev), navn: clean(x.navn), nr: clean(x.nr), variant: clean(x.variant), emb: clean(x.emb), fett: clean(x.fett), varenr: clean(x.varenr), antall: Math.max(1, Math.min(9999, parseInt(x.antall, 10) || 1)), url: clean(x.url) }; })))); msg('Lista er lagt inn.'); }
+      box.remove();
+    });
+  }
+
+  /* ---------- skriv ut / lagre som PDF ---------- */
+  function skrivUt() {
+    var a = load(); if (!a.length) return;
+    var d = new Date(), dato = d.getDate() + '.' + (d.getMonth() + 1) + '.' + d.getFullYear();
+    var el = document.querySelector('.ftq-print'); if (!el) { el = document.createElement('div'); el.className = 'ftq-print'; document.body.appendChild(el); }
+    el.innerHTML = '<div class="top"><div><div class="firma">Fuglesangs Tech</div><h1>Tilbudsliste</h1><div>' + dato + ' · ' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + '</div></div>' +
+      '<div class="k">Caspar Storms vei 21, 0664 Oslo<br>22 54 20 00 · post@fuglesangstech.no<br>www.fuglesangstech.no</div></div>' +
+      '<table><thead><tr><th>#</th><th>Produkt</th><th>Produktnr.</th><th>Emballasje / variant</th><th style="text-align:right">Antall</th></tr></thead><tbody>' +
+      a.map(function (x, i) {
+        var ev = [x.variant, x.emb, x.fett ? 'Fylles med ' + x.fett : ''].filter(Boolean).join(' · ') || '–';
+        var nr = [x.nr, x.varenr && x.varenr !== x.nr ? x.varenr : ''].filter(Boolean).join(' / ') || '–';
+        return '<tr><td>' + (i + 1) + '</td><td><b>' + esc(x.navn || x.nr) + '</b>' + (x.lev ? '<br><span style="color:#555">' + esc(x.lev) + '</span>' : '') + '</td><td>' + esc(nr) + '</td><td>' + esc(ev) + '</td><td class="a">' + (x.antall || 1) + ' stk.</td></tr>';
+      }).join('') + '</tbody></table>' +
+      '<div class="fot">Send lista til oss fra www.fuglesangstech.no/tilbud, eller ring 22 54 20 00, så svarer vi med pris og levering.</div>';
+    var h = document.documentElement; h.classList.add('ftq-printing');
+    var ferdig = function () { h.classList.remove('ftq-printing'); window.removeEventListener('afterprint', ferdig); };
+    window.addEventListener('afterprint', ferdig);
+    close();
+    setTimeout(function () { window.print(); setTimeout(ferdig, 1000); }, 300);
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-ftq]'); if (!b) return;
+    if (b.getAttribute('data-ftq') === 'del') del(); else skrivUt();
+  });
+
   function onTilbudSide() { return location.pathname.replace(/\/+$/, '') === SIDE; }
   function meta(x) {
     var d = [];
@@ -175,7 +263,7 @@
     panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'true'); panel.setAttribute('aria-labelledby', 'ftq-t');
     panel.innerHTML = '<div class="ftq-head"><h2 id="ftq-t">Tilbudsliste</h2><button type="button" class="ftq-x" aria-label="Lukk">' + CLOSE + '</button></div>' +
       '<div class="ftq-body"></div><div class="ftq-foot"><a class="ftq-go" href="' + SIDE + '">Be om tilbud</a>' +
-      '<p>Du fyller inn kontaktopplysninger på neste side.</p><button type="button" class="ftq-clear">Tøm lista</button></div>';
+      '<p>Du fyller inn kontaktopplysninger på neste side.</p>' + toolsHtml() + '<button type="button" class="ftq-clear">Tøm lista</button></div>';
     panel.querySelector('.ftq-x').onclick = close;
     panel.querySelector('.ftq-clear').onclick = function () { clear(); };
     wireList(panel.querySelector('.ftq-body'));
@@ -281,7 +369,7 @@
     box.classList.add('ftq-page');
     var a = load();
     box.innerHTML = a.length
-      ? listHtml(a) + '<div class="ftq-sum"><span>' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ' i lista. Lista sendes med forespørselen.</span><button type="button" class="ftq-clear">Tøm lista</button></div>'
+      ? listHtml(a) + '<div class="ftq-sum"><span>' + a.length + (a.length === 1 ? ' produkt' : ' produkter') + ' i lista. Lista sendes med forespørselen.</span>' + toolsHtml() + '<button type="button" class="ftq-clear">Tøm lista</button></div>'
       : '<div class="ftq-emptybox"><p class="ftq-empty">Tilbudslisten er tom. Finn produktene i produktkatalogen og trykk «Legg i tilbudslisten», eller beskriv hva du trenger i skjemaet under.</p><a class="ftq-go ftq-inline" href="/produkter">Gå til produktkatalogen</a></div>';
     var c = box.querySelector('.ftq-clear'); if (c) c.onclick = function () { clear(); };
   }
@@ -611,10 +699,10 @@
     add(it);
   });
 
-  window.FTTilbud = { versjon: FORM_VERSION, skjema: function () { var m = sqMap(); return { funnet: !!m, ok: !!(m && m.ok), felt: m ? Object.keys(m).filter(function (k) { return m[k] && k !== 'block' && k !== 'form' && k !== 'ok'; }) : [] }; }, add: add, remove: remove, setAntall: setQty, items: items, count: count, clear: clear, open: open, close: close, text: text, side: SIDE };
+  window.FTTilbud = { versjon: FORM_VERSION, skjema: function () { var m = sqMap(); return { funnet: !!m, ok: !!(m && m.ok), felt: m ? Object.keys(m).filter(function (k) { return m[k] && k !== 'block' && k !== 'form' && k !== 'ok'; }) : [] }; }, add: add, remove: remove, setAntall: setQty, items: items, count: count, clear: clear, open: open, close: close, text: text, side: SIDE, del: del, skrivUt: skrivUt, lenke: delLenke };
 
   function start() {
-    injectCss(); buildUi(); renderFab(); initPage();
+    injectCss(); buildUi(); renderFab(); initPage(); importer();
     try { window.dispatchEvent(new CustomEvent('fttilbud:klar')); } catch (e) {}
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
