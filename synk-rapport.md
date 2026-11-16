@@ -1,22 +1,16 @@
-# Datablad-synk 2026-11-13
+# Datablad-synk 2026-11-16
 
-(Kjørt med ny katalogkode for /chesterton-katalog og /le-katalog før den ble limt inn: 4031 lagt til, 273 fjernet.)
+(Kjørt med ny katalogkode for /chesterton-katalog før den ble limt inn: 273 tilbake, merket som utgått.)
 
 STATUS: OK
 
-Kontrollert: 600 datablad. Uendret: 599. Nye: 1. Endret: 0. Borte hos leverandør: 0. Feil: 0.
+Kontrollert: 603 datablad. Uendret: 603. Nye: 0. Endret: 0. Borte hos leverandør: 0. Feil: 0.
 
-## Nye (1)
-- le/datablad/sds/LE-4031-NO-EGHS.pdf
-
-## Ikke lenger brukt i katalogen (beholdt) (4)
-- chesterton/datablad/Lubricants/tdcl273_EN.pdf
-- chesterton/datablad/Lubricants/ts273A_NO.pdf
-- chesterton/datablad/Lubricants/ts273B_NO.pdf
+## Ikke lenger brukt i katalogen (beholdt) (1)
 - le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf
 
 ## Chesterton-sertifikater
-Dokumenter hos Chesterton: 223. Koblet til 67 produkter (97 filer). Nye: 0. Endret: 0. Feil: 0.
+Dokumenter hos Chesterton: 223. Koblet til 68 produkter (99 filer). Nye: 0. Endret: 0. Feil: 0.
 Sertifikater Chesterton har fjernet, vises ikke lenger på produktsidene.
 
 ## Vickers Oils
@@ -38,8 +32,8 @@ Dokumenter hos Chesterton: 1346. Koblet til våre produkter: 152. Generelle: 9.
 Dokumenter: 126 (Perma 51, Vickers 21, LE 32, Royal Purple/BioMax 20, artikler 2).
 
 ## Datablad-oversikt (/datablad)
-Produkter: 525. SDS: 707. PDS: 540. Sertifikater og bruksanvisninger: 308. Ressurser (/ressurser): 218.
+Produkter: 526. SDS: 709. PDS: 541. Sertifikater og bruksanvisninger: 310. Ressurser (/ressurser): 218.
 
 ## Lenkesjekk av fuglesangstech.no
-Sider: 36. Lenker og bilder sjekket: 458. Filer i GitHub sjekket: 1317. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0. Alt OK.
+Sider: 36. Lenker og bilder sjekket: 458. Filer i GitHub sjekket: 1322. Døde lenker: 0. Manglende filer i GitHub: 0. Sider som ikke svarer: 0.
 

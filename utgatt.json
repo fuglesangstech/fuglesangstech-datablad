@@ -1,0 +1,19 @@
+{
+ "oppdatert": "2026-11-16",
+ "om": "Produkter som utgår hos leverandøren. De blir stående i /produkter og /datablad, merket «Utgår», med anbefalte alternativer. lev = leverandørnøkkel i /produkter (ch, le, utb, vik, perma, rpi, biomax), kode = produktnummer, alternativer = produktnumre hos samme leverandør.",
+ "produkter": [
+  {
+   "lev": "ch",
+   "kode": "273",
+   "navn": "273 Electric Motor Cleaner",
+   "dato": "2026-11-13",
+   "tekst": "Chesterton faser ut 273 Electric Motor Cleaner på grunn av lav etterspørsel. Sprayen ble faset ut i september 2026, og bulk-varianten utgår når lageret er tomt.",
+   "merknad": "Alternativene er for motorer som ikke er spenningssatt.",
+   "alternativer": [
+    { "kode": "276", "hvorfor": "Rengjøring av elektroniske komponenter" },
+    { "kode": "277", "hvorfor": "Avfetting av metalloverflater" },
+    { "kode": "274", "hvorfor": "Industriell avfetting" }
+   ]
+  }
+ ]
+}

@@ -109,6 +109,11 @@ function build(root, CD, LD) {
     rows.push({ lev, nr: '', navn: p.navn, sds, pds, vnr: p.varianter.map(v => v.kode), lenke: S + '/produkter#' + (p.serie === 'biomax' ? (/^biomax-/.test(p.id) ? '' : 'biomax-') : 'rpi-') + p.id });
   });
 
+  // Produkter som utgår (utgatt.json): blir stående, merket «Utgår» på /datablad
+  const utg = read(root, 'utgatt.json');
+  const LEVN = { ch: 'Chesterton', le: 'Lubrication Engineers', utb: 'UTB', vik: 'Vickers Oils', perma: 'Perma-Tec', rpi: 'Royal Purple Industrial', biomax: 'BioMax' };
+  (utg ? utg.produkter : []).forEach(u => rows.forEach(r => { if (r.lev === LEVN[u.lev] && (r.nr === u.kode || (r.vnr || []).indexOf(u.kode) > -1)) r.utgatt = true; }));
+
   rows.forEach(r => { if (!r.dok) r.dok = []; });
 
   // Utvalgte dokumenter (dokumenter.json): ved produktene «produkter» peker på, ellers som egen rad
