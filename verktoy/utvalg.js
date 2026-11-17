@@ -206,8 +206,16 @@ async function rpi(add, kandidat) {
     if (!r) kandidat(RPI, u, 'ny fagartikkel hos Royal Purple – tatt med som «' + tittel + '», gi den gjerne et norsk navn i RPD i verktoy/utvalg.js');
     add(r ? r[1] : RPI, r ? r[2] : tittel, u, 'teknisk', r && r[4]); n++;
   }
-  for (const r of RPD) if (r[1] && !/^[a-z0-9-]+$/.test(r[0]) && ![...pdf].some(u => decodeURIComponent(fil(u)) === r[0] + '.pdf'))
-    kandidat(RPI, RB, 'fant ikke lenger «' + r[2] + '» (' + r[0] + '.pdf) – sjekk om den er fjernet eller har fått nytt navn');
+  // Dokumenter som ikke lenger står i listene (Royal Purple har f.eks. tatt BioMax-dokumentene ut av ressurssidene),
+  // men som fortsatt finnes på samme adresse, beholdes. Bare de som faktisk er borte meldes.
+  const mappe = r => r[3] === 'sertifikat' ? 'Certifications' : /^RPI TT /.test(r[0]) ? 'Literature/Techni-Tips' : 'Literature/Brochures';
+  for (const r of RPD) if (r[1] && !/^[a-z0-9-]+$/.test(r[0]) && ![...pdf].some(u => decodeURIComponent(fil(u)) === r[0] + '.pdf')) {
+    const u = 'https://www.royalpurpleind.com/wp-content/uploads/pdf/' + mappe(r) + '/' + encodeURIComponent(r[0] + '.pdf').replace(/%26/g, '&') ;
+    let ok = false;
+    try { const h = await fetch(u, { method: 'HEAD', headers: { 'User-Agent': 'Mozilla/5.0 (Fuglesangs Tech dokumentutvalg)' } }); ok = h.ok && /pdf/i.test(h.headers.get('content-type') || ''); } catch (e) {}
+    if (ok) { add(r[1], r[2], u, r[3], r[4]); n++; }
+    else kandidat(RPI, RB, 'fant ikke lenger «' + r[2] + '» (' + r[0] + '.pdf) – sjekk om den er fjernet eller har fått nytt navn');
+  }
   if (n < 12) throw new Error('fant bare ' + n + ' Royal Purple-dokumenter – ressurssidene kan være endret');
   return n;
 }

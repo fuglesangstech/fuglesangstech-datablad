@@ -153,6 +153,26 @@ function build(root, CD, LD) {
     r.dok = r.dok.filter(d => { if (RESSURS.has(d[3])) { tilRessurs(r.lev, d, navn); return false; } return true; });
     if (r.sds.length || r.pds.length || r.dok.length) produktRader.push(r);
   });
+  // Nylig oppdaterte datablad (siste 90 dager): byttet ut hos leverandøren (endret), eller nye kopier som kom til
+  // etter første innhenting for leverandøren (ny). Vises som «Ny versjon» / «Nytt» på /datablad og /produkter.
+  const DAGER = 90, dag = (d, n) => new Date(new Date(d + 'T12:00:00Z').getTime() + n * 864e5).toISOString().slice(0, 10);
+  const grense = dag(new Date().toISOString().slice(0, 10), -DAGER), nylig = {};
+  [['datablad.json', 'datablad'], ['vickers/datablad.json', 'filer'], ['perma/datablad.json', 'filer'], ['rpi/datablad.json', 'filer']].forEach(([f, k]) => {
+    const m = read(root, f); if (!m || !Array.isArray(m[k])) return;
+    const forste = m[k].reduce((a, x) => x.hentet && x.hentet < a ? x.hentet : a, '9999-12-31');
+    m[k].forEach(x => {
+      const dato = x.endret || (x.hentet && x.hentet > dag(forste, 7) ? x.hentet : '');
+      if (dato && dato >= grense) nylig[x.fil] = { dato, type: x.endret ? 'endret' : 'ny' };
+    });
+  });
+  const brukt = {};
+  produktRader.forEach(r => {
+    const n = {};
+    r.sds.concat(r.pds).forEach(d => { const x = nylig[d[2]]; if (x) { n[d[2]] = x.dato + (x.type === 'endret' ? '' : ' ny'); brukt[d[2]] = x; } });
+    if (Object.keys(n).length) r.nylig = n;
+  });
+  fs.writeFileSync(path.join(root, 'datablad-nylig.json'), JSON.stringify({ oppdatert: new Date().toISOString().slice(0, 10), dager: DAGER, filer: brukt }));
+
   const levs = ['Chesterton', 'Lubrication Engineers', 'UTB', 'Vickers Oils', 'Perma-Tec', 'Royal Purple Industrial', 'BioMax'];
   const out = { oppdatert: new Date().toISOString().slice(0, 10), leverandorer: levs, rader: produktRader };
   fs.writeFileSync(path.join(root, 'datablad-oversikt.json'), JSON.stringify(out));

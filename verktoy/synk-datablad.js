@@ -111,7 +111,8 @@ async function pool(items, n, fn) {
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.writeFileSync(dest, d.body);
       (prev ? rep.endret : rep.nye).push(w.fil);
-      return { fil: w.fil, kilde: w.kilde, sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today };
+      // endret: datoen leverandøren sist byttet ut et datablad vi allerede hadde (vises som «Ny versjon» på /datablad)
+      return { fil: w.fil, kilde: w.kilde, sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today, endret: prev && prev.sha256 !== sha ? today : (prev && prev.endret) };
     }
     rep.uendret++;
     return Object.assign({}, prev, { kilde: w.kilde, kontrollert: today });

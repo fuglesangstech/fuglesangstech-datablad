@@ -1,10 +1,13 @@
-# Datablad-synk 2026-11-16
+# Datablad-synk 2026-11-17
 
-(Kjørt med ny katalogkode for /chesterton-katalog før den ble limt inn: 273 tilbake, merket som utgått.)
+(Kjørt med ny katalogkode for /chesterton-katalog før den ble limt inn.)
 
-STATUS: OK
+STATUS: MÅ SJEKKES – 1 problem(er), se under
 
-Kontrollert: 603 datablad. Uendret: 603. Nye: 0. Endret: 0. Borte hos leverandør: 0. Feil: 0.
+Kontrollert: 603 datablad. Uendret: 602. Nye: 0. Endret: 0. Borte hos leverandør: 1. Feil: 0.
+
+## Borte hos leverandør (gammel kopi beholdt – bør sjekkes) (1)
+- chesterton/datablad/ARC/PDS_S3_EN.pdf (404)
 
 ## Ikke lenger brukt i katalogen (beholdt) (1)
 - le/datablad/pds/flyers/4032_4046_4068 Product Info.pdf
@@ -26,10 +29,15 @@ Kontrollert: 43 datablad. Uendret: 43. Nye: 0. Endret: 0. Borte hos Perma: 0. Fe
 Kontrollert: 129 norske SDS og 43 PDS. Uendret: 129. Nye: 0. Endret: 0. Borte: 0. Feil: 0.
 
 ## Chesterton-litteratur
-Dokumenter hos Chesterton: 1346. Koblet til våre produkter: 152. Generelle: 9.
+Dokumenter hos Chesterton: 1345. Koblet til våre produkter: 152. Generelle: 9.
 
 ## Dokumentutvalg (Perma-Tec, Vickers, LE, Royal Purple/BioMax, artikler)
 Dokumenter: 126 (Perma 51, Vickers 21, LE 32, Royal Purple/BioMax 20, artikler 2).
+
+Nye i utvalget (vises automatisk):
+- BioMax: BioMax – miljøtilpassede smøremidler (EAL) – https://www.royalpurpleind.com/wp-content/uploads/pdf/Literature/Brochures/BioMax%20Brochure.pdf
+- BioMax: Halal-sertifikat BioMax Multi-Purpose EP Grease – https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/Halal%20Certification%20-%20BioMax%20EAL%20MP%20EP%20Grease.pdf
+- BioMax: EU Ecolabel-sertifikat (BioMax) – https://www.royalpurpleind.com/wp-content/uploads/pdf/Certifications/EU%20EcoLabel%20Certification.pdf
 
 ## Datablad-oversikt (/datablad)
 Produkter: 526. SDS: 709. PDS: 541. Sertifikater og bruksanvisninger: 310. Ressurser (/ressurser): 218.

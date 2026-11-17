@@ -65,8 +65,8 @@ async function run(root) {
       if (sha !== disk) {
         fs.mkdirSync(path.dirname(dest), { recursive: true }); fs.writeFileSync(dest, d.body);
         (disk ? rep.endret : rep.nye).push(p.navn + ' ' + (v.grad || '') + ' (' + v.kode + ')');
-        got.set(fil, { fil, kilde: SDS(v.kode), sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today });
-      } else { rep.uendret++; got.set(fil, Object.assign({ fil, kilde: SDS(v.kode), sha256: sha, bytes: d.body.length, hentet: (o && o.hentet) || today }, { kontrollert: today })); }
+        got.set(fil, { fil, kilde: SDS(v.kode), sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today, endret: disk ? today : (o && o.endret) });
+      } else { rep.uendret++; got.set(fil, Object.assign({ fil, kilde: SDS(v.kode), sha256: sha, bytes: d.body.length, hentet: (o && o.hentet) || today, endret: o && o.endret }, { kontrollert: today })); }
     }
   }));
   // Produktdatabladene ligger hos Royal Purple – sjekk at lenkene virker

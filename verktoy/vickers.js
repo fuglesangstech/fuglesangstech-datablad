@@ -129,7 +129,7 @@ async function run(root) {
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.writeFileSync(dest, d.body);
       (o ? rep.endret : rep.nye).push(fil);
-      got.set(url, { fil, kilde: url, sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today });
+      got.set(url, { fil, kilde: url, sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today, endret: o && o.sha256 !== sha ? today : (o && o.endret) });
     } else { rep.uendret++; got.set(url, Object.assign({}, o, { kontrollert: today })); }
   });
 
