@@ -178,6 +178,13 @@
     else vis();
   }
   function importer() {
+    // #legg=…: «Be om tilbud» fra produktsidene (produkter.fuglesangstech.no) – legges rett i lista
+    var lg = /[#&]legg=([A-Za-z0-9_-]+)/.exec(location.hash);
+    if (lg) {
+      try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+      dekod(lg[1]).slice(0, 20).forEach(function (x) { add(x); });
+      return;
+    }
     var m = /[#&]liste=([A-Za-z0-9_-]+)/.exec(location.hash); if (!m) return;
     try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
     var nye = dekod(m[1]); if (!nye.length) return;
@@ -389,7 +396,7 @@
      Squarespace-skjemaet sender fortsatt e-posten (til adressen satt i skjemaets innstillinger) og lagrer innsendingen.
      Feltene finnes etter type og etikett, ikke etter ID, så de tåler at skjemaet endres.
      Finner vi ikke det vi trenger, eller sendingen feiler, vises Squarespace-skjemaet som før (ferdig utfylt). */
-  var FORM_VERSION = '2026-11-12';
+  var FORM_VERSION = '2026-11-17';
   function lbl(el) {
     var l = el.labels && el.labels[0] ? el.labels[0].textContent : '';
     if (!l) { var box = el.closest('.form-item, .field, fieldset'); l = box ? (box.querySelector('label, legend, .title') || box).textContent : ''; }
