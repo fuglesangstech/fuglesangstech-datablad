@@ -8,13 +8,16 @@
   sikkerhetsdatabladene (og ev. produktdatabladene) i én mappe per leverandør, pluss innholdsfortegnelse
   som PDF og CSV. Alt skjer i nettleseren: filene hentes fra dette repoet (GitHub Pages).
   Valget lagres i nettleseren (localStorage «ft-stoffkartotek-v1»), så listen kan oppdateres senere.
+  Nedlastingen huskes per fil (sel.filer = {sti: dato}). Neste gang vises hvilke datablad som har kommet i ny
+  versjon (datablad-nylig.json) eller er nye siden sist, og kunden kan laste ned bare endringene.
+  Listen kan flyttes til en annen PC eller deles med en kollega som lenke: /datablad#sk=<liste>.
 
   Datablad-siden gir oss dataene via window.ftDatablad og hendelsen «ftdb:render».
 */
 (function () {
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
-  var VERSJON = '2026-11-12d';
+  var VERSJON = '2026-11-17a';
   var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -111,15 +114,44 @@
     '.ftsk-prog{height:8px;border-radius:99px;background:#e3e8f0;overflow:hidden;margin:6px 0 8px}.ftsk-prog i{display:block;height:100%;width:0;background:' + NAVY + ';transition:width .2s}',
     '.ftsk-msg{font-size:14px;color:#4a5568}.ftsk-msg.err{color:#b42318}',
     '.ftsk-empty{color:#6b7686;font-size:15px;padding:12px 0}',
+    '#ftsk-bar .ftsk-status{flex:1 1 100%;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;border-top:1px solid #d6e0ef;padding-top:12px;font-size:15px;color:#1a2332;line-height:1.45}',
+    '#ftsk-bar .ftsk-status .tx{flex:1 1 320px;min-width:0}',
+    '#ftsk-bar .ftsk-status .w{color:#9a3412;font-weight:600}#ftsk-bar .ftsk-status .ok{color:#166534}',
+    '.ftsk-ny{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;background:#fff4e5;color:#9a3412;font-size:12px;font-weight:600;white-space:nowrap}',
+    '.ftsk-dock .t small .w{color:#fbbf77}',
+    '.ftsk-link{display:flex;gap:8px;margin-top:10px}.ftsk-link input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 12px;border:1px solid #c9d5e8;border-radius:8px}',
     '@media (prefers-reduced-motion:reduce){.ftsk-dock,.ftsk-dlg,.ftsk-bg{transition:none}}'
   ].join('\n');
 
   /* ---------- tilstand ---------- */
-  var DB = null, R = [], BYKEY = {}, sel = lsGet(KEY, { valgt: [], pds: false, toc: true, firma: '' });
+  var DB = null, R = [], BYKEY = {}, NYL = {}, sel = lsGet(KEY, { valgt: [], pds: false, toc: true, firma: '' });
   if (!sel || !Array.isArray(sel.valgt)) sel = { valgt: [], pds: false, toc: true, firma: '' };
+  if (!sel.filer || typeof sel.filer !== 'object') sel.filer = {};
   var VALGT = {}; sel.valgt.forEach(function (k) { VALGT[k] = 1; });
   function save() { sel.valgt = Object.keys(VALGT); lsSet(KEY, sel); }
   function valgte() { return R.filter(function (r) { return VALGT[key(r)]; }); }
+  function docsAv(r) { return r.sds.map(function (x) { return ['SDS', x]; }).concat(sel.pds ? r.pds.map(function (x) { return ['PDS', x]; }) : []); }
+  function dagerSiden(iso) { return Math.round((Date.parse(idag()) - Date.parse(iso)) / 864e5); }
+  /* hva har endret seg siden kunden sist lastet ned? endret = ny versjon av en fil kunden har; nye = filer kunden ikke har */
+  function endringer() {
+    if (!sel.lastet) return null;
+    var endret = [], nye = [];
+    valgte().forEach(function (r) {
+      docsAv(r).forEach(function (dd) {
+        var p = dd[1][2], har = sel.filer[p];
+        if (!har) nye.push(p);
+        else if (NYL[p] && NYL[p].dato > har) endret.push(p);
+      });
+    });
+    return { endret: endret, nye: nye, alle: endret.concat(nye) };
+  }
+  function nyMerke(p) {
+    var n = NYL[p], har = sel.filer[p];
+    if (!sel.lastet) return '';
+    if (!har) return '<span class="ftsk-ny">Ikke lastet ned</span>';
+    if (n && n.dato > har) return '<span class="ftsk-ny">Ny versjon ' + esc(datoNo(n.dato).slice(0, 5)) + '</span>';
+    return '';
+  }
   function antDocs(list, medPds) { return list.reduce(function (n, r) { return n + r.sds.length + (medPds ? r.pds.length : 0); }, 0); }
 
   /* ---------- varenummer-indeks (lastes ved behov) ---------- */
@@ -214,7 +246,8 @@
     bar.innerHTML = '<div class="ftsk-intro">' + ICON.box + '<div><b>Lag stoffkartotek</b><span>Kryss av produktene dere bruker, og last ned alle databladene samlet i én ZIP-fil.</span></div></div>' +
       '<div class="ftsk-acts"><button type="button" class="ftsk-b" data-a="alle">' + ICON.all + '<span>Velg alle treff</span></button>' +
       '<button type="button" class="ftsk-b" data-a="lim">' + ICON.paste + '<span>Lim inn liste</span></button>' +
-      '<button type="button" class="ftsk-b" data-a="tilbud" hidden>' + ICON.list + '<span>Hent fra tilbudslisten</span></button></div>';
+      '<button type="button" class="ftsk-b" data-a="tilbud" hidden>' + ICON.list + '<span>Hent fra tilbudslisten</span></button></div>' +
+      '<div class="ftsk-status" hidden></div>';
     var cnt = document.getElementById('ftx-count');
     cnt.parentNode.insertBefore(bar, cnt);
     bar.addEventListener('click', function (e) {
@@ -223,6 +256,8 @@
       if (a === 'alle') velgAlle();
       else if (a === 'lim') limInn();
       else if (a === 'tilbud') fraTilbud();
+      else if (a === 'endr') visListe(true);
+      else if (a === 'liste') visListe();
     });
     dock = document.createElement('div'); dock.className = 'ftsk-dock'; dock.setAttribute('role', 'region'); dock.setAttribute('aria-label', 'Stoffkartotek');
     dock.innerHTML = '<div class="t"></div><button type="button" class="ftsk-b vis">' + ICON.list + '<span>Se listen</span></button><button type="button" class="ftsk-b w last">' + ICON.dl + '<span>Last ned</span></button>';
@@ -242,7 +277,19 @@
     tb.hidden = !nt; tb.querySelector('span').textContent = 'Hent fra tilbudslisten (' + nt + ')';
     var v = valgte(), n = v.length;
     dock.classList.toggle('on', n > 0);
-    dock.querySelector('.t').innerHTML = '<b>' + n + '</b> ' + (n === 1 ? 'produkt' : 'produkter') + ' valgt<small>' + antDocs(v, false) + ' sikkerhetsdatablad' + (sel.pds ? ' + ' + v.reduce(function (s, r) { return s + r.pds.length; }, 0) + ' PDS' : '') + '</small>';
+    var e = n ? endringer() : null;
+    dock.querySelector('.t').innerHTML = '<b>' + n + '</b> ' + (n === 1 ? 'produkt' : 'produkter') + ' valgt<small>' + (e && e.endret.length ? '<span class="w">' + e.endret.length + ' oppdatert siden sist</span>' : antDocs(v, false) + ' sikkerhetsdatablad' + (sel.pds ? ' + ' + v.reduce(function (s, r) { return s + r.pds.length; }, 0) + ' PDS' : '')) + '</small>';
+    var st = bar.querySelector('.ftsk-status');
+    if (!n || !e) { st.hidden = true; return; }
+    var gml = dagerSiden(sel.lastet) > (+NYL.__dager || 90);
+    var tx = '<b>Mitt stoffkartotek:</b> ' + n + ' ' + (n === 1 ? 'produkt' : 'produkter') + ', sist lastet ned ' + esc(datoNo(sel.lastet)) + '. ';
+    if (e.endret.length) tx += '<span class="w">' + e.endret.length + (e.endret.length === 1 ? ' datablad har' : ' datablad har') + ' kommet i ny versjon siden da.</span> ';
+    if (e.nye.length) tx += e.nye.length + (e.nye.length === 1 ? ' datablad er' : ' datablad er') + ' ikke lastet ned ennå. ';
+    if (!e.alle.length && !gml) tx += '<span class="ok">Dere har siste versjon av alle databladene.</span>';
+    if (gml) tx += 'Det er over ' + (+NYL.__dager || 90) + ' dager siden – last ned hele kartoteket på nytt for å være sikre på at alt er oppdatert.';
+    st.innerHTML = '<span class="tx">' + tx + '</span>' + (e.alle.length ? '<button type="button" class="ftsk-b p" data-a="endr">' + ICON.dl + '<span>Last ned bare endringene (' + e.alle.length + ')</span></button>' : '') +
+      '<button type="button" class="ftsk-b" data-a="liste">' + ICON.list + '<span>Se listen</span></button>';
+    st.hidden = false;
   }
   function velgAlle() {
     var treff = DB.treff().filter(function (r) { return r.sds.length || r.pds.length; });
@@ -366,23 +413,28 @@
   }
 
   /* ---------- listen og nedlasting ---------- */
-  function visListe() {
-    var v = valgte();
+  function visListe(bareEndr) {
+    if (bareEndr && bareEndr.type) bareEndr = false;   // kalt fra en klikkhendelse
+    var v = valgte(), e = endringer();
     var levs = []; v.forEach(function (r) { if (levs.indexOf(r.lev) < 0) levs.push(r.lev); });
     var body = v.length ? levs.map(function (l) {
       return '<div class="ftsk-grp"><h3>' + esc(l) + '</h3>' + v.filter(function (r) { return r.lev === l; }).map(function (r) {
         var sds = r.sds.length ? r.sds.map(function (d) { return d[1]; }).join(', ') : 'ingen';
-        return '<div class="ftsk-it"><div class="n">' + esc(r.name) + '<small>SDS: ' + esc(sds) + (r.pds.length ? ' · PDS: ' + r.pds.length : '') + '</small></div><button type="button" class="rm" data-k="' + esc(key(r)) + '" aria-label="Fjern ' + esc(r.name) + '">' + ICON.x + '</button></div>';
+        var mk = ''; docsAv(r).some(function (dd) { mk = nyMerke(dd[1][2]); return mk && mk.indexOf('Ny versjon') > -1; });
+        return '<div class="ftsk-it"><div class="n">' + esc(r.name) + mk + '<small>SDS: ' + esc(sds) + (r.pds.length ? ' · PDS: ' + r.pds.length : '') + '</small></div><button type="button" class="rm" data-k="' + esc(key(r)) + '" aria-label="Fjern ' + esc(r.name) + '">' + ICON.x + '</button></div>';
       }).join('') + '</div>';
     }).join('') : '<p class="ftsk-empty">Listen er tom. Kryss av produkter i tabellen, eller bruk «Lim inn liste».</p>';
+    if (v.length && e) body = '<p class="lead">Sist lastet ned ' + esc(datoNo(sel.lastet)) + '. ' + (e.alle.length ? [e.endret.length ? e.endret.length + ' datablad i ny versjon' : '', e.nye.length ? e.nye.length + ' som ikke er lastet ned ennå' : ''].filter(Boolean).join(' og ') + '.' : 'Ingen endringer siden da.') + '</p>' + body;
     body += '<div class="ftsk-opt">' +
       '<label><input type="checkbox" id="ftsk-pds"' + (sel.pds ? ' checked' : '') + '><span>Ta med produktdatablad (PDS)<small>Sikkerhetsdatabladene er alltid med.</small></span></label>' +
       '<label><input type="checkbox" id="ftsk-toc"' + (sel.toc !== false ? ' checked' : '') + '><span>Innholdsfortegnelse (PDF og CSV)<small>CSV-filen kan leses inn i Excel eller stoffkartotek-systemer.</small></span></label>' +
       '<label style="display:block">Firma eller avdeling <small style="display:inline">(valgfritt – vises på innholdsfortegnelsen)</small><input type="text" id="ftsk-firma" value="' + esc(sel.firma || '') + '" autocomplete="organization"></label>' +
       '</div><div id="ftsk-p" hidden><div class="ftsk-prog"><i></i></div><div class="ftsk-msg" id="ftsk-pm"></div></div>';
+    var harEndr = e && e.alle.length;
     var d = dialog('Mitt stoffkartotek (' + v.length + ')', body,
-      (v.length ? '<button type="button" class="ftsk-b" id="ftsk-tom">Tøm listen</button>' : '') + '<span class="sp"></span><button type="button" class="ftsk-b" data-c="1">Lukk</button>' +
-      (v.length ? '<button type="button" class="ftsk-b p" id="ftsk-dl">' + ICON.dl + '<span>Last ned ZIP</span></button>' : ''));
+      (v.length ? '<button type="button" class="ftsk-b" id="ftsk-tom">Tøm listen</button><button type="button" class="ftsk-b" id="ftsk-del">Del eller flytt listen</button>' : '') + '<span class="sp"></span><button type="button" class="ftsk-b" data-c="1">Lukk</button>' +
+      (harEndr ? '<button type="button" class="ftsk-b' + (bareEndr ? ' p' : '') + '" id="ftsk-dle">' + ICON.dl + '<span>Bare endringene (' + e.alle.length + ')</span></button>' : '') +
+      (v.length ? '<button type="button" class="ftsk-b' + (bareEndr && harEndr ? '' : ' p') + '" id="ftsk-dl">' + ICON.dl + '<span>' + (harEndr ? 'Hele kartoteket' : 'Last ned ZIP') + '</span></button>' : ''));
     d.querySelector('[data-c]').addEventListener('click', lukk);
     d.querySelector('.ftsk-body').addEventListener('click', function (e) {
       var b = e.target.closest('.rm'); if (!b) return;
@@ -397,12 +449,62 @@
       if (tom.getAttribute('data-sikker')) { VALGT = {}; save(); refresh(); lukk(); toast('Stoffkartoteket er tømt'); }
       else { tom.setAttribute('data-sikker', '1'); tom.textContent = 'Trykk igjen for å tømme'; }
     });
-    var dl = d.querySelector('#ftsk-dl');
+    var dl = d.querySelector('#ftsk-dl'), dle = d.querySelector('#ftsk-dle');
     if (dl) dl.addEventListener('click', function () { lastNed(d, dl); });
+    if (dle) dle.addEventListener('click', function () { lastNed(d, dle, endringer().alle); });
+    var del = d.querySelector('#ftsk-del');
+    if (del) del.addEventListener('click', delListe);
+    if (bareEndr && dle) setTimeout(function () { dle.focus(); }, 80);
   }
 
-  function lastNed(d, btn) {
+  /* ---------- del eller flytt listen som lenke ---------- */
+  function b64(s) { return btoa(unescape(encodeURIComponent(s))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); }
+  function unb64(s) { s = s.replace(/-/g, '+').replace(/_/g, '/'); while (s.length % 4) s += '='; return decodeURIComponent(escape(atob(s))); }
+  function lenke() { return location.origin + location.pathname + '#sk=' + b64(JSON.stringify({ v: 1, k: Object.keys(VALGT), f: sel.firma || '' })); }
+  function delListe() {
+    var u = lenke();
+    var d = dialog('Del eller flytt stoffkartoteket',
+      '<p class="lead">Listen er lagret i denne nettleseren. Med lenken kan du åpne den på en annen PC eller sende den til en kollega. Lenken inneholder bare produktene' + (sel.firma ? ' og firmanavnet' : '') + ' – ingen andre opplysninger.</p>' +
+      '<div class="ftsk-link"><input type="text" readonly value="' + esc(u) + '" aria-label="Lenke til stoffkartoteket"><button type="button" class="ftsk-b p" id="ftsk-kopi">Kopier</button></div>',
+      '<span class="sp"></span><button type="button" class="ftsk-b" data-c="1">Lukk</button>');
+    d.querySelector('[data-c]').addEventListener('click', lukk);
+    var inp = d.querySelector('.ftsk-link input'), kb = d.querySelector('#ftsk-kopi');
+    inp.addEventListener('focus', function () { inp.select(); });
+    kb.addEventListener('click', function () {
+      var ok = function () { kb.textContent = 'Kopiert'; toast('Lenken er kopiert'); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(u).then(ok, function () { inp.select(); try { document.execCommand('copy'); ok(); } catch (e) {} });
+      else { inp.select(); try { document.execCommand('copy'); ok(); } catch (e) {} }
+    });
+  }
+  function fraLenke() {
+    var m = /[#&]sk=([A-Za-z0-9_-]+)/.exec(location.hash); if (!m) return false;
+    var data; try { data = JSON.parse(unb64(m[1])); } catch (e) { data = null; }
+    try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+    if (!data || !Array.isArray(data.k)) { toast('Lenken til stoffkartoteket kunne ikke leses'); return true; }
+    var rows = data.k.map(function (k) { return BYKEY[k]; }).filter(Boolean), borte = data.k.length - rows.length;
+    if (!rows.length) { toast('Fant ingen av produktene fra lenken'); return true; }
+    var mine = valgte().length;
+    var d = dialog('Åpne delt stoffkartotek',
+      '<p class="lead">Lenken inneholder ' + rows.length + (rows.length === 1 ? ' produkt' : ' produkter') + (data.f ? ' for «' + esc(data.f) + '»' : '') + '.' + (borte ? ' ' + borte + ' finnes ikke lenger i oversikten.' : '') + '</p>' +
+      '<div class="ftsk-res"><ul>' + rows.slice(0, 40).map(function (r) { return '<li>' + esc(r.name) + ' <small>(' + esc(r.lev) + ')</small></li>'; }).join('') + (rows.length > 40 ? '<li><small>… og ' + (rows.length - 40) + ' til</small></li>' : '') + '</ul></div>',
+      '<span class="sp"></span><button type="button" class="ftsk-b" data-c="1">Avbryt</button>' +
+      (mine ? '<button type="button" class="ftsk-b" id="ftsk-lt">Legg til i min liste (' + mine + ')</button><button type="button" class="ftsk-b p" id="ftsk-bu">Bytt ut min liste</button>' : '<button type="button" class="ftsk-b p" id="ftsk-bu">Bruk listen</button>'));
+    d.querySelector('[data-c]').addEventListener('click', lukk);
+    function bruk(bytt) {
+      if (bytt) { VALGT = {}; sel.filer = {}; sel.lastet = null; }   // ny liste: ingenting er lastet ned herfra ennå
+      rows.forEach(function (r) { VALGT[key(r)] = 1; });
+      if (data.f && (bytt || !sel.firma)) sel.firma = data.f;
+      save(); refresh(); setTimeout(visListe, 0);
+    }
+    var lt = d.querySelector('#ftsk-lt'); if (lt) lt.addEventListener('click', function () { bruk(false); });
+    d.querySelector('#ftsk-bu').addEventListener('click', function () { bruk(true); });
+    return true;
+  }
+
+  function lastNed(d, btn, bare) {
+    var BARE = null; if (bare) { BARE = {}; bare.forEach(function (p) { BARE[p] = 1; }); }
     var v = valgte(); if (!v.length) return;
+    if (BARE) v = v.filter(function (r) { return docsAv(r).some(function (dd) { return BARE[dd[1][2]]; }); });
     var medPds = sel.pds, medToc = sel.toc !== false;
     var box = d.querySelector('#ftsk-p'), bar = box.querySelector('i'), pm = box.querySelector('#ftsk-pm');
     box.hidden = false; btn.disabled = true; d.__busy = true; pm.className = 'ftsk-msg'; pm.textContent = 'Gjør klart …';
@@ -410,7 +512,8 @@
     var jobs = [], byPath = {}, rader = [];
     v.forEach(function (r) {
       var docs = r.sds.map(function (x) { return ['SDS', x]; }).concat(medPds ? r.pds.map(function (x) { return ['PDS', x]; }) : []);
-      if (!docs.length) rader.push({ r: r, type: 'SDS', lang: '', label: '', fil: '', status: 'mangler' });
+      if (BARE) docs = docs.filter(function (dd) { return BARE[dd[1][2]]; });
+      else if (!docs.length) rader.push({ r: r, type: 'SDS', lang: '', label: '', fil: '', status: 'mangler' });
       docs.forEach(function (dd) {
         var path = dd[1][2], j = byPath[path];
         if (!j) {
@@ -442,12 +545,16 @@
         pm.textContent = 'Lager innholdsfortegnelse …';
         zip.file('Innholdsfortegnelse.csv', csv(rader));
         if (!harPdf || !window.PDFLib) return null;
-        return tocPdf(rader).then(function (bytes) { zip.file('Innholdsfortegnelse.pdf', bytes); }).catch(function (e) { if (window.console) console.warn('Stoffkartotek: PDF-innholdsfortegnelsen feilet', e); });
+        return tocPdf(rader, !!BARE).then(function (bytes) { zip.file('Innholdsfortegnelse.pdf', bytes); }).catch(function (e) { if (window.console) console.warn('Stoffkartotek: PDF-innholdsfortegnelsen feilet', e); });
       }).then(function () {
         pm.textContent = 'Pakker ZIP-filen …';
         return zip.generateAsync({ type: 'blob', compression: 'STORE' }, function (m) { bar.style.width = (90 + m.percent / 10) + '%'; });
       }).then(function (blob) {
-        var a = document.createElement('a'), navn = 'Stoffkartotek' + (sel.firma ? ' ' + filnavn(sel.firma) : '') + ' - Fuglesangs Tech - ' + idag() + '.zip';
+        var a = document.createElement('a'), navn = 'Stoffkartotek' + (BARE ? ' - endringer' : '') + (sel.firma ? ' ' + filnavn(sel.firma) : '') + ' - Fuglesangs Tech - ' + idag() + '.zip';
+        // husk hva som er lastet ned, og når – så vi kan vise endringer neste gang
+        if (!BARE) sel.filer = {};
+        jobs.forEach(function (j) { if (j.ok) sel.filer[j.path] = idag(); });
+        sel.lastet = idag(); save(); refresh();
         a.href = URL.createObjectURL(blob); a.download = navn; document.body.appendChild(a); a.click();
         setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
         bar.style.width = '100%';
@@ -474,7 +581,7 @@
     return '﻿' + lines.join('\r\n') + '\r\n';
   }
 
-  function tocPdf(rader) {
+  function tocPdf(rader, bareEndr) {
     var L = window.PDFLib, doc;
     return L.PDFDocument.create().then(function (d) {
       doc = d;
@@ -499,7 +606,7 @@
       function nyside(first) {
         page = doc.addPage([W, H]); pno++; y = H - M;
         if (first) {
-          text('Stoffkartotek', M, y - 22, 24, B, navy); y -= 46;
+          text(bareEndr ? 'Stoffkartotek – endringer' : 'Stoffkartotek', M, y - 22, 24, B, navy); y -= 46;
           text('Sikkerhetsdatablad' + (rader.some(function (x) { return x.type === 'PDS'; }) ? ' og produktdatablad' : ''), M, y, 12, F, grey); y -= 26;
           var info = [];
           if (sel.firma) info.push(['Firma / avdeling', sel.firma]);
@@ -512,7 +619,7 @@
           var n = {}; rader.forEach(function (x) { n[x.r.lev] = 1; });
           var prods = {}; rader.forEach(function (x) { prods[key(x.r)] = 1; });
           text(Object.keys(prods).length + ' produkter · ' + rader.filter(function (x) { return x.job; }).length + ' dokumenter · ' + Object.keys(n).length + ' leverandører', M, y, 10, F, navy); y -= 14;
-          text('Sjekk at dere har siste versjon minst én gang i året – last ned på nytt fra samme side.', M, y, 9, F, grey); y -= 24;
+          text(bareEndr ? 'Bare datablad som er nye eller i ny versjon siden forrige nedlasting. Bytt ut de gamle i kartoteket.' : 'Sjekk at dere har siste versjon minst én gang i året – last ned på nytt fra samme side.', M, y, 9, F, grey); y -= 24;
         } else { text('Stoffkartotek – innholdsfortegnelse (forts.)', M, y - 4, 10, B, navy); y -= 22; }
         head();
       }
@@ -549,14 +656,19 @@
     // fjern valg som ikke lenger finnes
     Object.keys(VALGT).forEach(function (k) { if (!BYKEY[k]) delete VALGT[k]; }); save();
     buildBar(); refresh();
+    fetch(GH + 'datablad-nylig.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+      if (!j || !j.filer) return; NYL = j.filer; NYL.__dager = j.dager; refresh();
+    }).catch(function () {});
+    var fraL = fraLenke();
     document.addEventListener('ftdb:render', refresh);
     window.addEventListener('fttilbud:endret', refresh);
     window.addEventListener('storage', function (e) { if (e.key === TKEY) refresh(); });
-    var mode = new URLSearchParams(location.search).get('stoffkartotek');
+    var mode = fraL ? null : new URLSearchParams(location.search).get('stoffkartotek');
     if (mode === 'tilbud') fraTilbud().then(function () { if (valgte().length) visListe(); });
     else if (mode === '1' && valgte().length) visListe();
     if (mode || location.hash === '#stoffkartotek') setTimeout(function () { bar.scrollIntoView({ block: 'center' }); }, 150);
   }
-  window.FTStoffkartotek = { versjon: VERSJON, vis: function () { visListe(); }, antall: function () { return valgte().length; } };
+  window.FTStoffkartotek = { versjon: VERSJON, vis: function () { visListe(); }, antall: function () { return valgte().length; }, endringer: function () { return endringer(); } };
+  window.addEventListener('hashchange', function () { if (bar && /[#&]sk=/.test(location.hash)) fraLenke(); });
   if (window.ftDatablad) init(); else document.addEventListener('ftdb:klar', init);
 })();
