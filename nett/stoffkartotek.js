@@ -17,7 +17,7 @@
 (function () {
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
-  var VERSJON = '2026-11-17a';
+  var VERSJON = '2026-11-17b';
   var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -285,7 +285,7 @@
     var tx = '<b>Mitt stoffkartotek:</b> ' + n + ' ' + (n === 1 ? 'produkt' : 'produkter') + ', sist lastet ned ' + esc(datoNo(sel.lastet)) + '. ';
     if (e.endret.length) tx += '<span class="w">' + e.endret.length + (e.endret.length === 1 ? ' datablad har' : ' datablad har') + ' kommet i ny versjon siden da.</span> ';
     if (e.nye.length) tx += e.nye.length + (e.nye.length === 1 ? ' datablad er' : ' datablad er') + ' ikke lastet ned ennå. ';
-    if (!e.alle.length && !gml) tx += '<span class="ok">Dere har siste versjon av alle databladene.</span>';
+    if (!e.alle.length && !gml) tx += '<span class="ok">Ingen nye versjoner registrert siden ' + esc(datoNo(sel.lastet)) + '.</span> Vi sjekker databladene mot leverandørene hver måned.';
     if (gml) tx += 'Det er over ' + (+NYL.__dager || 90) + ' dager siden – last ned hele kartoteket på nytt for å være sikre på at alt er oppdatert.';
     st.innerHTML = '<span class="tx">' + tx + '</span>' + (e.alle.length ? '<button type="button" class="ftsk-b p" data-a="endr">' + ICON.dl + '<span>Last ned bare endringene (' + e.alle.length + ')</span></button>' : '') +
       '<button type="button" class="ftsk-b" data-a="liste">' + ICON.list + '<span>Se listen</span></button>';
@@ -424,7 +424,7 @@
         return '<div class="ftsk-it"><div class="n">' + esc(r.name) + mk + '<small>SDS: ' + esc(sds) + (r.pds.length ? ' · PDS: ' + r.pds.length : '') + '</small></div><button type="button" class="rm" data-k="' + esc(key(r)) + '" aria-label="Fjern ' + esc(r.name) + '">' + ICON.x + '</button></div>';
       }).join('') + '</div>';
     }).join('') : '<p class="ftsk-empty">Listen er tom. Kryss av produkter i tabellen, eller bruk «Lim inn liste».</p>';
-    if (v.length && e) body = '<p class="lead">Sist lastet ned ' + esc(datoNo(sel.lastet)) + '. ' + (e.alle.length ? [e.endret.length ? e.endret.length + ' datablad i ny versjon' : '', e.nye.length ? e.nye.length + ' som ikke er lastet ned ennå' : ''].filter(Boolean).join(' og ') + '.' : 'Ingen endringer siden da.') + '</p>' + body;
+    if (v.length && e) body = '<p class="lead">Sist lastet ned ' + esc(datoNo(sel.lastet)) + '. ' + (e.alle.length ? [e.endret.length ? e.endret.length + ' datablad i ny versjon' : '', e.nye.length ? e.nye.length + ' som ikke er lastet ned ennå' : ''].filter(Boolean).join(' og ') + '.' : 'Ingen nye versjoner registrert siden da. Vi sjekker databladene mot leverandørene hver måned.') + '</p>' + body;
     body += '<div class="ftsk-opt">' +
       '<label><input type="checkbox" id="ftsk-pds"' + (sel.pds ? ' checked' : '') + '><span>Ta med produktdatablad (PDS)<small>Sikkerhetsdatabladene er alltid med.</small></span></label>' +
       '<label><input type="checkbox" id="ftsk-toc"' + (sel.toc !== false ? ' checked' : '') + '><span>Innholdsfortegnelse (PDF og CSV)<small>CSV-filen kan leses inn i Excel eller stoffkartotek-systemer.</small></span></label>' +
