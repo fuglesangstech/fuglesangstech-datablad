@@ -89,3 +89,10 @@ Test mot en lokal versjon av kodeblokken med `FT_KATALOG_FIL=<fil>`.
 ## Egne produkter fra Fuglesangs Tech (ft/)
 `ft/produkter.json` har produkter med Fuglesangs Tech-logo (foreløpig Håndholdt Mikroskop, varenr. 70169). Produktkatalogen på /produkter viser dem under knappen «Fuglesangs Tech», med tekst, tekniske data, bilder og kontaktperson fra fila. Bildene ligger i `ft/bilder/` (første bilde i lista er hovedbildet).
 Nytt eget produkt: legg til en rad i `produkter` (id, navn, kode, kategori, gruppe, kontakt = trygve/kjartan/yngvar, kort, tekst, spesifikasjoner, bilder). Katalogkoden trenger ikke endres.
+
+## Bildeoppløsning
+Produktbildene lagres med lengste side opptil 1200 px (webp), så de er skarpe på store skjermer og når kundene zoomer i /produkter.
+- Chesterton: hentet i full størrelse fra chesterton.com/Files/Images/Products/<filnavn> (originalene er 1800 px) og skalert til 1200 px.
+- Vickers Oils: hentet fra produktsidenes hovedbilde (og:image) på vickers-oil.com.
+- LE og UTB: leverandørene har ikke større bilder på nettsidene sine enn det vi har (mange LE-tilbehørsbilder er under 300 px hos LE). Bedre bilder må bes om fra leverandøren.
+Katalogen viser små bilder høyst 1,5 ganger naturlig størrelse (minst 240 px), og zoomen forstørrer bare så langt bildet har oppløsning til.
