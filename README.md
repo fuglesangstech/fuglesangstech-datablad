@@ -95,4 +95,5 @@ Produktbildene lagres med lengste side opptil 1200 px (webp), så de er skarpe p
 - Chesterton: hentet i full størrelse fra chesterton.com/Files/Images/Products/<filnavn> (originalene er 1800 px) og skalert til 1200 px.
 - Vickers Oils: hentet fra produktsidenes hovedbilde (og:image) på vickers-oil.com.
 - LE og UTB: leverandørene har ikke større bilder på nettsidene sine enn det vi har (mange LE-tilbehørsbilder er under 300 px hos LE). Bedre bilder må bes om fra leverandøren.
+- Oppskalert med KI (Real-ESRGAN x4plus, 18.11.2026), lagret høyst 2,5 × originalen så zoomen ikke viser oppdiktede detaljer: 28 LE-bilder i le/bilder (tilbehør som Xtract-adaptere, Xclude-adaptere, Xport Classic/Flex/Futura, OilSafe-utstyr, Viper, 1-Month) og utb/bilder/utb-fat.webp. Originalene ligger i git-historikken. Får vi bedre bilder fra leverandøren, erstatt filene med samme navn.
 Katalogen viser små bilder høyst 1,5 ganger naturlig størrelse (minst 240 px), og zoomen forstørrer bare så langt bildet har oppløsning til.
