@@ -1,45 +1,108 @@
 {
   "beskrivelse": "Fuglesangs Tech sine egne produkter (med Fuglesangs Tech-logo). Vises i produktkatalogen på /produkter under leverandøren «Fuglesangs Tech». Nytt produkt = ny rad i «produkter», bildene i ft/bilder/.",
   "oppdatert": "2026-11-18",
-  "kategorier": ["Digitale mikroskop"],
+  "kategorier": [
+    "Digitale mikroskop"
+  ],
   "produkter": [
     {
-      "id": "digitalt-mikroskop",
-      "navn": "Digitalt WiFi-mikroskop",
-      "kode": "WTM-W1-A",
+      "id": "handholdt-mikroskop",
+      "navn": "Håndholdt Mikroskop",
+      "kode": "70169",
       "kategori": "Digitale mikroskop",
       "gruppe": "Inspeksjonsutstyr",
       "kontakt": "trygve",
-      "kort": "Trådløst digitalt mikroskop med 50–1000× forstørrelse, Full HD-kamera og 8 LED-lys. Bildet vises direkte på mobil, nettbrett eller PC.",
+      "kort": "Håndholdt digitalt mikroskop med 50–1000× forstørrelse, Full HD-kamera og 8 LED-lys. Bildet vises direkte på mobil, nettbrett eller PC.",
       "tekst": [
-        "Digitalt mikroskop for raske inspeksjoner på verksted og i felt. Mikroskopet lager sitt eget WiFi-nettverk, så bildet vises direkte i en app på mobil eller nettbrett. Med USB-kabel kan det også kobles til PC.",
+        "Håndholdt digitalt mikroskop for raske inspeksjoner på verksted og i felt. Mikroskopet lager sitt eget WiFi-nettverk, så bildet vises direkte i en app på mobil eller nettbrett. Med USB-kabel kan det også kobles til PC.",
         "Forstørrelsen går fra 50 til 1000 ganger, og bildet stilles skarpt med fokushjulet. Åtte LED-lys rundt linsen har justerbar lysstyrke. I appen kan du ta bilder og video, lagre dem på telefonen og legge til notater.",
         "Stativet kan vinkles og justeres i høyden, og foten står stødig med sklisikker silikonbunn. Mikroskopet lades med USB-C og har innebygd batteri."
       ],
       "spesifikasjoner": [
-        ["Modell", "WTM-W1-A"],
-        ["Forstørrelse", "50–1000×"],
-        ["Oppløsning", "1920 × 1080 (Full HD)"],
-        ["Fokus", "Manuelt, med fokushjul"],
-        ["Lys", "8 LED-lys med justerbar lysstyrke"],
-        ["Tilkobling", "WiFi (eget nettverk) og USB"],
-        ["Lading", "USB-C, ladetid ca. 1,5 time"],
-        ["Batteri", "700 mAh, ca. 2 timers bruk"],
-        ["App", "Android 4.0 og nyere, iOS 8.0 og nyere"],
-        ["PC", "Windows XP, 7, 8 og 10, macOS 10.5 og nyere"],
-        ["Mål", "125 mm lang, Ø 30 mm"],
-        ["Stativfot", "95 × 95 mm"],
-        ["Farge", "Hvit, med Fuglesangs Tech-logo"]
+        [
+          "Varenummer",
+          "70169"
+        ],
+        [
+          "Modell",
+          "WTM-W1-A"
+        ],
+        [
+          "Forstørrelse",
+          "50–1000×"
+        ],
+        [
+          "Oppløsning",
+          "1920 × 1080 (Full HD)"
+        ],
+        [
+          "Fokus",
+          "Manuelt, med fokushjul"
+        ],
+        [
+          "Lys",
+          "8 LED-lys med justerbar lysstyrke"
+        ],
+        [
+          "Tilkobling",
+          "WiFi (eget nettverk) og USB"
+        ],
+        [
+          "Lading",
+          "USB-C, ladetid ca. 1,5 time"
+        ],
+        [
+          "Batteri",
+          "700 mAh, ca. 2 timers bruk"
+        ],
+        [
+          "App",
+          "Android 4.0 og nyere, iOS 8.0 og nyere"
+        ],
+        [
+          "PC",
+          "Windows XP, 7, 8 og 10, macOS 10.5 og nyere"
+        ],
+        [
+          "Mål",
+          "125 mm lang, Ø 30 mm"
+        ],
+        [
+          "Stativfot",
+          "95 × 95 mm"
+        ],
+        [
+          "Farge",
+          "Hvit, med Fuglesangs Tech-logo"
+        ]
       ],
       "egenskaper": [],
       "emballasje": [],
       "bilder": [
-        ["ft/bilder/mikroskop-skra.webp", "Skrått forfra"],
-        ["ft/bilder/mikroskop-side.webp", "Fra siden"],
-        ["ft/bilder/mikroskop-deler.webp", "Slik er mikroskopet bygd"],
-        ["ft/bilder/mikroskop-maal.webp", "Mål og egenskaper"],
-        ["ft/bilder/mikroskop-forfra.webp", "Ovenfra"],
-        ["ft/bilder/mikroskop-staende.webp", "Uten stativ"]
+        [
+          "ft/bilder/mikroskop-skra.webp",
+          "Skrått forfra"
+        ],
+        [
+          "ft/bilder/mikroskop-side.webp",
+          "Fra siden"
+        ],
+        [
+          "ft/bilder/mikroskop-deler.webp",
+          "Slik er mikroskopet bygd"
+        ],
+        [
+          "ft/bilder/mikroskop-maal.webp",
+          "Mål og egenskaper"
+        ],
+        [
+          "ft/bilder/mikroskop-forfra.webp",
+          "Ovenfra"
+        ],
+        [
+          "ft/bilder/mikroskop-staende.webp",
+          "Uten stativ"
+        ]
       ]
     }
   ]

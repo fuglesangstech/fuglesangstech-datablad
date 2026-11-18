@@ -87,5 +87,5 @@ Et dokument som nevner et produktnavn katalogen ikke har (navnebytte, skrivefeil
 Test mot en lokal versjon av kodeblokken med `FT_KATALOG_FIL=<fil>`.
 
 ## Egne produkter fra Fuglesangs Tech (ft/)
-`ft/produkter.json` har produkter med Fuglesangs Tech-logo (foreløpig det digitale WiFi-mikroskopet WTM-W1-A). Produktkatalogen på /produkter viser dem under knappen «Fuglesangs Tech», med tekst, tekniske data, bilder og kontaktperson fra fila. Bildene ligger i `ft/bilder/` (første bilde i lista er hovedbildet).
+`ft/produkter.json` har produkter med Fuglesangs Tech-logo (foreløpig Håndholdt Mikroskop, varenr. 70169). Produktkatalogen på /produkter viser dem under knappen «Fuglesangs Tech», med tekst, tekniske data, bilder og kontaktperson fra fila. Bildene ligger i `ft/bilder/` (første bilde i lista er hovedbildet).
 Nytt eget produkt: legg til en rad i `produkter` (id, navn, kode, kategori, gruppe, kontakt = trygve/kjartan/yngvar, kort, tekst, spesifikasjoner, bilder). Katalogkoden trenger ikke endres.
