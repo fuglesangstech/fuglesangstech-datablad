@@ -1,0 +1,163 @@
+{
+ "om": "Bilder som er oppskalert med verktoy/oppskaler.py (Real-ESRGAN). Originalene ligger i git-historikken.",
+ "bilder": {
+  "le/bilder/1-month.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1758.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1761.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1764.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1765.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1766.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/a1770.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/gearbox-adapter.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/hydraulic-adapter.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/oilsafe-stumpy-10-4-inch-hose.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/os-5-quick-connect-kit-920220.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/os-55-gallondrumwork.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/os-breather-10-micron-920250.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/os-totedispensingrack.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/spray-lance-system-th-002.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/tote-adapter.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/viper-mkii-32-kit.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xport-grease-connector-hero-smal.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xport-ultra-hose-option.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xportclassicspl.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xportflexspl.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xportfuturaspl.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xportstarhdbeammkpt1.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xportstdbeammount1pt.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xtract-3d-bullseye-red-big.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xtract-drum-adapter.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xtract-drum-topper.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "le/bilder/xtract-oil-sight-glass-big.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "utb/bilder/utb-fat.webp": {
+   "dato": "2026-11-18",
+   "ekte": 1.0,
+   "merknad": "første runde"
+  },
+  "utb/bilder/excello-classic-20w-50.webp": {
+   "dato": "2026-11-18",
+   "ekte": 0.35,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "6960ab4fd973b981"
+  }
+ }
+}
