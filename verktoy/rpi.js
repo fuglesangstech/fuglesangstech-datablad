@@ -1,6 +1,6 @@
 /*
-  Royal Purple Industrial og BioMax: holder de norske sikkerhetsdatabladene (EU-format) i rpi/sds/ oppdatert,
-  og sjekker at produktdatabladene (PDS) på royalpurpleind.com fortsatt finnes. Brukes av synk-datablad.js,
+  Royal Purple Industrial og BioMax: holder de norske sikkerhetsdatabladene (EU-format) i rpi/sds/ og
+  produktdatabladene (PDS) i rpi/pds/ oppdatert med egne kopier fra royalpurpleind.com. Brukes av synk-datablad.js,
   kan også kjøres alene:
     NODE_USE_ENV_PROXY=1 node verktoy/rpi.js
 
@@ -9,6 +9,10 @@
   - Nye koder hos Royal Purple som ikke er i rpi/produkter.json meldes i rapporten («nye produkter») – de må legges inn
     i rpi/produkter.json (gi Claude beskjed).
   - Koder i rpi/produkter.json som ikke lenger har norsk SDS meldes («borte»). Gammel kopi beholdes.
+  - PDS: i rpi/produkter.json er hver PDS [etikett, språk, fil, kilde]. «kilde» er adressen hos Royal Purple, «fil» er
+    kopien vår (rpi/pds/…). Kopien lastes ned på nytt hver gang og byttes ut hvis Royal Purple har endret den.
+    Ny PDS: legg inn [etikett, språk, kilde-URL] – skriptet laster den ned og setter inn filen selv.
+    Forsvinner en PDS hos Royal Purple, beholdes kopien vår og det meldes i rapporten.
 */
 'use strict';
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
@@ -69,12 +73,35 @@ async function run(root) {
       } else { rep.uendret++; got.set(fil, Object.assign({ fil, kilde: SDS(v.kode), sha256: sha, bytes: d.body.length, hentet: (o && o.hentet) || today, endret: o && o.endret }, { kontrollert: today })); }
     }
   }));
-  // Produktdatabladene ligger hos Royal Purple – sjekk at lenkene virker
-  const pds = [...new Set(P.produkter.flatMap(p => (p.pds || []).map(d => d[2])))];
-  for (const u of pds) { const d = await hent(u, true); if (d.status !== 200) rep.pdsBorte.push(u + ' (' + d.status + ')'); }
+  // Produktdatabladene: egne kopier i rpi/pds/, hentet fra Royal Purple hver gang
+  const pdsFil = url => 'rpi/pds/' + decodeURIComponent(url.split('/').pop().split('?')[0]).replace(/[^A-Za-z0-9 ._()&+-]/g, '').replace(/\s+/g, ' ').trim();
+  const kilder = new Map();   // kilde-URL -> fil
+  P.produkter.forEach(p => (p.pds || []).forEach(d => {
+    const kilde = d[3] || (/^https?:/.test(d[2]) ? d[2] : null);
+    if (kilde && !kilder.has(kilde)) kilder.set(kilde, /^https?:/.test(d[2]) ? pdsFil(kilde) : d[2]);
+  }));
+  for (const [kilde, fil] of kilder) {
+    const dest = path.join(root, fil), o = old.get(fil), d = await hent(kilde, true);
+    if (d.status !== 200) { rep.pdsBorte.push(fil.replace('rpi/pds/', '') + ' (' + d.status + (fs.existsSync(dest) ? ', vår kopi er beholdt' : ', ingen kopi ennå – lenker til Royal Purple') + ')'); if (o) got.set(fil, o); continue; }
+    const sha = crypto.createHash('sha256').update(d.body).digest('hex');
+    const disk = fs.existsSync(dest) ? crypto.createHash('sha256').update(fs.readFileSync(dest)).digest('hex') : '';
+    if (sha !== disk) {
+      fs.mkdirSync(path.dirname(dest), { recursive: true }); fs.writeFileSync(dest, d.body);
+      (disk ? rep.endret : rep.nye).push('PDS ' + fil.replace('rpi/pds/', ''));
+      got.set(fil, { fil, kilde, sha256: sha, bytes: d.body.length, hentet: today, kontrollert: today, endret: disk ? today : (o && o.endret) });
+    } else { rep.uendret++; got.set(fil, { fil, kilde, sha256: sha, bytes: d.body.length, hentet: (o && o.hentet) || today, endret: o && o.endret, kontrollert: today }); }
+  }
+  // pek produktene til kopien vår (eller til Royal Purple hvis vi ikke har noen kopi ennå)
+  let pdsEndret = false;
+  P.produkter.forEach(p => (p.pds || []).forEach(d => {
+    const kilde = d[3] || (/^https?:/.test(d[2]) ? d[2] : null); if (!kilde) return;
+    const fil = kilder.get(kilde), ny = fs.existsSync(path.join(root, fil)) ? fil : kilde;
+    if (d[2] !== ny || d[3] !== kilde) { d[2] = ny; d[3] = kilde; pdsEndret = true; }
+  }));
+  if (pdsEndret) fs.writeFileSync(path.join(root, 'rpi/produkter.json'), JSON.stringify(P, null, 1));
   const filer = [...got.values()].sort((a, b) => a.fil.localeCompare(b.fil));
   fs.writeFileSync(manPath, JSON.stringify({ oppdatert: today, filer }, null, 1));
-  return Object.assign(rep, { kontrollert: vare.length, pds: pds.length, filer: filer.map(x => x.fil) });
+  return Object.assign(rep, { kontrollert: vare.length, pds: kilder.size, filer: filer.map(x => x.fil) });
 }
 
 function rapport(r, err) {
@@ -84,7 +111,7 @@ function rapport(r, err) {
     '. Endret: ' + r.endret.length + '. Borte: ' + r.borte.length + '. Feil: ' + r.feil.length + '.\n' +
     sec('Nye', r.nye) + sec('Endret hos Royal Purple (kopien er erstattet)', r.endret) +
     sec('Borte hos Royal Purple (gammel kopi beholdt – bør sjekkes)', r.borte) + sec('Kunne ikke hentes nå', r.feil) +
-    sec('Nye produkter hos Royal Purple (ikke i katalogen vår ennå)', r.nyeProdukter) + sec('Produktdatablad som ikke virker', r.pdsBorte);
+    sec('Nye produkter hos Royal Purple (ikke i katalogen vår ennå)', r.nyeProdukter) + sec('Produktdatablad som ikke kunne hentes hos Royal Purple', r.pdsBorte);
 }
 const problemer = r => r ? r.borte.length + r.feil.length + r.nyeProdukter.length + r.pdsBorte.length : 1;
 
