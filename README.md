@@ -85,3 +85,7 @@ Produktkatalogen på /produkter viser «Case studies og fagstoff» på hver prod
 Et dokument som nevner et produktnavn katalogen ikke har (navnebytte, skrivefeil), vises ikke på noe produkt. Den månedlige kontrollen fanger dette:
 `NODE_USE_ENV_PROXY=1 node verktoy/sjekk-ressurser.js` (krever Playwright). Perma-fett (SF/SO-numre) er med vilje utenfor, fordi Fuglesangs Tech selger systemene fylt med eget fett.
 Test mot en lokal versjon av kodeblokken med `FT_KATALOG_FIL=<fil>`.
+
+## Egne produkter fra Fuglesangs Tech (ft/)
+`ft/produkter.json` har produkter med Fuglesangs Tech-logo (foreløpig det digitale WiFi-mikroskopet WTM-W1-A). Produktkatalogen på /produkter viser dem under knappen «Fuglesangs Tech», med tekst, tekniske data, bilder og kontaktperson fra fila. Bildene ligger i `ft/bilder/` (første bilde i lista er hovedbildet).
+Nytt eget produkt: legg til en rad i `produkter` (id, navn, kode, kategori, gruppe, kontakt = trygve/kjartan/yngvar, kort, tekst, spesifikasjoner, bilder). Katalogkoden trenger ikke endres.
