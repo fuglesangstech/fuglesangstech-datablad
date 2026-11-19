@@ -3746,6 +3746,1111 @@
     890
    ],
    "sha": "fb9641f10efea7c1"
+  },
+  "le/bilder/xpel-prem-pump-images-beige.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    800,
+    800
+   ],
+   "til": [
+    1000,
+    1000
+   ],
+   "sha": "45be9e883b496424"
+  },
+  "le/bilder/xport-ultra-1000cc-lubricator.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    557,
+    800
+   ],
+   "til": [
+    836,
+    1200
+   ],
+   "sha": "545f0636d1896208"
+  },
+  "le/bilder/xport-ultra-500cc-lubricator.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    557,
+    800
+   ],
+   "til": [
+    836,
+    1200
+   ],
+   "sha": "82662eb510e94642"
+  },
+  "le/bilder/xport-ultra-beam-clamp.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    800,
+    450
+   ],
+   "til": [
+    1000,
+    563
+   ],
+   "sha": "fca7c1869235dda4"
+  },
+  "le/bilder/xport-ultra-cage-hanger.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    800,
+    450
+   ],
+   "til": [
+    1000,
+    563
+   ],
+   "sha": "ff025b1adbbe6ca8"
+  },
+  "le/bilder/xportsurefire115vaccontrollerchainbrush.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    800,
+    569
+   ],
+   "til": [
+    1200,
+    854
+   ],
+   "sha": "f55ced34ebd317ee"
+  },
+  "le/bilder/xportsurefire115vaccontrollerchainspray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    800,
+    403
+   ],
+   "til": [
+    1200,
+    605
+   ],
+   "sha": "81685d1d36b135be"
+  },
+  "le/bilder/xportsurefire115vactermstripchainbrush.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    800,
+    547
+   ],
+   "til": [
+    1200,
+    821
+   ],
+   "sha": "c84165c0db0e672b"
+  },
+  "le/bilder/xportsurefire115vactermstripchainspray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    800,
+    411
+   ],
+   "til": [
+    1200,
+    617
+   ],
+   "sha": "aee372db692dbf3b"
+  },
+  "perma/bilder/pro-c-p-0001-mp-6-lc-500-2015-09-10.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    560,
+    800
+   ],
+   "til": [
+    840,
+    1200
+   ],
+   "sha": "a58a0148da6a6bf1"
+  },
+  "utb/bilder/synlub-outboard-4t-25w-40.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    750,
+    801
+   ],
+   "til": [
+    1122,
+    1200
+   ],
+   "sha": "ec3a030043438dab"
+  },
+  "perma/bilder/pro-c-line-500-p-0002-2016-05-30-min.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    561,
+    815
+   ],
+   "til": [
+    827,
+    1200
+   ],
+   "sha": "5042ad7b3a861743"
+  },
+  "perma/bilder/classic-ohne-schraube-p-0001-20180726.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    560,
+    830
+   ],
+   "til": [
+    810,
+    1200
+   ],
+   "sha": "ce5c0dec20116b9f"
+  },
+  "le/bilder/lexes1f-22.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    744,
+    838
+   ],
+   "til": [
+    1066,
+    1200
+   ],
+   "sha": "5a1ac3ff1ebbca73"
+  },
+  "le/bilder/lexes1f-32.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    638,
+    838
+   ],
+   "til": [
+    914,
+    1200
+   ],
+   "sha": "fa38bd6bdbb22cb7"
+  },
+  "le/bilder/lexhhcv1-122.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    557,
+    838
+   ],
+   "til": [
+    799,
+    1200
+   ],
+   "sha": "5d2303a1f84ef846"
+  },
+  "le/bilder/lexhhcv1-66.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    814,
+    838
+   ],
+   "til": [
+    1166,
+    1200
+   ],
+   "sha": "ff3c1955b0c63410"
+  },
+  "le/bilder/lexhhcv375-28.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    557,
+    838
+   ],
+   "til": [
+    797,
+    1200
+   ],
+   "sha": "7fc1f3de8596de3b"
+  },
+  "le/bilder/box-12-cans-ice-9273-reduced.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    843,
+    675
+   ],
+   "til": [
+    1200,
+    961
+   ],
+   "sha": "09e1d60e3885bce0"
+  },
+  "vickers/bilder/biogear-xp-220.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "59112cc756829371"
+  },
+  "vickers/bilder/biogear-xp-320.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "5f129e7928ebd092"
+  },
+  "vickers/bilder/biogear-xp-460.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "c99c1b891bc8ec83"
+  },
+  "vickers/bilder/ecosure-eaf-100.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "c1d6fe5a5e34a950"
+  },
+  "vickers/bilder/ecosure-eaf-22.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "88a7da844dd7102c"
+  },
+  "vickers/bilder/ecosure-eaf-32.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "6e6ac18b9b94af6c"
+  },
+  "vickers/bilder/ecosure-eaf-46.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "20ed120d629ba709"
+  },
+  "vickers/bilder/ecosure-eaf-68.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "3f56045797956d79"
+  },
+  "vickers/bilder/ecosure-hse-100.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "6ec50f1cc64020e0"
+  },
+  "vickers/bilder/ecosure-hse-32.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "de98f59eb9239641"
+  },
+  "vickers/bilder/ecosure-hse-46.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "197422694a6c8eaf"
+  },
+  "vickers/bilder/ecosure-hse-68.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "a69103f30e86d24d"
+  },
+  "vickers/bilder/vickerlube-cpvi.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "93c50bf3cce3950f"
+  },
+  "vickers/bilder/vickerlube-hd-ep2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "15d32aee77fb745f"
+  },
+  "vickers/bilder/vickerlube-hv-ep-1000-1-5.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "e1ded50c5ca69bd3"
+  },
+  "vickers/bilder/vickerlube-ogl-1860-0.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "af71eecdbca9fec1"
+  },
+  "vickers/bilder/vickerlube-syngear-220.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "8b30be1f6c30090f"
+  },
+  "vickers/bilder/vickerlube-syngear-320.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "4825f5ff5d8107ca"
+  },
+  "vickers/bilder/vickerlube-syngear-460.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "d8af981f38b77228"
+  },
+  "vickers/bilder/vickerlube-syngear-680.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    601,
+    852
+   ],
+   "til": [
+    846,
+    1200
+   ],
+   "sha": "9344fe2e4cb1c176"
+  },
+  "perma/bilder/220621-ultra-1000-p-0001-min.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    316,
+    853
+   ],
+   "til": [
+    445,
+    1200
+   ],
+   "sha": "feb8e05c892ad617"
+  },
+  "perma/bilder/star-vario-120-p0001-grease-20220621.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    319,
+    853
+   ],
+   "til": [
+    449,
+    1200
+   ],
+   "sha": "113ab3d4cb4cc5ce"
+  },
+  "perma/bilder/star-vario-bluetooth-120-p0001-grease-20220621.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    319,
+    853
+   ],
+   "til": [
+    449,
+    1200
+   ],
+   "sha": "6eb114b0f3d93696"
+  },
+  "perma/bilder/star-vario-long-range-120-p0001-grease-202240126.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    319,
+    853
+   ],
+   "til": [
+    449,
+    1200
+   ],
+   "sha": "e51acf1618031f73"
+  },
+  "le/bilder/os-utility-indv-blue.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    860,
+    807
+   ],
+   "til": [
+    1200,
+    1126
+   ],
+   "sha": "61ef867af15ea41b"
+  },
+  "perma/bilder/flex-60-p-0001-2015-08-24-min.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    560,
+    861
+   ],
+   "til": [
+    780,
+    1200
+   ],
+   "sha": "e65f201207b9037e"
+  },
+  "perma/bilder/nova-65-p-0001-2015-08-24.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    561,
+    885
+   ],
+   "til": [
+    761,
+    1200
+   ],
+   "sha": "25073a5b2afa48ae"
+  },
+  "le/bilder/lexhhec375-28.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    589,
+    887
+   ],
+   "til": [
+    796,
+    1200
+   ],
+   "sha": "4f9da19efea8fa58"
+  },
+  "rpi/bilder/barrier-fluid-fda.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    529,
+    900
+   ],
+   "til": [
+    705,
+    1200
+   ],
+   "sha": "488d69d1ed8b4269"
+  },
+  "rpi/bilder/coupling-grease.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    233,
+    900
+   ],
+   "til": [
+    311,
+    1200
+   ],
+   "sha": "00dab967e8a9f7ee"
+  },
+  "rpi/bilder/enduro-mp-grease.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    233,
+    900
+   ],
+   "til": [
+    311,
+    1200
+   ],
+   "sha": "6822a496a9c96db5"
+  },
+  "rpi/bilder/max-chain.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    287,
+    900
+   ],
+   "til": [
+    383,
+    1200
+   ],
+   "sha": "3d2293347643275c"
+  },
+  "rpi/bilder/maxfilm.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    288,
+    900
+   ],
+   "til": [
+    384,
+    1200
+   ],
+   "sha": "59e550f9ccc293b4"
+  },
+  "rpi/bilder/paper-mill-grease.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    900
+   ],
+   "til": [
+    300,
+    1200
+   ],
+   "sha": "d1972d7c11f52f0a"
+  },
+  "rpi/bilder/royal-purple-fat.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    738,
+    900
+   ],
+   "til": [
+    985,
+    1200
+   ],
+   "sha": "686f6be20ea40d7d"
+  },
+  "rpi/bilder/synfilm-gt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    529,
+    900
+   ],
+   "til": [
+    705,
+    1200
+   ],
+   "sha": "4ecd8b453d3f2731"
+  },
+  "rpi/bilder/synfilm-recip.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    529,
+    900
+   ],
+   "til": [
+    705,
+    1200
+   ],
+   "sha": "4e83e970880bcbec"
+  },
+  "rpi/bilder/synfilm.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    437,
+    900
+   ],
+   "til": [
+    583,
+    1200
+   ],
+   "sha": "768e4bf4028e1f63"
+  },
+  "rpi/bilder/thermax-680-grease.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    900,
+    277
+   ],
+   "til": [
+    1200,
+    369
+   ],
+   "sha": "fdea4bdc1bd7b314"
+  },
+  "rpi/bilder/ultra-performance-grease.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    215,
+    900
+   ],
+   "til": [
+    287,
+    1200
+   ],
+   "sha": "9add34b4c300e8b1"
+  },
+  "perma/bilder/flex-plus-60-p-0001-20180822.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    560,
+    906
+   ],
+   "til": [
+    741,
+    1200
+   ],
+   "sha": "3beaa597b885be3d"
+  },
+  "le/bilder/os-utility-indv-black.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    908,
+    807
+   ],
+   "til": [
+    1200,
+    1066
+   ],
+   "sha": "d4fcd7a2b5a66212"
+  },
+  "le/bilder/os-utility-indv-dk-grn.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    908,
+    807
+   ],
+   "til": [
+    1200,
+    1066
+   ],
+   "sha": "a74bd86b6631b3f0"
+  },
+  "le/bilder/os-utility-indv-grey.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    908,
+    807
+   ],
+   "til": [
+    952,
+    847
+   ],
+   "sha": "61c9eacfe38f21e0"
+  },
+  "le/bilder/os-utility-indv-orange.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    908,
+    807
+   ],
+   "til": [
+    1135,
+    1010
+   ],
+   "sha": "f0c7ee74ecc6c232"
+  },
+  "le/bilder/os-utility-indv-yel.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    908,
+    807
+   ],
+   "til": [
+    952,
+    847
+   ],
+   "sha": "32d61c562eebfe0c"
+  },
+  "le/bilder/box-40-tubes-open-ice-09301-reduced.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    916,
+    675
+   ],
+   "til": [
+    1200,
+    884
+   ],
+   "sha": "54771722487939a9"
+  },
+  "vickers/bilder/vickerlube-cleaner-spray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    612,
+    918
+   ],
+   "til": [
+    801,
+    1200
+   ],
+   "sha": "26ae6f3e39900ab0"
+  },
+  "vickers/bilder/vickerlube-food-grade-synthetic-chain-spray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    612,
+    918
+   ],
+   "til": [
+    801,
+    1200
+   ],
+   "sha": "c96e2d97bfa32b96"
+  },
+  "vickers/bilder/vickerlube-food-grade-synthetic-grease-spray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    612,
+    918
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "7d56a52068fbd3d0"
+  },
+  "vickers/bilder/vickerlube-food-grade-synthetic-silicone-spray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    612,
+    918
+   ],
+   "til": [
+    801,
+    1200
+   ],
+   "sha": "819a6f0a31784034"
+  },
+  "vickers/bilder/vickerlube-food-grade-wd-spray.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    612,
+    918
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "96ecf411c32a9da6"
+  },
+  "le/bilder/os-hook-standhose-10.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    922,
+    796
+   ],
+   "til": [
+    922,
+    796
+   ],
+   "sha": "54843d94647a52b5"
+  },
+  "le/bilder/os-hook-standhose-5.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    922,
+    796
+   ],
+   "til": [
+    922,
+    796
+   ],
+   "sha": "67d85cc9375e9a95"
+  },
+  "le/bilder/os-npt-standhose-5.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    922,
+    796
+   ],
+   "til": [
+    922,
+    796
+   ],
+   "sha": "bbf6152c831e46b5"
+  },
+  "le/bilder/os-storage-indv-blue.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    922,
+    723
+   ],
+   "til": [
+    1200,
+    942
+   ],
+   "sha": "1a5a64853c8601f9"
+  },
+  "le/bilder/os-storage-indv-green.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    922,
+    767
+   ],
+   "til": [
+    1200,
+    998
+   ],
+   "sha": "2f2cef946c596578"
+  },
+  "le/bilder/os-storage-indv-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    922,
+    755
+   ],
+   "til": [
+    1200,
+    982
+   ],
+   "sha": "f41e2d8a8e756d9e"
+  },
+  "le/bilder/lexes1f-12.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    944,
+    837
+   ],
+   "til": [
+    1200,
+    1064
+   ],
+   "sha": "ebe14c2edb4661e9"
+  },
+  "le/bilder/os-storage-indv-pur.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    947,
+    773
+   ],
+   "til": [
+    1200,
+    980
+   ],
+   "sha": "e01d022e07043861"
+  },
+  "le/bilder/os-utility-indv-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    968,
+    843
+   ],
+   "til": [
+    1200,
+    1045
+   ],
+   "sha": "73bf6168d6e34f5c"
+  },
+  "le/bilder/os-storage-indv-black.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    989,
+    767
+   ],
+   "til": [
+    1200,
+    930
+   ],
+   "sha": "de3a795c161713a5"
+  },
+  "le/bilder/os-storage-indv-dk-grn.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    989,
+    767
+   ],
+   "til": [
+    1200,
+    930
+   ],
+   "sha": "fc84f6ba8077ea11"
+  },
+  "le/bilder/os-storage-indv-grey.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    989,
+    767
+   ],
+   "til": [
+    989,
+    766
+   ],
+   "sha": "2be083ee0e791aed"
+  },
+  "le/bilder/os-storage-indv-orange.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    989,
+    767
+   ],
+   "til": [
+    1200,
+    933
+   ],
+   "sha": "3dc24b59731863ae"
+  },
+  "le/bilder/os-storage-indv-yel.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    989,
+    767
+   ],
+   "til": [
+    1038,
+    805
+   ],
+   "sha": "79978104bfb9acbb"
   }
  }
 }
