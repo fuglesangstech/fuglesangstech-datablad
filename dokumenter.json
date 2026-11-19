@@ -926,14 +926,14 @@
    "lev": "Perma-Tec",
    "navn": "perma STAR-serien – produktbrosjyre på norsk",
    "sprak": "NO",
-   "url": "https://fuglesangstech.github.io/fuglesangstech-datablad/perma/brosjyrer/perma-star-produktserie-no.pdf",
+   "url": "https://datablad.fuglesangstech.no/perma/brosjyrer/perma-star-produktserie-no.pdf",
    "type": "brosjyre",
    "egen": true,
    "produkter": "^perma STAR"
   }
  ],
  "sett": [
-  "https://fuglesangstech.github.io/fuglesangstech-datablad/perma/brosjyrer/perma-star-produktserie-no.pdf",
+  "https://datablad.fuglesangstech.no/perma/brosjyrer/perma-star-produktserie-no.pdf",
   "https://lelubricants.com/wp-content/uploads/pdf/certs/H1%20Allergen%20Certificate.pdf",
   "https://lelubricants.com/wp-content/uploads/pdf/certs/Halal%20Certification-Aerosols.pdf",
   "https://lelubricants.com/wp-content/uploads/pdf/certs/Halal%20Certification.pdf",

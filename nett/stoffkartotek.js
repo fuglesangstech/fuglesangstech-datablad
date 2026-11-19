@@ -1,7 +1,7 @@
 /*
   Stoffkartotek-pakke for fuglesangstech.no/datablad
   Lastes fra kodeblokken på /datablad:
-    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/stoffkartotek.js" defer></script>
+    <script src="https://datablad.fuglesangstech.no/nett/stoffkartotek.js" defer></script>
 
   Kunden krysser av produktene sine (enkeltvis, Shift+klikk for flere, «Velg alle treff»,
   «Lim inn liste» med varenumre/produktnavn, eller «Hent fra tilbudslisten»), og laster ned én ZIP med
@@ -18,7 +18,7 @@
   'use strict';
   if (window.__ftSK) return; window.__ftSK = 1;
   var VERSJON = '2026-11-17b';
-  var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
+  var GH = 'https://datablad.fuglesangstech.no/';
   var KEY = 'ft-stoffkartotek-v1', TKEY = 'ft-tilbudsliste-v1', NAVY = '#052b69';
   var JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
   var PDFLIB = 'https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js';

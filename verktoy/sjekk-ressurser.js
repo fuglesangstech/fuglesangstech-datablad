@@ -13,7 +13,7 @@
 */
 'use strict';
 const SITE = 'https://www.fuglesangstech.no';
-const GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
+const GH = 'https://datablad.fuglesangstech.no/';
 const UA = { 'User-Agent': 'Mozilla/5.0 (Fuglesangs Tech ressurskontroll)' };
 const TILLATT = /^https:\/\/(www\.fuglesangstech\.no|fuglesangstech\.github\.io|raw\.githubusercontent\.com)\//;
 

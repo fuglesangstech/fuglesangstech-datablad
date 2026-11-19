@@ -5,14 +5,16 @@
   1. Henter alle sider fra sitemap.xml og sjekker at de svarer.
   2. Sjekker alle lenker (<a href>) og bilder (<img src>, srcset) i sidekoden – også i kodeblokkene.
   3. Sjekker at alle filer i dette repoet som sidene eller katalogfilene peker til, faktisk finnes
-     (bilder, datablad og JSON på fuglesangstech.github.io/fuglesangstech-datablad/).
+     (bilder, datablad og JSON på datablad.fuglesangstech.no/).
   Bare tydelige feil (HTTP 404/410/5xx, eller manglende fil i repoet) regnes som døde lenker.
   Adresser som ikke kunne nås fra skymiljøet (blokkert domene, tidsavbrudd) listes for seg og regnes ikke som feil.
 */
 'use strict';
 const fs = require('fs'), path = require('path');
 const SITE = 'https://www.fuglesangstech.no';
-const GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
+const GH = 'https://datablad.fuglesangstech.no/';
+// Gammel adresse (før 19.11.2026). GitHub sender den videre til GH, men sider som ikke er limt inn på nytt, kan fortsatt bruke den.
+const GH_GAMMEL = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
 const UA = { 'User-Agent': 'Mozilla/5.0 (Fuglesangs Tech lenkesjekk)' };
 const SKIP = [/^mailto:/i, /^tel:/i, /^javascript:/i, /^#/, /^data:/i, /static1\.squarespace\.com\/static\/vta/, /\/api\//,
   /googletagmanager|google-analytics|doubleclick|facebook\.com\/tr/, /linkedin\.com|instagram\.com|facebook\.com/];   // sosiale medier avviser roboter
@@ -88,12 +90,12 @@ async function run(root) {
       let u; try { u = new URL(v, pg); } catch (e) { return; }
       if (!/^https?:$/.test(u.protocol)) return;
       u.hash = '';
-      if (u.href.startsWith(GH)) return add(repoRefs, decodeURIComponent(u.href.slice(GH.length).split('?')[0]), short);
+      for (const g of [GH, GH_GAMMEL]) if (u.href.startsWith(g)) return add(repoRefs, decodeURIComponent(u.href.slice(g.length).split('?')[0]), short);
       if (u.hostname === 'images.squarespace-cdn.com') { u.search = ''; }   // samme bilde i flere størrelser
       add(links, u.href, short);
     });
     // Filer i repoet som koden peker til (også i JavaScript-data)
-    for (const m of h.matchAll(/https:\/\/fuglesangstech\.github\.io\/fuglesangstech-datablad\/([^"'\s)<>\\]+\.(?:webp|png|jpe?g|svg|pdf|json|js))/gi)) {
+    for (const m of h.matchAll(/https:\/\/(?:datablad\.fuglesangstech\.no|fuglesangstech\.github\.io\/fuglesangstech-datablad)\/([^"'\s)<>\\]+\.(?:webp|png|jpe?g|svg|pdf|json|js))/gi)) {
       let f = m[1]; try { f = decodeURIComponent(f); } catch (e) {}
       add(repoRefs, f, short);
     }

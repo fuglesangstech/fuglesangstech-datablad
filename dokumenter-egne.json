@@ -6,7 +6,7 @@
    "navn": "perma STAR-serien – produktbrosjyre på norsk",
    "type": "brosjyre",
    "sprak": "NO",
-   "url": "https://fuglesangstech.github.io/fuglesangstech-datablad/perma/brosjyrer/perma-star-produktserie-no.pdf",
+   "url": "https://datablad.fuglesangstech.no/perma/brosjyrer/perma-star-produktserie-no.pdf",
    "produkter": "^perma STAR",
    "erstatter": "perma_Flyer_STAR_PRODUCT_LINE"
   }

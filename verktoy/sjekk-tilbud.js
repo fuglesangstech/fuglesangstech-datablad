@@ -15,7 +15,7 @@
 'use strict';
 const fs = require('fs'), path = require('path');
 const SITE = 'https://www.fuglesangstech.no';
-const GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/nett/tilbudsliste.js';
+const GH = 'https://datablad.fuglesangstech.no/nett/tilbudsliste.js';
 const UA = { 'User-Agent': 'Mozilla/5.0 (Fuglesangs Tech tilbudskontroll)' };
 
 async function text(u) { const r = await fetch(u, { headers: UA, cache: 'no-store' }); if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + u); return r.text(); }

@@ -271,7 +271,7 @@
 </script>
 <script>
 (function () {
-  var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/', RAWB = 'https://raw.githubusercontent.com/fuglesangstech/fuglesangstech-datablad/main/', LEV = [], R = [], PAGE = 24, shown = PAGE;
+  var GH = 'https://datablad.fuglesangstech.no/', RAWB = 'https://raw.githubusercontent.com/fuglesangstech/fuglesangstech-datablad/main/', LEV = [], R = [], PAGE = 24, shown = PAGE;
   var $ = function (id) { return document.getElementById(id); };
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
   function url(p) { return /^https?:/.test(p) ? p : GH + p.split('/').map(encodeURIComponent).join('/'); }

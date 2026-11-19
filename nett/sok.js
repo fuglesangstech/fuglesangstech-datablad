@@ -77,7 +77,7 @@
   }
   /* ---------- Flere produktkilder: kataloger med produktdata i GitHub ----------
      Nye kataloger: legg til én linje i SRC. Nye produkter i en katalog kommer med automatisk. */
-  var GH = 'https://fuglesangstech.github.io/fuglesangstech-datablad/';
+  var GH = 'https://datablad.fuglesangstech.no/';
   var SRC = [
     { url: 'vickers/produkter.json', sup: 'Vickers Oils', side: '/vickers-katalog' },
     { url: 'perma/produkter.json', sup: 'Perma-Tec', side: '/perma-tec-katalog' }

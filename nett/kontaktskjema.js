@@ -1,7 +1,7 @@
 /*
   Kontaktskjema for fuglesangstech.no/kontakt-oss
   Lastes fra kodeblokken på kontaktsiden:
-    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/kontaktskjema.js" defer></script>
+    <script src="https://datablad.fuglesangstech.no/nett/kontaktskjema.js" defer></script>
 
   Samme prinsipp som skjemaet på /tilbud (tilbudsliste.js):
   Squarespace-skjemaet på siden blir liggende skjult og sender fortsatt e-posten (til adressen i skjemaets

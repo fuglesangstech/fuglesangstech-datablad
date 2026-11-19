@@ -1,7 +1,7 @@
 /*
   Artikler som oppdateres av seg selv på fuglesangstech.no
   Lastes fra footer-injeksjonen (alle sider):
-    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/artikler.js" defer></script>
+    <script src="https://datablad.fuglesangstech.no/nett/artikler.js" defer></script>
 
   Finner publiserte artikler under /artikler/ og legger nye kort inn på
     - forsiden (#ftx-nw, de 4 nyeste)

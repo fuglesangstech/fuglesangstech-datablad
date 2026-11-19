@@ -2,7 +2,7 @@
   Tilbudsliste for fuglesangstech.no
   ----------------------------------
   Lastes på alle sider via Squarespace: Innstillinger → Avansert → Kodeinjeksjon → Bunntekst:
-    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/tilbudsliste.js" defer></script>
+    <script src="https://datablad.fuglesangstech.no/nett/tilbudsliste.js" defer></script>
 
   Kunden samler produkter i en liste (lagres i nettleseren), og sender alt i ett skjema på /tilbud.
   Skjemaet er et vanlig Squarespace-skjema; lista fylles inn i tekstfeltet «Produkter» automatisk.

@@ -1,7 +1,7 @@
 /*
   Omregning av viskositet – fuglesangstech.no
   Lastes på alle sider fra Footer-kodeinjeksjonen (blokk 5c):
-    <script src="https://fuglesangstech.github.io/fuglesangstech-datablad/nett/viskositet.js" defer></script>
+    <script src="https://datablad.fuglesangstech.no/nett/viskositet.js" defer></script>
 
   Åpnes med lenker til «#viskositet», elementer med data-viskositet (ev. data-viskositet="68" for ISO VG 68,
   og data-v40 / data-v100 for viskositeten ved 40 og 100 °C fra databladet),
