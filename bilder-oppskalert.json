@@ -158,6 +158,2151 @@
     600
    ],
    "sha": "6960ab4fd973b981"
+  },
+  "le/bilder/12-months.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    62,
+    57
+   ],
+   "til": [
+    155,
+    143
+   ],
+   "sha": "895904bde2f5729e"
+  },
+  "le/bilder/3-months.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    62,
+    57
+   ],
+   "til": [
+    155,
+    143
+   ],
+   "sha": "df733cf3805e9968"
+  },
+  "le/bilder/6-months.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    69,
+    58
+   ],
+   "til": [
+    172,
+    145
+   ],
+   "sha": "ed80fe673ed57065"
+  },
+  "le/bilder/xtract-oil-sight-glass-big-2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    68,
+    90
+   ],
+   "til": [
+    170,
+    225
+   ],
+   "sha": "c218df820015ff34"
+  },
+  "le/bilder/xportnovalc.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    209,
+    180
+   ],
+   "til": [
+    522,
+    450
+   ],
+   "sha": "8ad583a1340a40cf"
+  },
+  "le/bilder/os-10-quick-connect-kit-920225.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    240,
+    240
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "2a97e867390de2ce"
+  },
+  "le/bilder/xportnovadriveunit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    242,
+    167
+   ],
+   "til": [
+    605,
+    418
+   ],
+   "sha": "5845c2428edd519f"
+  },
+  "le/bilder/xport-open-gear-spray-lance-options-large-systems-3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    255,
+    206
+   ],
+   "til": [
+    638,
+    515
+   ],
+   "sha": "07d6163fe02c93fc"
+  },
+  "le/bilder/xportstarhdbeammkpt2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    239,
+    257
+   ],
+   "til": [
+    358,
+    385
+   ],
+   "sha": "cb8f5e2c63da62e5"
+  },
+  "le/bilder/xportstarhdbeammkpt3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    239,
+    257
+   ],
+   "til": [
+    358,
+    385
+   ],
+   "sha": "80fa6a3e273f82ed"
+  },
+  "le/bilder/2001-can.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    100,
+    260
+   ],
+   "til": [
+    250,
+    650
+   ],
+   "sha": "4003a041968270fa"
+  },
+  "le/bilder/xportstarhdbeammkpt4.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    247,
+    261
+   ],
+   "til": [
+    370,
+    392
+   ],
+   "sha": "c8ea26006d2d0396"
+  },
+  "le/bilder/xportstarstdbeammkpt3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    236,
+    263
+   ],
+   "til": [
+    355,
+    395
+   ],
+   "sha": "644ea8df0921ef16"
+  },
+  "le/bilder/xportstarstdrailmkpt3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    250,
+    263
+   ],
+   "til": [
+    375,
+    395
+   ],
+   "sha": "bab290391c460664"
+  },
+  "le/bilder/xportstarstdrailmkpt1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    237,
+    266
+   ],
+   "til": [
+    592,
+    665
+   ],
+   "sha": "8104d340fc972e6e"
+  },
+  "le/bilder/xportstarstdrailmkpt2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    256,
+    266
+   ],
+   "til": [
+    385,
+    400
+   ],
+   "sha": "b72b228e7caa2458"
+  },
+  "le/bilder/xportstarstdbeammkpt1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    248,
+    268
+   ],
+   "til": [
+    620,
+    670
+   ],
+   "sha": "b2e68b506eca7fc9"
+  },
+  "le/bilder/xportstarhdcagemkpt3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    256,
+    269
+   ],
+   "til": [
+    385,
+    402
+   ],
+   "sha": "e7768c5cc9368c85"
+  },
+  "le/bilder/xportstarhdcagemkpt4.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    244,
+    269
+   ],
+   "til": [
+    365,
+    402
+   ],
+   "sha": "ab9b9c1ac167c900"
+  },
+  "le/bilder/xportstarstdcagemkpt1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    256,
+    269
+   ],
+   "til": [
+    640,
+    672
+   ],
+   "sha": "146e88782eb0f3e1"
+  },
+  "le/bilder/xportstarstdcagemkpt2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    257,
+    269
+   ],
+   "til": [
+    320,
+    335
+   ],
+   "sha": "51f72a31babda9e9"
+  },
+  "le/bilder/xportstarstdcagemkpt3.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    255,
+    269
+   ],
+   "til": [
+    382,
+    402
+   ],
+   "sha": "ba948eb0f195ead2"
+  },
+  "le/bilder/xportstarstdcagemkpt4.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    246,
+    269
+   ],
+   "til": [
+    370,
+    402
+   ],
+   "sha": "865677d8d053c4b4"
+  },
+  "le/bilder/xportstarhdcagemkpt2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    249,
+    271
+   ],
+   "til": [
+    310,
+    340
+   ],
+   "sha": "408ac2db8ea83673"
+  },
+  "le/bilder/xportstarstdbeammkpt4.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    249,
+    271
+   ],
+   "til": [
+    373,
+    408
+   ],
+   "sha": "3d4f4b8757af7a2f"
+  },
+  "le/bilder/xportstarhdcagemkpt1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    260,
+    272
+   ],
+   "til": [
+    650,
+    680
+   ],
+   "sha": "8850a269625e55b9"
+  },
+  "le/bilder/xportstarstdbeammkpt2.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    238,
+    272
+   ],
+   "til": [
+    358,
+    408
+   ],
+   "sha": "fd8ebab51c801e74"
+  },
+  "le/bilder/stdcagemnt1pt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    184,
+    276
+   ],
+   "til": [
+    193,
+    290
+   ],
+   "sha": "1a7a26cbbf50fb1f"
+  },
+  "le/bilder/xportstdbeammount2pt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    282,
+    218
+   ],
+   "til": [
+    705,
+    545
+   ],
+   "sha": "668067f31f97f4ee"
+  },
+  "le/bilder/4025-aerosol-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    104,
+    300
+   ],
+   "til": [
+    260,
+    750
+   ],
+   "sha": "b1c6d5c36db5d6c9"
+  },
+  "le/bilder/stdcagemnt2pt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    305,
+    263
+   ],
+   "til": [
+    572,
+    492
+   ],
+   "sha": "41be6bc43e04a5f0"
+  },
+  "le/bilder/xport-ultra-battery-pack-lt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    297,
+    312
+   ],
+   "til": [
+    742,
+    780
+   ],
+   "sha": "219690e12e088e9f"
+  },
+  "le/bilder/a1757.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    319,
+    281
+   ],
+   "til": [
+    400,
+    350
+   ],
+   "sha": "d181ff2a0bada85a"
+  },
+  "le/bilder/xport-ultra-battery-pack.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    291,
+    321
+   ],
+   "til": [
+    727,
+    802
+   ],
+   "sha": "f40e80bf0c6c8636"
+  },
+  "le/bilder/a1763.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    328,
+    300
+   ],
+   "til": [
+    492,
+    450
+   ],
+   "sha": "f3b7e39001e08b07"
+  },
+  "le/bilder/a1771.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    353,
+    265
+   ],
+   "til": [
+    440,
+    330
+   ],
+   "sha": "fdae7dcb46bbe638"
+  },
+  "le/bilder/a1769.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    356,
+    281
+   ],
+   "til": [
+    375,
+    295
+   ],
+   "sha": "5225f73852d6ecdd"
+  },
+  "le/bilder/a1760.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    365,
+    278
+   ],
+   "til": [
+    365,
+    277
+   ],
+   "sha": "0cb48d6bf99b7f13"
+  },
+  "le/bilder/a1772.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    382,
+    269
+   ],
+   "til": [
+    572,
+    402
+   ],
+   "sha": "b0fad476a3bbff8b"
+  },
+  "le/bilder/starcontroller-catnav.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    290
+   ],
+   "til": [
+    1000,
+    725
+   ],
+   "sha": "6b75f996392a6ec2"
+  },
+  "le/bilder/a1759.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    410,
+    353
+   ],
+   "til": [
+    410,
+    353
+   ],
+   "sha": "55f75f1ed2286aab"
+  },
+  "le/bilder/1150-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    232,
+    500
+   ],
+   "til": [
+    557,
+    1200
+   ],
+   "sha": "131a0a12197dc56f"
+  },
+  "le/bilder/703-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    241,
+    500
+   ],
+   "til": [
+    578,
+    1200
+   ],
+   "sha": "a3e2286a9269eee8"
+  },
+  "le/bilder/oil-safe-10-liter-drum-body.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    500,
+    500
+   ],
+   "til": [
+    500,
+    500
+   ],
+   "sha": "3d508092c3a8fa64"
+  },
+  "le/bilder/oil-safe-3-liter-drum-body.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    500,
+    500
+   ],
+   "til": [
+    500,
+    500
+   ],
+   "sha": "7abe73de6a3cadce"
+  },
+  "le/bilder/oil-safe-5-liter-drum-body.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    500,
+    500
+   ],
+   "til": [
+    500,
+    500
+   ],
+   "sha": "5eae729c69ef3c60"
+  },
+  "le/bilder/solid-block-image-easy-bar-002-1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    500,
+    500
+   ],
+   "til": [
+    938,
+    938
+   ],
+   "sha": "ebc71d418ccdce94"
+  },
+  "le/bilder/xport-ultra-drive-unit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    500,
+    500
+   ],
+   "til": [
+    1200,
+    1200
+   ],
+   "sha": "f37f7ee548131381"
+  },
+  "le/bilder/xportnova125.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    271,
+    522
+   ],
+   "til": [
+    623,
+    1200
+   ],
+   "sha": "76e8536bebf55352"
+  },
+  "perma/bilder/futura-ohne-schraube-p-0001-20180726.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    319,
+    539
+   ],
+   "til": [
+    710,
+    1200
+   ],
+   "sha": "8dee4f649351b5d3"
+  },
+  "le/bilder/oilsafe-stretch-12-inch-hose.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    555,
+    132
+   ],
+   "til": [
+    1200,
+    285
+   ],
+   "sha": "1f8a6f837bb9fef3"
+  },
+  "le/bilder/802-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    566
+   ],
+   "til": [
+    477,
+    1200
+   ],
+   "sha": "30bc22264a62e59a"
+  },
+  "perma/bilder/futura-plus-p-0001-2017-11-13.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    319,
+    569
+   ],
+   "til": [
+    673,
+    1200
+   ],
+   "sha": "5331811dbd78c3ab"
+  },
+  "le/bilder/12-aerosol-csa.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "27139cf3358ba8af"
+  },
+  "le/bilder/1232-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "9574c4e5f9871024"
+  },
+  "le/bilder/1250-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "630c051cc85d1f10"
+  },
+  "le/bilder/1275-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "3f1b900608b815b9"
+  },
+  "le/bilder/1282.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "40d80785016aa676"
+  },
+  "le/bilder/1299-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "4d92280f44799cad"
+  },
+  "le/bilder/1488-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "d0b22af875305ebe"
+  },
+  "le/bilder/1498-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "a18c86c99a286ba0"
+  },
+  "le/bilder/1499-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "dfee19b071201b78"
+  },
+  "le/bilder/1605-quart.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    423,
+    1078
+   ],
+   "sha": "1975beee000ba5e1"
+  },
+  "le/bilder/30lb-5lb-bags.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "53e39a525284c776"
+  },
+  "le/bilder/3751-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "243e52f24b48107c"
+  },
+  "le/bilder/3752-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "e1e84d4148f434bd"
+  },
+  "le/bilder/4024.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "2a9ea049cbe45734"
+  },
+  "le/bilder/4025.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "5b84b675e1242cbf"
+  },
+  "le/bilder/4059-can.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "2558ab4a98cabaf1"
+  },
+  "le/bilder/4071-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "164ef917a0400f68"
+  },
+  "le/bilder/4072-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "48f75e94127779b7"
+  },
+  "le/bilder/4622-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "0a8d0b11120abb0b"
+  },
+  "le/bilder/4701-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "1fc88e97d91f39e9"
+  },
+  "le/bilder/4702-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "a011c16a063acddb"
+  },
+  "le/bilder/5180-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "5adc28454f33f3df"
+  },
+  "le/bilder/5182-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "a789ac5cc50b2476"
+  },
+  "le/bilder/9901-tube.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    225,
+    575
+   ],
+   "til": [
+    470,
+    1200
+   ],
+   "sha": "90b0eaf755980e74"
+  },
+  "le/bilder/xtract-oil-level-indicator-big.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    166,
+    575
+   ],
+   "til": [
+    250,
+    862
+   ],
+   "sha": "a37f4d44078417d2"
+  },
+  "chesterton/bilder/235.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "37f19d8b67c7230d"
+  },
+  "chesterton/bilder/273.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1200,
+    1200
+   ],
+   "sha": "fd259d51042e4dd1"
+  },
+  "chesterton/bilder/338.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "96605248fc2a3757"
+  },
+  "chesterton/bilder/346.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    630,
+    630
+   ],
+   "sha": "3b36490402fe338e"
+  },
+  "chesterton/bilder/3500.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "6f38f18244ce314c"
+  },
+  "chesterton/bilder/395.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "6a1279089dc679d9"
+  },
+  "chesterton/bilder/613.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "0264bcc16a96bfaa"
+  },
+  "chesterton/bilder/617.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    750,
+    750
+   ],
+   "sha": "d91982093c748b86"
+  },
+  "chesterton/bilder/622.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "7f7c8e2860598407"
+  },
+  "chesterton/bilder/629.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "739f127b906e4332"
+  },
+  "chesterton/bilder/651.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "638b429da5f282a8"
+  },
+  "chesterton/bilder/662fg.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "ee26f25585e8712a"
+  },
+  "chesterton/bilder/850.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "505153b9ba893619"
+  },
+  "chesterton/bilder/989.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1200,
+    1200
+   ],
+   "sha": "ffb7e407c4a179c1"
+  },
+  "le/bilder/8130-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    588,
+    1200
+   ],
+   "sha": "6b1e4f2a08c715d5"
+  },
+  "le/bilder/8700-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    588,
+    1200
+   ],
+   "sha": "192231076a028cfa"
+  },
+  "le/bilder/8800-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    588,
+    1200
+   ],
+   "sha": "a6be14f7d868474e"
+  },
+  "le/bilder/8854-quart-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    588,
+    1200
+   ],
+   "sha": "12e51de4ec3e5985"
+  },
+  "le/bilder/a1784.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    596,
+    600
+   ],
+   "til": [
+    1192,
+    1200
+   ],
+   "sha": "e73042df2cae2f51"
+  },
+  "le/bilder/bal-200-quart.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    588,
+    1200
+   ],
+   "sha": "5c83c9c5bfef09db"
+  },
+  "le/bilder/battery.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    537,
+    600
+   ],
+   "til": [
+    1007,
+    1125
+   ],
+   "sha": "3cad0e763586f33c"
+  },
+  "le/bilder/cgt-619ley.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    533,
+    600
+   ],
+   "til": [
+    1066,
+    1200
+   ],
+   "sha": "9cbe29254227eddf"
+  },
+  "le/bilder/cgt-912-19lebw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "eef0482d23774ea7"
+  },
+  "le/bilder/cgt-912-19legw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "fa8dfcabc0bcbf58"
+  },
+  "le/bilder/cgt-912-19lepw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "3c1ca415bcc3999d"
+  },
+  "le/bilder/cgt-912-19lerw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "d32bd71bdcdeed53"
+  },
+  "le/bilder/cgt-912-19lesw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "3dc299c7736979b9"
+  },
+  "le/bilder/cgt-912-19leyw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "8a6203501407d988"
+  },
+  "le/bilder/cgt-916-19lekw.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    341,
+    600
+   ],
+   "til": [
+    682,
+    1200
+   ],
+   "sha": "a98315a8215a90f1"
+  },
+  "le/bilder/cgt619leb.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    525,
+    600
+   ],
+   "til": [
+    1050,
+    1200
+   ],
+   "sha": "7c5482b83a062979"
+  },
+  "le/bilder/cgt619leg.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    535,
+    600
+   ],
+   "til": [
+    1002,
+    1125
+   ],
+   "sha": "b0c71c388f6fe18b"
+  },
+  "le/bilder/cgt619lek.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    530,
+    600
+   ],
+   "til": [
+    1060,
+    1200
+   ],
+   "sha": "7d6b085767617575"
+  },
+  "le/bilder/cgt619lep.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    533,
+    600
+   ],
+   "til": [
+    1000,
+    1125
+   ],
+   "sha": "8aa1df72fd749a5b"
+  },
+  "le/bilder/cgt619ler.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    536,
+    600
+   ],
+   "til": [
+    1072,
+    1200
+   ],
+   "sha": "c4c2522eda1f2e02"
+  },
+  "le/bilder/cgt619les.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    533,
+    600
+   ],
+   "til": [
+    1066,
+    1200
+   ],
+   "sha": "f686502f380f0b17"
+  },
+  "le/bilder/drum-pail-duo-oil-1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    533,
+    600
+   ],
+   "til": [
+    1066,
+    1200
+   ],
+   "sha": "543b0f6901b78666"
+  },
+  "le/bilder/leap-sample-jar-trans.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    342,
+    600
+   ],
+   "til": [
+    684,
+    1200
+   ],
+   "sha": "19a1b17c90187a43"
+  },
+  "le/bilder/lex-15-t-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    550,
+    1125
+   ],
+   "sha": "42a7170060caad49"
+  },
+  "le/bilder/lex-24-t-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.42,
+   "fra": [
+    294,
+    600
+   ],
+   "til": [
+    307,
+    630
+   ],
+   "sha": "40a90abe4b50c888"
+  },
+  "le/bilder/oilsafe-mini-spout-10-liter-yellow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "0b62d4aa25fa637d"
+  },
+  "le/bilder/oilsafe-mini-spout-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "fbe1e2483137fdc0"
+  },
+  "le/bilder/oilsafe-mini-spout-5-liter-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "08324d6f7434e1ed"
+  },
+  "le/bilder/oilsafe-storage-lid-10-liter-yellow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "8b81e74d48345ec4"
+  },
+  "le/bilder/oilsafe-storage-lid-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "04b6311180dc1601"
+  },
+  "le/bilder/oilsafe-storage-lid-5-liter-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "c0730b2fb23ae233"
+  },
+  "le/bilder/oilsafe-stretch-spout-10-liter-yelllow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "9543a60a77f6b418"
+  },
+  "le/bilder/oilsafe-stretch-spout-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "24e808b42be488c8"
+  },
+  "le/bilder/oilsafe-stretch-spout-5-liter-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "2c8e5f73d9f3d09e"
+  },
+  "le/bilder/oilsafe-stumpy-spout-10-liter-yellow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "8d0928443cba2364"
+  },
+  "le/bilder/oilsafe-stumpy-spout-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "98f3b3380791782f"
+  },
+  "le/bilder/oilsafe-utility-lid-no-pump-10-liter-yellow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    600,
+    900
+   ],
+   "sha": "68720f8522998db1"
+  },
+  "le/bilder/oilsafe-utility-lid-no-pump-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "c8dda837c5590cc8"
+  },
+  "le/bilder/oilsafe-utility-lid-premium-pump-10-liter-yellow.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "a4b6a62a5466a6d4"
+  },
+  "le/bilder/oilsafe-utility-lid-premium-pump-3-liter-purple.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "073dc744e7b20c37"
+  },
+  "le/bilder/oilsafe-utility-lid-premium-pump-5-liter-red.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    800,
+    1200
+   ],
+   "sha": "66cf94f51ad41493"
+  },
+  "le/bilder/os-pump-stand-005448.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    400,
+    600
+   ],
+   "til": [
+    750,
+    1125
+   ],
+   "sha": "85c9579a1367fd11"
+  },
+  "le/bilder/standard-filter-cart-1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    348,
+    600
+   ],
+   "til": [
+    652,
+    1125
+   ],
+   "sha": "1c6719af75689ab1"
+  },
+  "le/bilder/xport-ultra-1000cc-low-temp-refill-kit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    581,
+    600
+   ],
+   "til": [
+    1162,
+    1200
+   ],
+   "sha": "5b2d5c4f5a5a61d4"
+  },
+  "le/bilder/xport-ultra-1000cc-refill-kit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    599,
+    600
+   ],
+   "til": [
+    1198,
+    1200
+   ],
+   "sha": "ec8ab4d45035dacd"
+  },
+  "le/bilder/xport-ultra-500cc-low-temp-refill-kit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    574,
+    600
+   ],
+   "til": [
+    1148,
+    1200
+   ],
+   "sha": "8e0e9b450a428028"
+  },
+  "le/bilder/xport-ultra-500cc-refill-kit.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    568,
+    600
+   ],
+   "til": [
+    1136,
+    1200
+   ],
+   "sha": "769e03fd323f1ed0"
+  },
+  "rpi/bilder/biomax-fat.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    750,
+    750
+   ],
+   "sha": "069c768c8379aa2d"
+  },
+  "utb/bilder/diesel-treatment.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "fef5f7475c9a160f"
+  },
+  "utb/bilder/dpf-cleaner.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "a3f33a1ddbe23009"
+  },
+  "utb/bilder/engine-protector.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "6278f3621738edbb"
+  },
+  "utb/bilder/excelgear-hd-85w-140.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "ee00fc26e5621dba"
+  },
+  "utb/bilder/oil-flush.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "d57b467acd1527c8"
+  },
+  "utb/bilder/oil-leak-stop.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "1dd764287efd8457"
+  },
+  "utb/bilder/petrol-treatment.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.5,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    750,
+    750
+   ],
+   "sha": "74915021b375ee26"
+  },
+  "utb/bilder/radiator-leak-stop.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    1125,
+    1125
+   ],
+   "sha": "01a744a9c47e6c96"
+  },
+  "utb/bilder/syngear-atf-8hp.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "c3b3f18fb0759c70"
+  },
+  "utb/bilder/syngear-atf-9-mb.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "a83c8982c278c575"
+  },
+  "utb/bilder/syngear-atf-cvt.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.6,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    900,
+    900
+   ],
+   "sha": "08ce272f08b9b367"
+  },
+  "utb/bilder/synlub-supreme-fe-0w-20.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.35,
+   "fra": [
+    600,
+    600
+   ],
+   "til": [
+    600,
+    600
+   ],
+   "sha": "32db4653f56cf7bd"
+  },
+  "le/bilder/xportopengearspraysystem.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    615,
+    480
+   ],
+   "til": [
+    1200,
+    937
+   ],
+   "sha": "5508eb8cbad71bae"
+  },
+  "le/bilder/8130-quart-12-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    310,
+    632
+   ],
+   "til": [
+    589,
+    1200
+   ],
+   "sha": "ab561a639ed0153c"
+  },
+  "le/bilder/8130-quart-24-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    310,
+    632
+   ],
+   "til": [
+    589,
+    1200
+   ],
+   "sha": "6d350b89c3f84734"
+  },
+  "le/bilder/1298-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    480,
+    640
+   ],
+   "til": [
+    900,
+    1200
+   ],
+   "sha": "59aa0ac5aad24cb0"
+  },
+  "le/bilder/8800-quart-12-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    318,
+    647
+   ],
+   "til": [
+    590,
+    1200
+   ],
+   "sha": "b01d95d60befa7f0"
+  },
+  "le/bilder/8800-quart-24-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    318,
+    647
+   ],
+   "til": [
+    590,
+    1200
+   ],
+   "sha": "89bcd229055d514f"
+  },
+  "le/bilder/8854-quart-12-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    318,
+    650
+   ],
+   "til": [
+    587,
+    1200
+   ],
+   "sha": "0896426053c341af"
+  },
+  "le/bilder/8854-quart-24-th.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    318,
+    650
+   ],
+   "til": [
+    587,
+    1200
+   ],
+   "sha": "69aaf91dcfeeb95d"
+  },
+  "perma/bilder/flex-125-p-0001-2015-08-24-220622.webp": {
+   "dato": "2026-11-19",
+   "ekte": 0.75,
+   "fra": [
+    319,
+    654
+   ],
+   "til": [
+    585,
+    1200
+   ],
+   "sha": "ad49684886671175"
+  },
+  "perma/bilder/nova-125-p-0001-2015-08-24-220622.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    323,
+    654
+   ],
+   "til": [
+    593,
+    1200
+   ],
+   "sha": "b48ab38709d3d688"
+  },
+  "chesterton/bilder/660.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    660,
+    495
+   ],
+   "til": [
+    1200,
+    900
+   ],
+   "sha": "4fff69ddf2134f96"
+  },
+  "le/bilder/box-10-tube-open-ice-9308-reduced-1.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    675,
+    675
+   ],
+   "til": [
+    1200,
+    1200
+   ],
+   "sha": "75bd8b7f88299635"
+  },
+  "utb/bilder/synlub-fs-2-stroke.webp": {
+   "dato": "2026-11-19",
+   "ekte": 1.0,
+   "fra": [
+    681,
+    580
+   ],
+   "til": [
+    1200,
+    1022
+   ],
+   "sha": "e07bf2fa4047cf16"
   }
  }
 }
