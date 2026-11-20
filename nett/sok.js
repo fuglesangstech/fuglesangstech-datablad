@@ -26,7 +26,7 @@
     ['Kurs i mikrobiell vekst i olje', '/tjeneste-kurs-mikrobiell-vekst', 'kurs opplæring bakterier sopp bakterievekst hydraulikk', 'Bakterier og sopp i olje – forebygging og behandling', 'i:cap'],
     ['Leverandører', '/leverandorer', 'eneleverandør merker', 'Merkene vi leverer', 'i:truck'],
     ['Chesterton', '/chesterton-1', 'arc belegg', 'Smøremidler, vedlikehold og ARC-belegg', 'i:tag'],
-    ['Lubrication Engineers (LE)', '/le-about', 'le', 'Høyytelses oljer og fett', 'i:tag'],
+    ['Lubrication Engineers (LE)', '/le-about', 'le', 'Høyytelsesoljer og fett', 'i:tag'],
     ['UTB', '/utb', 'bil motorolje', 'Smøremidler og kjølevæsker', 'i:tag'],
     ['Finn olje til bilen – søk på bilskilt', '/finn-olje-til-bilen', 'bilskilt regnummer registreringsnummer bil nummersøk skiltsøk olje til bil', 'Anbefalte UTB-produkter til bilen', 'i:car'],
     ['Royal Purple Industrial', '/royal-purple-industrial', 'syntetisk', 'Syntetiske industrismøremidler', 'i:tag'],
@@ -181,9 +181,14 @@
   var SYN = { hydraulikk: ['hydraulic'], gir: ['gear'], fett: ['grease'], smørefett: ['grease'], rust: ['rust', 'penetrat'], kjølevæske: ['antifreeze', 'coolant'],
     frost: ['antifreeze'], kjede: ['chain'], kjetting: ['chain'], motorolje: ['engine'], kompressor: ['compressor'], turbin: ['turbine'], matvare: ['h1', 'food'],
     avfett: ['degreas', 'cleaner'], rengjøring: ['cleaner', 'degreas'], gjenge: ['thread', 'seize'], tape: ['tape'], pakning: ['gasket', 'packing'],
-    belegg: ['arc', 'coating'], wire: ['wire rope'], penetrer: ['penetrat'], automatgir: ['atf', 'transmission'], spray: ['spray', 'aerosol'] };
+    belegg: ['arc', 'coating'], wire: ['wire rope'], penetrer: ['penetrat'], automatgir: ['atf', 'transmission'], spray: ['spray', 'aerosol'],
+    smørepumpe: ['fettpresse', 'grease gun', 'xpel'], oljepumpe: ['xpel', 'oljekanne'], fatpumpe: ['xpel'], fettpistol: ['fettpresse', 'grease gun'],
+    fettsprøyte: ['fettpresse', 'grease gun'], smørepistol: ['fettpresse', 'grease gun'], sentralsmøring: ['smøreapparat'], automatsmøring: ['smøreapparat'],
+    antiseize: ['anti-seize', 'gjengepasta'], kobberpasta: ['anti-seize', 'gjengepasta'], rustolje: ['rustløs', 'penetrat', 'korrosjon'], wd40: ['penetrat', 'rustløs'],
+    bremsevæske: ['brake fluid'], miljøolje: ['eal', 'bio'], matgodkjent: ['h1', 'food'] };
   function alts(w) {
     var a = [w];
+    if (SYN[w]) return a.concat(SYN[w]);   // eget oppslag for ordet: bruk bare det (så «fettpistol» ikke blir «fett»)
     for (var k in SYN) if (w.indexOf(k) === 0 || (w.length >= 4 && k.indexOf(w) === 0)) a = a.concat(SYN[k]);
     return a;
   }
@@ -203,6 +208,7 @@
           else if (name.replace(/ /g, '').indexOf(w) > -1) v = 12;
           else if (kat && kat.indexOf(w) > -1) v = 10;
           else v = 2;
+          if (j > 0) v = Math.max(1, v - 8);   // treff på synonym teller litt mindre enn treff på ordet kunden skrev
           if (v > best) best = v;
         }
         if (best < 0) return -1;
