@@ -83,7 +83,7 @@
   /* ---------- stil ---------- */
   var css = [
     /* Større trykkflate for de små «+»-knappene (legg i tilbudslisten) på mobil, uten å endre utseendet */
-    '.ftx-tq:not(.ftx-tq-tekst){position:relative}.ftx-tq:not(.ftx-tq-tekst)::after{content:"";position:absolute;inset:-11px}',
+    '.ftx-tq:not(.ftx-tq-tekst):not(.fts-add){position:relative}.ftx-tq:not(.ftx-tq-tekst)::after{content:"";position:absolute;inset:-11px}',
     '.ftq-fab[hidden],.ftq-bg[hidden],.ftq-panel[hidden],.ftq-foot[hidden]{display:none!important}',
     '.ftq-fab{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));z-index:9990;display:flex;align-items:center;gap:10px;background:' + NAVY + ';color:#fff;border:0;border-radius:999px;padding:12px 18px 12px 16px;font-family:inherit;font-weight:600;font-size:15px;line-height:1.2;cursor:pointer;box-shadow:0 6px 20px rgba(5,43,105,.28)}',
     '.ftq-fab:hover{background:#0a3a8a}.ftq-fab svg{width:20px;height:20px;flex:none}',

@@ -72,7 +72,8 @@
   function prep(rows) {
     return rows.map(function (r) {
       var h = norm(r[1] + ' ' + r[2] + ' ' + r[3] + ' ' + r[5] + ' ' + r[0]);
-      return { id: r[0], n: r[1], sup: r[2], kat: r[3], img: r[4], href: r[6] || '', tags: r[7] || '', d: r[8] || r[5] || '', h: h, hc: h.replace(/ /g, ''), nn: norm(r[1]), nk: norm(r[3]) };
+      // katalogkortene har «id~søketekst» (varianter, varenumre); lenken skal bare ha id-en
+      return { id: String(r[0]).split('~')[0], n: r[1], sup: r[2], kat: r[3], img: r[4], href: r[6] || '', tags: r[7] || '', d: r[8] || r[5] || '', h: h, hc: h.replace(/ /g, ''), nn: norm(r[1]), nk: norm(r[3]) };
     });
   }
   /* ---------- Flere produktkilder: kataloger med produktdata i GitHub ----------
@@ -202,7 +203,8 @@
         var best = -1;
         for (var j = 0; j < ta[i].length; j++) {
           var w = ta[i][j], v = -1;
-          if (w.length <= 3 ? (' ' + hay).indexOf(' ' + w) < 0 : (hay.indexOf(w) < 0 && hc.indexOf(w.replace(/ /g, '')) < 0)) continue;
+          // korte ord og rene tall (produktnumre) må stå som eget ord, så «5180» ikke treffer «5 1 80» i en annen tekst
+          if (w.length <= 3 || /^\d+$/.test(w) ? (' ' + hay).indexOf(' ' + w) < 0 : (hay.indexOf(w) < 0 && hc.indexOf(w.replace(/ /g, '')) < 0)) continue;
           if ((' ' + name + ' ').indexOf(' ' + w + ' ') > -1) v = 30;
           else if ((' ' + name).indexOf(' ' + w) > -1) v = 20;
           else if (name.replace(/ /g, '').indexOf(w) > -1) v = 12;
