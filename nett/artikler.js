@@ -13,12 +13,12 @@
     1. /artikler som Squarespace-blogg: /artikler?format=json gir alle innlegg med tittel, utdrag, bilde, dato og forfatter.
     2. Ellers: /sitemap.xml (sider med adresse /artikler/<navn>). Tittel, ingress, bilde, dato og forfatter hentes fra
        artikkelens JSON-LD (Article), ellers fra delingsdataene (og:title, og:description, og:image).
-  Resultatet huskes i sessionStorage i en time.
+  Resultatet huskes i sessionStorage i en time, og hver artikkelside i localStorage til lastmod i sitemap endres.
 */
 (function () {
   'use strict';
   if (window.__ftArtikler) return; window.__ftArtikler = 1;
-  var VERSJON = '2026-11-12a', KEY = 'ft-artikler-v1', TTL = 3600e3, MAKS = 30, FORSIDE = 4;
+  var VERSJON = '2026-11-12a', KEY = 'ft-artikler-v1', SIDEKEY = 'ft-artikkelsider-v1', TTL = 3600e3, MAKS = 30, FORSIDE = 4;
   var GENERISK = /delingsbilde|social-share|default-share/i;
   var MND = ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember'];
 
@@ -75,7 +75,13 @@
         var loc = /<loc>([^<]+)<\/loc>/.exec(m[1]), lm = /<lastmod>([^<]+)<\/lastmod>/.exec(m[1]);
         if (loc && /^\/artikler\/[^/]+$/.test(sti(loc[1]))) l.push([sti(loc[1]), lm && lm[1]]);
       }
-      return Promise.all(l.slice(0, MAKS).map(function (p) { return lesSide(p[0], p[1]); }));
+      // Hver artikkelside huskes i nettleseren til den endres (lastmod i sitemap), så sidene bare lastes ned første gang
+      var lager = {}; try { lager = JSON.parse(localStorage.getItem(SIDEKEY) || '{}') || {}; } catch (e) {}
+      return Promise.all(l.slice(0, MAKS).map(function (p) {
+        var c = lager[p[0]];
+        if (c && c.lm === (p[1] || '') && c.v === VERSJON) return c.d;
+        return lesSide(p[0], p[1]).then(function (d) { if (d) lager[p[0]] = { lm: p[1] || '', v: VERSJON, d: d }; return d; });
+      })).then(function (r) { try { localStorage.setItem(SIDEKEY, JSON.stringify(lager)); } catch (e) {} return r; });
     }).then(function (l) { return l.filter(Boolean); });
   }
 
