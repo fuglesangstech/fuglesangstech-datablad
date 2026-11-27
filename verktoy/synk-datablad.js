@@ -63,7 +63,8 @@ function wanted(chHtml, leHtml) {
       if (sds.includes('N')) out.push({ fil: 'le/datablad/sds/LE-' + nr + '-NO-EGHS.pdf', kilde: LE_SDS + nr + '-NO-EGHS.pdf' });
       if (sds.includes('A')) out.push({ fil: 'le/datablad/sds/LE-' + nr + 'A-NO-EGHS.pdf', kilde: LE_SDS + nr + 'A-NO-EGHS.pdf' });
     });
-    if (p) out.push({ fil: 'le/datablad/pds/' + p, kilde: LE_PDF + encodeURI(p) });
+    // «egne/…»: produktblad LE ikke har på lelubricants.com (f.eks. 1233/1235 fra LE Europa). Kopien ligger i repoet og hentes ikke.
+    if (p) out.push(/^egne\//.test(p) ? { fil: 'le/datablad/pds/' + p, kilde: 'egen kopi', egen: true } : { fil: 'le/datablad/pds/' + p, kilde: LE_PDF + encodeURI(p) });
   });
   return [...new Map(out.map(x => [x.fil, x])).values()];
 }
@@ -99,6 +100,14 @@ async function pool(items, n, fn) {
   const rep = { nye: [], endret: [], uendret: 0, borte: [], feil: [] };
 
   const rows = await pool(want, 8, async w => {
+    if (w.egen) {                                           // egen kopi i repoet: ikke last ned, bare før den opp
+      const f = path.join(root, w.fil), prev = old.get(w.fil);
+      if (!fs.existsSync(f)) { rep.feil.push(w.fil + ' (egen kopi mangler i repoet)'); return prev || null; }
+      const body = fs.readFileSync(f), sha = crypto.createHash('sha256').update(body).digest('hex');
+      if (prev && prev.sha256 === sha) { rep.uendret++; return Object.assign({}, prev, { kontrollert: today }); }
+      (prev ? rep.endret : rep.nye).push(w.fil);
+      return { fil: w.fil, kilde: w.kilde, sha256: sha, bytes: body.length, hentet: today, kontrollert: today, endret: prev ? today : undefined };
+    }
     const d = await download(w.kilde);
     const prev = old.get(w.fil);
     if (d.status !== 200) {

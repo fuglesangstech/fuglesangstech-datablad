@@ -2535,6 +2535,14 @@
    "kontrollert": "2026-11-18"
   },
   {
+   "fil": "le/datablad/pds/egne/Almatek 1233-1235 Product Info.pdf",
+   "kilde": "egen kopi",
+   "sha256": "c0d1eaae82bf79f24c1f2152940b54025bc5f126232e2a944919334ba35ef000",
+   "bytes": 1386385,
+   "hentet": "2026-11-27",
+   "kontrollert": "2026-11-27"
+  },
+  {
    "fil": "le/datablad/pds/flyers/0200 Product Info.pdf",
    "kilde": "https://lelubricants.com/wp-content/uploads/pdf/flyers/0200%20Product%20Info.pdf",
    "sha256": "2322a93ef0d14fa5e767ea7b76d4d82c0265cde5c35e0d6163323050f6e0c734",
@@ -3278,6 +3286,22 @@
    "bytes": 124578,
    "hentet": "2026-11-05",
    "kontrollert": "2026-11-18"
+  },
+  {
+   "fil": "le/datablad/sds/LE-1233-NO-EGHS.pdf",
+   "kilde": "https://lelubricants.com/wp-content/uploads/LE-MSDS/LE-1233-NO-EGHS.pdf",
+   "sha256": "6038dcb6de35044e3cb9f7328cc73fd1a62128a074f7c061ddb90251890f683d",
+   "bytes": 102311,
+   "hentet": "2026-11-27",
+   "kontrollert": "2026-11-27"
+  },
+  {
+   "fil": "le/datablad/sds/LE-1235-NO-EGHS.pdf",
+   "kilde": "https://lelubricants.com/wp-content/uploads/LE-MSDS/LE-1235-NO-EGHS.pdf",
+   "sha256": "b24ec6e3717f7dced47017eb95b78358cb5f2b7d5dbb12e2022eb877b28ddd1b",
+   "bytes": 102330,
+   "hentet": "2026-11-27",
+   "kontrollert": "2026-11-27"
   },
   {
    "fil": "le/datablad/sds/LE-1250-NO-EGHS.pdf",
